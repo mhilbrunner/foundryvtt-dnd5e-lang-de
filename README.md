@@ -81,7 +81,7 @@ awesome [Babele](https://foundryvtt.com/packages/babele) module.
 The [Babele repository](https://gitlab.com/riccisi/foundryvtt-babele) has a
 brief tutorial.
 
-In short, compendium translations are included as a submodile in `compendium/`from
+In short, compendium translations are included as a submodule in `compendium/`from
 [here](https://github.com/stillday/dnd-translation-file-de).
 
 In cases where there is only a small set of values for a field (like *Alignments*),
@@ -142,8 +142,8 @@ module authors, or WotC) under the terms of either the
 the [Creative Commons Attribution 4.0 International
 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) licenses, whichever you prefer.
 
-In regards to Foundry, this is a work under the Limited License Agreement
-for module development, aus outlined [here](https://foundryvtt.com/article/license/).
+Regarding Foundry, this is a work under the Limited License Agreement
+for module development, as outlined [here](https://foundryvtt.com/article/license/).
 
 SRD content is licensed from Wizards of the Coast under the terms of the
 Open Gaming License (OGL), as outlined
