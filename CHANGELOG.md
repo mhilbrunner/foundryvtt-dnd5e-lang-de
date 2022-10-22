@@ -1,6 +1,11 @@
 # Changelog
 
-Also see the [releases page](https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/releases).
+Also see the [releases page](https://github.com/mhilbrunner/foundryvtt-dnd5e-lang-de/releases).
+
+## Version 1.6.0
+
+- Last compatible Foundry v9 release
+- Changed listing, repository and manifest
 
 ## Version 1.5.7
 

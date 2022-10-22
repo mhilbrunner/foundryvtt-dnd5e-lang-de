@@ -1,10 +1,9 @@
 # DnD5e German Translation (Deutsch) for FoundryVTT (FoundryVTT-dnd5e-DE)
 
-![FoundryVTT German [D&D5E] Module Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fshields-endpoint%2Ffoundryvtt-dnd5e-lang-de.json)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de?label=Latest+Release)
-![GitHub Downloads All Releases](https://img.shields.io/github/downloads/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/total?label=Downloads+(Total))
-![GitHub Downloads Release](https://img.shields.io/github/downloads/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/latest/total?label=Downloads+(Latest))
-![GitHub Release Date](https://img.shields.io/github/release-date/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de?label=Release+Date)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/mhilbrunner/foundryvtt-dnd5e-lang-de?label=Latest+Release)
+![GitHub Downloads All Releases](https://img.shields.io/github/downloads/mhilbrunner/foundryvtt-dnd5e-lang-de/total?label=Downloads+(Total))
+![GitHub Downloads Release](https://img.shields.io/github/downloads/mhilbrunner/foundryvtt-dnd5e-lang-de/latest/total?label=Downloads+(Latest))
+![GitHub Release Date](https://img.shields.io/github/release-date/mhilbrunner/foundryvtt-dnd5e-lang-de?label=Release+Date)
 
 German translation module for the
 [Dungeons & Dragons 5th Edition (dnd5e) system](https://foundryvtt.com/packages/dnd5e)
@@ -21,11 +20,11 @@ system content, including compendia via Babele.
 
 Install via Foundry or by pasting the URL below into Foundry's module manager:
 
-<https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/releases/latest/download/module.json>
+<https://github.com/mhilbrunner/foundryvtt-dnd5e-lang-de/releases/latest/download/module.json>
 
 If you want to install a specific release, have a look at the releases page:
 
-<https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/releases>
+<https://github.com/mhilbrunner/foundryvtt-dnd5e-lang-de/releases>
 
 There you can find the link to the manifest of a specific release version to use instead.
 
@@ -39,28 +38,26 @@ There you can find the link to the manifest of a specific release version to use
 ## Requirements & dependencies
 
 You can see all past releases and compatible versions on the official package listing [here](https://foundryvtt.com/packages/FoundryVTT-dnd5e-DE).
+Old versions may still be available on the [old League repository](https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/).
 
-Every release up to and including version 0.4 is compatible with all Foundry version >= 0.6.x.\
-Every release up to and including version 0.8 is compatible with all Foundry version >= 0.6.4.\
-Every release afterwards is compatible with all Foundry versions >= 0.7.5.
+Release 1.6.0 is compatible with Foundry versions 0.7.5 to 9.
+Releases after that are only compatible with Foundry 10+.
 
 The module depends on the [german core translation](https://foundryvtt.com/packages/lang-de) for ease of use.\
 The module also depends on [Babele](https://foundryvtt.com/packages/babele) for compendium translations.
 
 ## Changelog
 
-See [CHANGELOG.md](https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/blob/master/CHANGELOG.md).
-Also see the [releases page](https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/releases).
+See [CHANGELOG.md](https://github.com/mhilbrunner/foundryvtt-dnd5e-lang-de/blob/master/CHANGELOG.md).
+Also see the [releases page](https://github.com/mhilbrunner/foundryvtt-dnd5e-lang-de/releases).
 
-Older versions were released by previous maintainers, including Hydroxi and ThoGri
-back on Gitlab, before Fallayn took over maintenance and transferred the module
-to Github and the League. Thanks for all of your work, everyone!
+Old versions may still be available on the [old League repository](https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/).
 
 ## Contributing & adding translations
 
 Contributions are always welcome! Feel free to open Pull Requests or talk to
-us first by opening a [issue](https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/issues)
-or messaging us on Discord. See **Contact** below.
+us first by opening a [issue](https://github.com/mhilbrunner/foundryvtt-dnd5e-lang-de/issues)
+or see **Contact** below.
 
 Below are some ways to contribute, and how to get started.
 
@@ -89,22 +86,15 @@ In short, compendium translations are included as a submodile in `compendium/`fr
 
 In cases where there is only a small set of values for a field (like *Alignments*),
 those are translated using Babele converter functions in `src/`:
-<https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/blob/compendia/src/converters.js>
+<https://github.com/mhilbrunner/foundryvtt-dnd5e-lang-de/blob/compendia/src/converters.js>
 
 Those are also useful for translation values that are used in multiple places,
 like *Item Rarities*.
 
-## Contact
-
-You can reach out on the Discord of the
-[League of Extraordinary FoundryVTT Developers](https://discord.com/invite/2rHs78h).
-If you want to contact the current maintainer directly, feel free to message
-**Fallayn#6414** on Discord.
-
 ## Thanks and credits
 
 Thanks to all current, past and future contributors, including: \
-**Hydroxi, Smicman, ThoGri, Morvar, Fallayn, crash, elbracht, stillday, CarnVanBeck**
+**Hydroxi, Smicman, ThoGri, Morvar, Fallayn, crash, elbracht, stillday, CarnVanBeck, mhilbrunner**
 
 Much love to [Foundry](https://foundryvtt.com/), Atropos & team and the awesome Foundry community,
 especially the [League](https://discord.com/invite/2rHs78h),
@@ -131,7 +121,8 @@ core translation, letting us focus on the 5E system translations.
 
 Finally, thanks to WotC for the support and all the wonderful authors - for everything.
 
-Based on work by Hydroxi at <https://gitlab.com/Hydroxi/foundryvtt-dnd5e-lang-de>.
+Based on work by Hydroxi at <https://gitlab.com/Hydroxi/foundryvtt-dnd5e-lang-de>
+and by Fallayn at <https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/>.
 
 ## Legal & license
 
@@ -151,15 +142,6 @@ module authors, or WotC) under the terms of either the
 the [Creative Commons Attribution 4.0 International
 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) licenses, whichever you prefer.
 
-We also explicitly agree to have others take over this module,
-including the repository and the listing on the
-Foundry package list and in the Foundry module manager in case the current
-maintainer(s) are absent (e.g. not responding to contact attempts on Discord)
-for more than three months. Please contact the League and/or Foundry if this
-is the case and you want to take over development. Be aware you may still
-contribute changes without this, for example via Pull Requests which the
-League is still able to merge, as they have control over this repository.
-
 In regards to Foundry, this is a work under the Limited License Agreement
 for module development, aus outlined [here](https://foundryvtt.com/article/license/).
 
@@ -169,4 +151,4 @@ Open Gaming License (OGL), as outlined
 
 Copyrighted content is licensed or used with permission. If you believe there
 to be an error, please feel free to contact us on Discord or by creating an Issue
-[here](https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/issues).
+[here](https://github.com/mhilbrunner/foundryvtt-dnd5e-lang-de/issues).
