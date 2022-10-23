@@ -1,13 +1,5 @@
-import { default as MonsterData } from '../data/monsters.js'
-import { default as ItemData } from '../data/items.js'
-import { default as MagicItemData } from '../data/magicitems.js'
-
 var module_id = '';
 var setup_done = false;
-
-var monsterDataDB = {}
-var itemDataDB = {}
-var magicItemDataDB = {}
 
 export default function registerConverters(id) {
     module_id = id;
@@ -18,38 +10,20 @@ export default function registerConverters(id) {
     }
     setup_done = true;
 
-    monsterDataDB = setupDataParsing(MonsterData);
-    itemDataDB = setupDataParsing(ItemData);
-    magicItemDataDB = setupDataParsing(MagicItemData);
-
     Babele.get().registerConverters({
         'classNameFormula': convertClass,
         'classRequirements': convertClassRequirements,
         'alignment': convertAlignment,
-        'rarity': convertRarity,
         'type': convertType,
         'languages': convertLanguages,
         'race': convertRace,
         'monstername': convertMonsterName,
-        'monstersource': convertMonsterSource,
+        'source': convertSource,
         'monsterenvironment': convertMonsterEnvironment,
         'monstertoken': convertMonsterToken,
-        'itemname': convertItemName,
         'range': convertRange,
         'weight': convertWeight,
     });
-}
-
-function setupDataParsing(d) {
-    var out = {}
-    for (var key in d.data) {
-        out[normalize(key)] = d.data[key];
-    }
-    return out;
-}
-
-function normalize(s) {
-    return s.toString().toLowerCase();
 }
 
 // Classes
@@ -121,27 +95,6 @@ var alignments = {
 function convertAlignment(a, translation, data) {
     var id = a.toString().toLowerCase().replace('-', ' ');
     return alignments[id] ? alignments[id] : translation;
-}
-
-// Rarity
-
-var rarity = {
-	'common': 'Gewöhnlich',
-	'uncommon': 'Ungewöhnlich',
-	'rare': 'Selten',
-	'very rare': 'Sehr selten',
-    'legendary': 'Legendär',
-    'artifact': 'Artefakt',
-    'unique': 'Einzigartig'
-};
-
-function convertRarity(r, translation, data) {
-    if (isNewerVersion(game.system.data.version, '1.3.9')) {
-        // D&D system version 1.4.0+ have rarity as a type,
-        // we don't need to apply this anymore then :)
-        return r;
-    }
-    return rarity[r.toString().toLowerCase()] ? rarity[r.toString().toLowerCase()] : translation;
 }
 
 var types = {
@@ -236,8 +189,9 @@ var races = {
     'tiefling': 'Tiefling'
 }
 
-function convertRace(r, translation, data) {
-    return races[r.toString().toLowerCase()] ? races[r.toString().toLowerCase()] : r;
+function convertRace(r, t, data) {
+    console.log("RACE", r, t);
+    return races[r.toString().toLowerCase()] ? races[r.toString().toLowerCase()] : t;
 }
 
 var languages = {
@@ -360,22 +314,6 @@ function convertLanguages(l) {
     return result.join('; ');
 }
 
-var monster_name_replacements = {
-    'will-o\'-wisp': 'Will-o-wisp',
-    'succubus/incubus': 'Succubus',
-    'horned devil': 'Horned Devil (Malebranche)',
-    'giant rat (diseased)': 'Giant Rat',
-    'chain devil': 'Chain Devil (Kyton)',
-    'deep gnome': 'Deep Gnome (Svirfneblin)'
-}
-
-function getMonsterID(id) {
-    if (monster_name_replacements[id.toString().toLowerCase()]) {
-        id = monster_name_replacements[id.toString().toLowerCase()];
-    }
-    return id
-}
-
 var monster_name_additional = {
     'succubus/incubus': 'Sukkubus/Inkubus',
     'horned devil': 'Hornteufel',
@@ -390,9 +328,11 @@ function convertMonsterName(m, translation, data) {
         return monster_name_additional[m.toString().toLowerCase()];
     }
 
-    var id = getMonsterID(m);
+    if (translation == null) {
+        return m;
+    }
 
-    return monsterDataDB[normalize(data.name)] ? monsterDataDB[normalize(data.name)].name : translation;
+    return translation;
 }
 
 function convertMonsterToken(m, translation, data) {
@@ -404,75 +344,29 @@ function convertMonsterToken(m, translation, data) {
         m.name = convertMonsterName(m.name, translation, data);
     }
 
+    if (translation == null) {
+        return m;
+    }
+
     return translation;
 }
 
-var source_book_replacements = {
-    'MM': 'MHB',
-    'PHB': 'SHB',
-    'DMG': 'SLHB',
-    'VGM': 'VAM'
-}
-
-function convertMonsterSource(m, translation, data) {
-    if (!monsterDataDB[normalize(data.name)]) {
-        return translation;
+function convertSource(m, translation, data) {
+    if (translation == null) {
+        return m;
     }
-
-    var new_src = monsterDataDB[normalize(data.name)].src + ' S. ' + monsterDataDB[normalize(data.name)].src_pg;
-    new_src = new_src.replace(', SRD', '');
-    new_src = new_src.replace('SRD', '');
-
-    if (game.settings.get(module_id, 'compendiumSrcTranslateBooks')) {
-        for (var book in source_book_replacements) {
-            new_src = new_src.replace(book, source_book_replacements[book]);
-        }
-    }
-
     if (game.settings.get(module_id, 'compendiumSrcKeepOriginal')) {
-        new_src = new_src + ' (' + m.replace('pg.', 'S.').replace('PG.', 'S.') + ')';
+        translation = translation + ' (' + m.replace('pg.', 'S.').replace('PG.', 'S.') + ')';
     }
 
-    return new_src
+    return translation
 }
 
 function convertMonsterEnvironment(m, translation, data) {
-    if (!monsterDataDB[normalize(data.name)]) {
-        return translation;
+    if (translation == null) {
+        return m;
     }
-
-    return monsterDataDB[normalize(data.name)].env;
-}
-
-
-function convertItemName(m, translation, data) {
-    if (itemDataDB[normalize(m)]) {
-        return itemDataDB[normalize(m)].name;
-    }
-
-    if (magicItemDataDB[normalize(m)]) {
-        return magicItemDataDB[normalize(m)].name;
-    }
-
-    var mod = getMagicalItemModifier(m);
-    if (mod.length > 0) {
-        var basename = m.substring(0, m.length - mod.length).trim()
-        if (itemDataDB[normalize(basename)]) {
-            return itemDataDB[normalize(basename)].name + " " + mod;
-        }
-
-        if (magicItemDataDB[normalize(m)]) {
-            return magicItemDataDB[normalize(basename)].name + " " + mod;
-        }
-    }
-
     return translation;
-}
-
-function getMagicalItemModifier(string)
-{
-    var match = string.match(/[\+\-][0-9]$/);
-    return match ? match[0] : '';
 }
 
 // Range
