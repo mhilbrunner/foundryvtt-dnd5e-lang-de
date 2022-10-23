@@ -48,8 +48,7 @@ The module also depends on [Babele](https://foundryvtt.com/packages/babele) for 
 
 ## Changelog
 
-See [CHANGELOG.md](https://github.com/mhilbrunner/foundryvtt-dnd5e-lang-de/blob/master/CHANGELOG.md).
-Also see the [releases page](https://github.com/mhilbrunner/foundryvtt-dnd5e-lang-de/releases).
+See the [releases page](https://github.com/mhilbrunner/foundryvtt-dnd5e-lang-de/releases).
 
 Old versions may still be available on the [old League repository](https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/).
 
