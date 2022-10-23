@@ -14,9 +14,10 @@ Hooks.once('init', () => {
         if ('onlyUntilSystemVersionIncluding' in cfg &&
             isNewerVersion(game.system.data.version,
                 cfg.onlyUntilSystemVersionIncluding)) {
-            return;
+            continue;
+        } else {
+            game.settings.register(module_id, cfg.name, cfg.data);
         }
-        game.settings.register(module_id, cfg.name, cfg.data);
     });
 
     // Register Babele compendium translations if module is present
