@@ -67,7 +67,7 @@ To add new translations:
 
 0. Fork this repo and check it out locally
 1. Copy the up to date english language file into languages/en.json
-(from [here](https://gitlab.com/foundrynet/dnd5e/-/raw/master/lang/en.json))
+(from [here](https://github.com/foundryvtt/dnd5e/raw/master/lang/en.json))
 2. Run compare.py
 3. languages/diff.txt should now contain keys which need to be translated
 4. After translating, run merge.py
