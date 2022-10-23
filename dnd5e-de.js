@@ -14,7 +14,7 @@ Hooks.once('init', () => {
         if ('onlyUntilSystemVersionIncluding' in cfg &&
             isNewerVersion(game.system.data.version,
                 cfg.onlyUntilSystemVersionIncluding)) {
-            continue;
+            return;
         } else {
             game.settings.register(module_id, cfg.name, cfg.data);
         }
