@@ -37,10 +37,10 @@ There you can find the link to the manifest of a specific release version to use
 
 ## Requirements & dependencies
 
-You can see all past releases and compatible versions on the official package listing [here](https://foundryvtt.com/packages/FoundryVTT-dnd5e-DE).
+You can see all past releases and compatible versions on the official package listing [here](https://foundryvtt.com/packages/FoundryVTT-dnd5e-DE).\
 Old versions may still be available on the [old League repository](https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/).
 
-Release 1.6.0 is compatible with Foundry versions 0.7.5 to 9.
+Release 1.6.0 is compatible with Foundry versions 0.7.5 to 9.\
 Releases after that are only compatible with Foundry 10+.
 
 The module depends on the [german core translation](https://foundryvtt.com/packages/lang-de) for ease of use.\
