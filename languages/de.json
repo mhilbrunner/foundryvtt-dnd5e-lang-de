@@ -631,7 +631,7 @@
 "DND5E.LongRestNormal": "Lange Rast (8 Std.)",
 "DND5E.LongRestOvernight": "Lange Rast (Neuer Tag)",
 "DND5E.LongRestResult": "{name} macht eine Lange Rast und erhält {health} TP und {dice} TW.",
-"DND5E.LongRestResultHitDice": "{name} nimmt eine lange Rast und erlangt {dice} Trefferpunktewürfel zurück.",
+"DND5E.LongRestResultHitDice": "{name} nimmt eine lange Rast und erlangt {dice} Trefferwürfel zurück.",
 "DND5E.LongRestResultHitPoints": "{name} nimmt eine lange Rast und erlangt {health} Trefferpunkte zurück.",
 "DND5E.LongRestResultShort": "{name} nimmt eine lange Rast.",
 "DND5E.Max": "Max",
