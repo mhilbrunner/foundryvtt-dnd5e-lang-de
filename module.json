@@ -5,22 +5,20 @@
   "description": "German language support for the D&amp;D5e system",
   "authors": [
     {
-        "name": "mhilbrunner",
-        "url": "https://github.com/mhilbrunner"
+      "name": "mhilbrunner",
+      "url": "https://github.com/mhilbrunner",
     }
   ],
   "url": "https://github.com/mhilbrunner/foundryvtt-dnd5e-lang-de",
   "version": "1.7.2",
   "minimumCoreVersion": "10",
   "compatibility": {
-    "minimum": 10,
-    "verified": 10
+    "minimum": "10",
+    "verified": "10"
   },
-  "scripts": [],
   "esmodules": [
     "dnd5e-de.js"
   ],
-  "styles": [],
   "languages": [
     {
       "lang": "de",
@@ -70,8 +68,8 @@
         "type": "module",
         "manifest": "https://gitlab.com/henry4k/foundryvtt-lang-de/-/raw/master/module.json",
         "compatibility": {
-            "minimum": "10.288",
-            "verified": "10.288"
+          "minimum": "10.288",
+          "verified": "10.288"
         }
       }
     ]
