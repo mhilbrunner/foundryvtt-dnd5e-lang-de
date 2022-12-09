@@ -93,7 +93,7 @@ like *Item Rarities*.
 ## Thanks and credits
 
 Thanks to all current, past and future contributors, including: \
-**Hydroxi, Smicman, ThoGri, Morvar, Fallayn, crash, elbracht, stillday, CarnVanBeck, mhilbrunner**
+**Hydroxi, Smicman, ThoGri, Morvar, Fallayn, crash, elbracht, stillday, CarnVanBeck, glont, mhilbrunner**
 
 Much love to [Foundry](https://foundryvtt.com/), Atropos & team and the awesome Foundry community,
 especially the [League](https://discord.com/invite/2rHs78h),
