@@ -146,7 +146,8 @@ Regarding Foundry, this is a work under the Limited License Agreement
 for module development, as outlined [here](https://foundryvtt.com/article/license/).
 
 SRD content is licensed from Wizards of the Coast under the terms of the
-Open Gaming License (OGL), as outlined
+Creative Commons CC-BY-4.0 license. Open Gaming License (OGL) content is
+licensed under the OGL license as outlined
 [here](https://dnd.wizards.com/articles/features/systems-reference-document-srd).
 
 Copyrighted content is licensed or used with permission. If you believe there
