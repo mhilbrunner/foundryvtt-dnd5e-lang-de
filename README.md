@@ -12,9 +12,7 @@ for [Foundry Virtual Tabletop](https://foundryvtt.com/).
 Aims to provide consistent and usable translations in german for all 5E
 system content, including compendia via Babele.
 
-**IF YOU WANT TO HELP OUT WITH COMPENDIUM TRANSLATIONS, USE [THIS SITE](https://translator.gilneas.at/) AND GET IN TOUCH WITH `crash#7509` ON DISCORD.**
-
-**The compendium content is currently in the process of being translated. This is mostly complete by now. Some compendium content still remaining in english isn't an error on your side. We're working on it! Compendium translations files are currently included as a submodule from [here](https://github.com/mhilbrunner/foundry-dnd-translation-file-de/).**
+If you want to help out, get in touch by creating an issue here or on Discord.
 
 ## How to use
 
