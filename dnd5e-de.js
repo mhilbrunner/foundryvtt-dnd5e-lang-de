@@ -29,21 +29,6 @@ Hooks.once('init', () => {
             dir: 'compendium'
         });
         Converters(module_id);
-
-        CONFIG.DND5E.classFeatures = {
-            "barbar": CONFIG.DND5E.classFeatures["barbarian"],
-            "barde": CONFIG.DND5E.classFeatures["bard"],
-            "kleriker": CONFIG.DND5E.classFeatures["cleric"],
-            "druide": CONFIG.DND5E.classFeatures["druid"],
-            "kämpfer": CONFIG.DND5E.classFeatures["fighter"],
-            "mönch": CONFIG.DND5E.classFeatures["monk"],
-            "paladin": CONFIG.DND5E.classFeatures["paladin"],
-            "waldläufer": CONFIG.DND5E.classFeatures["ranger"],
-            "schurke": CONFIG.DND5E.classFeatures["rogue"],
-            "zauberer": CONFIG.DND5E.classFeatures["sorcerer"],
-            "hexenmeister": CONFIG.DND5E.classFeatures["warlock"],
-            "magier": CONFIG.DND5E.classFeatures["wizard"]
-        };
     }
 });
 
