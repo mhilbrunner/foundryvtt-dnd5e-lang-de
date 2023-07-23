@@ -955,7 +955,7 @@
 "DND5E.StealthDisadvantage": "Heimlichkeitsnachteil",
 "DND5E.SubclassAssignmentError": "{class} hat schon eine Unterklasse. Bestehende Unterklasse '{subclass}' entfernen, bevor eine neue hinzugefügt wird.",
 "DND5E.SubclassDuplicateError": "Unterklasse mit ID {identifier} existiert an diesem Akteur bereits.",
-"DND5E.SubclassIdentifierHint": "Diese ID soltle der Oberklasse entsprechen, um sicherzustellen, dass beide richtig verknüpft sind.",
+"DND5E.SubclassIdentifierHint": "Diese ID sollte der Oberklasse entsprechen, um sicherzustellen, dass beide richtig verknüpft sind.",
 "DND5E.SubclassMismatchWarn": "Unterklasse {name} verfügt über keine Klasse, die zur ID '{class}' passt.",
 "DND5E.SubclassName": "Name der Unterklasse",
 "DND5E.Supply": "Versorgung",
