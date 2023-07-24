@@ -719,7 +719,7 @@
 "DND5E.Level": "Stufe",
 "DND5E.LevelActionDecrease": "Stufenaufstieg",
 "DND5E.LevelActionIncrease": "Stufenabstieg",
-"DND5E.LevelCount": "{ordinal}. Stufe",
+"DND5E.LevelCount": "{ordinal} Stufe",
 "DND5E.LevelNumber": "Stufe {level}",
 "DND5E.LevelPl": "Stufen",
 "DND5E.LevelScaling": "Stufenanpassung",

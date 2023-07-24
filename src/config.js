@@ -24,6 +24,18 @@ export default [
         }
     },
     {
+        name: 'enableI18NOverride',
+        data: {
+            name: 'Foundry-Übersetzung erweitern',
+            hint: 'Aktiviert Erweiterungen der Foundry-Übersetzungsfunktionen (z.B. um Aufzählungen und Stufenangaben korrekt übersetzen zu können). Benötigt libWrapper. Bei Kompatibilitätsproblemen deaktivieren.',
+            scope: 'client',
+            type: Boolean,
+            config: true,
+            default: true,
+            onChange: () => window.location.reload()
+        }
+    },
+    {
         name: 'enableRangeTranslation',
         data: {
             name: 'Reichweite übersetzen',
@@ -38,7 +50,7 @@ export default [
     {
         name: 'compendiumSrcKeepOriginal',
         data: {
-            name: 'Englische Quellenangabe mit anzeigen',
+            name: 'Englische Quellen auch anzeigen',
             hint: 'Englische Quellenangaben/Seitenzahlen werden zusätzlich in Klammern angegeben. (Bei Änderung wird Foundry neu geladen.)',
             scope: 'client',
             type: Boolean,

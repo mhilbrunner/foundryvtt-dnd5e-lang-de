@@ -35,10 +35,29 @@ Hooks.once("init", () => {
 Hooks.once("ready", function () {
     if (game.i18n.lang === module_lang &&
         game.system.id === module_sys &&
-        game.settings.get(module_id, "translationDialog")){
+        game.settings.get(module_id, "translationDialog")) {
             Dialog();
-        }
+    }
+
+    if (game.settings.get(module_id, "enableI18NOverride")) {
+        patchCoreI18NFuncs();
+    }
 });
+
+function patchCoreI18NFuncs() {
+    if (!libWrapper || !game.modules.get('lib-wrapper')?.active) {
+        return;
+    }
+    libWrapper.register(module_id, "game.i18n.format", function (wrapped, ...args) {
+        if (args.length == 2 && args[0] === "DND5E.LevelCount") {
+            if ("ordinal" in args[1]) {
+                args[1].ordinal = args[1].ordinal.replace(/\D/g, "") + ".";
+            }
+        }
+        let result = wrapped(...args);
+        return result;
+    }, "WRAPPER");
+}
 
 Hooks.on("renderActorSheet5eNPC", onRenderActorSheet);
 
