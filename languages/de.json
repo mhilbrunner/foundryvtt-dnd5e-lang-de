@@ -1187,5 +1187,6 @@
 "TYPES.Item.tool": "Werkzeug",
 "TYPES.Item.toolPl": "Werkzeuge",
 "TYPES.Item.weapon": "Waffe",
-"TYPES.Item.weaponPl": "Waffen"
+"TYPES.Item.weaponPl": "Waffen",
+"dnd5e-DE.ProficiencyAbbrev": "ÜB"
 }

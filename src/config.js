@@ -12,6 +12,18 @@ export default [
         }
     },
     {
+        name: 'enableSystemSheetFixes',
+        data: {
+            name: 'Systembögen verbessern',
+            hint: 'Aktiviert Patches für Probleme der im System enthaltenen Bögen mit Übersetzungen. Bei Kompatibilitätsproblemen deaktivieren.',
+            scope: 'client',
+            type: Boolean,
+            config: true,
+            default: true,
+            onChange: () => window.location.reload()
+        }
+    },
+    {
         name: 'enableRangeTranslation',
         data: {
             name: 'Reichweite übersetzen',
