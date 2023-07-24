@@ -39,7 +39,7 @@ You can see all past releases and compatible versions on the official package li
 Old versions may still be available on the [old League repository](https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/).
 
 Release 1.6.0 is compatible with Foundry versions 0.7.5 to 9.\
-Releases 1.7.0+ are only compatible with Foundry 10+.
+Releases 1.7.0+ are only compatible with Foundry 10+.\
 Releases 2.0.0+ are only compatible with Foundry 11+.
 
 The module depends on the [german core translation](https://foundryvtt.com/packages/lang-de) for ease of use.\
