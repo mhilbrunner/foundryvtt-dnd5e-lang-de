@@ -21,6 +21,9 @@
   "esmodules": [
     "dnd5e-de.js"
   ],
+  "styles": [
+    "styles/modesto-font-fix.css"
+  ],
   "languages": [
     {
       "lang": "de",
