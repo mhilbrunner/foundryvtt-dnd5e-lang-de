@@ -60,4 +60,10 @@ function onRenderSheetNPCSystem(app, html, options) {
             game.i18n.localize("DND5E.Proficiency"),
             game.i18n.localize("dnd5e-DE.ProficiencyAbbrev"));
     }
+
+    // Adds 20px of width to NPC skill list so 'Mit Tieren umgehen' fits.
+    const skills = html[0].querySelector(".dnd5e.sheet.actor .skills-list");
+    if (skills) {
+        skills.style.flex = "0 0 200px";
+    }
 }
