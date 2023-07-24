@@ -42,6 +42,12 @@ Hooks.once("ready", function () {
     if (game.settings.get(module_id, "enableI18NOverride")) {
         patchCoreI18NFuncs();
     }
+
+    
+    if (game.settings.get(module_id, "enableSystemSheetFixes")) {
+        Hooks.on("renderActorSheet5eNPC", onRenderActorSheet);
+        Hooks.on("renderActorSheet5eCharacter", onRenderActorSheet);
+    }
 });
 
 function patchCoreI18NFuncs() {
@@ -59,14 +65,14 @@ function patchCoreI18NFuncs() {
     }, "WRAPPER");
 }
 
-Hooks.on("renderActorSheet5eNPC", onRenderActorSheet);
-
 function onRenderActorSheet(app, html, options) {
     switch (app.constructor.name) {
         case "ActorSheet5eNPC":
-            if (game.settings.get(module_id, "enableSystemSheetFixes")) {
-                onRenderSheetNPCSystem(app, html, options);
-            }
+            onRenderSheetNPCSystem(app, html, options);
+            return;
+        case "ActorSheet5eCharacter":
+            onRenderSheetPCSystem(app, html, options);
+            return;
     }
 }
 
@@ -84,5 +90,15 @@ function onRenderSheetNPCSystem(app, html, options) {
     const skills = html[0].querySelector(".dnd5e.sheet.actor .skills-list");
     if (skills) {
         skills.style.flex = "0 0 200px";
+    }
+}
+
+function onRenderSheetPCSystem(app, html, options) {
+    // Replace 'SR' recharge label on PC sheet resources with 'KR'.
+    const resources = html[0].querySelectorAll(".dnd5e.sheet.actor .attributes .resource .recharge span");
+    if (resources && resources.length > 0) {
+        resources.forEach((resource) => {
+            resource.innerHTML = resource.innerHTML.replace("SR", "KR");
+        });
     }
 }
