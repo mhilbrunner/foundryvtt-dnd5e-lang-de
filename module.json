@@ -42,25 +42,22 @@
         }
       }
     ],
-    "requires": [
-      {
-        "id": "babele",
-        "type": "module",
-        "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
-        "compatibility": {
-          "minimum": "2.3.2",
-          "verified": "2.3.2"
-        }
-      }
-    ],
+    "requires": [],
     "recommends": [
       {
         "id": "lib-wrapper",
-        "type": "module"
+        "type": "module",
+        "reason": "Without libWrapper, some small details like ordinals aren't translated."
       },
       {
         "id": "lang-de",
-        "type": "module"
+        "type": "module",
+        "reason": "German core translation. This module is needed for Foundry core UI translations."
+      },
+      {
+        "id": "babele",
+        "type": "module",
+        "reason": "Without Babele, compendium content isn't translated."
       }
     ]
   }
