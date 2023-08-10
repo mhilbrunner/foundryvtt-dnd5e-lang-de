@@ -1,0 +1,1020 @@
+{
+    "entries": {
+        "Aberrant Ground": {
+            "name": "Grotesker Boden",
+            "description": "<p>Der Boden in einem Radius von 3 m um die {creature} ist teigartig und somit schwieriges Gelände.</p>\n<p>Alle Kreaturen, die ihren Zug in diesem Bereich beginnen, müssen einen Stärkerettungswurf gegen SG 10 ablegen. Bei einem misslungenen Wurf wird die Bewegungsrate des Opfers bis zum Beginn seines nächsten Zuges auf 0 verringert.</p>"
+        },
+        "Acid Absorption": {
+            "name": "Säureabsorption",
+            "description": "<p>Wenn der {type} Säureschaden erleidet, verursacht dies keinen Schaden. Stattdessen erhält der {type} Trefferpunkte gleich dem verursachten Säureschaden zurück.</p>"
+        },
+        "Acid Breath": {
+            "name": "Säureodem",
+            "description": "<p>Der {type} atmet in einer Linie mit 18 m Länge und 1,5 m Breite Säure aus. Alle Kreaturen in der Linie müssen einen Geschicklichkeitsrettungswurf gegen SG 18 ablegen. Bei einem misslungenen Rettungswurf erleiden sie 54 (12W8) Säureschaden, halb so viel Schaden bei einem erfolgreichen Rettungswurf.</p>"
+        },
+        "Acid Spray": {
+            "name": "Säure Spucken",
+            "description": "<p>Die {creature} spuckt Säure in einer Linie, die 30 Fuß lang und 5 Fuß breit ist, vorausgesetzt, dass sie keine Kreatur festhält.</p>\n<p>Jede Kreatur in dieser Linie muss einen Geschicklichkeits-Rettungswurf gegen SG 13 ablegen und erleidet bei einem Fehlschlag 10 (3d6) Säureschaden oder bei einem Erfolg die Hälfte.</p>\n<p>Die {creature} spuckt Säure in einer Linie, die 30 ft. lang und 5 ft. breit ist. Jede Kreatur in dieser Linie muss einen Geschicklichkeitsrettungswurf machen.</p>"
+        },
+        "Adhesive": {
+            "name": "Haftend",
+            "description": "<p>Die {creature} haftet an allem, das sie berührt. Eine riesige oder kleinere Kreatur, die an der {creature} haftet, wird ebenfalls von ihr gepackt und entkommt bei SG 13. Fähigkeitsproben, die gemacht werden, um diesem Griff zu entkommen, haben einen Nachteil.</p>\n<p>Die {creature} haftet an allem, was sie berührt. Eine riesige oder kleinere Kreatur, die an der {creature} haftet, wird ebenfalls von ihr gepackt. Führe einen Fluchtversuch durch, der einen Nachteil hat.</p>"
+        },
+        "Aggressive": {
+            "name": "Aggressiv",
+            "description": "<p>Als Bonusaktion kann sich die {creature} bis zu ihre Bewegungsrate in Richtung einer feindlichen Kreatur, die sie sehen kann, bewegen.</p>"
+        },
+        "Air Form": {
+            "name": "Luftform",
+            "description": "<p>Der {type} kann den Bereich einer feindlichen Kreatur betreten und dort anhalten. Er kann sich durch Bereiche, die nur 2,5 cm groß sind, bewegen, ohne sich quetschen zu müssen.</p>"
+        },
+        "Ambusher": {
+            "name": "Lauerjäger",
+            "description": "<p>In der ersten Kampfrunde hat die {creature} einen Vorteil auf ihre Angriffswürfe gegen jede Kreatur, die sie überrascht hat.</p>"
+        },
+        "Amorphous": {
+            "name": "Amorph",
+            "description": "<p>Die {creature} kann sich durch einen Bereich bewegen, der nicht größer als 2,5 Zentimeter ist, ohne sich quetschen zu müssen.</p>"
+        },
+        "Amphibious": {
+            "name": "Amphibisch",
+            "description": "<p>Die {creature} kann Luft und Wasser atmen.</p>"
+        },
+        "Angelic Weapons": {
+            "name": "Engelswaffen",
+            "description": "<p>Die Waffenangriffe der {creature} sind magisch. Wenn die {creature} mit einer Waffe trifft, verursacht die Waffe zusätzlich 5d8 gleißenden Schaden, was bereits in den Angriff eingerechnet ist.</p>"
+        },
+        "Animate Chains": {
+            "name": "Ketten beleben",
+            "description": "<p>An bis zu vier Ketten innerhalb von 18 m, die der {type} sehen kann, wachsen auf magische Weise messerscharfe Stacheln, und die Ketten werden unter Befehl des {type} zum Leben erweckt, wenn sie nicht getragen oder in der Hand gehalten werden.</p>\n<p>Jede belebte Kette ist ein Objekt mit RK 20, 20 Trefferpunkten, Resistenz gegen Stichschaden und Immunität gegen psychischen Schaden und Schallschaden. Wenn der {type} in seinem Zug einen Mehrfachangriff verwendet, kann er die belebte Kette für einen zusätzlichen Kettenangriff verwenden. Eine belebte Kette eine Kreatur selbständig packen, kann aber keine Angriffe ausführen, solange sie einen Gegner gepackt hat. Eine belebte Kette wird wieder unbelebt, wenn sie auf 0 Trefferpunkte fällt oder wenn der {type} kampfunfähig ist oder stirbt.</p>"
+        },
+        "Animate Trees": {
+            "name": "Bäume beleben",
+            "description": "<p>Die {creature} belebt magisch einen oder zwei Bäume innerhalb von 18 m, die sie sehen kann. Diese Bäume haben die gleichen Spielwerte wie eine {creature}, allerdings mit Intelligenz und Charisma 1, sie können nicht sprechen und haben nur die Aktionsoption Hieb verfügbar.</p>\n<p>Ein belebter Baum ist ein Verbündeter der {creature}. Der Baum bleibt für 1 Tag aktiv, oder bis er stirbt, die {creature} stirbt oder sich mehr als 36 m vom Baum entfernt, oder bis die {creature} eine Bonusaktion verwendet, um ihn in einen unbelebten Baum zurückzuverwandeln. Der Baum wurzelt dann, wenn es möglich ist.</p>"
+        },
+        "Antennae": {
+            "name": "Fühler",
+            "description": "<p>Die{creature} lässt einen nichtmagischen, eisenhaltigen Gegenstand, den sie sehen kann und der sich innerhalb von 1,5 m befindet, korrodieren. Wenn der Gegenstand nicht getragen oder in der Hand getragen wird, zerstört die Berührung einen Würfel mit 30 Zentimetern Kantenlänge. Wenn der Gegenstand von einer Kreatur getragen oder in der Hand gehalten wird, kann die Kreatur einen Geschicklichkeitsrettungswurf gegen SG 11 ablegen, um die Berührung der {creature} zu vermeiden.</p>\n<p>Wenn der berührte Gegenstand Rüstung oder ein Schild aus Metall ist, der getragen oder in der Hand gehalten wird, erleidet er einen permanenten und kumulativen Abzug von -1 auf die RK, die er bietet. Rüstung, die auf eine RK von 10 oder ein Schild, der auf einen Bonus von +0 reduziert wird, wird zerstört. Wenn der berührte Gegenstand eine in der Hand gehaltene Metallwaffe ist, verrostet sie wie es beim Merkmal Metall verrosten beschrieben ist.</p>"
+        },
+        "Antimagic Susceptibility": {
+            "name": "Antimagische Empfindlichkeit",
+            "description": "<p>Die {creature} wird kampfunfähig, wenn sie sich im Bereich eines Antimagischen Feldes aufhält.</p>\n<p>Wenn die {creature} Ziel von <em>Magie bannen</em> wird, muss sie einen Konstitutionsrettungswurf gegen Zauberrettungswurf-SG des Zauberwirkers ablegen, um nicht für 1 Minute bewusstlos zu werden.</p>"
+        },
+        "Assassinate": {
+            "name": "Attentat",
+            "description": "<p>Während seines ersten Zuges hat die {creature} einen Vorteil auf Angriffswürfe gegen jede Kreatur, die noch keinen Zug ausgeführt hat. Jeder Treffer, den die {creature} gegen eine überraschte Kreatur erzielt, gilt als kritischer Treffer.</p>"
+        },
+        "Aversion of Fire": {
+            "name": "Abneigung gegen Feuer",
+            "description": "<p>Wenn die {creature} Feuerschaden erleidet, hat sie bis zum Ende ihrers nächsten Zuges einen Nachteil bei Angriffswürfen und Attributswürfen.</p>"
+        },
+        "Barbed Hide": {
+            "name": "Klingenhaut",
+            "description": "<p>Zu Beginn eines jeden seiner Züge fügt die {creature} jeder Kreatur, die sie gepackt hat, 5 (1d10) Stichschaden zu</p>"
+        },
+        "Beast of Burden": {
+            "name": "Lasttier",
+            "description": "<p>Die {creature} gilt als großes Tier, wenn du ihre Traglast ermitteln willst.</p>"
+        },
+        "Berserk": {
+            "name": ""
+        },
+        "Bite": {
+            "description": "<section class='secret'><p>Nahkampf-Waffenangriff: +11 zum Treffen, Reichweite 10 Fuß, ein Ziel. Treffer: 17 (2W10 + 6) Stichschaden.</p></section><p>Die Kreatur greift mit ihrem Biss an.</p>",
+            "name": "Biss"
+        },
+        "Blasphemous Word": {
+            "name": "Blasphemische Worte",
+            "description": "<p>Die {creature} spricht ein blasphemisches Wort aus. Alle Kreaturen, innerhalb von 3 m um den Mumienfürsten, die das magische Wort hören können und keine {type} sind, müssen einen Konstitutionsrettungswurf gegen SG 16 ablegen, um nicht bis zum Ende des nächsten Zugs der {creature} betäubt zu sein</p>"
+        },
+        "Blind Senses": {
+            "name": "Blinde Sinne",
+            "description": "<p>Die {creature} kann ihre Blindsicht nicht verwenden, solange sie taub ist und nicht riechen kann</p>"
+        },
+        "Blinding Breath": {
+            "name": "Blendender Odem",
+            "description": "<p>Die {creature} atmet einen Kegel von 4,5 m aus blendendem Staub aus.</p>\n<p>Jede Kreatur in dem Bereich muss einen Geschicklichkeitsrettungswurf gegen SG 10 ablegen, um nicht für 1 Minute blind zu sein. Die Kreatur kann den gleichen Rettungswurf am Ende eines jedem ihrer Züge wiederholen und den Effekt auf sich selbst bei einem Erfolg beenden.</p>"
+        },
+        "Blinding Dust": {
+            "name": "Blendender Staub",
+            "description": "<p>Blendender Staub und Sand wirbelt magisch um die {creature} umher. Alle Kreaturen innerhalb von 1,5 m um die {creature} müssen einen Konstitutionsrettungswurf gegen SG 16 ablegen, um nicht bis zum Ende des nächsten Zugs der Kreatur blind zu sein.</p>"
+        },
+        "Blinding Gaze": {
+            "name": "Blendender Blick",
+            "description": "<p>Die {creature} wählt eine Kreatur innerhalb von 9 m um sich aus, die sie sehen kann. Wenn das Ziel sie sehen kann, muss es einen Konstitutionsrettungswurf gegen SG 15 schaffen, um nicht blind zu werden, bis Magie, wie der Zauber Schwache Genesung, die Blindheit kuriert.</p>"
+        },
+        "Blinding Spittle": {
+            "name": "Blendender Speichel",
+            "description": "<p>Die {creature} spuckt einen chemischen Batzen auf einen Punkt innerhalb von 4,5 m, den sie sehen kann Der Batzen explodiert beim Aufschlag in einem blendenden Lichtblitz.</p>\n<p>Alle Kreaturen im Umkreis von 1,5 m müssen einen Konstitutionsrettungswurf gegen SG 13 schaffen, um nicht bis zum Ende des nächsten Zugs der {creature} blind zu werden.</p>"
+        },
+        "Blood Frenzy": {
+            "name": "Blutrausch",
+            "description": "<p>Die {creature} hat einen Vorteil auf Nahkampfangriffe gegen Kreaturen, die nicht alle Trefferpunkte besitzen</p>"
+        },
+        "Bound": {
+            "name": "Gebunden",
+            "description": "<p>Die {creature} ist magisch an ein Amulett gebunden. Solange sich die {creature} und sein Amulett auf der gleichen Existenzebene befinden, kann der Träger des Amuletts die {creature} telepathisch auffordern, an seine Seite zu kommen, und die {creature} kennt die Entfernung und Richtung zum Amulett.</p>\n<p>Wenn sich die {creature} innerhalb von 18 m zum Träger des Amuletts befindet, wird der halbe Schaden, den der Träger erleidet (aufgerundet) auf die {creature} übertragen.</p>"
+        },
+        "Brave": {
+            "name": "Tapfer",
+            "description": "<p>Die {creature} hat einen Vorteil auf Rettungswürfe gegen den Zustand verängstigt.</p>"
+        },
+        "Breath Weapons": {
+            "name": "Odemwaffen",
+            "description": "<p>Nutze diese Aktion um die Aufladung der Odemwaffen zu verfolgen, wenn die Kreatur mehr als eine Odemwaffe hat. Die Odemwaffen sollten auch hinzugefügt werden.</p>\n<p>Der {type} nutzt eine seiner Odemwaffen.</p>"
+        },
+        "Brute": {
+            "name": "Wüstling",
+            "description": "<p>Eine Nahkampfwaffe verursacht einen zusätzlichen Schadenswürfel, wenn die {creature} mit ihr trifft (in den Angriff bereits eingerechnet).</p>"
+        },
+        "Cast a Spell": {
+            "name": "Zauber wirken",
+            "description": "<p>Die {creature} wirkt einen Zauber aus der Liste ihrer vorbereiteten Zauber, was ganz normal einen Zauberplatz verbraucht.</p>"
+        },
+        "Change Shape": {
+            "name": "Form ändern",
+            "description": "<p>Die {creature} verwandelt sich auf magische Weise in einen Humanoiden oder ein Tier, dessen Herausforderungsgrad nicht höher als ihr eigener ist, oder sie nimmt wieder ihre wahre Gestalt an. Sie nimmt wieder ihre wahre Gestalt an, wenn sie stirbt. Jegliche Ausrüstung, die sie bei sich trägt wird in den Körper absorbiert oder von der neuen Gestalt getragen, wobei die {creature} dies entscheiden kann.</p>\n<p>In der neuen Gestalt behält die {creature] ihre Spielwerte und Fähigkeit zu sprechen, doch ihre Rüstungsklasse, Bewegungsarten, Stärke, Geschicklichkeit und besonderen Sinne werden durch die der neuen Gestalt ersetzt. Sie erhält außerdem alle Spielwerte und Eigenschaften, mit Ausnahme von Klassenmerkmalen, legendären Aktionen und Hortaktionen, die die neue Gestalt besitzt, sie aber nicht hat.</p>"
+        },
+        "Channel Negative Energy": {
+            "name": "Negative Energie kanalisieren",
+            "description": "<p>Die {creature} entfesselt auf magische Weise negative Energie. Kreaturen innerhalb von 18 m um die {creature}, auch wenn sie sich hinter Hindernissen oder um Ecken befinden, können bis zum Ende des nächsten Zugs der {creature} keine Trefferpunkte zurückerlangen.</p>"
+        },
+        "Charge": {
+            "name": "Sturmangriff",
+            "description": "<p>Wenn sich die {creature} mindestens 6 m in gerader Linie auf ein Ziel zu bewegt und es dann im gleichen Zug mit einem Hauer-Angriff trifft, dann erleidet das Ziel zusätzlich 3 (1d6) Hiebschaden.</p>\n<p>Wenn das Ziel eine Kreatur ist, muss sie einen Stärkerettungswurf gegen SG 11 ablegen, um nicht den Zustand liegend zu erleiden.</p>"
+        },
+        "Charm": {
+            "name": "Bezaubern",
+            "description": "<p>Ein Humanoider innerhalb von 9 m, den der {type} sehen kann, muss einen Weisheitsrettungswurf gegen SG 15 schaffen, um nicht für 1 Tag magisch bezaubert zu werden. Das bezauberte Ziel folgt den verbalen oder telepathischen Befehlen des {type}.</p>\n<p>Wenn das Ziel Schaden erleidet oder einen selbstmörderischen Befehl erhält, kann es den Rettungswurf wiederholen und den Effekt bei einem Erfolg beenden. Wenn das Ziel einen erfolgreichen Rettungswurf gegen den Effekt schafft oder der Effekt endet, ist es für die nächsten 24 Stunden gegen das Bezaubern des {type} immun.</p>\n<p>Der {type} kann nur eine Kreatur auf einmal bezaubern. Wenn er eine Kreatur bezaubert, endet der Effekt für das vorherige Ziel.</p>"
+        },
+        "Children of the Night": {
+            "name": "Kinder der Nacht",
+            "description": "<p>Die {creature} ruft auf magische Art 2d4 Schwärme von Fledermäusen oder Ratten, vorausgesetzt die Sonne steht nicht am Himmel. Solange sich die {creature} im Freien befindet, kann sie stattdessen 3d6 Wölfe rufen.</p>\n<p>Die gerufenen Kreaturen treffen innerhalb von 1d4 Runden ein, dienen als Verbündete der {creature} und gehorchen ihren gesprochenen Befehlen. Die Tiere bleiben für 1 Stunde, bis die {creature} stirbt oder bis sie sie mit einer Bonusaktion entlässt.</p>"
+        },
+        "Chomp": {
+            "name": "Kauen",
+            "description": "<p>Die {creature} führt einen Biss-Angriff durch oder verwendet ihr Verschlucken.</p>"
+        },
+        "Claw Attack": {
+            "name": "Klauen",
+            "description": "<p>Die {creature} greift mit einer ihrer Klauen an.</p>"
+        },
+        "Cold Breath": {
+            "name": "Kälteodem",
+            "description": "<p>Der {type} atmet in einem Kegel von 9 m Länge eisige Luft aus. Alle Kreaturen im Kegel müssen einen Konstitutionsrettungswurf gegen SG 20 ablegen. Bei einem misslungenen Rettungswurf erleiden sie 58 (13d8) Kälteschaden, halb so viel Schaden bei einem erfolgreichen Rettungswurf.</p>"
+        },
+        "Confer Fire Resistance": {
+            "name": "Feuerresistenz verleihen",
+            "description": "<p>Die {creature} kann jedem, der auf ihr reitet, Resistenz gegen Feuerschaden verleihen.</p>"
+        },
+        "Consume Life": {
+            "name": "Leben verzehren",
+            "description": "<p>Als Bonusaktion kann die {creature} eine Kreatur innerhalb von 1,5 m, die sie sehen kann, auswählen, solange diese 0 Trefferpunkte besitzt, aber noch am Leben ist.</p>\n<p>Das Ziel muss gegen diese Magie einen Konstitutionsrettungswurf mit SG 10 schaffen, um nicht zu sterben. Wenn das Ziel stirbt, erhält die {creature} 10 (3d6) Trefferpunkte zurück.</p>"
+        },
+        "Corrode Metal": {
+            "name": "Metall korrodieren",
+            "description": "<p>Nichtmagische Waffen aus Metall oder Holz, die den {type} treffen, korrodieren. Nachdem sie Schaden verursacht haben, erleiden die Waffen einen dauerhaften, kumulativen Abzug von -1 auf Schadenswürfe.</p>\n<p>Wenn der Abzug auf -5 fällt, ist die Waffe zerstört. Nichtmagische Geschosse, die aus Metall oder Holz bestehen und den {type} treffen, werden zerstört, nachdem sie Schaden verursacht haben.</p>\n<p>Der {type} kann sich innerhalb von einer Runde durch 5 Zentimeter dickes, nichtmagisches Holz oder Metall fressen.</p>"
+        },
+        "Corrosive Form": {
+            "name": ""
+        },
+        "Create Specter": {
+            "name": "Schreckgespenst erschaffen",
+            "description": "<p>Die {creature} wählt einen Humanoiden innerhalb von 3 m aus, der nicht länger als 1 Minute tot ist und einen gewalttätigen Tod erlitten hat.</p>\n<p>Der Geist des Ziels erhebt sich als Schreckgespenst im Bereich des Leichnams oder im nächsten nicht besetzten Bereich. Das Schreckgespenst steht unter der Kontrolle der {creature}. Die {creature} kann nicht mehr als sieben Schreckgespenster auf einmal unter ihrer Kontrolle haben.</p>"
+        },
+        "Create Whirlwind": {
+            "name": "Wirbelwind erschaffen",
+            "description": "<p>Ein Zylinder mit 1,5 m Radius und 9 m Höhe aus wirbelnder Luft entsteht magisch an einem Punkt innerhalb von 36 m um die {creature}, den sie sehen kann. Der Wirbelwind bleibt bestehen, solange die {creature} die Konzentration aufrechterhält, als würde sie sich auf einen Zauber konzentrieren.</p>\n<p>Jede Kreatur außer der {creature}, die den Wirbelwind betritt, muss einen Stärkerettungswurf gegen SG 18 schaffen, um nicht festgesetzt zu werden. DIe {creature} kann den Wirbelwind als Aktion bis zu 18 m weit bewegen, und Kreaturen, die von ihm festgesetzt worden sind, bewegen sich mit ihm. Der Wirbelwind endet, wenn die {creature} ihn nicht mehr sehen kann.</p>\n<p>Eine Kreatur kann ihre Aktion verwenden, um eine vom Wirbelwind festgesetzte Kreatur zu befreien, was einen Stärkewurf gegen SG 18 erforderlich macht. Wenn der Wurf erfolgreich ist, ist die Kreatur nicht mehr festgesetzt und bewegt sich zum nächsten Bereich außerhalb des Wirbelwinds.</p>"
+        },
+        "Cunning Action": {
+            "name": "Raffinierte Aktion",
+            "description": "<p>In jedem ihrer Züge kann die {creature} eine Bonusaktion verwenden, um die Aktionen Spurt, Rückzug oder Verstecken auszuführen.</p>"
+        },
+        "Damage Transfer": {
+            "name": "Schadensübertragung",
+            "description": "<p>Solange die {creature} eine Kreatur gepackt hat, erleidet sie selbst nur die Hälfte des Schadens, der ihr zugefügt wird, und die gepackte Kreatur erleidet die andere Hälfte.</p>"
+        },
+        "Dark Devotion": {
+            "name": "Dunkle Hingabe",
+            "description": "<p>Die {creature} hat einen Vorteil auf Rettungswürfe gegen den Zustand bezaubert und verängstigt.</p>"
+        },
+        "Darkness Aura": {
+            "name": "Aura der Dunkelheit",
+            "description": "<p>Eine Aura magischer Dunkelheit mit 4,5 m Radius breitet sich um die {creature} aus, bewegt sich mit ihr und breitet sich um Ecken aus. Die Dunkelheit hält bis zu 10 Minuten an, solange die {creature} sich darauf konzentriert, wie als würde sie sich auf einen Zauber konzentrieren.</p>\n<p>Dunkelsicht kann diese Dunkelheit nicht durchdringen, und natürliches Licht kann sie nicht erhellen. Wenn sich die Dunkelheit mit einem Bereich aus Licht überschneidet, der mit einem Zauber des 2. Grades oder darunter erschaffen wird, wird der Zauber, der Licht erschaffen hat, gebannt.</p>"
+        },
+        "Deadly leap": {
+            "name": "Tödlicher Sprung",
+            "description": "<p>Wenn die {creature} als Teil ihrer Bewegung mindestens 4,5 m weit springt, dann kann sie diese Aktion verwenden um in einem Bereich, der eine oder mehrere Kreaturen beinhaltet, auf den Füßen zu landen.</p>\n<p>Alle diese Kreaturen müssen einen Stärke- oder Geschicklichkeitsrettungswurf gegen SG 16 schaffen, wobei das Ziel den Rettungswurf wählen kann, um nicht den Zustand liegend und 14 (3d6 + 4) Wuchtschaden plus 14 (3d6 + 4) Hiebschaden zu erleiden. Bei einem erfolgreichen Rettungswurf erleidet die Kreatur nur den halben Schaden, erleidet nicht den Zustand liegend und wird 1,5 m aus dem Bereich der {creature} in einen nicht besetzen Bereich ihrer Wahl geschoben. Wenn sich kein nicht besetzter Bereich in Reichweite befindet, dann bleibt die Kreatur im Feld der {creature} und erleidet den Zustand liegend.</p>"
+        },
+        "Death Burst": {
+            "name": "Todesexplosion",
+            "description": "<p>Wenn die {creature} stirbt, explodiert sie in einer Woge aus Staub. Alle Kreaturen innerhalb von 1,5 m müssen einen Konstitutionsrettungswurf gegen SG 10 ablegen, um nicht für 1 Minute blind zu sein. Eine blinde Kreatur kann den gleichen Rettungswurf in jedem ihrer Züge wiederholen und den Effekt auf sich selbst bei einem Erfolg beenden</p>"
+        },
+        "Death Glare": {
+            "name": "Todesblick",
+            "description": "<p>Die {creature} wählt eine verängstigte Kreatur innerhalb von 9 m, die sie sehen kann, aus. Wenn das Ziel die {creature} sehen kann, muss es gegen diese Magie einen Weisheitsrettungswurf gegen SG 11 schaffen, sonst fallen seine Trefferpunkte auf 0.</p>"
+        },
+        "Death Throes": {
+            "name": "Todeszuckungen",
+            "description": "<p>Wenn die {creature} stirbt, explodiert sie, und alle Kreaturen innerhalb von 9 m um ihr müssen einen Geschicklichkeitsrettungswurf gegen SG 20 ablegen. Bei einem misslungenen Rettungswurf erleiden sie 70 (20d6) Feuerschaden, halb so viel Schaden bei einem erfolgreichen Rettungswurf.</p>\n<p>Die Explosion entzündet brennbare Gegenstände in diesem Bereich, die nicht getragen oder in der Hand gehalten werden, und zerstört die Waffen der {creature}.</p>"
+        },
+        "Detect (Legendary)": {
+            "name": "Aufspüren",
+            "description": "<p>Die {creature} macht einen Wurf auf Weisheit (Wahrnehmung).</p>"
+        },
+        "Devil Sight": {
+            "name": "Teufelssicht",
+            "description": "<p>Magische Dunkelheit behindert die Dunkelsicht des {type} nicht.</p>"
+        },
+        "Disrupt Life": {
+            "name": "Leben unterbrechen",
+            "description": "<p>Alle nicht {type} Kreaturen im Umkreis von 6 m um die {creature} müssen einen Konstitutionsrettungswurf gegen SG 18 ablegen, um nicht 21 (6d6) nekrotischer Schaden zu erleiden, halb so viel Schaden bei einem erfolgreichen Rettungswurf.</p>"
+        },
+        "Divine Awareness": {
+            "name": "Göttliches Bewusstsein",
+            "description": "<p>Die {creature} weiß, wenn sie eine Lüge hört.</p>"
+        },
+        "Divine Eminence": {
+            "name": "Göttliche Eminenz",
+            "description": "<p>Als Bonusaktion kann die {creature} einen Zauberplatz aufwenden, damit ihre Nahkampfwaffen bei einem Treffer dem Ziel auf magische Weise zusätzlich 10 (3d6) gleißenden Schaden zufügen.</p>\n<p>Dieser Vorteil hält bis zum Ende des nächsten Zugs an. Wenn die {creature} einen Zauberplatz des 2. oder höheren Grades verwendet, steigt der Schaden um 1d6 für jeden Zauberplatz nach dem ersten.</p>"
+        },
+        "Draining Kiss": {
+            "name": "Aussaugender Kuss",
+            "description": "<p>Die {creature} küsst eine Kreatur, die sie bezaubert hat oder die willig ist. Das Ziel muss gegen diese Magie einen Konstitutionsrettungswurf gegen SG 15 ablegen, um nicht 32 (5d10 + 5) psychischen Schaden zu erleiden, halb so viel Schaden bei einem erfolgreichen Rettungswurf.</p>\n<p>Die maximalen Trefferpunkte des Ziels werden um den erlittenen Schaden verringert. Diese Verringerung hält an, bis das Ziel eine lange Rast durchführt. Das Ziel stirbt, wenn dieser Effekt es auf 0 maximale Trefferpunkte reduziert.</p>"
+        },
+        "Dreadful Glare": {
+            "name": "Grässlicher Blick",
+            "description": "<p>Die {creature} wählt eine Kreatur innerhalb von 18 m, die sie sehen kann, aus. Wenn das Ziel die {creature} sehen kann, muss es gegen diese Magie einen Weisheitsrettungswurf gegen SG 11 ablegen, um nicht bis zum Ende des nächsten Zugs der {creature} verängstigt zu sein.</p>\n<p>Wenn das Ziel den Rettungswurf um 5 oder mehr Punkte nicht schafft, ist es außerdem für dieselbe Zeit gelähmt. Ein Ziel, das den Rettungswurf schafft, ist immun gegen den Grässlichen Blick aller {creature} für die nächsten 24 Stunden.</p>"
+        },
+        "Duergar Resilience": {
+            "name": "Duergar-Widerstandskraft",
+            "description": "<p>Die {creature} hat einen Vorteil bei Rettungswürfen gegen Gifte, Zauber und Illusionen.</p>"
+        },
+        "Earth Glide": {
+            "name": "Erdgleiten",
+            "description": "<p>Der {type} kann sich durch nicht-magische, unbearbeitete Erde und Stein graben. Solange er dies tut, wirbelt der {type} das Material, durch das er sich bewegt, nicht auf.</p>"
+        },
+        "Echolocation": {
+            "name": "Echolot",
+            "description": "<p>Die {creature} kann ihre Blindsicht nicht verwenden, solange sie taub ist</p>"
+        },
+        "Elemental Demise": {
+            "name": "Elementarer Untergang",
+            "description": "<p>Wenn die {creature} stirbt, löst sich ihr Körper in einer warmen Brise auf. Es bleibt nur die Ausrüstung zurück, die die {creature} getragen oder in der Hand gehalten hat</p>"
+        },
+        "Engulf": {
+            "name": "Umschlingen",
+            "description": "<p>Die {creature} bewegt sich bis zu ihrer Bewegungsrate weit. Während sie dies tut, kann sie die Bereiche von großen oder kleineren Kreaturen betreten. Wenn die {creature} den Bereich einer Kreatur betritt, muss diese einen Geschicklichkeitsrettungswurf gegen SG 12 ablegen.</p>\n<p>Bei einem erfolgreichen Rettungswurf kann die Kreatur sich entscheiden, bis zu 1,5 m nach hinten oder zur Seite der Kreatur geschoben zu werden. Eine Kreatur, die nicht geschoben werden möchte, erleidet die Konsequenzen eines misslungenen Rettungswurfs.</p>\n<p>Bei einem misslungenen Rettungswurf betritt die {creature} den Bereich der Kreatur, und die Kreatur erleidet 10 (3d6) Säureschaden und wird umschlungen. Die umschlungene Kreatur kann nicht atmen, ist festgesetzt und erleidet 21 (6d6) Säureschaden zu Beginn eines jeden Zugs der {creature}. Wenn sich die {creature} bewegt, bewegt sich die umschlungene Kreatur mit ihr. Eine umschlungene Kreatur kann versuchen, zu entkommen, indem sie einen Stärkewurf gegen SG 12 ablegt. Bei einem Erfolg entkommt die Kreatur und betritt einen Bereich ihrer Wahl innerhalb von 1,5 m um die {creature}.</p>"
+        },
+        "Enlarge": {
+            "name": "Vergrößern",
+            "description": "<p>Für 1 Minute vergrößert sich die {creature} auf magische Weise, zusammen mit allem, was sie trägt oder in der Hand hält. Solange sie vergrößert ist, ist die {creature} groß, verdoppelt ihre Schadenswürfe bei Waffen, die auf Stärke basieren, was in die Angriffe als Vielseitiger Schaden verfügbar ist und hat einen Vorteil auf Stärkewürfe und Stärkerettungswürfe. Wenn die {creature} nicht den Raum hat, um groß zu werden, erhält sie die maximale Größe, die im verfügbaren Raum möglich ist.</p>"
+        },
+        "Enslave": {
+            "name": "Versklaven",
+            "description": "<p>Die {creature} wählt eine Kreatur innerhalb von 9 m um sich aus, die sie sehen kann. Das Ziel muss einen Weisheitsrettungswurf gegen SG 14 schaffen, um nicht magisch von der {creature} bezaubert zu werden, bis die {creature} stirbt oder sich auf einer anderen Existenzebene als das Ziel befindet.</p>\n<p>Das bezauberte Ziel steht unter der Kontrolle der {creature} und kann keine Reaktionen ausführen, und die {creature} und das Ziel können über eine beliebige Entfernung telepathisch miteinander kommunizieren. Wenn das bezauberte Ziel Schaden erleidet, kann es den Rettungswurf wiederholen. Bei einem Erfolg endet der Effekt. Nicht mehr als einmal alle 24 Stunden kann das Ziel den Rettungswurf auch wiederholen, wenn es sich mindestens 1,5 Kilometer von der {creature} entfernt befindet.</p>"
+        },
+        "Ephemeral": {
+            "name": "Flüchtig",
+            "description": "<p>Die {creature} kann nichts tragen oder in der Hand halten.</p>"
+        },
+        "Ethereal Jaunt": {
+            "name": "Ätherische Bewegung",
+            "description": "<p>Die {creature} kann als Bonusaktion auf magische Weise von der Materiellen Ebene auf die Ätherebene wechsel und andersherum.</p>"
+        },
+        "Ethereal Sight": {
+            "name": "Ätherische Sicht",
+            "description": "<p>Die {creature} kann 18 m in die Ätherebene blicken, wenn sie sich auf der Materiellen Ebene befindet, und andersherum.</p>"
+        },
+        "Ethereal Stride": {
+            "name": "Ätherschritt",
+            "description": "<p>Die {creature} und bis zu drei willige Kreaturen innerhalb von 1,5 m betreten magisch von der Materiellen Ebene aus die Ätherebene oder andersherum.</p>"
+        },
+        "Etherealness": {
+            "name": "Körperlosigkeit",
+            "description": "<p>Die {creature} kann die Ätherebene von der Materiellen Ebene aus betreten und andersherum.</p>"
+        },
+        "Evasion": {
+            "name": "Ausweichmanöver",
+            "description": "<p>Wenn die {creature} Ziel eines Effekts wird, der es ihr erlaubt, einen Geschicklichkeitsrettungswurf zu machen, um nur halben Schaden zu erleiden, erleidet sie stattdessen bei einem gelungenen Rettungswurf gar keinen Schaden und nur halben Schaden, wenn er misslingt.</p>"
+        },
+        "False Appearance": {
+            "name": "Falsches Erscheinungsbild",
+            "description": "<p>Solange die {creature} bewegungslos bleibt, kann man sie nicht von einer normalen Rüstung unterscheiden,</p>"
+        },
+        "Faultless Tracker": {
+            "name": "Perfekter Verfolger",
+            "description": "<p>Der Beschwörer weist der {creature} seine Beute zu. Die {creature} kennt die Richtung und Entfernung zu ihrer Beute, solange die beiden sich auf der gleichen Existenzebene befinden. Die {creature} weiß auch, wo sich ihr Beschwörer befindet.</p>"
+        },
+        "Fear Aura": {
+            "name": "Furchtaura",
+            "description": "<p>Alle Kreaturen, die der {creature} feindlich gesonnen sind und ihren Zug innerhalb von 6 m beginnen, müssen einen Weisheitsrettungswurf gegen SG 21 ablegen, es sei denn die {creature} ist kampfunfähig. Bei einem gescheiterten Rettungswurf ist die Kreatur bis zum Beginn ihres nächsten Zugs verängstigt. Wenn der Rettungswurf erfolgreich ist, dann ist die Kreatur für die nächsten 24 Stunden gegen die Furchtaura der {creature} immun.</p>"
+        },
+        "Fetid Cloud": {
+            "name": "Stinkende Wolke",
+            "description": "<p>Eine Wolke aus ekelhaftem grünen Gas mit 3 m Radius breitet sich um die {creature} aus. Das Gas breitet sich um Ecken aus, und der Bereich ist leicht verschleiert. Es hält für 1 Minute an oder bis ein starker Wind es zerstreut.</p>\n<p>Alle Kreaturen, die ihren Zug in diesem Bereich beginnen, müssen einen Konstitutionsrettungswurf gegen SG 11 ablegen, um nicht bis zum Beginn ihres nächsten Zuges vergiftet zu werden. Solange das Ziel auf diese Weise vergiftet ist, kann es in seinem Zug entweder eine Aktion oder eine Bonusaktion ausführen, nicht beides, und kann keine Reaktionen ausführen.</p>"
+        },
+        "Fey Ancestry": {
+            "name": "Feenblut",
+            "description": "<p>Die {creature} hat einen Vorteil bei Rettungswürfen, wenn sie bezaubert werden soll, und Magie kann sie nicht einschläfern</p>"
+        },
+        "Fey Charm": {
+            "name": "Charme der Feen",
+            "description": "<p>Die {creature} wählt einen Humanoiden oder ein Tier innerhalb von 9 m aus, das sie sehen kann. Wenn das Ziel die {creature} sehen kann, muss sie einen Weisheitsrettungswurf gegen SG 14 schaffen, um nicht magisch bezaubert zu werden.</p>\n<p>Die bezauberte Kreatur betrachtet die {creature} als vertraute Freundin, auf deren Ratschläge sie hört und die geschützt werden muss. Auch wenn das Ziel nicht unter der Kontrolle der {creature} steht, deutet sie die Bitten und Handlungen der {creature} auf die wohlwollendste Art, die möglich ist.</p>\n<p>Immer wenn die {creature} oder ihre Verbündeten etwas tun, das dem Ziel schadet, kann es den Rettungswurf wiederholen und den Effekt bei einem Erfolg beenden. Ansonsten hält der Effekt 24 Stunden an oder bis die {creature} stirbt, sich auf einer anderen Existenzebene befindet als das Ziel oder den Effekt als Bonusaktion beenden. Wenn der Rettungswurf des Ziels erfolgreich ist, ist es für die nächsten 24 Stunden gegen den Charme der Feen der {creature} immun.</p>"
+        },
+        "Fire Absorption": {
+            "name": "Feuerabsorption",
+            "description": "<p>Wenn die {creature} Feuerschaden erleidet, verursacht dies keinen Schaden. Stattdessen erhält die {creature} Trefferpunkte gleich dem verursachten Feuerschaden zurück</p>"
+        },
+        "Fire Aura": {
+            "name": "Feueraura",
+            "description": "<p>Zu Beginn eines jeden Zuges der {creature} erleiden alle Kreaturen innerhalb von 1,5 m um ihr 10 (3d6) Feuerschaden. Brennbare Gegenstände in der Aura, die nicht getragen oder in der Hand gehalten werden, gehen in Flammen auf.</p>\n<p>Eine Kreatur, die die {creature} berührt oder sie mit einem Nahkampfangriff trifft, solange sie sich innerhalb von 1,5 m um ihr befindet, erleidet 10 (1d10) Feuerschaden.</p>"
+        },
+        "Fire Breath": {
+            "name": "Feuerodem",
+            "description": "<p>Der {type} atmet in einem Kegel von 4,5 m Länge Feuer aus. Alle Kreaturen im Kegel müssen einen Geschicklichkeitsrettungswurf gegen SG 12 ablegen. Bei einem misslungenen Rettungswurf erleiden sie 21 (6d6) Feuerschaden, halb so viel Schaden bei einem erfolgreichen Rettungswurf.</p>"
+        },
+        "Fire Form": {
+            "name": "Feuerform",
+            "description": "<p>Der {type} kann sich durch Bereiche, die nur 2,5 cm groß sind, bewegen, ohne sich quetschen zu müssen. Eine Kreatur die den {type} berührt oder mit einem Nahkampfangriff trifft, solange sie sich innerhalb von 1,5 m um ihn befindet, erleidet 5 (1d10) Feuerschaden.</p>\n<p>Außerdem kann der {type} den Bereich einer feindlichen Kreatur betreten und dort anhalten. Das erste Mal, dass er in seinem Zug den Bereich einer Kreatur betritt, erleidet diese Kreatur 5 (1d10) Feuerschaden und gerät in Brand; bis jemand eine Aktion verwendet, um das Feuer zu löschen, erleidet die Kreatur zu Beginn eines jeden ihrer Züge 5 (1d10) Feuerschaden.</p>"
+        },
+        "First Roar": {
+            "name": "Erstes Brüllen",
+            "description": "<p>Jede Kreatur, die einen Weisheitsrettungswurf gegen SG 18 nicht schafft, ist für 1 Minute verängstigt. Eine verängstigte Kreatur kann den Rettungswurf am Ende jedes ihrer Züge wiederholen und den Effekt bei einem Erfolg beenden.</p>"
+        },
+        "Fling": {
+            "name": "Schleudern",
+            "description": "<p>Ein großer oder kleinerer Gegenstand, den die {creature} hält, oder eine Kreatur, die sie gepackt hat, wird bis zu 18 m in eine zufällige Richtung geschleudert und erleidet den Zustand liegend.</p>\n<p>Wenn ein geworfenes Ziel eine feste Oberfläche trifft, erleidet es 3 (1d6) Wuchtschaden für jeweils 3 m, die es geworfen wurde. Wenn das Ziel in eine andere Kreatur geworfen wird, muss diese Kreatur einen Geschicklichkeitsrettungswurf gegen SG 18 schaffen, um nicht den gleichen Schaden und den Zustand liegend zu erleiden.</p>"
+        },
+        "Flyby": {
+            "name": "Vorbeifliegen",
+            "description": "<p>Die {creature} provoziert keine Gelegenheitsangriffe, wenn sie aus der Reichweite des Gegners fliegt.</p>"
+        },
+        "Flying Sword": {
+            "name": "Fliegendes Schwert",
+            "description": "<p>Die {creature} lässt ihr Zweihandschwert los und es schwebt auf magische Weise in einem nicht besetzten Bereich innerhalb von 1,5 m. Wenn die {creature} das Schwert sehen kann, kann er es als Bonusaktion geistig kontrollieren. Sie kann es bis zu 15 m weit fliegen lassen und entweder ein Ziel angreifen oder in ihre Hand zurückkehren lassen.</p>\n<p>Wenn das schwebende Zweihandschwert Ziel eines Effekts wird, wird davon ausgegangen, dass die {creature} es in der Hand hält. Das schwebende Schwert fällt zu Boden, wenn die {creature} stirbt.</p>"
+        },
+        "Freedom of Movement": {
+            "name": "Bewegungsfreiheit",
+            "description": "<p>Die {creature} ignoriert schwieriges Gelände, und magische Effekte können ihre Bewegungsrate nicht verringern und sie nicht festsetzen. Sie kann 1,5 m ihrer Bewegung aufwenden, um aus nicht-magischen Effekten zu entkommen, die die Zustände festgesetzt oder gepackt verursachen.</p>"
+        },
+        "Freeze": {
+            "name": "Gefrieren",
+            "description": "<p>Wenn der {type} Kälteschaden erleidet, friert er zum Teil ein; seine Bewegungsrate wird bis zum Ende des nächsten Zuges um 6 m verringert.</p>"
+        },
+        "Frightening Gaze": {
+            "name": "Furchterregender Blick",
+            "description": "<p>Die {creature} blickt eine Kreatur innerhalb von 9 m an, die sie sehen kann. Das Ziel muss gegen diese Magie einen Weisheitsrettungswurf gegen SG 18 schaffen, um nicht für 1 Minute gelähmt zu werden. Das Ziel kann den gleichen Rettungswurf am Ende eines jeden seiner Züge wiederholen und den Effekt auf sich selbst bei einem Erfolg beenden. Wenn der Rettungswurf des Ziels erfolgreich ist oder den Effekt für es endet, ist es für die nächsten 24 Stunden gegen den Blick der {creature} immun.</p>"
+        },
+        "Frightful Presence": {
+            "name": "Furchterregende Präsenz",
+            "description": "<p>Alle Kreaturen nach Wahl des {type} innerhalb von 36 m um den {type}, die sich seiner bewusst sind, müssen einen Weisheitsrettungswurf gegen SG 16 schaffen, um nicht für 1 Minute verängstigt zu werden.</p>\n<p>Die Kreatur kann den Rettungswurf am Ende eines jeden ihrer Züge wiederholen und den Effekt bei einem Erfolg beenden. Wenn der Rettungswurf erfolgreich ist oder der Effekt endet, dann ist die Kreatur für die nächsten 24 Stunden gegen die Furchterregende Präsenz des {type} immun.</p>"
+        },
+        "Frost Breath": {
+            "name": "Frostodem",
+            "description": "<p>Die {creature} atmet einen Kegel von 4,5 m aus kalter Luft aus. Alle Kreaturen in diesem Bereich muss einen Geschicklichkeitsrettungswurf gegen SG 10 ablegen, um nicht 5 (2d4) Kälteschaden zu erleiden, halb so viel Schaden bei einem erfolgreichen Rettungswurf.</p>"
+        },
+        "Gibbering": {
+            "name": "Plappern",
+            "description": "<p>Die {creature} plappert unverständlich, wenn sie eine Kreatur sehen kann und nicht kampfunfähig ist. Alle Kreaturen, die ihren Zug innerhalb von 6 m um die {creature} beginnen und hören können, müssen einen Weisheitsrettungswurf gegen SG 10 schaffen. Bei einem misslungenen Wurf kann die Kreatur bis zum Beginn ihres nächsten Zuges keine Reaktionen ausführen und wirft einen W8, um zu bestimmen, was sie in ihrem Zug tut.</p>\n<p>Bei einer 1 bis 4 tut die Kreatur nichts. Bei einer 5 oder 6 verwendet die Kreatur keine Aktion oder Bonusaktion und verwendet ihre gesamte Bewegungsweite darauf, sich in eine zufällig bestimmte Richtung zu bewegen. Bei einer 7 oder 8 führt die Kreatur einen Nahkampfangriff gegen ein zufällig bestimmtes Ziel in Reichweite aus oder macht nichts, wenn es keinen solchen Angriff ausführen kann.</p>"
+        },
+        "Gnome Cunning": {
+            "name": "Gnomische Gerissenheit",
+            "description": "<p>Die {creature} hat einen Vorteil bei Intelligenz-, Weisheits- und Charismarettungswürfen.</p>"
+        },
+        "Grappler": {
+            "name": "Ringer",
+            "description": "<p>Die {creature} hat einen Vorteil bei Angriffswürfen gegen jede Kreatur, die er gepackt hat</p>"
+        },
+        "Grasping Tendrils": {
+            "name": "Greifende Tentakel",
+            "description": "<p>Die {creature} kann bis zu sechs Tentakel auf einmal ausbilden. Jeder Tentakel kann angegriffen werden (RK 20, 10 Trefferpunkte, immun gegen Giftschaden und psychischen Schaden).</p>\n<p>Einen Tentakel zu zerstören fügt der {creature} keinen Schaden zu, und sie kann in ihrem nächsten Zug einen Ersatz erschaffen. Ein Tentakel kann auch reißen, wenn eine Kreatur eine Aktion verwendet und einen Stärkewurf gegen SG 15 durchführt.</p>"
+        },
+        "Haste": {
+            "name": "Hast",
+            "description": "<p>Bis zum Ende ihres nächsten Zuges erhält die {creature} einen Bonus von +2 auf seine RK und hat einen Vorteil bei Geschicklichkeitsrettungswürfen. Sie kann außerdem einen Angriff als Bonusaktion verwenden.</p>"
+        },
+        "Heal Self": {
+            "name": "Selbstheilung",
+            "description": "<p>Die {creature} erhält auf magische Weise 11 (2d8 + 2) Trefferpunkte zurück.</p>"
+        },
+        "Healing Touch": {
+            "name": "Heilende Berührung",
+            "description": "<p>Die {creature} berührt eine andere Kreatur. Das Ziel erhält auf magische Weise 20 (4d8 + 2) Trefferpunkte zurück und wird von jeglichen Flüchen, Krankheit, Gift, Blindheit oder Taubheit befreit.</p>"
+        },
+        "Heart Sight": {
+            "name": "Herzsicht",
+            "description": "<p>Die {creature} berührt eine Kreatur und erfährt auf magische Weise ihren augenblicklichen Gefühlszustand.</p>\n<p>Wenn das Ziel einen Charismarettungswurf gegen SG 10 nicht schafft, erfährt die {creature} auch die Gesinnung der Kreatur. Himmlische Wesen, Unholde und Untote scheitern automatisch bei diesem Rettungswurf.</p>"
+        },
+        "Heated Body": {
+            "name": "Erhitzter Körper",
+            "description": "<p>Eine Kreatur, die die {creature} berührt oder sie mit einem Nahkampfangriff trifft, solange sie sich innerhalb von 1,5 m um ihr befindet, erleidet 5 (1d10) Feuerschaden.</p>"
+        },
+        "Heated Weapons": {
+            "name": "Erhitze Waffen",
+            "description": "<p>Jede Metallwaffe, die die {creature} führt, verursacht bei einem Treffer zusätzlich 3 (1d6) Feuerschaden (in den Angriff bereits eingerechnet).</p>"
+        },
+        "Hellish Rejuvenation": {
+            "name": "Höllische Wiedererweckung",
+            "description": "<p>Eine {creature}, die in den Neun Höllen stirbt, erwacht innerhalb von 1d10 Tagen mit all ihren Trefferpunkten zum Leben, es sei denn, sie wurde von einer Kreatur mit guter Gesinnung mit dem Zauber Segnen getötet oder ihre Überreste werden mit Weihwasser besprenkelt</p>"
+        },
+        "Hellish Weapons": {
+            "name": "Höllische Waffen",
+            "description": "<p>Die Waffen der {creature} sind magisch und fügen bei einem Treffer zusätzliche 13 (3d8) Giftschaden zu, dies ist in den Angriff bereits eingerechnet.</p>"
+        },
+        "Hold Breath": {
+            "name": "Atem anhalten",
+            "description": "<p>Die {creature} kann für 15 Minuten den Atem anhalten.</p>"
+        },
+        "Hooves": {
+            "name": "Hufe",
+            "description": "<p>Die {creature} greift mit einmal ihren Hufen an.</p>"
+        },
+        "Horrific Appearance": {
+            "name": "Grässliches Erscheinungsbild",
+            "description": "<p>Jede humanoide Kreatur, die ihren Zug innerhalb von 9 m um die {creature} beginnt und ihre wahre Gestalt sehen kann, muss einen Weisheitsrettungswurf gegen SG 11 ablegen. Bei einem misslungenen Wurf ist die Kreatur für 1 Minute verängstigt. Das Ziel kann den gleichen Rettungswurf am Ende eines jeden seiner Züge wiederholen und den Effekt auf sich selbst bei einem Erfolg beenden. Dabei erleidet es einen Nachteil, wenn die {creature} noch immer sichtbar ist.</p>\n<p>Wenn der Rettungswurf der Kreatur erfolgreich ist oder der Effekt für sei endet, ist sie für die nächsten 24 Stunden gegen das Grässliche Erscheinungsbild der {creature} immun. Wenn das Ziel nicht überrascht ist oder die Offenbarung der wahren Gestalt der {creature} plötzlich geschieht, kann das Ziel die Augen abwenden und den anfänglichen Rettungswurf vermeiden. Bis zu Beginn des nächsten Zuges hat eine Kreatur, die den Blick abwenden kann, einen Nachteil bei Angriffswürfen gegen die {creature}.</p>"
+        },
+        "Horrifying Visage": {
+            "name": "Grauenhaftes Antlitz",
+            "description": "<p>Alle nicht {type} Kreaturen im Umkreis von 18 m um die {creature], die sie sehen können, müssen einen Weisheitsrettungswurf gegen SG 13 schaffen, um nicht für 1 Minute verängstigt zu werden. Wenn der Rettungswurf um 5 oder mehr Punkte misslingt, altert das Ziel außerdem um, 1d4 x 10 Jahre.</p>\n<p>Die Kreatur kann den gleichen Rettungswurf am Ende eines jeden Zuges wiederholen und den Effekt auf sich selbst bei einem Erfolg beenden. Wenn der Rettungswurf des Ziels erfolgreich ist oder der Effekt für es endet, ist es für die nächsten 24 Stunden gegen das Grauenhafte Antlitz der {creature} immun. Der Alterungseffekt kann mit dem Zauber Vollständige Genesung umgekehrt werden, aber nur innerhalb von von 24 Stunden, nachdem er eingetreten ist.</p>"
+        },
+        "Horror Nimbus": {
+            "name": "Grauensnimbus",
+            "description": "<p>Die {creature} gibt auf magische Weise ein flimmerndes, vielfarbiges Licht ab. Alle nicht {type} Kreaturen innerhalb von 4,5 m um die {creature}, die sie sehen können, müssen einen Weisheitsrettungswurf gegen SG 15 schaffen, um nicht für 1 Minute verängstigt zu werden.</p>\n<p>Die Kreatur kann den Rettungswurf am Ende eines jeden ihrer Züge wiederholen und den Effekt bei einem Erfolg beenden. Wenn der Rettungswurf erfolgreich ist oder der Effekt endet, dann ist die Kreatur für die nächsten 24 Stunden gegen den Grauensnimbus der {creature} immun.</p>"
+        },
+        "Ice Walk": {
+            "name": "Eiswandeln",
+            "description": "<p>Der {type} kann sich über Eis bewegen und eisige Oberflächen erklimmen, ohne Attributswürfe ablegen zu müssen. Außerdem kostet ihn Schwieriges Gelände, das aus Eis oder Schnee besteht, keine zusätzliche Bewegung.</p>"
+        },
+        "Ignited Illumination": {
+            "name": "Brennende Erleuchtung",
+            "description": "<p>Als Bonusaktion kann sich die {creature} in Brand stecken oder seine Flammen löschen. Solange sie brennt, gibt die {creature} in einem Radius von 3 m helles Licht und in einem Radius von weiteren 3 m dämmriges Licht ab</p>"
+        },
+        "Illumination": {
+            "name": "Beleuchtung",
+            "description": "<p>Die {creature} gibt in einem Radius von 3 m helles Licht und in einem Radius von weiteren 3 m schwaches Licht ab.</p>"
+        },
+        "Illusory Appearance": {
+            "name": "Illusionäres Erscheinungsbild",
+            "description": "<p>Die {creature} bedeckt sich und alles was sie trägt oder in der Hand hält mit einer magischen Illusion, die sie wie eine andere Kreatur erscheinen lässt, die eine ähnliche Größe und ebenfalls humanoide Gestalt hat. Die Illusion endet, wenn die Vettel eine Bonusaktion verwendet, um sie zu beenden, oder wenn sie stirbt.</p>\n<p>Die Veränderungen, die durch diesen Effekt ausgelöst werden, halten einer körperlichen Untersuchung nicht stand. Beispielsweise könnte es aussehen, als hätte die {creature} glatte Haut, aber jemand, der sie berührt, würde ihr raues Fleisch bemerken. Ansonsten muss eine Kreatur eine Aktion aufwenden, um die Illusion visuell zu untersuchen und einen Wurf auf Intelligenz (Nachforschungen) gegen SG 20 schaffen, um zu erkennen, dass die {creature} maskiert ist</p>"
+        },
+        "Immutable Form": {
+            "name": "Unveränderliche Gestalt",
+            "description": "<p>Die {creature} ist immun gegen alle Zauber oder Effekte, die ihre Gestalt verändern würden.</p>"
+        },
+        "Incorporeal Movement": {
+            "name": "Körperlose Bewegung",
+            "description": "<p>Die {creature} kann sich durch andere Kreaturen und Gegenstände bewegen als wären sie schwieriges Gelände.</p>\n<p>Sie erleidet 5 (1d10) Energieschaden, wenn sie ihren Zug in einem Gegenstand beendet.</p>"
+        },
+        "Ink Cloud": {
+            "name": "Tintenwolke",
+            "description": "<p>Eine Tintenwolke mit 6 m Radius breitet sich um die {creature} aus, wenn sie sich unter Wasser befindet. Der Bereich ist für 1 Minute komplett verschleiert, auch wenn eine starke Strömung die Tinte zerstreuen kann. Nachdem die {creature} die Tinte abgegeben hat, kann sie die Spurt-Aktion als Bonusaktion nutzen.</p>"
+        },
+        "Innate Spellcasting": {
+            "name": "Angeborenes Zauberwirken",
+            "description": "<p>Das Attribut zum Wirken angeborener Zauber für den {type} ist Charisma (Zauberrettungswurf-SG 10). Er kann von Natur aus die folgenden Zauber wirken, wobei keine Materialkomponenten notwendig sind:</p>\n<p>Willentlich:</p>\n<p>Jeweils 1/Tag:</p>"
+        },
+        "Inscrutable": {
+            "name": "Undurchschaubar",
+            "description": "<p>Die {creature} ist immun gegen jeden Effekt, der ihre Emotionen spüren oder ihre Gedanken lesen würde, sowie gegen alle Erkenntniszauber, deren Effekt sie nicht zulassen möchte. Würfe auf Weisheit (Motiv erkennen), um die Absichten der {creature} zu deuten oder zu bestimmen, ob sie die Wahrheit sagt, sind im Nachteil.</p>"
+        },
+        "Intoxicating Touch": {
+            "name": "Berauschende Berührung",
+            "description": "<p><em>Nahkampf-Zauberangriff:</em> +5 zum Treffen, Reichweite: 1,5 m, eine Kreatur. Treffer: Das Ziel wird auf magische Weise für 1 Stunde verflucht. Bis der Fluch endet, hat das Ziel einen Nachteil auf Weisheitsrettungswürfe und alle Attributswürfe.</p>"
+        },
+        "Invisibility": {
+            "name": "Unsichtbarkeit",
+            "description": "<p>Die {creature} kann sich magisch unsichtbar machen, bis sie angreift oder bis ihre Konzentration endet, dies wird behandelt, als würde sie sich auf einen Zauber konzentrieren. Jede Ausrüstung, die die {creature} trägt oder in der Hand hält, wird mit ihr unsichtbar.</p>"
+        },
+        "Invisible Passage": {
+            "name": "Unsichtbares Wandeln",
+            "description": "<p>Die {creature} wird auf magische Weise unsichtbar, bis sie angreift oder einen Zauber wirkt, oder bis sie ihre Konzentration verliert, als würde sie sich auf einen Zauber konzentrieren. Solange sie unsichtbar ist, hinterlässt sie keine physischen Spuren ihrer Anwesenheit und ihre Fährte kann nur mit Magie verfolgt werden. Jede Ausrüstung, die sie trägt oder in der Hand hält, wird mit ihr unsichtbar.</p>"
+        },
+        "Iron Scent": {
+            "name": "Eisenwitterung",
+            "description": "<p>Die {creature} kann die Position von eisenhaltigen Metallen innerhalb von 9 m genau bestimmen.</p>"
+        },
+        "Keen Senses": {
+            "name": "Scharfe Sinne",
+            "description": "<p>Die {creature} hat einen Vorteil bei Würfen auf Weisheit (Wahrnehmung), die mit Sicht, dem Gehör oder dem Geruchssinn zusammenhängen</p>"
+        },
+        "Labyrinthine Recall": {
+            "name": "Erinnerung des Labyrinths",
+            "description": "<p>Die {creature} erinnert sich perfekt an jeden Weg, den sie zurückgelegt hat.</p>"
+        },
+        "Lair Actions": {
+            "name": "Hortaktionen",
+            "description": "<p>Wenn eine legendäre Kreatur Hortaktionen hat, kann sie sie verwenden, um die Umgebungsmagie in ihrem Hort zu nutzen. Bei einem Initiative 20 (wobei sie alle Initiative Gleichstände verliert) kann sie eine ihrer Hortaktionen nutzen. Dies kann sie nicht tun, wenn sie kampfunfähig ist oder aus anderem Grund keine Aktionen durchführen kann. Wenn sie überrascht wird, kann sie sie erst ab der zweiten Kampfrunde nutzen.</p>"
+        },
+        "Leadership": {
+            "name": "Führungsqualitäten",
+            "description": "<p>Für 1 Minute kann die {creature} einen speziellen Befehl oder eine Warnung ausstoßen, wenn eine nicht feindselige Kreatur im Umkreis von 9 m, die sie sehen kann, einen Angriffswurf oder Rettungswurf ablegt. Die Kreatur kann 1d4 auf den Wurf addieren, wenn sie die {creature} hören und verstehen kann. Eine Kreatur kann nur von einem Führungsqualitäten-Würfel gleichzeitig profitieren. Der Effekt endet, wenn die {creature} kampfunfähig ist.</p>"
+        },
+        "Legendary Actions": {
+            "name": "Legendäre Aktionen",
+            "description": "<p>Die {creature} kann 3 legendäre Aktionen durchführen. Sie kann nur eine legendäre Aktionsoption auf einmal verwenden, und nur am Ende eines Zugs einer anderen Kreatur. Die {creature} erhält verbrauchte legendäre Aktionen zu Beginn ihres Zuges zurück.</p>"
+        },
+        "Legendary Resistance": {
+            "name": "Legendäre Resistenz",
+            "description": "<p>Wenn die {creature} einen Rettungswurf nicht schafft, kann sie sich entscheiden, doch erfolgreich zu sein.</p>"
+        },
+        "Light Sensitivity": {
+            "name": "Lichtempfindlich",
+            "description": "<p>Solange sich die {creature} im hellen Licht befindet, hat sie einen Nachteil bei Angriffswürfen und Würfen auf Weisheit (Wahrnehmung), die Sicht verwenden.</p>"
+        },
+        "Lightning Absorption": {
+            "name": "Blitzabsorbtion",
+            "description": "<p>Wenn die {creature} Blitzschaden erleidet, verursacht dies keinen Schaden. Stattdessen erhält die {creature} Trefferpunkte gleich dem verursachten Blitzschaden zurück.</p>"
+        },
+        "Lightning Breath": {
+            "name": "Blitzodem",
+            "description": "<p>Der {type} atmet in einer Linie mit 18 m Länge und 1,5 m Breite Blitze aus. Alle Kreaturen in der Linie müssen einen Geschicklichkeitsrettungswurf gegen SG 19 ablegen. Bei einem misslungenen Rettungswurf erleiden sie 66 (12d10) Blitzschaden, halb so viel Schaden bei einem erfolgreichen Rettungswurf.</p>"
+        },
+        "Lightning Storm": {
+            "name": "Gewitter",
+            "description": "<p>Die {creature} erschafft auf magische Art drei Blitze, die jeweils ein Ziel, das die {creature} sehen kann, innerhalb von 36 m treffen.</p>\n<p>Das Ziel muss einen Geschicklichkeitsrettungswurf gegen SG 23 ablegen, um nicht 22 (4d10) Blitzschaden zu erleiden, halb so viel Schaden bei einem erfolgreichen Rettungswurf.</p>"
+        },
+        "Limited Amphibiousness": {
+            "name": "Eingeschränkte Amphibie",
+            "description": "<p>Die {creature} kann Luft und Wasser atmen, doch muss sie mindestens einmal alle 4 Stunden untertauchen, um nicht zu ersticken.</p>"
+        },
+        "Limited Magic Immunity": {
+            "name": "Beschränkte Magieimmunität",
+            "description": "<p>Die {creature} kann nicht von Zaubern des 6. Grades oder niedriger betroffen werden oder wahrgenommen werden, wenn sie das nicht möchte. Sie hat einen Vorteil auf Rettungswürfe gegen alle anderen Zauber und magischen Effekte.</p>"
+        },
+        "Limited Telepathy": {
+            "name": "Eingeschränkte Telepathie",
+            "description": "<p>Die {creature} kann magisch einfache Botschaften und Bilder an jede Kreatur innerhalb von 36 m, die eine Sprache verstehen kann, übermitteln. Diese Form der Telepathie erlaubt es der empfangenden Kreatur nicht, telepathisch zu antworten.</p>"
+        },
+        "Luring Song": {
+            "name": "Verlockender Gesang",
+            "description": "<p>Die {creature} singt eine magische Melodie. Alle Humanoiden und Riesen innerhalb von 90 m um die {creature}, die das Lied hören können, müssen einen Weisheitsrettungswurf gegen SG 11 ablegen, um nicht bis zum Ende des Liedes bezaubert zu werden. Die {creature} muss in folgenden Zügen eine Bonusaktion verwenden, um weiter zu singen. Sie kann den Gesang jederzeit beenden. Der Gesang endet, wenn die {creature} kampfunfähig wird.</p>\n<p>Solange ein Ziel von der {creature} bezaubert ist, ist es kampfunfähig und ignoriert die Lieder anderer {creature}. Wenn das bezauberte Ziel mehr als 1,5 m von der {creature} entfernt ist, muss es sich in seinem Zug auf die {creature} zubewegen, auf den direktesten Weg, um innerhalb von 1,5 m um die Kreatur zu kommen. Das Ziel vermeidet keine Gelegenheitsangriffe, aber bevor es sich in schädigendes Gelände bewegt, wie etwa Lava oder eine Grube, und wenn es Schaden durch eine Quelle mit Ausnahme der {creature} erleidet, kann das Ziel den Rettungswurf wiederholen. Das bezauberte Ziel kann den Rettungswurf am Ende eines jeden seiner Züge wiederholen. Wenn der Rettungswurf erfolgreich ist, endet der Effekt für das Ziel.</p>\n<p>Ein Ziel, das einen erfolgreichen Rettungswurf gegen den Effekt schafft, ist für die nächsten 24 Stunden immun gegen den Gesang der {creature}.</p>"
+        },
+        "Magic Resistance": {
+            "name": "Magieresistenz",
+            "description": "<p>Die {creature} hat einen Vorteil auf Rettungswürfe gegen Zauber und andere magische Effekte.</p>"
+        },
+        "Magic Weapons": {
+            "name": "Magische Waffen",
+            "description": "<p>Die Waffenangriffe der {creature} sind magisch</p>"
+        },
+        "Martial Advantage": {
+            "name": "Kämpferischer Vorteil",
+            "description": "<p>Einmal pro Zug kann die {creature} einer Kreatur, die sie mit einem Waffenangriff trifft, zusätzlich 7 (2d6) Schaden zufügen, wenn sich die Kreatur innerhalb von 1,5 m um einen Verbündeten der {creature} aufhält, der nicht kampfunfähig ist</p>"
+        },
+        "Mimicry": {
+            "name": "Stimmnachahmung",
+            "description": "<p>Die {creature} kann Tiergeräusche und humanoide Stimmen nachahmen. Eine Kreatur, die das Geräusch hört, kann feststellen, dass es sich um eine Nachahmung handelt, wenn ihr ein Wurf auf Weisheit (Motiv erkennen) gegen SG 14 gelingt</p>"
+        },
+        "Misty Escape": {
+            "name": "Nebliges Entkommen",
+            "description": "<p>Wenn sie außerhalb ihrer Ruhestätte auf 0 Trefferpunkte fällt, verwandelt sich die {creature} in eine Nebelwolke, wie beim Merkmal Gestaltwandler, anstatt das Bewusstsein zu verlieren, vorausgesetzt, sie ist weder im Sonnenlicht noch in fließendem Wasser. Wenn sie sich nicht verwandeln kann, wird sie zerstört.</p>\n<p>Solange sie in Nebelgestalt 0 Trefferpunkte besitzt, kann sie nicht ihre wahre Gestalt annehmen, und sie muss ihre Ruhestätte innerhalb von 2 Stunden erreichen, sonst wird sie zerstört. Sobald sie ihre Ruhestätte erreicht hat, nimmt sie wieder ihre wahre Gestalt an. Sie ist dann gelähmt, bis sie mindestens 1 Trefferpunkt zurückerhält. Nachdem sie 1 Stunde mit 0 Trefferpunkten in ihrer Ruhestätte verbracht hat, erhält sie 1 Trefferpunkt zurück.</p>"
+        },
+        "Moan": {
+            "name": "Stöhnen",
+            "description": "<p>Alle Kreaturen im Umkreis von 18 m um die {creature}, die ihr Stöhnen hören können und keine {type} sind, müssen einen Weisheitsrettungswurf gegen SG 13 schaffen, um nicht bis zum Ende des nächsten Zugs der {creature} verängstigt zu werden.</p>\n<p>Wenn der Rettungswurf einer Kreatur erfolgreich ist, dann ist diese Kreatur für die nächsten 24 Stunden gegen das Stöhnen der {creature} immun.</p>"
+        },
+        "Move (legendary)": {
+            "name": "Bewegung",
+            "description": "<p>Die {creature} bewegt sich bis zu ihrer halben Bewegungsrate weit.</p>"
+        },
+        "Mucous Cloud": {
+            "name": "Schleimwolke",
+            "description": "<p>Solange sich eine {creature} unter Wasser befindet, ist sie von einer Wolke aus verwandelndem Schleim umgeben. Eine Kreatur, die die {creature} berührt oder sie mit einem Nahkampfangriff trifft, solange sie sich innerhalb von 1,5 Metern um sie befindet, muss einen Konstitutionsrettungswurf gegen SG 14 ablegen. Bei einem Fehlschlag ist die Kreatur für 1d4 Stunden krank. Die kranke Kreatur kann nur unter Wasser atmen.</p>"
+        },
+        "Multiattack": {
+            "name": "Mehrfachangriff",
+            "description": "<p>Die {creature} führt in einer Aktion eine Reihe von Angriffen aus. Diese Angriffe können vom gleichen Typ sein oder eine gemischte Variante ihrer Angriffsaktionen.</p>"
+        },
+        "Multiple Heads": {
+            "name": "Mehrere Köpfe",
+            "description": "<p>Die {creature} hat fünf Köpfe. Solange sie mehr als einen Kopf hat, hat die {creature} einen Vorteil bei Würfen auf Weisheit (Wahrnehmung) und bei Rettungswürfen gegen die Zustände betäubt, bewusstlos, bezaubert, blind, taub und verängstigt.</p>\n<p>Wenn die {creature} 25 oder mehr Schaden in einem Zug erleidet, stirbt einer ihrer Köpfe. Wenn alle Köpfe sterben, dann stirbt auch die {creature}.</p>\n<p>Am Ende des Zuges wachsen der {creature} für jeden Kopf, der seit dem letzten Zug gestorben ist, zwei Köpfe nach, es sei denn, sie hat seit dem letzten Zug Feuerschaden erlitten. Die {creature} erhält für jeden Kopf, der auf diese Weise nachwächst, 10 Trefferpunkte zurück.</p>"
+        },
+        "Nightmare Haunting": {
+            "name": "Albtraumheimsuchung",
+            "description": "<p>Solange sich die {creature} auf der Ätherebene befindet, kann sie magisch einen schlafenden Humanoiden auf der Materiellen Ebene berühren. Der Zauber Schutz vor Gut und Böse, der auf das Ziel gewirkt wird, verhindert diesen Kontakt, ebenso ein Schutzkreis.</p>\n<p>Solange der Kontakt besteht, hat das Ziel grauenhafte Visionen. Wenn diese Visionen mindestens 1 Stunde anhalten, zieht das Ziel keinen Nutzen aus der Rast, und seine maximalen Trefferpunkte sinken um 5 (1d10). Wenn dieser Effekt die maximalen Trefferpunkte des Ziels auf 0 verringert, dann stirbt das Ziel, und wenn es böse war, wird seine Seele im Seelenbeutel der {creature} gefangen. Diese Verringerung der Trefferpunkte des Ziels hält an, bis sie durch den Zauber Vollständige Genesung oder ähnliche Magie geheilt wird.</p>"
+        },
+        "Nimble Escape": {
+            "name": "Behändes Entkommen",
+            "description": "<p>Die {creature} kann in jedem ihrer Züge die Aktion Rückzug oder Verstecken als Bonusaktion verwenden.</p>"
+        },
+        "Ooze Cube": {
+            "name": "Schlickwürfel",
+            "description": "<p>Die {creature} nimmt ihren vollständigen Bereich ein. Andere Kreaturen können diesen Bereich zwar betreten, doch eine Kreatur, die dies tut, wird Ziel des Umschlingens, der {creature} und hat einen Nachteil auf den Rettungswurf. Kreaturen im Inneren der {creature} sind sichtbar, haben aber vollständige Deckung.</p>\n<p>Eine Kreatur innerhalb von 1,5 m um die {creature} kann eine Aktion ausführen, um eine Kreatur oder einen Gegenstand aus der {creature} zu ziehen. Dazu ist ein erfolgreicher Stärkerettungswurf gegen SG 12 notwendig, und die Kreatur, die den Versuch unternimmt, erleidet 10 (3d6) Säureschaden. Die {creature} kann nur eine große Kreatur oder bis zu vier mittelgroße oder kleinere Kreaturen in sich haben.</p>"
+        },
+        "Pack Tactics": {
+            "name": "Rudeltaktik",
+            "description": "<p>Die {creature} hat einen Vorteil auf Angriffswürfe gegen eine Kreatur, wenn sich mindestens ein Verbündeter der {creature} innerhalb von 1,5 m zur Kreatur befindet und nicht kampfunfähig ist.</p>"
+        },
+        "Paralyzing Breath": {
+            "name": "Lähmender Odem",
+            "description": "<p>Der {type} atmet in einem Kegel von 4,5 m Länge lähmendes Gas aus. Alle Kreaturen im Kegel müssen einen Konstitutionsrettungswurf gegen SG 20 ablegen, um nicht für 1 Minute gelähmt zu werden. Die Kreatur kann den Rettungswurf am Ende eines jeden ihrer Züge wiederholen und den Effekt bei einem Erfolg beenden.</p>"
+        },
+        "Paralyzing Touch": {
+            "name": "Lähmende Berührung",
+            "description": "<p>Die {creature} nutzt ihre Lähmende Berührung.</p>"
+        },
+        "Parry": {
+            "name": "Parade",
+            "description": "<p>Die {creature} addiert 2 auf ihre RK gegen einen Nahkampfangriff, der sie treffen würde. Dazu muss die {creature} den Angreifer sehen und eine Nahkampfwaffe führen.</p>"
+        },
+        "Petrifying Breath": {
+            "name": "Versteinernder Odem",
+            "description": "<p>Die {creature} atmet versteinerndes Gas in einem Kegel von 9 m aus. Jede Kreatur in dem Bereich muss einen Konstitutionsrettungswurf gegen SG 13 ablegen.</p>\n<p>Bei einem misslungenen Rettungswurf beginnt sie sich in Stein zu verwandeln und wird festgesetzt. Das festgesetzte Ziel muss den Rettungswurf am Ende des nächsten Zuges wiederholen. Bei einem Erfolg endet der Effekt auf das Ziel. Bei einem Fehlschlag wird das Ziel versteinert, bis es vom Zauber Vollständiger Genesung oder andere Magie geheilt wird.</p>"
+        },
+        "Petrifying Gaze": {
+            "name": "Versteinernder Blick",
+            "description": "<p>Wenn eine Kreatur ihren Zug innerhalb von 9 m um die {creature} beginnt und die beiden einander sehen können, kann die {creature} die Kreatur zwingen, einen Konstitutionsrettungswurf gegen SG 12 abzulegen, wenn sie nicht kampfunfähig ist. Bei einem misslungenen Rettungswurf beginnt sich die Kreatur magisch in Stein zu verwandeln und ist festgesetzt. Sie muss den Rettungswurf am Ende ihres nächsten Zuges wiederholen. Bei einem Erfolg endet der Effekt. Bei einem Fehlschlag wird die Kreatur versteinert bis sie mit dem Zauber @Compendium[dnd5e.spells.WzvJ7G3cqvIubsLk]{Vollständige Genesung} oder anderer Magie befreit wird</p>\n<p>Eine Kreatur, die nicht überrascht ist, kann die Augen abwenden, um zu Beginn des nächsten Zuges den Rettungswurf zu vermeiden. Wenn sie dies tut, kann sie die {creature} bis zum Beginn ihres nächsten Zuges nicht sehen, und kann dann wieder die Augen abwenden. Wenn sie in der Zwischenzeit die {creature} anblickt, muss sie den Rettungswurf sofort ablegen.</p>\n<p>Wenn die {creature} in hellem Licht eine Spiegelung von sich selbst innerhalb von 9 m sieht, hält sie sich für einen Rivalen und greift sich selbst mit dem Blick an.</p>"
+        },
+        "Phantasms": {
+            "name": "Trugbilder",
+            "description": "<p>Die {creature} erschafft auf magische Weise drei illusorische Duplikate ihrer selbst, wenn sie sich nicht in hellen Licht aufhält. Die Duplikate bewegen sich mit ihr und ahmen ihre Aktionen nach. Dabei wechseln sie die Position, sodass es unmöglich ist, festzustellen, welche {creature} die echte ist. Wenn sich die {creature} in einem Bereich mit hellen Licht aufhält, verschwinden die Duplikate.</p>\n<p>Wenn eine Kreatur die {creature} zum Ziel eines Angriffs oder schädigen Zaubers macht, solange noch ein Duplikat existiert, würfelt die Kreatur zufällig, um zu bestimmen, ob sie die {creature} oder eines der Duplikate erwischt. Eine Kreatur ist nicht von diesem magischen Effekt betroffen, wenn sie nicht sehen kann oder andere Sinne als Sicht nutzt.</p>\n<p>Ein Duplikat hat die RK der {creature} und nutzt ihre Rettungswürfe. Wenn der Angriff das Duplikat trifft oder es einen Rettungswurf gegen einen Effekt, der Schaden verursacht, nicht schafft, dann verschwindet das Duplikat.</p>"
+        },
+        "Poison Breath": {
+            "name": "Giftodem",
+            "description": "<p>Der {type} atmet in einem Kegel von 18 m Länge giftiges Gas aus. Alle Kreaturen im Kegel müssen einen Konstitutionsrettungswurf gegen SG 18 ablegen. Bei einem misslungenen Rettungswurf erleiden sie 56 (16d6) Giftschaden, halb so viel Schaden bei einem erfolgreichen Rettungswurf.</p>"
+        },
+        "Possession": {
+            "name": "Inbesitznahme",
+            "description": "<p>Ein Humanoider, der sich innerhalb von 1,5 m um der [creature} befindet und den diese sehen kann, muss einen Charismarettungswurf gegen SG 13 schaffen, um nicht von dem Geist besessen zu werden; die {creature} verschwindet, und das Ziel ist kampfunfähig und verliert die Kontrolle über seinen Körper. Die {creature} kontrolliert jetzt den Körper, nimmt dem Ziel aber nicht sein Bewusstsein.</p>\n<p>Die {creature} kann nicht Ziel von Angriffen, Zaubern oder anderen Effekten werden, außer solchen, die {type} vertreiben, und sie behält ihre Gesinnung, Intelligenz, Weisheit, Charisma sowie ihre Immunität gegen die Zustände bezaubert und verängstigt. Sie verwendet ansonsten die Spielwerte des besessenen Ziels, erhält aber keinen Zugriff auf sein Wissen, seine Klassenmerkmale oder Übungsboni.</p>\n<p>Die Inbesitznahme hält an, bis der Körper auf 0 TP fällt, die {creature} sie als Bonusaktion beendet, oder die {creature} vertrieben oder von einem Effekt wie dem Zauber Gutes und Böses bannen ausgetrieben wird. Wenn die Inbesitznahme endet, taucht die {creature} in einem nicht besetzten Bereich innerhalb von 1,5 m um den Körper auf. Das Ziel ist für 24 Stunden nach Ende der Besessenheit oder einem erfolgreichem Rettungswurf gegen die Inbesitznahme gegen die Inbesitznahme durch diese {creature} immun.</p>"
+        },
+        "Pounce": {
+            "name": "Anspringen",
+            "description": "<p>Wenn sich die {creature} mindestens 6 m in gerader Linie auf ein Ziel zubewegt und dann im gleichen Zug mit einem Klauen-Angriff trifft, muss das Ziel einen Stärkerettungswurf gegen SG 13 ablegen, um nicht den Zustand liegend zu erleiden.</p>\n<p>Wenn das Ziel liegt, kann die {creature} als Bonusaktion einen Biss-Angriff gegen es ausführen.</p>"
+        },
+        "Probing Telepathy": {
+            "name": "Sondierende Telepathie",
+            "description": "<p>Wenn eine Kreatur telepathisch mit der {creature} kommuniziert, erfährt die {creature}, was die größte Begierde der Kreatur ist, wenn sie die Kreatur sehen kann.</p>"
+        },
+        "Psychic Drain": {
+            "name": "Psychisches Aussaugen",
+            "description": "<p>Eine Kreatur, die von der {creature} bezaubert wurde, erleidet 10 (3d6) psychischen Schaden, und die {creature} erhält Trefferpunkte gleich dem Schaden zurück, den die Kreatur erlitten hat.</p>"
+        },
+        "Rampage": {
+            "name": "Wüten",
+            "description": "<p>Wenn die {creature} mit einem Nahkampfangriff in ihrem Zug eine Kreatur auf 0 Trefferpunkte bringt, kann die {creature} eine Bonusaktion ausführen, um sich bis zu ihre halbe Bewegungsrate zu bewegen und einen Biss-Angriff auszuführen</p>"
+        },
+        "Reactive": {
+            "name": "Reaktiv",
+            "description": "<p>Die {creature} kann in jedem Zug eines Kampfes eine Reaktion durchführen.</p>"
+        },
+        "Reactive Heads": {
+            "name": "Reaktive Köpfe",
+            "description": "<p>Für jeden Kopf, den die {creature} nach dem ersten hat, erhält sie eine zusätzliche Reaktion, die nur für Gelegenheitsangriffe verwendet werden kann.</p>"
+        },
+        "Read Thoughts": {
+            "name": "Gedanken lesen",
+            "description": "<p>Die {creature} liest die oberflächlichen Gedanken einer Kreatur innerhalb von 18 m um sich. Der Effekt kann Hindernisse durchdringen, aber 90 cm Holz oder Erde, 60 cm Stein, 5 cm Metall oder eine dünne Schicht Blei blockieren.</p>\n<p>Solange das Ziel in Reichweite ist, kann die {creature} weiter seine Gedanken lesen, solange die Konzentration der {creature} nicht gebrochen wird, wie als würde sie sich auf einen Zauber konzentrieren. Solange die {creature} die Gedanken eines Ziels liest, hat sie einen Vorteil auf Würfe mit Weisheit (Motiv erkennen) und Charisma (Täuschen, Einschüchtern und Überzeugen) gegen das Ziel.</p>"
+        },
+        "Reaping Scythe": {
+            "name": "Sense schwingen",
+            "description": "<p>Die {creature} schwingt ihre Spektralsense durch eine Kreatur, die sich innerhalb von 1,5 m zu ihr befindet. Der Angriff richtet 7 (1d8 + 3) Hiebschaden an und zusätzliche 4 (1d8) nekrotischer Schaden.</p>"
+        },
+        "Reckless": {
+            "name": "Unvorsichtig",
+            "description": "<p>Zu Beginn eines Zuges kann die {creature} einen Vorteil auf alle Nahkampf-Waffenangriffe erhalten, die sie in diesem Zug macht, doch Angriffswürfe gegen sie sind bis zum Beginn ihres nächsten Zugs im Vorteil.</p>"
+        },
+        "Reel": {
+            "name": "Einholen",
+            "description": "<p>Die {creature} zieht alle Kreaturen, die sie gepackt hat, bis zu 7,5 m direkt auf sich zu</p>"
+        },
+        "Reflective Carapace": {
+            "name": "Spiegelnder Panzer",
+            "description": "<p>Immer wenn die {creature} Ziel eines Magischen Geschosses, eines Zaubers mit Linieneffekt oder eines Zaubers mit Fernkampfangriffswurf wird, wirf einen d6. Bei einer 1 bis 5 ist die {creature} nicht betroffen.</p>\n<p>Bei einer 6 ist die {creature} nicht betroffen und der Effekt wird auf den Wirker zurückgespiegelt, als würde er von der {creature} ausgehen, was den Zauberwirker zum Ziel macht.</p>"
+        },
+        "Regeneration": {
+            "name": "Regeneration",
+            "description": "<p>Die {creature} erhält zum Beginn ihres Zugs 10 Trefferpunkte zurück, wenn sie mindestens 1 Trefferpunkt besitzt.</p>"
+        },
+        "Regional Effects": {
+            "name": "Regionale Effekte",
+            "description": "<p>Die bloße Anwesenheit einer legendären Kreatur kann seltsame und wundersame Auswirkungen auf ihre Umgebung haben. Regionale Effekte enden abrupt oder lösen sich mit der Zeit auf, wenn die legendäre Kreatur stirbt.</p>"
+        },
+        "Rejuvenation": {
+            "name": "Wiederbelebung",
+            "description": "<p>Wenn die {creature} stirbt, erwacht sie innerhalb von 1d6 Tagen erneut zum Leben und erhält alle Trefferpunkte zurück.</p>\n<p>Nur ein Wunsch kann dieses Merkmal verhindern</p>"
+        },
+        "Relentless": {
+            "name": "Unnachgiebig",
+            "description": "<p>Wenn die {creature} 7 Schadenspunkte oder weniger erleidet, die es auf 0 Trefferpunkte bringen würde, fällt es stattdessen auf 1 Trefferpunkt. Aufladung nach einer kurzen oder langen Rast.</p>"
+        },
+        "Repulsion Breath": {
+            "name": "Abstoßungsodem",
+            "description": "<p>Der {type} atmet in einem Kegel von 9 m Länge Energie aus. Alle Kreaturen in diesem Bereich müssen einen Stärkerettungswurf gegen SG 19 ablegen. Bei einem misslungenen Rettungswurf wird die Kreatur 18 m vom {type} weggestoßen.</p>"
+        },
+        "Roar": {
+            "name": "Brüllen",
+            "description": "<p>Die {creature} stößt ein magisches Brüllen aus. Jedes Mal, wenn das Brüllen vor einer langen Rast ausgestoßen wird, wird es lauter und erzielt einen anderen Effekt, wie unten beschrieben. Alle Kreaturen innerhalb von 150 m um die {creature}, die das Brüllen hören können, müssen einen Rettungswurf ablegen.</p>\n<p><strong>Erstes Brüllen.</strong> Jede Kreatur, die einen Weisheitsrettungswurf gegen SG 18 nicht schafft, ist für 1 Minute verängstigt. Eine verängstigte Kreatur kann den Rettungswurf am Ende jedes ihrer Züge wiederholen und den Effekt bei einem Erfolg beenden.</p>\n<p><strong>Zweites Brüllen.</strong> Jede Kreatur, die einen Weisheitsrettungswurf gegen SG 18 nicht schafft, ist für 1 Minute taub und verängstigt. Eine verängstigte Kreatur ist gelähmt und kann den Rettungswurf am Ende jedes ihrer Züge wiederholen und den Effekt für sich bei einem Erfolg beenden.</p>\n<p><strong>Drittes Brüllen.</strong> Das Ziel muss einen Konstitutionsrettungswurf gegen SG 18 ablegen. Bei einem misslungenen Rettungswurf erleidet die Kreatur 44 (8d10) Schallschaden und den Zustand liegend. Bei einem erfolgreichen Rettungswurf erleidet das Ziel den halben Schaden und ist nicht liegend.</p>"
+        },
+        "Rock Catching": {
+            "name": "Felsen fangen",
+            "description": "<p>Wenn ein Felsbrocken oder ähnlicher Gegenstand auf die {creature} geschleudert wird, kann die {creature} das Geschoss mit einem erfolgreichen Geschicklichkeitsrettungswurf gegen SG 10 fangen, sodass sie keinen Wuchtschaden erleidet.</p>"
+        },
+        "Running Leap": {
+            "name": "Sprung aus dem Lauf",
+            "description": "<p>Mit einem Anlauf von 3 m kann die {creature} bis zu 7,5 m weit springen.</p>"
+        },
+        "Rust Metal": {
+            "name": "Metall verrosten",
+            "description": "<p>Nichtmagische Waffen aus Metall, die die {creature} treffen, korrodieren. Nachdem sie Schaden verursacht haben, erleiden die Waffen einen permanenten, kumulative Abzug von -1 auf Schadenswürfe. Wenn der Abzug auf -5 fällt, ist die Waffe zerstört. Nichtmagische Geschosse, die aus Metall bestehen und die {creature} treffen, werden zerstört, nachdem sie Schaden verursacht haben.</p>"
+        },
+        "Scare": {
+            "name": "Verängstigen",
+            "description": "<p>Eine Kreatur nach Wahl der {creature} innerhalb von 6 m muss einen Weisheitsrettungswurf gegen SG 10 ableben, um nicht 1 Minute verängstigt zu werden.</p>\n<p>Die Kreatur kann den Rettungswurf am Ende eines jeden Zuges wiederholen, mit Nachteil, wenn die {creature} noch immer in Sichtweite ist, und den Effekt bei einem Erfolg vorzeitig beenden.</p>"
+        },
+        "Searing Burst": {
+            "name": "Versengende Explosion",
+            "description": "<p>Die {creature} entfesselt magische, göttliche Energie. Alle Kreaturen ihrer Wahl in einem Radius von 3 m müssen einen Geschicklichkeitsrettungswurf gegen SG 23 ablegen. Bei einen misslungenen Rettungswurf erleiden sie 14 (4d6) gleißenden Schaden, halb so viel Schaden bei einem erfolgreichen Rettungswurf.</p>"
+        },
+        "Second Roar": {
+            "name": "Zweites Brüllen",
+            "description": "<p>Jede Kreatur, die einen Weisheitsrettungswurf gegen SG 18 nicht schafft, ist für 1 Minute taub und verängstigt. Eine verängstigte Kreatur ist gelähmt und kann den Rettungswurf am Ende jedes ihrer Züge wiederholen und den Effekt für sich bei einem Erfolg beenden.</p>"
+        },
+        "Sense Magic": {
+            "name": "Magie spüren",
+            "description": "<p>Die {creature} kann willentlich Magie in einer Umgebung von 36 m um sich spüren. Diese Eigenschaft funktioniert identisch zum Zauber Magie entdecken, ist aber selbst nicht magisch.</p>"
+        },
+        "Shadow Stealth": {
+            "name": "Heimlicher Schatten",
+            "description": "<p>Solange sich die {creature} in dämmrigen Licht oder Dunkelheit befindet, kann sie die Verstecken-Aktion als Bonusaktion verwenden.</p>"
+        },
+        "Shapechanger": {
+            "name": "Gestaltwandler",
+            "description": "<p>Die {creature} kann ihre Aktion verwenden, um sich in die Gestalt eines kleinen oder mittelgroßen Humanoiden zu verwandeln oder ihre wahre Gestalt anzunehmen.</p>\n<p>Abgesehen von ihrer Größe, sind ihre Spielwerte gleich, egal, welche Form sie gerade hat. Jede Ausrüstung, die sie tragen oder in der Hand halten sollte, wird nicht mit verwandelt. SIe nimmt wieder ihre wahre Gestalt an, wenn sie stirbt.</p>"
+        },
+        "Shark Telepathy": {
+            "name": "Haifischtelepathie",
+            "description": "<p>Die {creature} kann alle Haifische innerhalb von 36 m mit einer eingeschränkten Form von Telepathie auf magische Weise befehligen.</p>"
+        },
+        "Shield": {
+            "name": "Abschirmen",
+            "description": "<p>Wenn eine Kreatur einen Angriff gegen den Träger des Amuletts der {creature} ausführt, dann gewährt die {creature} dem Träger +2 RK, wenn er sich innerhalb von 1,5 m zum Träger aufhält.</p>"
+        },
+        "Shielded Mind": {
+            "name": "Abgeschirmter Geist",
+            "description": "<p>Die {creature} ist immun gegen Ausspähung und alle Effekte, die ihre Emotionen spüren, ihre Gedanken lesen oder ihren Standort bestimmen sollen.</p>"
+        },
+        "Shimmering Shield": {
+            "name": "Schimmernder Schild",
+            "description": "<p>Die {creature} erschafft ein schimmerndes, magisches Feld um sich selbst oder eine andere Kreatur innerhalb von 18 m, die sie sehen kann. Das Ziel erhält bis zum Ende des nächsten Zugs der {creature} einen Bonus von +2 auf RK.</p>"
+        },
+        "Shriek": {
+            "name": "Kreischen",
+            "description": "<p>Wenn helles Licht oder eine Kreatur sich innerhalb von 9 m um die {creature} befindet, gibt sie ein Kreischen ab, das 90 m weit hörbar ist. Die {creature} kreischt weiter, bis die Störung sich außerhalb ihrer Reichweite begibt. Danach hält sie noch 1d4 Züge der {creature} an.</p>"
+        },
+        "Siege Monster": {
+            "name": "Belagerungsmonster",
+            "description": "<p>Der {type} fügt Gegenständen und Bauwerken doppelten Schaden zu.</p>"
+        },
+        "Sleep Breath": {
+            "name": "Schlafodem",
+            "description": "<p>Der {type} atmet in einem Kegel von 9 m Länge Schlafgas aus. Alle Kreaturen in diesem Bereich müssen einen Konstitutionsrettungswurf gegen SG 18 ablegen, um nicht für 10 Minuten bewusstlos zu werden. Dieser Effekt endet für eine Kreatur, wenn sie Schaden erleidet oder jemand eine Aktion aufwendet, um sie zu wecken</p>"
+        },
+        "Slowing Breath": {
+            "name": "Verlangsamender Odem",
+            "description": "<p>Der {type} atmet in einem Kegel von 18 m Länge Gas aus. Alle Kreaturen in diesem Bereich müssen einen Konstitutionsrettungswurf gegen SG 18 ablegen. Bei einem misslungenen Rettungswurf kann die Kreatur keine Reaktionen verwenden, ihre Bewegungsrate wird halbiert, und sie kann nicht mehr als eine Aktion in ihrem Zug durchführen. Außerdem kann die Kreatur in ihrem Zug entweder eine Aktion oder eine Bonusaktion durchführen, nicht beides. Diese Auswirkungen halten für 1 Minute an. Die Kreatur kann den Rettungswurf am Ende eines jeden ihrer Züge wiederholen und den Effekt bei einem Erfolg beenden.</p>"
+        },
+        "Sneak Attack": {
+            "name": "Hinterhältiger Angriff",
+            "description": "<p>Einmal pro Zug verursacht die {creature} zusätzliche 13 (4d6) Schaden, wenn sie ein Ziel mit einem Waffenangriff trifft und Vorteil bei dem Angriffswurf hat, oder wenn sich das Ziel innerhalb von 1,5 m zu einem Verbündeten der {creature} aufhält, der nicht kampfunfähig ist, und die {creature} keinen Nachteil auf ihren Angriffswurf hat.</p>"
+        },
+        "Snow Camouflage": {
+            "name": "Schneetarnung",
+            "description": "<p>Die {creature} hat einen Vorteil bei Würfen auf Geschicklichkeit (Heimlichkeit), wenn sie sich in verschneitem Gelände verstecken möchte.</p>"
+        },
+        "Speak with Beasts and Plants": {
+            "name": "Mit Tieren und Pflanzen sprechen",
+            "description": "<p>Die {creature} kann mit Tieren und Pflanzen kommunizieren, als würden sie eine Sprache teilen.</p>"
+        },
+        "Spell Storing": {
+            "name": "Zauberspeicher",
+            "description": "<p>Ein Zauberwirker, der das Amulett der {creature] trägt, kann die {creature]einen Zauber des 4. Grades oder niedriger speichern lassen. Dazu muss der Träger den Zauber auf die {creature} wirken. Der Zauber hat keinen Effekt, wird aber in der {creature} gespeichert. Wenn der Träger des Amuletts es ihr befiehlt oder wenn die Situation eintritt, die der Zauberwirker bestimmt hat, wirkt die {creature} den gespeicherten Zauber mit allen Parametern, die der ursprüngliche Zauberwirker festgelegt hat. Dabei sind keine Komponenten notwendig. Wenn der Zauber gewirkt oder ein neuer Zauber gespeichert wird, geht der zuvor gespeicherte Zauber verloren.</p>"
+        },
+        "Spellcasting": {
+            "name": "Zauberwirken",
+            "description": "<p>Die {creature} ist ein Zauberwirker der 1. Stufe. Ihr Attribut zum Zauberwirken ist Weisheit (Zauberrettungswurf-SG 12, +4 zum Treffen mit Zauberangriffen). Sie hat die folgenden Klerikerzauber vorbereitet:</p>\n<p>Zaubertricks (beliebig oft): </p>\n<p>1. Grad (3 Plätze): </p>"
+        },
+        "Spider Climb": {
+            "name": "Spinnenklettern",
+            "description": "<p>Die {creature} kann an schwierigen Oberflächen klettern, auch kopfüber an der Decke, ohne Attributswürfe ablegen zu müssen.</p>"
+        },
+        "Split": {
+            "name": "Teilen",
+            "description": "<p>Wenn eine {creature}, die mittelgroß oder größer ist, Blitz- oder Hiebschaden erleidet, teilt sie sich in zwei neue {creature} auf, wenn sie mindestens 10 Trefferpunkte besitzt. Jede neue {creature} hat Trefferpunkte gleich der Hälfte der ursprünglichen {creature}, abgerundet. Neue {creature} sind eine Größenkategorie kleiner als die ursprüngliche {creature}.</p>"
+        },
+        "Spores": {
+            "name": "Sporen",
+            "description": "<p>Eine Wolke aus giftigen Sporen mit einem Radius von 4,5 m breitet sich um die {creature} aus. Die Sporen breiten sich um Ecken aus. Alle Kreaturen in diesem Bereich müssen einen Konstitutionsrettungswurf gegen SG 14 ablegen, um nicht vergiftet zu werden.</p>\n<p>Solange sie auf diese Weise vergiftet sind, erleiden Ziele zu Beginn eines jeden ihrer Züge 5 (1d10) Giftschaden. Die Kreatur kann den Rettungswurf am Ende eines jeden ihrer Züge wiederholen und den Effekt bei einem Erfolg beenden. Man kann den Effekt auch beenden, indem man eine Phiole Weihwasser über dem Ziel ausleert.</p>"
+        },
+        "Standing Leap": {
+            "name": "Sprung aus dem Stand",
+            "description": "<p>Der Weitsprung der {creature} reicht bis zu 9 m und sein Hochsprung bis zu 4,5 m, mit oder ohne Anlauf.</p>"
+        },
+        "Steadfast": {
+            "name": "Standfest",
+            "description": "<p>Die {creature} kann nicht verängstigt werden, solange sie eine verbündete Kreatur innerhalb von 9 m um sich sehen kann.</p>"
+        },
+        "Steam Breath": {
+            "name": "Dampfodem",
+            "description": "<p>Die {creature} atmet in einem Kegel von 18 m heißen Dampf aus. Alle Kreaturen in diesem Bereich müssen einen Konstitutionsrettungswurf gegen SG 18 ablegen, um nicht 52 (15d6) Feuerschaden zu erleiden, halb so viel Schaden bei einem erfolgreichen Rettungswurf.</p>\n<p>Dies gilt auch, wenn ein Charakter unter Wasser ist.</p>"
+        },
+        "Stench": {
+            "name": "Gestank",
+            "description": "<p>Alle Kreaturen, die ihren Zug innerhalb von 1,5 m um die {creature} beginnen, müssen einen Konstitutionsrettungswurf gegen SG 10 schaffen, um nicht bis zum Beginn ihres nächsten Zuges vergiftet zu werden. Bei einem erfolgreichen Rettungswurf ist die Kreatur für 24 Stunden immun gegen den Gestank der {creature}.</p>"
+        },
+        "Stone Camouflage": {
+            "name": "Steintarnung",
+            "description": "<p>Die {creature} hat einen Vorteil bei Würfen auf Geschicklichkeit (Heimlichkeit), wenn sie sich in felsigen Gelände verstecken möchte</p>"
+        },
+        "Stone Golem - Slow": {
+            "name": "Verlangsamen",
+            "description": "<p>Die {creature} wählt eine oder mehrere Kreaturen innerhalb von 9 m, die sie sehen kann, aus. Jedes Ziel muss gegen diese Magie einen Weisheitsrettungswurf gegen SG 17 ablegen.</p>\n<p>Bei einem gescheiterten Wurf kann das Ziel keine Reaktionen verwenden, seine Bewegungsrate wird halbiert, und es kann nicht mehr als einen Angriff in seinem Zug ausführen. Außerdem kann das Ziel eine Aktion  oder Bonusaktion in seinem Zug ausführen, nicht beides. Diese Effekte halten für 1 Minute an. Das Ziel kann den gleichen Rettungswurf am Ende eines jeden seiner Züge wiederholen und den Effekt auf sich selbst bei einem Erfolg beenden.</p>"
+        },
+        "Stunning Screech": {
+            "name": "Betäubendes Kreischen",
+            "description": "<p>Die {creature} stößt ein grauenvolles Kreischen aus. Alle Kreaturen im Umkreis von 6 m um die {creature}, die sie hören können und keine Dämonen sind, müssen einen Konstitutionsrettungswurf gegen SG 14 schaffen, um nicht bis zum Ende des nächsten Zugs der {creature} verängstigt zu werden.</p>"
+        },
+        "Sunlight Sensitivity": {
+            "name": "Empfindlich gegenüber Sonnenlicht",
+            "description": "<p>Solange sich die {creature} im Sonnenlicht befindet, hat sie einen Nachteil bei Angriffswürfen und Würfen auf Weisheit (Wahrnehmung), die mit Sicht zusammenhängen.</p>"
+        },
+        "Sunlight Weakness": {
+            "name": "Schwach im Sonnenlicht",
+            "description": "<p>Solange sie sich im Sonnenlicht befindet, erleidet die {creature} einen Nachteil auf Attributswürfe, Angriffswürfe und Rettungswürfe.</p>"
+        },
+        "Sure-Footed": {
+            "name": "Sicherer Stand",
+            "description": "<p>Die {creature} hat einen Vorteil auf Geschicklichkeits- und Stärkerettungswürfe gegen Effekte, durch die sie den Zustand liegend erleiden würde.</p>"
+        },
+        "Surprise Attack": {
+            "name": "Überraschungsangriff",
+            "description": "<p>Wenn die {creature} eine Kreatur überrascht und sie in der ersten Kampfrunde mit einem Angriff trifft, dann erleidet das Ziel zusätzlich 7 (2d6) Schaden durch den Angriff.</p>"
+        },
+        "Swallow": {
+            "name": "Verschlucken",
+            "description": "<p>Die {creature} führt einen Biss-Angriff gegen eine kleine oder kleinere Kreatur durch, die sie gepackt hat. Wenn der Angriff trifft, wird die Kreatur verschluckt. Der Haltegriff endet dadurch. Eine verschluckte Kreatur ist blind und festgesetzt, hat vollständige Deckung gegen Angriffe und andere Effekte, die von außerhalb der {creature} kommen, und erleidet 21 (6W6) Säureschaden zu Beginn eines jeden Zugs der {creature}. Die {creature} kann nur eine Kreatur auf einmal verschlucken.</p>\n<p>Wenn die{creature} in einem Zug durch eine Kreatur in seinem Inneren 30 oder mehr Schaden erleidet, muss sie am Ende des Zuges einen Konstitutionsrettungswurf gegen SG 14 ablegen, um nicht alle verschluckten Kreaturen hochzuwürgen. Diese landen liegend in einem Bereich innerhalb von 3 m um der {creature}. Wenn die {creature} stirbt, ist eine verschluckte Kreatur nicht mehr festgesetzt und kann aus dem Kadaver entkommen, indem sie 1,5 m Bewegungsrate aufwendet. Dabei erleidet sie den Zustand liegend.</p>"
+        },
+        "Swarm": {
+            "name": "Schwarm",
+            "description": "<p>Der Schwarm kann sich im Bereich einer anderen Kreatur aufhalten und andersherum. Der Schwarm kann sich durch jede Öffnung bewegen, die groß genug für eine winzige {creature} ist. Der Schwarm kann keine Trefferpunkte zurückerhalten und keine temporären Trefferpunkte erhalten.</p>"
+        },
+        "Tail Spike Regrowth": {
+            "name": "Schwanzstachel-Wachstum",
+            "description": "<p>Die Kreatur hat 24 Schwanzstacheln. Verbrauchte Stacheln wachsen nach, wenn die Kreatur eine lange Rast abschließt.</p>"
+        },
+        "Tail Swipe (Legendary)": {
+            "name": "Schwanzfeger",
+            "description": "<p>Die {creature} macht einen Angriff mit seinem Schwanz.</p>"
+        },
+        "Telepathic Bond": {
+            "name": "Telepathisches Band",
+            "description": "<p>Solange sich die {creature} auf der gleichen Existenzebene wie sein Meister befindet, kann sie dem Meister magisch übermitteln, was ihre Sinne wahrnehmen, und die beiden können telepathisch kommunizieren</p>"
+        },
+        "Teleport": {
+            "name": "Teleportieren",
+            "description": "<p>Die {creature} teleportiert sich zusammen mit aller Ausrüstung, die sie trägt oder hält, auf magische Weise bis zu 36 m weit, in einen nicht besetzten Bereich, den sie sehen kann.</p>"
+        },
+        "Tentacle Attack or Fling": {
+            "name": "Tentakelangriff oder Schleudern",
+            "description": "<p>Die {creature} führt einen Tentakelangriff aus oder verwendet Schleudern.</p>"
+        },
+        "Tentacle Disease": {
+            "name": "Tentakel Krankheit",
+            "description": "<p>Nach 1 Minute wird die Haut der kranken Kreatur durchsichtig und schleimig, die Kreatur kann keine Trefferpunkte zurückerlangen, wenn sie nicht unter Wasser ist, und die Krankheit kann nur von Heilung oder anderen Zaubern, die Krankheiten heilen und den 6. Grad oder höher haben, entfernt werden. Wenn die Kreatur sich außerhalb des Wassers befindet, erleidet sie alle 10 Minuten 6 (1W12) Säureschaden, wenn vor dem Verstreichen der 10 Minuten keine Feuchtigkeit auf die Haut aufgetragen wird.</p>"
+        },
+        "Tentacle Slam": {
+            "name": "Tentakelramme",
+            "description": "<p>Die {creature} rammt Kreaturen, die sie gepackt hat, ineinander oder in eine feste Oberfläche. Jede Kreatur muss einen Konstitutionsrettungswurf gegen SG 14 ablegen, um nicht 10 (2d6 + 3) Wuchtschaden zu erleiden und bis zum Ende des nächsten Zugs der {creature} betäubt zu sein.</p>\n<p>Bei einem erfolgreichen Rettungswurf erleidet das Ziel den halben Wuchtschaden und ist nicht betäubt.</p>"
+        },
+        "Tentacles": {
+            "name": "Tentakel",
+            "description": "<p>Eine Kreatur die von der {creature} gepackt ist muss einen Konstitutionsrettungswurf gegen SG 13 ablegen, um nicht für 1 Minute vergiftet zu werden.</p>\n<p>Solange das Ziel vergiftet ist, ist es außerdem gelähmt. Das Ziel kann den Rettungswurf am Ende eines jeden seiner Züge wiederholen und den Effekt auf sich bei einem Erfolg beenden.</p>"
+        },
+        "Third Roar": {
+            "name": "Drittes Brüllen",
+            "description": "<p>Das Ziel muss einen Konstitutionsrettungswurf gegen SG 18 ablegen. Bei einem misslungenen Rettungswurf erleidet die Kreatur 44 (8d10) Schallschaden und den Zustand liegend. Bei einem erfolgreichen Rettungswurf erleidet das Ziel den halben Schaden und ist nicht liegend.</p>"
+        },
+        "Trampling Charge": {
+            "name": "Trampelnder Sturmangriff",
+            "description": "<p>Wenn sich die {creature} mindestens 6 m in gerader Linie auf ein Ziel zu bewegt und dann im gleiche Zug mit einem Aufspießen-Angriff trifft, dann muss das Ziel einen Stärkerettungswurf gegen SG 12 ablegen, um nicht den Zustand liegend zu erleiden. Wenn das Ziel liegend ist, kann die {creature} als Bonusaktion einen Stampfen-Angriff gegen es ausführen.</p>"
+        },
+        "Transparent": {
+            "name": "Transparent",
+            "description": "<p>Selbst wenn die {creature} deutlich sichtbar ist, ist ein erfolgreicher Wurf auf Weisheit (Wahrnehmung) gegen SG 15 notwendig, um die {creature} zu bemerken, wenn sie sich nicht bewegt oder angegriffen hat. Eine Kreatur, die versucht, den Bereich der {creature} zu betreten, solange sie sich der {creature} nicht bewusst ist, wird von der {creature} überrascht.</p>"
+        },
+        "Treasure Sense": {
+            "name": "Schatzgespür",
+            "description": "<p>Die {creature} kann mit dem Geruchssinn die genaue Position von Edelmetallen und Edelsteinen, etwa Münzen und Juwelen, im Umkreis von 18 m bestimmen</p>"
+        },
+        "Tree Stride": {
+            "name": "Baumwandeln",
+            "description": "<p>Einmal in ihren Zug kann die {creature} 3 m ihrer Bewegungsrate aufwenden, um auf magische Weise in einen lebenden Baum in Reichweite zu treten und aus einem anderen lebenden Baum innerhalb von 18 m zum ersten Baum wieder hervorzukommen. Dabei erscheint sie in einem nicht besetzten Bereich innerhalb von 1,5 m / um den zweiten Baum. Beide Bäume müssen groß oder größer sein.</p>"
+        },
+        "Tunneler": {
+            "name": "Tunnelbauer",
+            "description": "<p>Die {creature} kann sich mit ihrer halben Graben-Bewegungsrate durch festes Gestein graben und lässt dabei einen Tunnel mit 3 m Durchmesser zurück.</p>"
+        },
+        "Turn Defiance": {
+            "name": "Trutz gegen Vertreibung",
+            "description": "<p>Die {creature} und alle Ghule innerhalb von 9 m um ihr haben einen Vorteil bei Rettungswürfen gegen Effekte, die Untote vertreiben.</p>"
+        },
+        "Turn Immunity": {
+            "name": "Immunität gegenüber Vertreibung",
+            "description": "<p>Die {creature} ist immun gegen Effekte, die Untote vertreiben.</p>"
+        },
+        "Turn Resistance": {
+            "name": "Resistenz gegen Vertreibung",
+            "description": "<p>Die {creature} hat einen Vorteil bei Rettungswürfen gegen Effekte, die Untote vertreiben.</p>"
+        },
+        "Two Heads": {
+            "name": "Zwei Köpfe",
+            "description": "<p>Die {creature} hat einen Vorteil bei Würfen auf Weisheit (Wahrnehmung) und bei Rettungswürfen gegen die Zustände betäubt, bewusstlos, bezaubert, blind, taub und verängstigt.</p>"
+        },
+        "Two-Headed": {
+            "name": "Zwei Köpfe"
+        },
+        "Unarmed Strike (Legendary)": {
+            "name": "Waffenloser Angriff",
+            "description": "<p>Die {creature} führt einen Waffenlosen Angriff durch.</p>"
+        },
+        "Undead Fortitude": {
+            "name": "Untote Ausdauer",
+            "description": "<p>Wenn die Trefferpunkte der {creature} auf 0 verringert werden, muss er einen Konstitutionsrettungswurf gegen SG 5 + erlittener Schaden ablegen, es sein denn, der Schaden war gleißender Schaden oder von einem kritischen Treffer. Bei einem Erfolg fällt der {creature} stattdessen auf 1 TP.</p>"
+        },
+        "Underwater Camouflage": {
+            "name": "Unterwassertarnung",
+            "description": "<p>Die {creature} hat einen Vorteil bei Würfen auf Geschicklichkeit (Heimlichkeit), wenn sie sich unter Wasser verstecken möchte.</p>"
+        },
+        "Unnerving Mask": {
+            "name": "Verstörende Maske",
+            "description": "<p>Wenn eine Kreatur, die der {type} sehen kann, ihren Zug innerhalb von 9 m um den {type} beginnt, kann dieser eine Illusion erschaffen, die ihn aussehen lässt wie eine verstorbene geliebte Person der Kreatur oder einer ihrer erbitterten Feinde. Wenn die Kreatur den {type} sehen kann, muss sie einen Weisheitsrettungswurf gegen SG 14 ablegen, um nicht bis zum Ende ihres Zuges verängstigt zu sein.</p>"
+        },
+        "Vampire Weaknesses": {
+            "name": "",
+            "description": "<p>Die {creature} hat die folgenden Nachteile:</p>\n<p><em>Verbot</em>. Die {creature} kann keinen Wohnsitz betreten, ohne eine Einladung von einem der Bewohner erhalten zu haben.</p>\n<p><em>Verletzt durch fließendes Wasser</em>. Die {creature} erleidet 20 Säureschaden, wenn sie ihren Zug in fließendem Wasser beendet.</p>\n<p><em>Pflock ins Herz</em>. Wenn eine Stichwaffe aus Holz ins Herz der {creature} getrieben wird, solange die {creature} sich in ihrer Ruhestätte befindet und kampfunfähig ist, wird die {creature} gelähmt, bis der Pflock entfernt wird.</p>\n<p><em>Hyperempfindlich gegenüber Sonnenlicht</em>. Die {creature} erleidet 20 gleißenden Schaden, wenn sie ihren Zug im Sonnenlicht beginnt. Solange sie sich im Sonnenlicht befindet, erleidet sie einen Nachteil auf Angriffswürfe und Attributswürfe.</p>"
+        },
+        "Variable Illumination": {
+            "name": "Variable Beleuchtung",
+            "description": "<p>Die {creature} gibt helles Licht in einem Radius zwischen 1,5 m und 6 m ab, und schwaches Licht in einem zusätzlichen Radius gleich dem gewählten Radius. Die {creature} kann den Radius als Bonusaktion anpassen.</p>"
+        },
+        "Wakeful": {
+            "name": "Schlaflos",
+            "description": "<p>Wenn einer der Köpfe der {creature} schläft, ist der andere Kopf immer wach.</p>"
+        },
+        "Wall of Ice": {
+            "name": "Eismauer",
+            "description": "<p>Die {creature} erschafft auf magische Weise eine undurchsichtige Mauer aus Eis auf einer festen Oberfläche innerhalb von 18 m, die sie sehen kann. Die Mauer ist 30 cm dick und bis zu 9 m lang und 3 m hoch, oder eine halbkugelförmige Kuppel mit bis zu 6 m Durchmesser.</p>\n<p>Wenn die Mauer erscheint, werden alle Kreaturen in ihrem Bereich auf kürzestem Weg weggeschoben. Die Kreatur wählt, auf welcher Seite der Mauer sie endet, es sei denn, sie ist kampfunfähig. Danach muss das Ziel einen Geschicklichkeitsrettungswurf gegen SG 17 ablegen. Bei einem misslungenen Rettungswurf erleidet es 35 (10d6) Kälteschaden, halb so viel Schaden bei einem erfolgreichen Rettungswurf.</p>\n<p>Die Mauer bleibt für 1 Minute bestehen, oder bis die {creature} kampfunfähig ist oder stirbt. Die Mauer kann beschädigt und durchbrochen werden; jeder Abschnitt von 3 m hat RK 5, 30 Trefferpunkte, Empfindlichkeit gegen Feuer und Immunität gegen Gift-, Kälte-, Säure- sowie nekrotischen und psychischen Schaden. Wenn ein Abschnitt zerstört wird, bleibt eine Schicht aus eiskalter Luft in dem Bereich zurück, den das Mauerstück eingenommen hat. Wenn eine Kreatur in ihrem Zug die Bewegung durch die Kalte Luft abschließt, ob absichtlich oder anderweitig, muss sie einen Konstitutionsrettungswurf gegen SG 17 ablegen. Bei einem misslungenen Rettungswurf erleidet sie &lt;strong&gt;17 (5d6) &lt;em&gt;Kälteschaden&lt;/em&gt;&lt;/strong&gt;, halb so viel Schaden bei einem erfolgreichen Rettungswurf. Die kalte Luft löst sich auf, wenn der Rest der Mauer verschwindet.</p>"
+        },
+        "Water Breathing": {
+            "name": "Wasser atmen",
+            "description": "<p>Die {creature} kann nur unter Wasser atmen.</p>"
+        },
+        "Water Form": {
+            "name": "Wasserform",
+            "description": "<p>Der {type} kann den Bereich einer feindlichen Kreatur betreten und dort anhalten. Er kann sich durch Bereiche, die nur 2,5 cm groß sind, bewegen, ohne sich quetschen zu müssen.</p>"
+        },
+        "Water Susceptibility": {
+            "name": "Wasseranfälligkeit",
+            "description": "<p>Für jeweils 1,5 m, die sich der {type} durch Wasser bewegt, oder jeweils 5 Liter Wasser, die auf ihn gespritzt werden, erleidet er 1 Kälteschaden.</p>"
+        },
+        "Weakening Breath": {
+            "name": "Schwächender Atem",
+            "description": "<p>Der {type} atmet in einem Kegel von 18 m Länge Gas aus. Alle Kreaturen in diesem Bereich müssen einen Stärkerettungswurf gegen SG 21 schaffen, um nicht für 1 Minute einen Nachteil bei allen auf Stärke basierenden Angriffswürfen, Stärkewürfen und Stärkerettungswürfen zu haben. Die Kreatur kann den Rettungswurf am Ende eines jeden ihrer Züge wiederholen und den Effekt bei einem Erfolg beenden.</p>"
+        },
+        "Web": {
+            "name": "Netz",
+            "description": "<p>Fernkampf-Waffenangriff: +4 zum Treffen, Reichweite: 9/18 m, eine große oder kleinere Kreatur. Treffer: Die Kreatur wird von einem Netz festgesetzt.</p>\n<p>Als Aktion kann die festgesetzte Kreatur einen Stärkewurf gegen SG 11 ablegen und entkommt bei einem Erfolg aus dem Netz. Der Effekt endet auch, wenn das Netz zerstört wird. Das Netz hat RK 10, 5 Trefferpunkte, Empfindlichkeit gegen Feuerschaden, und Immunität gegen Wucht- und Giftschaden sowie psychischen Schaden.</p>"
+        },
+        "Web Sense": {
+            "name": "Netzsinn",
+            "description": "<p>Solange die {creature} in Kontakt mit einem Netz ist, kennt sie die genaue Position aller anderen Kreaturen, die in Kontakt mit demselben Netz sind.</p>"
+        },
+        "Web Walker": {
+            "name": "Netzwandler",
+            "description": "<p>Die {creature} ignoriert Bewegungseinschränkungen durch Netze.</p>"
+        },
+        "Whelm": {
+            "name": "Überschütten",
+            "description": "<p>Jede Kreatur im Bereich des {type} muss einen Stärkerettungswurf gegen SG 15 ablegen. Bei einem Fehlschlag erleidet ein Ziel 13 (2d8 + 4) Wuchtschaden. Wenn es sich um ein Großes oder kleineres Ziel handelt, wird es außerdem gepackt (SG zum Entkommen 14). Bis der Haltegriff endet, ist das Ziel festgesetzt und kann nicht atmen, es sein denn, es kann Wasser atmen.Wenn der Rettungswurf erfolgreich ist, wird das Ziel aus dem Bereich des {type} geschoben.</p>\n<p>Der {type} kann mit dieser Fähigkeit eine große Kreatur oder bis zu zwei mittelgroße oder kleinere Kreaturen auf einmal festhalten. Zu Beginn eines jeden Zuges des {type} erleidet jedes gepackte Ziel 13 (2d8 + 4) Wuchtschaden. Als Aktion kann jede Kreatur innerhalb von 1,5 m um den {type} eine Kreatur oder einen Gegenstand aus dem {type} herausziehen, indem sie einen Stärkewurf gegen SG 14 schafft</p>"
+        },
+        "Whirlwind": {
+            "name": "Wirbelwind",
+            "description": "<p>Jede Kreatur im Bereich des {type} muss einen Stärkerettungswurf gegen SG 13 ablegen. Bei einem Fehlschlag erleidet das Ziel 15 (3d8 + 2) Wuchtschaden und wird 6 m weit vom {type} weg in eine zufällige Richtung geschleudert, wobei es den Zustand liegend erleidet.</p>\n<p>Wenn ein geworfenes Ziel einen Gegenstand trifft, wie eine Mauer oder einen Fußboden, erleidet es 3 (1d6) Wuchtschaden für jeweils 3 m, die es geworfen wurde. Wenn das Ziel in eine andere Kreatur geworfen wird, muss diese Kreatur einen Geschicklichkeitsrettungswurf gegen SG 13 schaffen, um nicht den gleichen Schaden und den Zustand liegend zu erleiden.</p>\n<p>Wenn der Rettungswurf erfolgreich ist, erleidet das Ziel den halben Wuchtschaden, wird aber nicht geschleudert und erleidet auch nicht den Zustand liegend.</p>"
+        },
+        "Whirlwind of Sand": {
+            "name": "Wirbelwind aus Sand",
+            "description": "<p>Die {creature} verwandelt sich magisch in einen Wirbelwind aus Sand, bewegt sich bis zu 18 m und nimmt ihre normale Gestalt wieder an. Solange sie die Wirbelwind-Gestalt angenommen hat, ist die {creature} immun gegen jeden Schaden, und sie kann nicht gepackt, versteinert, festgesetzt, oder betäubt werden oder den Zustand liegend erleiden. Ausrüstung, die die {creature} trägt oder in der Hand hält, bleibt in ihrem Besitz.</p>"
+        }
+    },
+    "label": "Monsterfähigkeiten (SRD)",
+    "mapping": {
+        "source": {
+            "converter": "source",
+            "path": "system.source"
+        },
+        "requirements": {
+            "converter": "classRequirements",
+            "path": "system.requirements"
+        }
+    }
+}

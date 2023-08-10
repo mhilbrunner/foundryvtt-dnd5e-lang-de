@@ -1,0 +1,288 @@
+{
+    "entries": {
+        "* Table of Contents & Disclaimer *": {
+            "name": "* Inhaltsverzeichnis & Disclaimer *"
+        },
+        "01. Beyond 1st Level": {
+            "name": "",
+            "source": "SHB S. 15"
+        },
+        "02. Races": {
+            "name": ""
+        },
+        "03. Classes": {
+            "name": ""
+        },
+        "04. Personality and Background": {
+            "name": ""
+        },
+        "05. Equipment": {
+            "name": ""
+        },
+        "06. Customization Options": {
+            "name": ""
+        },
+        "07. Using Ability Scores": {
+            "name": ""
+        },
+        "08. Adventuring": {
+            "name": ""
+        },
+        "09. Combat": {
+            "name": ""
+        },
+        "10. Spellcasting": {
+            "name": ""
+        },
+        "11. DM Tools": {
+            "name": ""
+        },
+        "A. Appendices": {
+            "name": ""
+        },
+        "Ability Checks": {
+            "name": ""
+        },
+        "Ability Scores and Modifiers": {
+            "name": ""
+        },
+        "Actions in Combat": {
+            "name": ""
+        },
+        "Advantage and Disadvantage": {
+            "name": ""
+        },
+        "Adventuring Gear": {
+            "name": ""
+        },
+        "Alignment": {
+            "name": ""
+        },
+        "Appendix MM-A: Miscellaneous Creatures": {
+            "name": ""
+        },
+        "Appendix MM-B: Nonplayer Characters": {
+            "name": ""
+        },
+        "Appendix PH-A: Conditions": {
+            "name": ""
+        },
+        "Appendix PH-B: Fantasy-Historical Pantheons": {
+            "name": ""
+        },
+        "Appendix PH-C: The Planes of Existence": {
+            "name": ""
+        },
+        "Armor": {
+            "name": ""
+        },
+        "Backgrounds": {
+            "name": ""
+        },
+        "Bard Spells": {
+            "name": ""
+        },
+        "Between Adventures": {
+            "name": ""
+        },
+        "Blinded": {
+            "name": ""
+        },
+        "Blindsight": {
+            "name": ""
+        },
+        "Burrow": {
+            "name": ""
+        },
+        "Casting a Spell": {
+            "name": ""
+        },
+        "Charmed": {
+            "name": ""
+        },
+        "Cleric Spells": {
+            "name": ""
+        },
+        "Climb": {
+            "name": ""
+        },
+        "Concentration": {
+            "name": ""
+        },
+        "Cover": {
+            "name": ""
+        },
+        "Damage and Healing": {
+            "name": ""
+        },
+        "Darkvision": {
+            "name": ""
+        },
+        "Deafened": {
+            "name": ""
+        },
+        "Diseases": {
+            "name": ""
+        },
+        "Druid Spells": {
+            "name": ""
+        },
+        "Exhaustion": {
+            "name": ""
+        },
+        "Expenses": {
+            "name": ""
+        },
+        "Feats": {
+            "name": ""
+        },
+        "Fly": {
+            "name": ""
+        },
+        "Frightened": {
+            "name": ""
+        },
+        "Grappled": {
+            "name": ""
+        },
+        "Incapacitated": {
+            "name": ""
+        },
+        "Inspiration": {
+            "name": ""
+        },
+        "Invisible": {
+            "name": ""
+        },
+        "Languages": {
+            "name": ""
+        },
+        "Madness": {
+            "name": ""
+        },
+        "Magic Items": {
+            "name": ""
+        },
+        "Magic Items A-Z": {
+            "name": ""
+        },
+        "Making an Attack": {
+            "name": ""
+        },
+        "Monsters": {
+            "name": ""
+        },
+        "Mounted Combat": {
+            "name": ""
+        },
+        "Mounts and Vehicles": {
+            "name": ""
+        },
+        "Movement": {
+            "name": ""
+        },
+        "Movement and Position": {
+            "name": ""
+        },
+        "Multiclassing": {
+            "name": ""
+        },
+        "Objects": {
+            "name": ""
+        },
+        "Paladin Spells": {
+            "name": ""
+        },
+        "Paralyzed": {
+            "name": ""
+        },
+        "Petrified": {
+            "name": ""
+        },
+        "Poisoned": {
+            "name": ""
+        },
+        "Poisons": {
+            "name": ""
+        },
+        "Proficiency Bonus": {
+            "name": ""
+        },
+        "Prone": {
+            "name": ""
+        },
+        "Ranger Spells": {
+            "name": ""
+        },
+        "Resting": {
+            "name": ""
+        },
+        "Restrained ": {
+            "name": ""
+        },
+        "Saving Throws": {
+            "name": ""
+        },
+        "Selling Treasure": {
+            "name": ""
+        },
+        "Sorcerer Spells": {
+            "name": ""
+        },
+        "Spell Descriptions": {
+            "name": ""
+        },
+        "Stunned": {
+            "name": ""
+        },
+        "Swim": {
+            "name": ""
+        },
+        "The Environment": {
+            "name": ""
+        },
+        "The Order of Combat": {
+            "name": ""
+        },
+        "Time": {
+            "name": ""
+        },
+        "Tools": {
+            "name": ""
+        },
+        "Trade Goods": {
+            "name": ""
+        },
+        "Traps": {
+            "name": ""
+        },
+        "Tremorsense": {
+            "name": ""
+        },
+        "Truesight": {
+            "name": ""
+        },
+        "Unconscious": {
+            "name": ""
+        },
+        "Underwater Combat": {
+            "name": ""
+        },
+        "Using Each Ability": {
+            "name": ""
+        },
+        "Warlock Spells": {
+            "name": ""
+        },
+        "Weapons": {
+            "name": ""
+        },
+        "What Is a Spell?": {
+            "name": ""
+        },
+        "Wizard Spells": {
+            "name": ""
+        }
+    },
+    "label": "Regeln (SRD)"
+}

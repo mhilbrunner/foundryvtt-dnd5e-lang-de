@@ -1,0 +1,126 @@
+{
+    "entries": {
+        "Canvas": {
+            "name": "Segeltuch",
+            "description": "<p>Ein Quadratmeter Segeltuch von durchschnittlicher Qualität und durchschnittlichem Gewicht. Wird für alle Artikel und Kleidungsstücke verwendet.</p>\n<p>Je niedriger die Zahl, desto besser die Qualität und desto schwerer das Gewicht. Das Segeltuch Nr. 1 wiegt etwa 1,7 Pfund pro Quadratmeter, während das schwächere, leichtere Segeltuch Nr. 12 nur 0,7 Pfund wiegen kann.</p>",
+            "source": "SHB S. 157"
+        },
+        "Chicken": {
+            "description": "<p>Als Quelle für Omeletts und Hühnerflügel wiegt das durchschnittliche erwachsene Huhn zwischen 5 und 10 Pfund.</p>",
+            "name": "Hähnchen",
+            "source": "SHB S. 157"
+        },
+        "Cinnamon": {
+            "description": "<p>Aus der inneren Rinde des Zimtbaums gewonnen, ein beliebtes, wenn auch etwas selteneres Gewürz, bei Köchen der Welt. Wird von Kindern geliebt, wenn es mit Zucker kombiniert wird, um viele Arten von Leckereien herzustellen.</p>",
+            "name": "Zimt",
+            "source": "SHB S. 157"
+        },
+        "Cloves": {
+            "description": "<p>Ein starkes Gewürz, das sowohl von Köchen als auch von Brennereien geschätzt wird und sich gut zum Würzen von Fleisch und Eintöpfen, reichhaltigen Saucen, warmen Getränken wie Apfelwein und Chai-Tee, Brot, Käse und süßen Desserts wie Kuchen und Obstkuchen eignet.</p>\n<p>Nelken sind die reichen, getrockneten, ungeöffneten Knospen des Syzygium aromaticum, eines immergrünen Baumes aus der Familie der Myrten.</p>",
+            "name": "Nelken",
+            "source": "SHB S. 157"
+        },
+        "Copper": {
+            "description": "<p>Kupfer wird von fortgeschrittenen Schiffbauern, Alchemisten, bestimmten Juwelieren und Köchen gleichermaßen begehrt und wird üblicherweise an der Oberfläche abgebaut. Der Untertagebau findet jedoch statt, wenn die Oberflächenquellen erschöpft sind oder nicht mehr lokalisiert werden können.</p>\n<p>Obwohl es für Rüstungen verwendet werden kann, ist es weitaus besser mit Zinn zu mischen, um die viel bessere Bronzelegierung für militärische Zwecke herzustellen.</p>",
+            "name": "Kupfer",
+            "source": "SHB S. 157"
+        },
+        "Cotton": {
+            "description": "<p>Ein Quadratmeter Baumwolle von durchschnittlicher Qualität und durchschnittlichem Gewicht. Wird für alle Artikel und Kleidungsstücke verwendet.</p>\n<p>Weitaus leichter, bequemer und einfacher zu verarbeiten als Segeltuch; Die vergleichsweise empfindlichere Ernte bedeutet jedoch, dass sie dementsprechend teurer und möglicherweise schwerer zu bekommen ist.</p>",
+            "name": "Baumwolle",
+            "source": "SHB S. 157"
+        },
+        "Cow": {
+            "description": "<p>Kühe sind Lebewesen für großflächige Landwirte und benötigen große Flachweideflächen, was bedeutet, dass sie nicht so häufig sind wie andere Tiere. Sie leben jedoch länger und geben viel mehr Milch. Sie sind auch eine Quelle für viel haltbareres Leder, das weniger anfällig für Risse ist und gegen Hitze und Schmutz beständig ist.</p>\n<p>Je nach Geschlecht und Rasse können erwachsene Kühe zwischen 1.000 und 1.800 Pfund wiegen.</p>",
+            "name": "Kuh",
+            "source": "SHB S. 157"
+        },
+        "Flour": {
+            "description": "<p>Getreide, welches von einem Müller gemahlen wurde.</p>",
+            "name": "Mehl",
+            "source": "SHB S. 157"
+        },
+        "Ginger": {
+            "description": "<p>Ein Gewürz, das aus der frischen oder getrockneten Wurzel der Ingwerpflanze Zingiber officinale stammt. Es gehört zur selben Familie wie Kurkuma und Kardamom.</p>\n<p>Von Köchen und Süßwarenherstellern geschätzt, von Kindern geliebt und von jenen, die würzigen Geschmack bevorzugen.</p>",
+            "name": "Ingwer",
+            "source": "SHB S. 157"
+        },
+        "Goat": {
+            "description": "<p>Ziegen sind nützliche Lebewesen für Kleinbauern und Hochlandbewohner und verhindern wirksam das Überwachsen von Wiesen, während sie Milch, Käse und schließlich Häute und Fleisch liefern.</p>\n<p>Je nach Rasse können erwachsene Ziegen von 45 Pfund bis zu 300 Pfund reichen.</p>",
+            "name": "Ziege",
+            "source": "SHB S. 157"
+        },
+        "Gold": {
+            "description": "<p>Gold ist für viele Zivilisationen der König der Währung. Normalerweise häufiger als Platin, aber bei weitem nicht so häufig wie andere Metalle, nimmt es einen Sweet Spot in Bezug auf Seltenheit und Unreaktivität ein.</p>\n<p>Im Gegensatz zu Silber kann Gold leichter an der Oberfläche gefunden werden. Sowohl der Tagebau als auch der Untertagebau können äußerst rentabel sein. Goldrausch kann und war eine Quelle eines großen Glücks und einer großen Tragödie.</p>",
+            "name": "Gold",
+            "source": "SHB S. 157"
+        },
+        "Iron": {
+            "description": "<p>Oft ist Eisen das Arbeitstier des Metallarbeiters und wird wegen seiner relativen Häufigkeit und Leichtigkeit des Erreichens geschätzt. Oberflächeneisen kann von gefallenen Meteoren und Xenolithen gefunden werden, wird jedoch viel häufiger unter Tage abgebaut. Es ist jedoch Vorsicht geboten, da sonst Rost seinen Tribut fordert.</p>",
+            "name": "Eisen",
+            "source": "SHB S. 157"
+        },
+        "Linen": {
+            "name": "Leinen",
+            "description": "<p>Ein Quadratmeter Leinen von durchschnittlicher Qualität und durchschnittlichem Gewicht. Wird für alle Artikel und Kleidungsstücke verwendet.</p>\n<p>Aufgrund seiner Haltbarkeit und Atmungsaktivität ist es länger haltbar als Baumwolle und wird besonders in warmen Klimazonen geschätzt.</p>\n<p>Es gibt verschiedene Arten von Leinen, wobei leichtere Gewebe ab 6 Unzen pro Quadratmeter beginnen und der Rest bis zu 15 Unzen.</p>",
+            "source": "SHB S. 157"
+        },
+        "Ox": {
+            "description": "<p>Im Wesentlichen ein speziell ausgebildeter Rind- oder Milchstier, der das 5. Lebensjahr vollendet hat. Diese schweren Lasttiere können bis zu und über ihr eigenes Körpergewicht ziehen oder tragen. Ochsen werden für eine Vielzahl von Aufgaben wie das Ziehen von Waggons, das Dreschen von Getreide, das Antreiben von Maschinen zum Bewässern oder Mahlen von Getreide und sogar das Reiten eingesetzt. Sie sind hoch geschätzte Lebewesen für Arbeiter in einer Reihe von Bereichen.</p>",
+            "name": "Ochse",
+            "source": "SHB S. 157"
+        },
+        "Pepper": {
+            "description": "<p>Pfefferkörner sind die winzigen Früchte oder Steinfrüchte der Pfefferpflanze, einer blühenden Rebe, die auch als Piper Nigrum bekannt ist. Hoch geschätzt von Köchen für seine Vielseitigkeit und kann zur Not von Abenteurern verwendet werden, wenn sie für Ablenkungen und Spielereien gemahlen werden.</p>",
+            "name": "Pfeffer",
+            "source": "SHB S. 157"
+        },
+        "Pig": {
+            "description": "<p>Schweine sind Lebewesen für mittelgroße oder größere Landwirte. Sie brüten relativ schnell und sind robust, die dem unternehmungslustigen Koch alle Arten von Kochmöglichkeiten bieten, vor allem natürlich Speck. Ihre Haut kann auch als billigeres Leder verwendet werden, ist jedoch im Vergleich zu Lamm oder Ziege weniger reißfest. Schweine sind auch die Quelle von Schmalz.</p>\n<p>Die meisten Schweine wiegen beim Schlachten zwischen 250 und 270 Pfund, da dies optimale Schnitte im Einzelhandel und eine mittlere Fettabdeckung bietet.</p>",
+            "name": "Schwein",
+            "source": "SHB S. 157"
+        },
+        "Platinum": {
+            "description": "<p>Platin ist weitaus seltener als Gold und kann entweder als Höhepunkt des Reichtums oder als Überbleibsel eines vergangenen Zeitalters angesehen werden.</p>\n<p>Im Gegensatz zu Gold wird Platin fast ausschließlich im Untergrund abgebaut.</p>",
+            "name": "Platin",
+            "source": "SHB S. 157"
+        },
+        "Saffron": {
+            "description": "<p>Safran ist wahrscheinlich eine der wertvollsten Zutaten der Welt und so teuer, weil seine Herstellung so arbeitsintensiv ist. Hergestellt aus dem Crocus sativus oder besser gesagt dem \"Safrankrokus\", werden 80.000 Krokusblüten benötigt, um 1 Pfund Safran zu produzieren. Durch das Gewicht ist es mehr wert als Gold. Geschätzt von den anspruchsvollsten Köchen und Apothekern wegen seines Geschmacks und seiner angeblichen gesundheitlichen Vorteile. </p>",
+            "name": "Safran",
+            "source": "SHB S. 157"
+        },
+        "Salt": {
+            "description": "<p>Von Köchen und Quartiermeistern gleichermaßen als Gewürz und Konservierungsmittel für Lieferungen geschätzt, bei denen Alkohol oder Essig unerwünscht sind.</p>",
+            "name": "Salz",
+            "source": "SHB S. 157"
+        },
+        "Sheep": {
+            "description": "<p>Sie sind nützliche Lebewesen für Kleinbauern und Hochlandbewohner, obwohl sie nicht ganz so flink wie Ziegen sind. Sie können jedes Jahr geschert werden und bieten den Menschen eine Quelle für Kleidung, Teppiche und Überwürfe für Betten und Stühle. Ihre Größe bedeutet auch, dass sie für das Schlachten wertvoller sind.</p>\n<p>Je nach Rasse können erwachsene Schafe von 100 Pfund bis zu 350 Pfund reichen.</p>",
+            "name": "Schaf",
+            "source": "SHB S. 157"
+        },
+        "Silk": {
+            "description": "<p>Ein Quadratmeter Seide von durchschnittlicher Qualität und durchschnittlichem Gewicht. Wird für alle Artikel und Kleidungsstücke verwendet.</p>\n<p>Seide ist der feinste und begehrteste der gängigen Stoffe und der leichteste. Die meisten Seiden wiegen zwischen 2 und 4 Unzen pro Quadratmeter. Je schwerer die Seide ist, desto höher ist die Qualität, desto haltbarer und opaker in der Farbe.</p>",
+            "name": "Seide",
+            "source": "SHB S. 157"
+        },
+        "Silver": {
+            "description": "<p>Silber ist seit langem für seine unreaktive Natur und Leichtigkeit bekannt, mit der es zu feinsten Dekorationen, Verzierungen geformt und natürlich als Münze verwendet werden kann.</p>\n<p>Silber kommt in seiner ursprünglichen Form in Nuggets selten vor. Normalerweise wird es gemischt mit anderen Substanzen wie Schwefel oder Chlor, in Erzen oder als Legierung mit Goldarten gefunden. Oberflächensilber kann gefunden werden, wird aber viel häufiger unter Tage abgebaut. Der Silberabbau ist lukrativ und kann zu Silberrauschen führen.</p>",
+            "name": "Silber",
+            "source": "SHB S. 157"
+        },
+        "Wheat": {
+            "description": "<p>Eine häufige Zutat für Brot, Bier und mehr; Diese Grundnahrungsmittel bilden häufig die Grundlage für die Ernährung jener Menschen, deren Land offen und relativ flach ist, das Wetter gemäßigt ist und das Gebiet für die Landwirte sicher genug ist, um betrieben zu werden.</p>",
+            "name": "Weizen",
+            "source": "SHB S. 157"
+        }
+    },
+    "label": "Handelsgüter (SRD)",
+    "mapping": {
+        "source": {
+            "converter": "source",
+            "path": "system.source"
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "entries": {
+        "Draconic Bloodline": {
+            "name": "Drachenblutlinie",
+            "source": "SHB S. 117"
+        },
+        "Circle of the Land": {
+            "name": "Zirkel des Landes",
+            "source": "SHB S. 60"
+        },
+        "Life Domain": {
+            "name": "Domäne des Lebens",
+            "source": "SHB S. 79"
+        },
+        "Way of the Open Hand": {
+            "name": "Weg der offenen Hand",
+            "source": "SHB S. 94"
+        },
+        "College of Lore": {
+            "name": "Schule des Wissens",
+            "source": "SHB S. 55"
+        },
+        "The Fiend": {
+            "name": "Der Unhold",
+            "source": "SHB S. 66"
+        },
+        "School of Evocation": {
+            "name": "Schule der Hervorrufung",
+            "source": "SHB S. 88"
+        },
+        "Thief": {
+            "name": "Dieb",
+            "source": "SHB S. 108"
+        },
+        "Oath of Devotion": {
+            "name": "Schwur der Hingabe",
+            "source": "SHB S. 101"
+        },
+        "Champion": {
+            "name": "Champion",
+            "source": "SHB S. 71"
+        },
+        "Path of the Berserker": {
+            "name": "Pfad des Berserkers",
+            "source": "SHB S. 49"
+        },
+        "Hunter": {
+            "name": "Jäger",
+            "source": "SHB S. 113"
+        }
+    },
+    "label": "Unterklassen (SRD)",
+    "source": {
+        "converter": "source",
+        "path": "system.source"
+    }
+}
