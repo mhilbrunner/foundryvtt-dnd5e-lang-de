@@ -49,8 +49,6 @@ The module also depends on [Babele](https://foundryvtt.com/packages/babele) for 
 
 See the [releases page](https://github.com/mhilbrunner/foundryvtt-dnd5e-lang-de/releases).
 
-Old versions may still be available on the [old League repository](https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/).
-
 ## Contributing & adding translations
 
 Contributions are always welcome! Feel free to open Pull Requests or talk to
@@ -79,8 +77,7 @@ awesome [Babele](https://foundryvtt.com/packages/babele) module.
 The [Babele repository](https://gitlab.com/riccisi/foundryvtt-babele) has a
 brief tutorial.
 
-In short, compendium translations are included as a submodule in `compendium/`from
-[here](https://github.com/stillday/dnd-translation-file-de).
+Compendium translations are located in `compendium/`.
 
 In cases where there is only a small set of values for a field (like *Alignments*),
 those are translated using Babele converter functions in `src/`:
