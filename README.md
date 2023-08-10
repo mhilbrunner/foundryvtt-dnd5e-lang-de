@@ -51,11 +51,7 @@ See the [releases page](https://github.com/mhilbrunner/foundryvtt-dnd5e-lang-de/
 
 ## Contributing & adding translations
 
-Contributions are always welcome! Feel free to open Pull Requests or talk to
-us first by opening a [issue](https://github.com/mhilbrunner/foundryvtt-dnd5e-lang-de/issues)
-or see **Contact** below.
-
-Below are some ways to contribute, and how to get started.
+Contributions are always welcome! Below are some ways to contribute and how to get started.
 
 ### Adding new translation strings
 
