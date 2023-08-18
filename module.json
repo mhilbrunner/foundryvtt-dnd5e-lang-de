@@ -58,6 +58,11 @@
         "id": "babele",
         "type": "module",
         "reason": "Without Babele, compendium content isn't translated."
+      },
+      {
+        "id": "metric-ruler-labels",
+        "type": "module",
+        "reason": "Allows to display metric and imperial units on rulers and templates at the same time."
       }
     ]
   }
