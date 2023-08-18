@@ -689,7 +689,7 @@
         },
         "Fly": {
             "name": "Fliegen",
-            "description": "<p>Du berührst eine bereitwillige Kreatur. Das Ziel erhält für die Wirkungsdauer eine Flugbewegungsrate von 18 m. Wenn der Zauber endet, während sich die Kreatur noch in der Luft befindet, fällt sie zu Boden, es sei denn, sie kann den Sturz verhindern.</p>",
+            "description": "<p>Du berührst eine bereitwillige Kreatur. Das Ziel erhält für die Wirkungsdauer eine Flugbewegungsrate von 18 m. Wenn der Zauber endet, während sich die Kreatur noch in der Luft befindet, fällt sie zu Boden, es sei denn, sie kann den Sturz verhindern.</p><p><strong>Auf höheren Graden:</strong> Wenn du diesen Zauber mit einem Zauberplatz des 4. Grades oder höher wirkst, kannst du für jeden Zaubergrad über den 3. hinaus ein weiteres Ziel auswählen.</p>",
             "material": "die Schwungfeder eines beliebigen Vogels",
             "source": "SHB S. 232"
         },
