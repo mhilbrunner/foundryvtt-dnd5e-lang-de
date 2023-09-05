@@ -88,8 +88,8 @@ Hooks.once("init", () => {
         }
     });
 
-    // Register Babele compendium translations if module is present
-    if (typeof Babele !== "undefined" &&
+    // Register Babele compendium translations
+    if (typeof Babele !== 'undefined' &&
         game.i18n.lang === module_lang &&
         game.settings.get(module_id, "enableCompendiumTranslation")) {
         Babele.get().register({
@@ -106,11 +106,8 @@ Hooks.once("ready", function () {
         return;
     }
 
-    if (game.settings.get(module_id, "enableI18NOverride")) {
-        patchCoreI18NFuncs();
-    }
+    patchCoreI18NFuncs();
 
-    
     if (game.settings.get(module_id, "enableSystemSheetFixes")) {
         Hooks.on("renderActorSheet5eNPC", onRenderActorSheet);
         Hooks.on("renderActorSheet5eCharacter", onRenderActorSheet);
@@ -118,7 +115,8 @@ Hooks.once("ready", function () {
 });
 
 function patchCoreI18NFuncs() {
-    if (!libWrapper || !game.modules.get('lib-wrapper')?.active) {
+    if (!game.settings.get(module_id, "enableI18NOverride") ||
+        !libWrapper || !game.modules.get('lib-wrapper')?.active) {
         return;
     }
     libWrapper.register(module_id, "game.i18n.format", function (wrapped, ...args) {
@@ -173,12 +171,6 @@ function onRenderSheetPCSystem(app, html, options) {
 // --------- BABELE COMPENDIUM CONVERTERS ---------
 
 function registerConverters() {
-    if (setup_done || typeof Babele === 'undefined' ||
-        !game.settings.get(module_id, 'enableCompendiumTranslation')) {
-        return
-    }
-    setup_done = true;
-
     Babele.get().registerConverters({
         'classNameFormula': convertClass,
         'classRequirements': convertClassRequirements,
@@ -259,6 +251,7 @@ var alignments = {
     'any non chaotic': 'Jede nicht chaotische Gesinnung',
     'any non lawful': 'Jede nicht rechtschaffende Gesinnung',
     'any': 'Jede Gesinnung',
+    'any alignment': 'Jede Gesinnung'
 };
 
 function convertAlignment(a, translation, data) {
@@ -267,12 +260,15 @@ function convertAlignment(a, translation, data) {
 }
 
 var types = {
+    'any': 'Jedes Volk',
+    'any race': 'Jedes Volk',
     'aberration (shapechanger)': 'Aberration (Gestaltwandler)',
     'aberration': 'Aberration',
     'beast': 'Tier',
     'celestial (titan)': 'Himmlisches Wesen (Titan)',
     'celestial': 'Himmlisches Wesen',
     'construct': 'Konstrukt',
+    'demon': 'Dämon',
     'dragon': 'Drache',
     'elemental': 'Elementar',
     'fey': 'Feenwesen',
@@ -292,6 +288,7 @@ var types = {
     'giant (stone giant)': 'Riese (Steinriese)',
     'giant (storm giant)': 'Riese (Sturmriese)',
     'giant': 'Riese',
+    'goblinoid': 'Goblinoider',
     'humanoid (aarakocra)': 'Humanoider (Aarakocra)',
     'humanoid (any race)': 'Humanoider (jedes Volk)',
     'humanoid (bullywug)': 'Humanoider (Bullywug)',
@@ -326,16 +323,36 @@ var types = {
     'monstrosity': 'Monstrosität',
     'ooze': 'Schlick',
     'plant': 'Pflanze',
-    'swarm of Tiny beasts': 'Schwarm winziger Tier',
+    'shapechanger': 'Gestaltwandler',
+    'swarm of tiny beasts': 'Schwarm winziger Tier',
     'undead (shapechanger)': 'Untoter (Gestaltwandler)',
-    'undead': 'Untoter'
+    'undead': 'Untoter',
+    'yuan-ti': 'Yuan-ti',
+    'Xvart': 'Xvart'
 }
 
 function convertType(t, translation, data) {
     if (!t) {
         return t;
     }
-    return types[t.toString().toLowerCase()] ? types[t.toString().toLowerCase()] : translation;
+
+    if (typeof t === 'string') {
+        if (t.indexOf(',') > -1) {
+            var res = '';
+            t.split(',').forEach(function (part) {
+                var tr = convertType(part.trim(), part.trim(), data);
+                if (res.length > 0) {
+                    res += ", ";
+                }
+                res += tr;
+            });
+            return res;
+        }
+
+        return types[t.toString().toLowerCase()] ? types[t.toString().toLowerCase()] : (translation ? translation : t);
+    }
+
+    return translation;
 }
 
 var races = {
@@ -364,6 +381,7 @@ function convertRace(r, t, data) {
 }
 
 var languages = {
+    'all': 'Alle',
     'aarakocra': 'Aarakocra',
     'abyssal': 'Abyssisch',
     'aquan': 'Aqual',

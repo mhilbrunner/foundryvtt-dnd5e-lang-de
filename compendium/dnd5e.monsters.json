@@ -9913,6 +9913,10 @@
         "type": {
             "converter": "type",
             "path": "system.details.type"
+        },
+        "subtype": {
+            "converter": "type",
+            "path": "system.details.type.subtype"
         }
     }
 }
