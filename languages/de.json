@@ -563,6 +563,8 @@
 "DND5E.FlagsSave": "Besondere Merkmale aktualisieren",
 "DND5E.FlagsSpellCritThreshold": "Kritischer Treffer Schwellwert (Zauber)",
 "DND5E.FlagsSpellCritThresholdHint": "Erweiterter Schwellwert für kritische Treffer bei Angriffen mit Zaubern.",
+"DND5E.FlagsTavernBrawler": "Kneipenschläger-Talent",
+"DND5E.FlagsTavernBrawlerHint": "Übung mit improvisierten Waffen.",
 "DND5E.FlagsTitle": "Besondere Merkmale bearbeiten",
 "DND5E.FlagsWeaponCritThreshold": "Kritischer Treffer Schwellwert (Waffen)",
 "DND5E.FlagsWeaponCritThresholdHint": "Erweiterter Schwellwert für kritische Treffer bei Angriffen mit Waffen.",
