@@ -538,12 +538,29 @@ function convertMonsterToken(m, translation, data) {
     return translation;
 }
 
-function convertSource(m, translation, data) {
+function convertBookName(m, translation, data) {
+    if (game.settings.get(module_id, 'compendiumSrcKeepOriginal')) {
+        translation = translation + ' (' + m.replace('pg.', 'S.').replace('PG.', 'S.') + ')';
+    }
+
     if (translation == null) {
         return m;
     }
-    if (game.settings.get(module_id, 'compendiumSrcKeepOriginal')) {
-        translation = translation + ' (' + m.replace('pg.', 'S.').replace('PG.', 'S.') + ')';
+
+    return translation;
+}
+
+function convertSource(m, translation, data) {
+    if (!m) {
+        return translation;
+    }
+
+    if (translation == null) {
+        return m;
+    }
+
+    if ('book' in m) {
+        m.book = convertBookName(m.book, translation, data);
     }
 
     return translation
