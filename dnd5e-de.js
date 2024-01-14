@@ -542,11 +542,19 @@ function convertSource(m, translation, data) {
     if (translation == null) {
         return m;
     }
+
+    if (typeof m !== 'string') {
+        if ('book' in m) {
+            m.book = convertSource(m.book, translation, data);
+        }
+        return translation;
+    }
+
     if (game.settings.get(module_id, 'compendiumSrcKeepOriginal')) {
         translation = translation + ' (' + m.replace('pg.', 'S.').replace('PG.', 'S.') + ')';
     }
 
-    return translation
+    return translation;
 }
 
 function convertMonsterEnvironment(m, translation, data) {
