@@ -544,7 +544,7 @@ function convertSource(m, translation, data) {
     }
 
     if (typeof m !== 'string') {
-        if ('book' in m) {
+        if ('book' in m && m.book !== undefined) {
             m.book = convertSource(m.book, translation, data);
         }
         return translation;
