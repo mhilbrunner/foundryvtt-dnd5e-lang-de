@@ -1664,7 +1664,7 @@
 "DND5E.TraitGenericPlural.one": "Merkmal",
 "DND5E.TraitGenericPlural.other": "Merkmale",
 "DND5E.Unidentified.DefaultName": "Unidentifiziert: {name}",
-"DND5E.Unidentified.Notice": "Du musst das Item idenzifizieren um die details zu erfahren.",
+"DND5E.Unidentified.Notice": "Du musst das Item identifizieren um die details zu erfahren.",
 "DND5E.Unidentified.Title": "Unidentifiziert",
 "DND5E.Unidentified.Value": "???",
 "DND5E.UseItem": "Use {item}",
