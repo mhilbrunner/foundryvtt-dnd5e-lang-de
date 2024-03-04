@@ -4,285 +4,337 @@
             "name": "* Inhaltsverzeichnis & Disclaimer *"
         },
         "01. Beyond 1st Level": {
-            "name": "",
+            "name": "01. Nach dem 1ten Level",
             "source": "SHB S. 15"
         },
         "02. Races": {
-            "name": ""
+            "name": "02. Völker"
         },
         "03. Classes": {
-            "name": ""
+            "name": "03. Klassen"
         },
         "04. Personality and Background": {
-            "name": ""
+            "name": "04. Persönlichkeit und Hintergrund"
         },
         "05. Equipment": {
-            "name": ""
+            "name": "05. AUsrüstung"
         },
         "06. Customization Options": {
-            "name": ""
+            "name": "06- Anpassungsmöglichkeiten"
         },
         "07. Using Ability Scores": {
-            "name": ""
+            "name": "07. Attributswerte benutzen"
         },
         "08. Adventuring": {
-            "name": ""
+            "name": "08. Abenteuer"
         },
         "09. Combat": {
-            "name": ""
+            "name": "09. Kampf"
         },
         "10. Spellcasting": {
-            "name": ""
+            "name": "10. Zauberwirken"
         },
         "11. DM Tools": {
-            "name": ""
+            "name": "11. Werkzeuge des Spielleiters"
         },
         "A. Appendices": {
-            "name": ""
+            "name": "1. Anhänge"
         },
         "Ability Checks": {
-            "name": ""
+            "name": "Attributswürfe"
         },
         "Ability Scores and Modifiers": {
-            "name": ""
+            "name": "Attribute und ihre Modifikatoren"
         },
         "Actions in Combat": {
-            "name": ""
+            "name": "Aktionen im Kampf"
         },
         "Advantage and Disadvantage": {
-            "name": ""
+            "name": "Vorteil und Nachteil"
         },
         "Adventuring Gear": {
-            "name": ""
+            "name": "Abenteuerausrüstung"
         },
         "Alignment": {
-            "name": ""
+            "name": "Gesinnung"
+        },
+        "Appendix A: Conditions": {
+            "name": "Anhang A: Zustände"
+        },
+        "Appendix B: Gods and the Multiverse": {
+            "name": "Anhang B: Götter des Multiversums"
+        },
+        "Appendix C: Creatures": {
+            "name": "Anhang C: Kreaturen"
+        },
+        "Appendix D: Senses and Speeds": {
+            "name": "ANhang D: Sinne und Geschwindigkeiten"
         },
         "Appendix MM-A: Miscellaneous Creatures": {
-            "name": ""
+            "name": "Anhang MM-A: Verschiedene Kreaturen"
         },
         "Appendix MM-B: Nonplayer Characters": {
-            "name": ""
+            "name": "Anhang MM-B: Nicht-Spieler-Charaktere"
         },
         "Appendix PH-A: Conditions": {
-            "name": ""
+            "name": "Anhang PH-A: Zustände"
         },
         "Appendix PH-B: Fantasy-Historical Pantheons": {
-            "name": ""
+            "name": "Anhang PH-B: Fantasiegeschichtliche Pantheons"
         },
         "Appendix PH-C: The Planes of Existence": {
-            "name": ""
+            "name": "Anhang PH-C: Die Ebenen des Seins"
         },
         "Armor": {
-            "name": ""
+            "name": "Rüstung"
         },
         "Backgrounds": {
-            "name": ""
+            "name": "Hintergrund"
         },
         "Bard Spells": {
-            "name": ""
+            "name": "Bardenzauber"
         },
         "Between Adventures": {
-            "name": ""
+            "name": "Zwischen den Abenteuern"
         },
         "Blinded": {
-            "name": ""
+            "name": "Blind"
         },
         "Blindsight": {
-            "name": ""
+            "name": "Blindsicht"
         },
         "Burrow": {
-            "name": ""
+            "name": "Graben"
         },
         "Casting a Spell": {
-            "name": ""
+            "name": "Einen Zauber wirken"
+        },
+        "Chapter 10: Spellcasting": {
+            "name": "Kapitel 10: Zauber wirken"
+        },
+        "Chapter 11: DM Tools": {
+            "name": "Kapitel 11: Werkzeuge des Spielleiters"
+        },
+        "Chapter 1: Beyond 1st Level": {
+            "name": "Kapitel 1: Nach dem 1ten Level"
+        },
+        "Chapter 2: Races": {
+            "name": "Kapitel 2: Völker"
+        },
+        "Chapter 3: Classes": {
+            "name": "Kapitel 3: Klassen"
+        },
+        "Chapter 4: Personality and Background": {
+            "name": "Kapitel 4: Persönlichkeit und Hintergrund"
+        },
+        "Chapter 5: Equipment": {
+            "name": "Kapitel 5: AUsrüstung"
+        },
+        "Chapter 6: Customization Options": {
+            "name": "Kapitel 6: Anpassungsmöglichkeiten"
+        },
+        "Chapter 7: Using Ability Scores": {
+            "name": "Kapitel 7: Attribute benutzen"
+        },
+        "Chapter 8: Adventuring": {
+            "name": "Kapitel 8: Abenteuer"
+        },
+        "Chapter 9: Combat": {
+            "name": "Kapitel 9: Kampf"
         },
         "Charmed": {
-            "name": ""
+            "name": "Bezaubert"
         },
         "Cleric Spells": {
-            "name": ""
+            "name": "Klerikerzauber"
         },
         "Climb": {
-            "name": ""
+            "name": "Klettern"
         },
         "Concentration": {
-            "name": ""
+            "name": "Konzentration"
         },
         "Cover": {
-            "name": ""
+            "name": "Deckung"
         },
         "Damage and Healing": {
-            "name": ""
+            "name": "Schaden und Heilung"
         },
         "Darkvision": {
-            "name": ""
+            "name": "Dunkelsicht"
         },
         "Deafened": {
-            "name": ""
+            "name": "Stumm"
+        },
+        "Disclaimer": {
+            "name": "Haftungsausschluss"
         },
         "Diseases": {
-            "name": ""
+            "name": "Krankheiten"
         },
         "Druid Spells": {
-            "name": ""
+            "name": "Druidenzauber"
         },
         "Exhaustion": {
-            "name": ""
+            "name": "Erschöpftt"
         },
         "Expenses": {
-            "name": ""
+            "name": "Ausgaben"
         },
         "Feats": {
-            "name": ""
+            "name": "Talente"
         },
         "Fly": {
-            "name": ""
+            "name": "Fliegen"
         },
         "Frightened": {
-            "name": ""
+            "name": "Verängstigt"
         },
         "Grappled": {
-            "name": ""
+            "name": "Gepackt"
         },
         "Incapacitated": {
-            "name": ""
+            "name": "Kampfunfähig "
         },
         "Inspiration": {
-            "name": ""
+            "name": "Inspiration"
         },
         "Invisible": {
-            "name": ""
+            "name": "Unsichtbar"
         },
         "Languages": {
-            "name": ""
+            "name": "Sprachen"
         },
         "Madness": {
-            "name": ""
+            "name": "Wahnsinn"
         },
         "Magic Items": {
-            "name": ""
+            "name": "Magische Gegenstände"
         },
         "Magic Items A-Z": {
-            "name": ""
+            "name": "Magische Gegenstände A-Z"
         },
         "Making an Attack": {
-            "name": ""
+            "name": "Einen Angriff durchführen"
         },
         "Monsters": {
-            "name": ""
+            "name": "Monster"
         },
         "Mounted Combat": {
-            "name": ""
+            "name": "Berittener Kampf"
         },
         "Mounts and Vehicles": {
-            "name": ""
+            "name": "Reittiere und Fahrzeuge"
         },
         "Movement": {
-            "name": ""
+            "name": "Bewegung"
         },
         "Movement and Position": {
-            "name": ""
+            "name": "Bewegung und Position"
         },
         "Multiclassing": {
-            "name": ""
+            "name": "Multiklassen"
         },
         "Objects": {
-            "name": ""
+            "name": "Objekte"
         },
         "Paladin Spells": {
-            "name": ""
+            "name": "Paladinzauber"
         },
         "Paralyzed": {
-            "name": ""
+            "name": "Gelähmt"
         },
         "Petrified": {
-            "name": ""
+            "name": "Versteinert"
         },
         "Poisoned": {
-            "name": ""
+            "name": "Vergiftet"
         },
         "Poisons": {
-            "name": ""
+            "name": "Gifte"
         },
         "Proficiency Bonus": {
-            "name": ""
+            "name": "Übungsbonus"
         },
         "Prone": {
-            "name": ""
+            "name": "Liegend"
         },
         "Ranger Spells": {
-            "name": ""
+            "name": "Waldläuferzauber"
         },
         "Resting": {
-            "name": ""
+            "name": "Rasten"
         },
         "Restrained ": {
-            "name": ""
+            "name": "Festgesetzt "
         },
         "Saving Throws": {
-            "name": ""
+            "name": "Rettungswürfe"
         },
         "Selling Treasure": {
-            "name": ""
+            "name": "Verkaufen von Schätzen"
         },
         "Sorcerer Spells": {
-            "name": ""
+            "name": "Zaubererzauber"
         },
         "Spell Descriptions": {
-            "name": ""
+            "name": "Zauberbeschreibung"
+        },
+        "Spells A-Z": {
+            "name": "Zauber A-Z"
         },
         "Stunned": {
-            "name": ""
+            "name": "Betäubt"
         },
         "Swim": {
-            "name": ""
+            "name": "Schwimmen"
         },
         "The Environment": {
-            "name": ""
+            "name": "Die Umgebung"
         },
         "The Order of Combat": {
-            "name": ""
+            "name": "Die Kampfreihenfolge"
         },
         "Time": {
-            "name": ""
+            "name": "Zeit"
         },
         "Tools": {
-            "name": ""
+            "name": "Werkzeug"
         },
         "Trade Goods": {
-            "name": ""
+            "name": "Handelswaren"
         },
         "Traps": {
-            "name": ""
+            "name": "Fallen"
         },
         "Tremorsense": {
-            "name": ""
+            "name": "Erschütterungssinn"
         },
         "Truesight": {
-            "name": ""
+            "name": "Wahrsicht"
         },
         "Unconscious": {
-            "name": ""
+            "name": "Bewusstlos"
         },
         "Underwater Combat": {
-            "name": ""
+            "name": "Kampf unter Wasser"
         },
         "Using Each Ability": {
-            "name": ""
+            "name": "Jede Fähigkeit nutzen"
         },
         "Warlock Spells": {
-            "name": ""
+            "name": "Hexenmeisterzauber"
         },
         "Weapons": {
-            "name": ""
+            "name": "Waffen"
         },
         "What Is a Spell?": {
-            "name": ""
+            "name": "Was ist ein Zauber"
         },
         "Wizard Spells": {
-            "name": ""
+            "name": "Magierzauber"
         }
     },
     "label": "Regeln (SRD)"
 }
+

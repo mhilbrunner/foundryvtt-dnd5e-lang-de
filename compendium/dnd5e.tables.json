@@ -1,26 +1,99 @@
 {
     "entries": {
-        "Flaws (Acolyte)": {
+        "Armor of Resistance": {
+            "name": "Ritterrüstung des Widerstands"
+        },
+        "Bag of Beans": {
             "name": ""
         },
         "Bonds (Acolyte)": {
+            "name": "Bindungen (Akolyth)"
+        },
+        "Candle of Invocation": {
+            "name": "Kerze der Anrufung"
+        },
+        "Carpet of Flying": {
+            "name": "Fliegender Teppich"
+        },
+        "Confusion": {
+            "name": "Verwirrung "
+        },
+        "Efreeti Bottle": {
             "name": ""
         },
-        "Personality Traits (Acolyte)": {
-            "name": ""
+        "Feather Token": {
+            "name": "Ifrit-Flasche"
         },
-        "Indefinite Madness": {
-            "name": ""
+        "Flaws (Acolyte)": {
+            "name": "Makel (Akolyth)"
+        },
+        "Grey Bag of Tricks": {
+            "name": "Trickbeutel (grau) "
+        },
+        "Horn of Valhalla": {
+            "name": "Horn von Valhalla"
         },
         "Ideals (Acolyte)": {
-            "name": ""
+            "name": "Ideale (Akolyth)"
+        },
+        "Indefinite Madness": {
+            "name": "Unbestimmter Wahnsinn"
+        },
+        "Iron Flask": {
+            "name": "Eiserne Flasche"
         },
         "Long-Term Madness": {
-            "name": ""
+            "name": "Langfristiger Wahnsinn"
+        },
+        "Manual of Golems": {
+            "name": "Handbuch der Golems"
+        },
+        "Necklace of Prayer Beads": {
+            "name": "Halskette der Gebetsperlen"
+        },
+        "Personality Traits (Acolyte)": {
+            "name": "Persönlichkeitsmerkmale (Akolyth)"
+        },
+        "Potion of Resistance": {
+            "name": "Trank des Widerstands"
+        },
+        "Reincarnate": {
+            "name": "Wiedergeburt "
+        },
+        "Ring of Resistance": {
+            "name": "Ring des Widerstands"
+        },
+        "Robe of Useful Items": {
+            "name": "Robe der nützlichen Dinge"
+        },
+        "Rust Bag of Tricks": {
+            "name": "Trickbeutel (rostbraun)"
+        },
+        "Sentient Magic Items Alignment": {
+            "name": "Empfindungsfähige magische Gegenstände Gesinnung"
+        },
+        "Sentient Magic Items Communication": {
+            "name": "Empfindungsfähige magische Gegenstände Kommunikation"
+        },
+        "Sentient Magic Items Purpose": {
+            "name": "Empfindungsfähige magische Gegenstände Zweck"
+        },
+        "Sentient Magic Items Senses": {
+            "name": "Empfindungsfähige magische Gegenstände Sinne"
         },
         "Short-Term Madness": {
-            "name": ""
+            "name": "Kurzfristiger Wahnsinn"
+        },
+        "Sphere of Annihilation": {
+            "name": "Sphäre des Nichts"
+        },
+        "Tan Bag of Tricks": {
+            "name": "Trickbeutel (hellbraun)"
+        },
+        "Wand of Wonder": {
+            "name": "Zauberstab des Wunders"
         }
     },
     "label": "Würfeltabellen (SRD)"
 }
+
