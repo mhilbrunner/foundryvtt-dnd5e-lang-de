@@ -815,7 +815,7 @@
 "DND5E.HitDice": "Trefferwürfel",
 "DND5E.HitDiceAutoSpend": {
   "Label": "Automatische  Trefferwürfel verwenden",
-  "Hint": "Geben Sie automatisch Trefferwürfel aus, bis sie aufgebraucht sind oder die Lebenspunkte voll sind."
+  "Hint": "Automatisch Trefferwürfel ausgeben, bis sie aufgebraucht sind oder die Lebenspunkte voll sind."
 },
 "DND5E.HitDiceConfig": "Trefferwürfel anpassen",
 "DND5E.HitDiceConfigHint": "Passt die verbleibenden Tefferwürfelstufen für jede Klasse an.",
