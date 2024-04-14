@@ -1,4 +1,21 @@
 {
+	"folders": {
+		"Ammunition" : "Munition",
+		"Armor": "Rüstungen",
+		"Container" : "Behälter",
+		"Equipment" : "Ausrüstung",
+		"Equipment Packs" : "Ausrüstungs Pakete",
+		"Food" : "Essen",
+		"Loot" : "Beute",
+        "Potion" : "Tränke",
+		"Poison" : "Gifte",
+		"Rod" : "Stäbe",
+		"Scroll" : "Schriftrollen",
+		"Tool" : "Werkzeuge",
+		"Trinket" : "Schmuckstücke",
+		"Wand" : "Zauberstäbe",
+		"Weapon" : "Waffen"
+	},    
     "entries": {
         "Abacus": {
             "name": "Abakus",
