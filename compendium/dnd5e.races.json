@@ -1,4 +1,22 @@
 {
+    "folders": {
+        "Dragonborn": "Drachenblütige",
+        "Dragonborn Features": "Drachenblütige Merkmale",
+        "Dwarf":"Zwerge",
+        "Dwarf Features":"Zwergische Merkmale",
+        "Elf":"Elfen",
+        "Elf Features":"Elfische Merkmale",
+        "Gnome":"Gnome",
+        "Gnome Features":"Gnomische Merkmale",
+        "Halfling":"Halblinge",
+        "Halfling Features":"Halbling Merkmale",
+        "Human":"Mensch",
+        "Human Features":"Menschliche Merkmale",
+        "Orc":"Ork",
+        "Orc Features":"Orkische Merkmale",
+        "Tiefling":"Tiefling",
+        "Tiefling Features":"Tiefling Merkmale"
+    },
     "entries": {
         "Artificer's Lore": {
             "name": "Artefaktkunde",

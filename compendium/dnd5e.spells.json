@@ -1,4 +1,16 @@
 {
+    "folders": {
+        "Cantrip": "Zaubertrick",
+        "1st Level": "1. Grad",
+        "2nd Level": "2. Grad",
+        "3rd Level": "3. Grad",
+        "4th Level": "4. Grad",
+        "5th Level": "5. Grad",
+        "6th Level": "6. Grad",
+        "7th Level": "7. Grad",
+        "8th Level": "8. Grad",
+        "9th Level": "9. Grad"
+    },
     "entries": {
         "Acid Arrow": {
             "name": "Säurepfeil",
