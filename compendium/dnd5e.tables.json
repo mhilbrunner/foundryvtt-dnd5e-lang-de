@@ -19,7 +19,7 @@
 		"Bag of Beans": {
 			"name": "Bohnenbeutel",
 			"results": {
-				"1-1": "[[5d4]] Pilze sprießen. Wenn eine Kreatur einen Pilz isst, würfle mit einem beliebigen Würfel. Bei einem ungeraden Ergebnis muss die Kreatur, die den Pilz gegessen hat, einen SG-15-Konstitutionsrettungswurf bestehen, oder sie erleidet [[/r 5d6]]{5W6} Giftschaden und ist eine Stunde lang vergiftet. Bei einem geraden Ergebnis erhält die Kreatur, die den Pilz gegessen hat, eine Stunde lang 5W6 temporäre Trefferpunkte.",
+				"1-1": "[[5d4]] Pilze sprießen. Wenn eine Kreatur einen Pilz isst, würfle mit einem beliebigen Würfel. Bei einem ungeraden Ergebnis muss die Kreatur, die den Pilz gegessen hat, einen SG-15-Konstitutionsrettungswurf bestehen, oder sie erleidet [[/r 5d6]]{5W6} Giftschaden und ist eine Stunde lang vergiftet. Bei einem geraden Ergebnis erhält die Kreatur, die den Pilz gegessen hat, eine Stunde lang [[/r 5d6]]{5W6} temporäre Trefferpunkte.",
 				"2-10": "Ein Geysir bricht aus und speit [[1d12]] Runden lang Wasser, Bier, Beerensaft, Tee, Essig, Wein oder Öl (der SL entscheidet) neun Meter weit in die Höhe.", 
 				"11-20": "Ein Baumhirte sprießt. Es besteht eine 50-prozentige Wahrscheinlichkeit, dass der Baumhirte chaotisch böse ist und angreift.",
 				"21-30": "Eine belebte, unbewegliche Steinstatue deiner selbst wächst aus dem Boden. Sie bedroht dich verbal. Wenn du die Statue verlässt und andere sich ihr nähern, beschreibt sie dich als den schlimmsten Schurken und weist die Neuankömmlinge an, dich zu finden und anzugreifen. Wenn du dich auf derselben Existenzebene wie die Statue befindest, weiß sie, wo du bist. Die Statue wird nach 24 Stunden unbelebt.",
@@ -64,7 +64,7 @@
 		"Confusion": {
 			"name": "Verwirrung",
 			"results": {
-				"1-1": "Die Kreatur verwendet ihre gesamte Bewegungsrate, um sich in eine zufällige Richtung zu bewegen. Würfle dazu mit einem W8 und weise jeder Augenzahl eine Richtung zu. Die Kreatur führt in diesem Zug keine Aktion aus.",
+				"1-1": "Die Kreatur verwendet ihre gesamte Bewegungsrate, um sich in eine zufällige Richtung zu bewegen. Würfle dazu mit einem [[/r 1d8]]{W8} und weise jeder Augenzahl eine Richtung zu. Die Kreatur führt in diesem Zug keine Aktion aus.",
 				"2-6": "Die Kreatur bewegt sich nicht und führt in diesem Zug keine Aktion aus.", 
 				"7-8": "Die Kreatur muss ihre Aktion verwenden, um einen Nahkampfangriff gegen eine zufällig ausgewählte Kreatur in Reichweite auszuführen. Ist keine Kreatur in Reichweite, so unternimmt die Kreatur in ihrem Zug nichts.",
 				"9-10": "Die Kreatur kann normal agieren und sich bewegen."
@@ -328,7 +328,7 @@
 				"6-10": "Du wirkst @Compendium[dnd5e.spells.nqBDWkVOfcGZt4YU]{Feenfeuer}.",				
 				"11-15": "Du bist bis zum Beginn deines nächsten Zuges betäubt und glaubst, dass gerade etwas Großartiges passiert ist.",
 				"16-20": "Du wirkst @Compendium[dnd5e.spells.FSMy6VAjDnXY9vWz]{Windstoß}.",				
-				"21-25": "Du wirkst @Compendium[dnd5e.spells.ppWAAEul0QHtm4er]{Gedanken wahrnehmen} auf das Ziel, das du gewählt hast. Wenn du keine Kreatur als Ziel gewählt hattest, nimmst du 1W6 psychischen Schaden.",
+				"21-25": "Du wirkst @Compendium[dnd5e.spells.ppWAAEul0QHtm4er]{Gedanken wahrnehmen} auf das Ziel, das du gewählt hast. Wenn du keine Kreatur als Ziel gewählt hattest, nimmst du [[/r 1d6]]{1W6} psychischen Schaden.",
 				"26-30": "Du wirkst @Compendium[dnd5e.spells.TwlD4PLcltv7Xh7j]{Stinkende Wolke}.",
 				"31-33": "Starker Regen fällt in einem auf das Ziel zentrierten Radius von 18 Metern nieder Das Gebiet wird leicht verschleiert. Der Regen fällt bis zum Beginn deines nächsten Zuges.",
 				"34-36": "Ein Tier erscheint an einem freien Platz, der am nächsten zum Ziel ist. Das Tier ist nicht unter deiner Kontrolle und agiert so, wie es das normalerweise tun würde. Wirf einen W100 um festzulegen, welches Tier erscheint. Bei 01-25 erscheint ein @Compendium[dnd5e.monsters.SBCe2BSa6opTS5M4]{Nashorn}, nei 26-50 erscheint ein @Compendium[dnd5e.monsters.jLPhaBnMtAbB5dp1]{Elefant} und bei 51-100 eine @Compendium[dnd5e.monsters.pozQUPTnLZW8epox]{Ratte}.",
@@ -342,9 +342,9 @@
 				"70-79": "Du wirkst @Compendium[dnd5e.spells.ztgcdrWPshKRpFd0]{Feuerball}.",
 				"80-84": "Du wirkst @Compendium[dnd5e.spells.1N8dDMMgZ1h1YJ3B]{Unsichtbarkeit} auf dich selbst.",
 				"85-87": "Blätter wachsen aus dem Ziel. Wenn du einen Punkt im Raum als Ziel gewählt hattest, werden die Blätter auf der nächsten Kreatur wachsen. Insofern sie nicht abgezupft werden, werden die Blätter nach 24 Stunden braun und fallen ab.",
-				"88-90": "Ein Strom aus 1W4 x 10 Edelsteinen, jeder 1 GM wert, schießt aus der Spitze des des Zauberstabs in einer Linie von 1,50 Meter Breite und 9 Meter Länge. Jeder Edelstein richtet 1 Wuchtschaden an, und der Gesamtschaden der Edelsteine wird gleichmäßig unter den Kreaturen innerhalb der Linie verteilt.",
+				"88-90": "Ein Strom aus [[1d4*10]] Edelsteinen, jeder 1 GM wert, schießt aus der Spitze des des Zauberstabs in einer Linie von 1,50 Meter Breite und 9 Meter Länge. Jeder Edelstein richtet 1 Wuchtschaden an, und der Gesamtschaden der Edelsteine wird gleichmäßig unter den Kreaturen innerhalb der Linie verteilt.",
 				"91-95": "Ein farbenfrohes, leuchtendes Licht bricht aus dir in einem Radius von 9 Metern aus. Du und jede Kreatur in diesem Gebiet, die sehen kann, müsst einen Konstitutionsrettungswurf gegen Schwierigkeitsgrad 15 schaffen oder ihr werdet für 1 Minute blind. Eine Kreatur kann immer am Ende ihres Zuges ihren Rettungswurf wiederholen und bei einem Erfolg den Effekt beenden.",
-				"96-97": "Die Haut des Ziels wird für 1W10 Tage hellblau. Wenn du einen Punkt im Raum als Ziel gewählt hattest, wird die Kreatur am nächsten dazu betroffen.",
+				"96-97": "Die Haut des Ziels wird für [[1d10]] Tage hellblau. Wenn du einen Punkt im Raum als Ziel gewählt hattest, wird die Kreatur am nächsten dazu betroffen.",
 				"98-100": "Wenn du eine Kreatur als Ziel gewählt hattest, muss diese einen Konstitutionsrettungswurf gegen Schwierigkeitsgrad 15 schaffen. wenn du keine Kreatur als Ziel gewählt hattest, wirst du zum Ziel und musst den Konstitutionsrettungswurf ablegen. Wenn der Rettungswurf um 5 oder mehr fehlschlägt, wird das Ziel augenblicklich versteinert. Bei jedem anderen misslungenen Rettungswurf ist das Ziel festgesetzt und beginnt sich in Stein zu verwandeln. Während es so festgesetzt ist, muss das Ziel am Ende seines nächsten Zuges den Rettungswurf wiederholen und wird bei einem Fehlschlag versteinert. Bei einem Erfolg wird der Effekt beendet. Die Versteinerung hält an, bis das Ziel mit dem Zauber @Compendium[dnd5e.spells.WzvJ7G3cqvIubsLk]{Vollständige Genesung} oder ähnlicher Magie befreit wird."			
 			}
 		}
