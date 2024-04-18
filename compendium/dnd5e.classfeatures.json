@@ -407,33 +407,33 @@
             "description": "<p>Du wählst eine bestimmte Art zu kämpfen als Spezialisierung. Suche dir eine der folgenden Möglichkeiten aus. Du kannst keinen der Stile mehr als einmal auswählen, selbst wenn du später erneut aussuchen darfst.</p>\n<h3>Kämpfer Optionen</h3>\n<p>@Compendium[dnd5e.classfeatures.8YwPFv3UAPjWVDNf]{Bogenschießen}</p>\n<p>@Compendium[dnd5e.classfeatures.hCop9uJrWhF1QPb4]{Duellieren}</p>\n<p>@Compendium[dnd5e.classfeatures.3Nc6u9pyStByuJsm]{Kampf mit großen Waffen}</p>\n<p>@Compendium[dnd5e.classfeatures.mHcSjcHJ8oZu3hkb]{Kampf mit zwei Waffen}</p>\n<p>@Compendium[dnd5e.classfeatures.06NVMYf58Z76O85O]{Leibwache}</p>\n<p>@Compendium[dnd5e.classfeatures.zSlV0O2rQMdoq6pB]{Verteidigung}</p>\n<h3>Paladin Optionen</h3>\n<p>@Compendium[dnd5e.classfeatures.hCop9uJrWhF1QPb4]{Duellieren}</p>\n<p>@Compendium[dnd5e.classfeatures.3Nc6u9pyStByuJsm]{Kampf mit großen Waffen}</p>\n<p>@Compendium[dnd5e.classfeatures.06NVMYf58Z76O85O]{Leibwache}</p>\n<p>@Compendium[dnd5e.classfeatures.zSlV0O2rQMdoq6pB]{Verteidigung}</p>\n<h3>Waldläufer Optionen</h3>\n<p>@Compendium[dnd5e.classfeatures.8YwPFv3UAPjWVDNf]{Bogenschießen}</p>\n<p>@Compendium[dnd5e.classfeatures.hCop9uJrWhF1QPb4]{Duellieren}</p>\n<p>@Compendium[dnd5e.classfeatures.mHcSjcHJ8oZu3hkb]{Kampf mit zwei Waffen}</p>\n<p>@Compendium[dnd5e.classfeatures.zSlV0O2rQMdoq6pB]{Verteidigung}</p>",
             "source": "SHB S. 71; 99; 111"
         },
-        "Fighting Style: Archery": {
-            "name": "Kampfstil: Bogenschiessen",
+        "Archery": {
+            "name": "Bogenschiessen",
             "description": "<p>Du erhältst einen Bonus von +2 auf alle Angriffswürfe mit Fernkampfwaffen.</p>",
             "source": "SHB S. 71"
         },
-        "Fighting Style: Defense": {
-            "name": "Kampfstil: Verteidigung",
+        "Defense": {
+            "name": "Verteidigung",
             "description": "<p>Solange du eine Rüstung trāgst, erhältst du einen Bonus von +1 auf deine Rüstungsklasse (RK).</p>",
             "source": "SHB S. 71"
         },
-        "Fighting Style: Dueling": {
-            "name": "Kampfstil: Duellieren",
+        "Dueling": {
+            "name": "Duellieren",
             "description": "<p>Kämpfst du nur mit einer einhändig geführten Nahkampfwaffe und keiner Waffe in der anderen Hand, erhältst du einen Bonus von +2 auf die Schadenswürfe mit dieser Waffe.</p>",
             "source": "SHB S. 71"
         },
-        "Fighting Style: Great Weapon Fighting": {
-            "name": "Kampfstil: Kampf mit grossen Waffen",
+        "Great Weapon Fighting": {
+            "name": "Kampf mit grossen Waffen",
             "description": "<p>Greifst du mit einer beidhändig geführten Nahkampfwaffe an und würfelst bei deinem Schadenswurf eine 1 oder 2. darfst du den entsprechenden Schadenswürfel erneut würfeln. Das zweite Ergebnis musst du verwenden, auch wenn es wieder eine 1 oder 2 sein sollte. Die Waffe muss die Waffeneigenschaft zweihändig oder vielseitig besitzen, um diesen Vorzug zu gewähren.</p>",
             "source": "SHB S. 71"
         },
-        "Fighting Style: Protection": {
-            "name": "Kampfstil: Leibwache",
+        "Protection": {
+            "name": "Leibwache",
             "description": "<p>Führt eine Kreatur, die du sehen kannst, einen Angriff auf eine bis zu 1,50 m von dir entfernt stehende Kreatur aus (die nicht du selbst bist), kannst du deine Reaktion verwenden, damit der Angreifer bei seinem Wurf im Nachteil ist. Du musst dafür einen Schild tragen.</p>",
             "source": "SHB S. 71"
         },
-        "Fighting Style: Two-Weapon Fighting": {
-            "name": "Kampfstil: Kampf mit zwei Waffen",
+        "Two-Weapon Fighting": {
+            "name": "Kampf mit zwei Waffen",
             "description": "<p>Wenn du mit zwei Waffen angreifst, kannst du den passenden Attributsmodifikator zum Schaden der zweiten Waffe addieren.</p>",
             "source": "SHB S. 71"
         },
