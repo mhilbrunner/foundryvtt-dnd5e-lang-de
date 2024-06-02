@@ -11,7 +11,6 @@
 "DND5E.AbbreviationConc": "Konz.",
 "DND5E.AbbreviationDC": "SG",
 "DND5E.AbbreviationKg": "kg",
-"DND5E.AbbreviationKgs": "kg",
 "DND5E.AbbreviationLR": "LR",
 "DND5E.AbbreviationLbs": "Pf.",
 "DND5E.AbbreviationLevel": "St.",
@@ -50,7 +49,6 @@
 "DND5E.AbilityStrAbbr": "Stä",
 "DND5E.AbilityUseCantUse": "Du kannst diese Fähigkeit derzeit nicht nutzen!",
 "DND5E.AbilityUseCast": "Zauber wirken",
-"DND5E.AbilityUseCharged": "Aufgeladen",
 "DND5E.AbilityUseChargedHint": "{type} ist aufgeladen und bereit zur Verwendung!",
 "DND5E.AbilityUseChargesLabel": "{value} Ladungen",
 "DND5E.AbilityUseConfig": "Nutzungen bearbeiten",
@@ -60,20 +58,18 @@
 "DND5E.AbilityUseConsumableLabel": "{max} per {per}",
 "DND5E.AbilityUseConsumableQuantityHint": "Bei Nutzung dieses {type} wird eine Anwendung verbaucht und {quantity} verbleiben",
 "DND5E.AbilityUseConsume": "Verfügbare Ladungen verbrauchen?",
-"DND5E.AbilityUseDepleted": "Aufgebraucht",
+"DND5E.AbilityUseConsumeAction": "Ladung verbrauchen",
 "DND5E.AbilityUseHint": "Bearbeite Verwendung von {type} {name}.",
 "DND5E.AbilityUseNormalHint": "{type} hat {value} von {max} Anwendungen pro {per} verbleibend.",
 "DND5E.AbilityUseRechargeHint": "{type} ist verbraucht und muss aufgeladen werden!",
-"DND5E.AbilityUseRechargedHint": "{type} ist ausgeschöpft und muss wieder aufgeladen werden!",
 "DND5E.AbilityUseUnavailableHint": "Es sind keine Anwendungen mehr vorhanden!",
 "DND5E.AbilityUseUse": "Fertigkeit benutzen",
-"DND5E.AbilityUseWarnEnd": "Verfügbare Nutzungen pro",
-"DND5E.AbilityUseWarnStart": "Diese Fähigkeit hat",
 "DND5E.AbilityWis": "Weisheit",
 "DND5E.AbilityWisAbbr": "Wei",
 "DND5E.Action": "Aktion",
 "DND5E.ActionAbbr": "A",
 "DND5E.ActionAbil": "Attributswurf",
+"DND5E.ActionEnch": "Verzaubern",
 "DND5E.ActionHeal": "Heilung",
 "DND5E.ActionMSAK": "Nahkampf-Zauberangriff",
 "DND5E.ActionMWAK": "Nahkampf-Waffenangriff",
@@ -91,12 +87,14 @@
 "DND5E.ActorWarningSingleton": "Nur ein {itemType} kann zum {actorType} hinzugefügt werden.",
 "DND5E.Add": "Neu",
 "DND5E.AdditionalControls": "Zusätzliche Steuerelemente",
+"DND5E.AdditionalSettings": "Zusätzliche Einstellungen",
 "DND5E.AddEmbeddedItemPromptHint": "Diese Items zum Charakterbogen hinzufügen?",
 "DND5E.AdvancementAbilityScoreImprovementCap": "Punktobergrenze",
 "DND5E.AdvancementAbilityScoreImprovementCapDisplay.one": "Maximal {points} Punkte pro Attribut",
 "DND5E.AdvancementAbilityScoreImprovementCapDisplay.other": "Maximal {points} Punkte pro Wert",
 "DND5E.AdvancementAbilityScoreImprovementCapHint": "Maximale Anzahl von Punkten, die ein Spieler einem einzelnen Attribut zuordnen kann.",
 "DND5E.AdvancementAbilityScoreImprovementFeatHint": "Talent hierher ziehen um es statt einer Erhöhung der Attributswerte zu wählen.",
+"DND5E.AdvancementAbilityScoreImprovementFeatLevelWarning": "Muss mindestens Stufe {Stufe} sein, um dieses Merkmal zu erhalten.",
 "DND5E.AdvancementAbilityScoreImprovementFeatWarning": "Nur Merkmale vom Typ 'Talent' können gewählt werden.",
 "DND5E.AdvancementAbilityScoreImprovementFixed": "Feste Erhöhung",
 "DND5E.AdvancementAbilityScoreImprovementHint": "Erlaubt dem Spieler, einen oder mehrere Attributswerte zu erhöhen oder ein optionales Talent zu wählen.",
@@ -142,8 +140,15 @@
 "DND5E.AdvancementHitPointsTitle": "Trefferpunkte",
 "DND5E.AdvancementItemChoiceChosen": "Gewählt: {current} von {max}",
 "DND5E.AdvancementItemChoiceHint": "Lässt den Spieler aus mehreren Items (wie Ausrüstung, Merkmalen oder Zaubern) auf einer oder mehreren Stufen wählen.",
+"DND5E.AdvancementItemChoiceChoices": "Auswahlmöglichkeiten",
+"DND5E.AdvancementItemChoiceChoose": "wähle {count}",
+"DND5E.AdvancementItemChoiceFeatureLevelWarning": "Muss mindestens Stufe {Stufe} sein, um dieses Merkmal nutzen zu können.",
 "DND5E.AdvancementItemChoiceLevelsHint": "Wie viele Items dürfen je Stufe gewählt werden?",
+"DND5E.AdvancementItemChoiceNoOriginalError": "Die zuvor gewählte Auswahl kann nicht mehr ersetzt werden.",
 "DND5E.AdvancementItemChoicePreviouslyChosenWarning": "Dises Item wurde bereits auf einer vorherigen Stufe gewählt.",
+"DND5E.AdvancementItemChoiceReplacement": "Ersetzen möglich",
+"DND5E.AdvancementItemChoiceReplacementNone": "Nichts ersetzen",
+"DND5E.AdvancementItemChoiceReplacementTitle": "Ersetzen",
 "DND5E.AdvancementItemChoiceSpellLevelAvailable": "Jeder verfügbare Grad",
 "DND5E.AdvancementItemChoiceSpellLevelAvailableWarning": "Nur {level} oder niedrigere Zauber können für diesen Fortschritt gewählt werden.",
 "DND5E.AdvancementItemChoiceSpellLevelHint": "Erlaubt nur die Wahl von Zaubern diesen Grades.",
@@ -250,7 +255,6 @@
 "DND5E.ArmorClass": "Rüstungsklasse",
 "DND5E.ArmorClassCalculation": "Berechnung",
 "DND5E.ArmorClassCustom": "Eigene Formel",
-"DND5E.ArmorClassDefault": "Angelegte Rüstung",
 "DND5E.ArmorClassDraconic": "Drakonische Widerstandskraft",
 "DND5E.ArmorClassEquipment": "Angelegte Rüstung",
 "DND5E.ArmorClassFlat": "Pauschal",
@@ -276,6 +280,7 @@
 "DND5E.AttunementAttuned": "Eingestimmt",
 "DND5E.AttunementMax": "Maximal Eingestimmte Gegenstände",
 "DND5E.AttunementNone": "Einstimmung nicht nötig",
+"DND5E.AttunementOptional": "Einstimmung optional",
 "DND5E.AttunementOverride": "Einstimmung überschreiben",
 "DND5E.AttunementRequired": "Einstimmung nötig",
 "DND5E.Automatic": "Automatisch",
@@ -346,9 +351,6 @@
 "DND5E.ClassOriginal": "Ursprungsklasse",
 "DND5E.ClassSaves": "Rettungswürfe",
 "DND5E.Confirm": "Bestätigen",
-"DND5E.ClassSkillsChosen": "Gewählte Klassen Fertigkeiten",
-"DND5E.ClassSkillsEligible": "Verfügbare Klassenfertigkeiten",
-"DND5E.ClassSkillsNumber": "Anzahl an Start-Fertigkeiten",
 "DND5E.ComponentMaterial": "Material",
 "DND5E.ComponentMaterialAbbr": "M",
 "DND5E.ComponentSomatic": "Gesten",
@@ -391,12 +393,17 @@
 "DND5E.ConcentratingWarnLimitZero": "Du bist nicht in der Lage, dich auf irgendwelche Effekte zu konzentrieren!",
 "DND5E.ConcentrationConfigurationHint": "Konfiguriere die Konzentrationsmodifikatoren und -boni, die für diese Kreatur gelten.",
 "DND5E.Conditions": "Zustände",
+"DND5E.Controls": {
+  "Hint": "Aktivieren Sie verschiedene Hinweise auf der Benutzeroberfläche für bestimmte Maus- und Tastatursteuerungen.",
+  "LockHint": "Mittlere Maustaste zum sperren",
+  "MiddleClick": "Mittlere Maustaste",
+  "Name": "Aktiviere Steuerungshinweise"
+},
 "DND5E.ConsumableAmmo": "Munition",
 "DND5E.ConsumableAmmoArrow": "Pfeil",
 "DND5E.ConsumableAmmoBlowgunNeedle": "Blasrohrpfeil",
 "DND5E.ConsumableAmmoCrossbowBolt": "Armbrustbolzen",
 "DND5E.ConsumableAmmoSlingBullet": "Schleuderkugel",
-"DND5E.ConsumableAmmunition": "Munition",
 "DND5E.ConsumableFood": "Essen",
 "DND5E.ConsumableLastChargeWarn": "Dies ist die letzte Ladung, und wenn sie verbraucht wird, verringert sich auch die Menge des Items um 1",
 "DND5E.ConsumablePoison": "Gift",
@@ -415,6 +422,10 @@
 "DND5E.ConsumableWithoutCharges": "verfügbare und verwendbare Ladungen",
 "DND5E.ConsumeAmmunition": "Munition",
 "DND5E.ConsumeAmount": "Verbrauchsmenge",
+"DND5E.ConsumeHint": {
+  "Attribute": "Attribute zum verbrauchen (z.B. currency.gp)",
+  "Item": "UUID des Ziels im Kompendium"
+},
 "DND5E.ConsumeAttribute": "Attribute",
 "DND5E.ConsumeCharges": "Lad. Gegenst.",
 "DND5E.ConsumeHitDice": "Trefferwürfel",
@@ -423,9 +434,9 @@
 "DND5E.ConsumeHitDiceSmallest": "Kleinster verfügbarer",
 "DND5E.ConsumeHitDiceSmallestLong": "Kleinster verfügbarer Trefferwürfel",
 "DND5E.ConsumeMaterial": "Material",
-"DND5E.ConsumeQuanity": "Verbrauchte Menge",
 "DND5E.ConsumeRecharge": "Ladung verbrauchen?",
 "DND5E.ConsumeResource": "Ressource verbrauchen?",
+"DND5E.ConsumeResourceAction": "Ressource verbrauchen",
 "DND5E.ConsumeScaling": "Ressourcen Skalierung",
 "DND5E.ConsumeScalingLabel": "Use Resources",
 "DND5E.ConsumeScalingTooltip": "Wenn diese Option angekreuzt ist, erhöht der Verbrauch zusätzlicher Ressourcen die Stufe, auf der der Zauber gewirkt wird.",
@@ -505,18 +516,16 @@
 "DND5E.CurrencyAbbrPP": "pm",
 "DND5E.CurrencyAbbrSP": "sm",
 "DND5E.CurrencyCP": "Kupfer",
-"DND5E.CurrencyConvert": "Konvertiere alle Münzen",
-"DND5E.CurrencyConvertHint": "Konvertiert alle getragenen Münzen zur höchstmöglichen Währungsform um die Menge an mitgetragener Münzen zu reduzieren. Obacht, dies kann nicht rückgängig gemacht werden.",
 "DND5E.CurrencyEP": "Elektrum",
 "DND5E.CurrencyGP": "Gold",
 "DND5E.CurrencyManager": {
-"Convert": {
-"Action": "Alle Währungen umrechnen",
-"Hint": "Rechnet alle mitgeführten Währungen in den höchstmöglichen Nennwert um, um die Menge der vom Charakter mitgeführten Münzen zu reduzieren. Aber Vorsicht: Diese Aktion kann nicht rückgängig gemacht werden.",
-"Label": "Umrechnen"
-},
-"Title": "Währung verwalten",
-"Transfer": {
+	"Title": "Währung verwalten",
+	"Convert": {
+	  "Label": "Umrechnen",
+	  "Action": "Alle Währungen umrechnen",
+	  "Hint": "Rechnet alle mitgeführten Währungen in den höchstmöglichen Nennwert um, um die Menge der vom Charakter mitgeführten Münzen zu reduzieren. Aber Vorsicht: Diese Aktion kann nicht rückgängig gemacht werden."
+  },
+  "Transfer": {
 "Action": "Auswahl übertragen",
 "All": "Alle",
 "Half": "Hälfte",
@@ -611,6 +620,7 @@
 "DND5E.DistMiAbbr": "mi",
 "DND5E.DistSelf": "Selbst",
 "DND5E.DistTouch": "Berührung",
+"DND5E.DocumentUseWarn": "Sie haben keine Erlaubnis, ein Item in diesem Dokument zu verwenden.",
 "DND5E.DocumentViewWarn": "Sie haben keine Erlaubnis, dieses Dokument einzusehen.",
 "DND5E.Duration": "Dauer",
 "DND5E.DurationPermanent": "Permanent",
@@ -620,7 +630,6 @@
 "DND5E.DurationValue": "Dauer (Wert)",
 "DND5E.Dusk": "Abenddämmerung",
 "DND5E.Effect": "Effekt",
-"DND5E.EffectApplyWarning": "Effekte können nicht auf Token angewendet werden, deren Besitzer du nicht bist.",
 "DND5E.EffectCreate": "Effekt erstellen",
 "DND5E.EffectDelete": "Effekt löschen",
 "DND5E.EffectDisable": "Effekt deaktivieren",
@@ -628,6 +637,12 @@
 "DND5E.EffectEnable": "Effekt aktivieren",
 "DND5E.EffectInactive": "Inaktive Effekte",
 "DND5E.EffectNew": "Neuer Effekt",
+"DND5E.EffectType": {
+  "Inactive": "Inaktiv",
+  "Passive": "Passiv",
+  "Temporary": "Temporär",
+  "Unavailable": "Nicht verfügbar"
+},
 "DND5E.EffectPassive": "Passive Effekte",
 "DND5E.EffectTemporary": "Temporäre Effekte",
 "DND5E.EffectToggle": "Effekt umschalten",
@@ -638,6 +653,80 @@
 "DND5E.EffectApplyWarningConcentration": "Das Anwenden eines Effekts, auf den sich ein anderer Charakter konzentriert, erfordert die Erlaubnis des SLs.",
 "DND5E.EffectApplyWarningOwnership": "Effekte können nicht auf Token angewandt werden, deren Besitzer man nicht ist.",
 "DND5E.EffectsSearch": "Effekte durchsuchen",
+"DND5E.Enchantment": {
+  "Action": {
+    "Apply": "Verzauberung anwenden",
+    "Configure": "Verzauberung konfigurieren",
+    "Create": "Verzauberung erstellen",
+    "Delete": "Verzauberung löschen",
+    "Disable": "Verzauberung deaktivieren",
+    "Edit": "Verzauberung bearbeiten",
+    "Enable": "Verzauberung aktivieren",
+    "Remove": "Verzauberung entfernen"
+  },
+  "Category": {
+    "Active": "Aktive Verzauberungen",
+    "Empty": "Keine Verzauberungen wurden erstellt, verwende die Schaltfläche oben, um eine zu erstellen.",
+    "General": "Verzauberungen",
+    "Inactive": "Inaktive Verzauberungen"
+  },
+  "Configuration": "Verzauberung Konfiguration",
+  "DropArea": "Item hierhin ziehen zum verzaubern…",
+  "FIELDS": {
+    "enchantment": {
+      "label": "Verzauberung Konfiguration",
+      "classIdentifier": {
+        "hint": "ID, mit der festgelegt wird, ob die Charakterstufe oder eine bestimmte Klassenstufe für die Begrenzung der Verzauberungsstufe verwendet werden soll."
+      },
+      "items": {
+        "max": {
+          "label": "Item Grenze",
+          "hint": "Formel für die maximale Anzahl von Verzauberungen dieses Typs, die gleichzeitig aktiv sein können."
+        },
+        "period": {
+          "label": "Ersetzungsperiode",
+          "hint": "Wie oft die Verzauberungen dieses Typs an verschiedene Items neu gebunden werden kann."
+        }
+      },
+      "restrictions": {
+        "label": "Beschränkungen",
+        "hint": "Beschränkungen für die Art von Item, auf die diese Verzauberung angewendet werden kann.",
+        "allowMagical": {
+          "label": "Erlaube Magisches",
+          "hint": "Erlaube, dass Items, die bereits magisch sind, verzaubert werden können."
+        },
+        "type": {
+          "label": "Item-Typ",
+          "hint": "Typ des Items, auf das diese Verzauberung angewendet werden kann."
+        }
+      }
+    }
+  },
+  "Label": "Verzauberung",
+  "Level": {
+    "Hint": "Stufenbereich der zum benutzen dieser Verzauberung benötigt wird."
+  },
+  "Items": {
+    "Entry": "{item} von  <em>{actor}</em>"
+  },
+  "Riders": {
+    "Effect": {
+      "Label": "Zusätzliche Effekte",
+      "Hint": "Diese zusätzlichen Effekte werden dem verzauberten Item hinzugefügt, wenn diese Verzauberung hinzugefügt wird, und entfernt, wenn die Verzauberung entfernt wird."
+    },
+    "Item": {
+      "Label": "Zusätzliche Items",
+      "Hint": "Diese zusätzlichen Items werden der Kreatur hinzugefügt, wenn eines ihrer Items verzaubert wird, und werden entfernt, wenn die Verzauberung jemals entfernt wird."
+    }
+  },
+  "Warning": {
+    "ConcentrationEnded": "Kann diese Verzauberung nicht anwenden, da die Konzentration beendet ist.",
+    "NoMagicalItems": "Items, die bereits magisch sind, können nicht verzaubert werden.",
+    "NotOnActor": "Verzauberungen können nur zu Items hinzugefügt werden, nicht direkt zu Akteuren.",
+    "Override": "Dieser Wert wird durch eine Verzauberung verändert und kann nicht bearbeitet werden. Deaktiviere die Verzauberung auf der Registerkarte Effekte um diesen zu bearbeiten.",
+    "WrongType": "Items vom Typ {incorrectType} können mit dieser Verzauberung nicht verzaubert werden, nur Items vom Typ {allowedType} sind erlaubt."
+  }
+},
 "DND5E.Encumbrance": "Belastung",
 "DND5E.Environment": "Umgebung",
 "DND5E.EquipmentBonus": "Magischer Bonus",
@@ -704,11 +793,6 @@
   "Druidic": "Druidischer Fokus",
   "Holy": "Heiliges Symbol"
 },
-"DND5E.Feature.Background": "Hintergrundmerkmal",
-"DND5E.Feature.Class": "Klassenmerkmal",
-"DND5E.Feature.Feat": "Talent",
-"DND5E.Feature.Monster": "Monstermerkmal",
-"DND5E.Feature.Race": "Volksmerkmal",
 "DND5E.FeatureActionRecharge": "Aktion Nachladen",
 "DND5E.FeatureActive": "Aktive Fähigkeiten",
 "DND5E.FeatureAdd": "Erschaffe Merkmal",
@@ -732,8 +816,6 @@
 "DND5E.FilterNoSpells": "Mit diesem Filter wurden keine Zauber gefunden.",
 "DND5E.FlagsAlert": "Wachsam",
 "DND5E.FlagsAlertHint": "Verleiht +5 auf Ini.",
-"DND5E.FlagsCritThreshold": "Erhöhte Kritchance",
-"DND5E.FlagsCritThresholdHint": "Erhöht die Chance auf einen kritischen Treffer, wie bei Verbesserter Kritischer Treffer und Überlegener Kritischer Treffer",
 "DND5E.FlagsDiamondSoul": "Diamantseele",
 "DND5E.FlagsDiamondSoulHint": "Erhalte Übung in allen Rettungswürfen.",
 "DND5E.FlagsElvenAccuracy": "Elfengenauigkeit",
@@ -755,8 +837,6 @@
 "DND5E.FlagsReliableTalentHint": "Schurkenmerkmal Verlässliches Talent.",
 "DND5E.FlagsRemarkableAthlete": "Bemerkenswerter Athlet.",
 "DND5E.FlagsRemarkableAthleteHint": "Halber Übungsbonus (aufgerundet) auf körperliche Fertigkeitswürfe und Initiative.",
-"DND5E.FlagsSavageAttacks": "Wilde Angriffe",
-"DND5E.FlagsSavageAttacksHint": "Fügt einen zusätzlichen Würfel für Schaden hinzu.",
 "DND5E.FlagsSave": "Besondere Merkmale aktualisieren",
 "DND5E.FlagsSpellCritThreshold": "Kritischer Treffer Schwellwert (Zauber)",
 "DND5E.FlagsSpellCritThresholdHint": "Erweiterter Schwellwert für kritische Treffer bei Angriffen mit Zaubern.",
@@ -769,37 +849,35 @@
 "DND5E.Flaws": "Makel",
 "DND5E.Formula": "Formel",
 "DND5E.FormulaCannotContainDiceError": "Formel {name} kann keine Würfelausdrücke enthalten.",
-"DND5E.FormulaCannotContainDiceWarn": "{name} Formel kann keine Würfelformeln enthalten.",
 "DND5E.FormulaMalformedError": "Problem preparing the {property} formula within {name}.",
 "DND5E.FormulaMissingReferenceWarn": "The {property} formula within {name} has references to missing data: {references}",
 "DND5E.Gender": "Geschlecht",
 "DND5E.GrantedAbilities": "gewährte Fähigkeit",
 "DND5E.Group": {
-"Challenge": "Herausforderung",
-"Member": {
-"one": "Mitglied",
-"other": "Mitglieder"
-},
-"Primary": {
-"Remove": "Als primäre Gruppe entfernen",
-"Set": "Als primäre Gruppe festlegen"
-},
-"Type": "Gruppenart",
-"TypeEncounter": "Begegnung",
-"TypeGeneric": "Gruppe",
-"TypeParty": "Gemeinschaft",
-"Vehicle": {
-"one": "Fahrzeug",
-"other": "Fahrzeuge"
-}
+  "Challenge": "Herausforderung",
+  "Member": {
+	"one": "Mitglied",
+	"other": "Mitglieder"
+  },
+  "PlaceMembers": "Platziere Mitglieder",
+  "Primary": {
+	"Remove": "Als primäre Gruppe entfernen",
+	"Set": "Als primäre Gruppe festlegen"
+  },
+  "Type": "Gruppenart",
+  "TypeEncounter": "Begegnung",
+  "TypeGeneric": "Gruppe",
+  "TypeParty": "Gemeinschaft",
+  "Vehicle": {
+	"one": "Fahrzeug",
+	"other": "Fahrzeuge"
+  }
 },
 "DND5E.GroupControls": "Steuerung",
 "DND5E.GroupHP": "Gesamte Trefferpunkte",
 "DND5E.GroupInventory": "Inventar",
-"DND5E.GroupMembers": "Mitglieder",
 "DND5E.GroupSummary": "Eine Gruppe von {members}n",
 "DND5E.GroupSummaryEmpty": "Leere Gruppe",
-"DND5E.GroupVehicles": "Fahrzeuge",
 "DND5E.HP": "TP",
 "DND5E.HPFormula": "Trefferpunkteformel",
 "DND5E.HPFormulaError": "Die Trefferpunkte-Formel ist ungültig.",
@@ -807,10 +885,9 @@
 "DND5E.Hair": "Haar",
 "DND5E.HalfProficient": "Halber Übungsbonus",
 "DND5E.Healing": "Heilung",
+"DND5E.HealingRoll": "Heilungswurf",
 "DND5E.HealingTemp": "Heilung (Temporär)",
-"DND5E.Health": "Trefferpunkte",
 "DND5E.HealthConditions": "Zustandskonditionen",
-"DND5E.HealthFormula": "TP-Formel",
 "DND5E.Height": "Größe",
 "DND5E.HitDice": "Trefferwürfel",
 "DND5E.HitDiceAutoSpend": {
@@ -824,6 +901,7 @@
 "DND5E.HitDiceRoll": "Wirf TW",
 "DND5E.HitDiceUsed": "Trefferwürfel verwendet",
 "DND5E.HitDiceWarn": "{name} hat keine {formula} Trefferwürfel übrig!",
+"DND5E.HitDiceNPCWarn": "{name} hat keine Trefferwürfel übrig!",
 "DND5E.HitDie": "Trefferwürfel",
 "DND5E.HitPoints": "Trefferpunkte",
 "DND5E.HitPointsBonusLevel": "Bonus pro Stufe",
@@ -854,32 +932,32 @@
 "DND5E.InventorySearch": "Inventar durchsuchen",
 "DND5E.Issues": "Issues",
 "DND5E.Item": {
-"Property": {
-"Adamantine": "Adamant",
-"Ammunition": "Geschosse",
-"Concentration": "Konzentration",
-"Finesse": "Finesse",
-"Firearm": "Feuerwaffe",
-"Focus": "Fokus",
-"Heavy": "Schwer",
-"Light": "Leicht",
-"Loading": "Laden",
-"Magical": "Magisch",
-"Material": "Material",
-"Reach": "Reichweite",
-"Reload": "Nachladen",
-"Returning": "Rückkehrend",
-"Ritual": "Ritual",
-"Silvered": "Versilbert",
-"Somatic": "Gestik",
-"Special": "Spezial",
-"StealthDisadvantage": "Heimlichkeit Nachteil",
-"Thrown": "Wurfwaffe",
-"TwoHanded": "Zweihändig",
-"Verbal": "Verbal",
-"Versatile": "Vielseitig",
-"WeightlessContents": "Gewichtsloser Inhalt"
-}
+  "Property": {
+	"Adamantine": "Adamant",
+	"Ammunition": "Geschosse",
+	"Concentration": "Konzentration",
+	"Finesse": "Finesse",
+	"Firearm": "Feuerwaffe",
+	"Focus": "Fokus",
+	"Heavy": "Schwer",
+	"Light": "Leicht",
+	"Loading": "Laden",
+	"Magical": "Magisch",
+	"Material": "Material",
+	"Reach": "Reichweite",
+	"Reload": "Nachladen",
+	"Returning": "Rückkehrend",
+	"Ritual": "Ritual",
+	"Silvered": "Versilbert",
+	"Somatic": "Gestik",
+	"Special": "Spezial",
+	"StealthDisadvantage": "Heimlichkeit Nachteil",
+	"Thrown": "Wurfwaffe",
+	"TwoHanded": "Zweihändig",
+	"Verbal": "Verbal",
+	"Versatile": "Vielseitig",
+	"WeightlessContents": "Gewichtsloser Inhalt"
+  }
 },
 "DND5E.ItemActionType": "Aktionstyp",
 "DND5E.ItemActivation": "Aktivierung",
@@ -897,17 +975,14 @@
 "DND5E.ItemConsumableSubtype": "{category}-Typ",
 "DND5E.ItemConsumableType": "Verbrauchsgut-Typ",
 "DND5E.ItemConsumableUsage": "Verbrauchsgut-Nutzung",
-"DND5E.ItemConsumeOnUse": "Verbraucht bei Nutzung",
 "DND5E.ItemContainerCapacity": "Kapazität",
 "DND5E.ItemContainerCapacityItems": "Gegenstand",
 "DND5E.ItemContainerCapacityMax": "Max. Kapazität",
 "DND5E.ItemContainerCapacityType": "Kapazitätstyp",
 "DND5E.ItemContainerCapacityWeight": "Gewicht",
 "DND5E.ItemContainerDetails": "Behälter-Details",
-"DND5E.ItemContainerHeader": "Behälter",
 "DND5E.ItemContainerProperties": "Behälter-Eigenschaften",
 "DND5E.ItemContainerStatus": "Behälterstatus",
-"DND5E.ItemContainerWeightless": "Gewichtsloser Inhalt",
 "DND5E.ItemCreate": "Gegenstand erstellen",
 "DND5E.ItemCritExtraDamage": "Zusätz. kritischer Schaden",
 "DND5E.ItemCritThreshold": "Grenzwert kritischer Treffer",
@@ -951,32 +1026,12 @@
 "DND5E.ItemRequiredStr": "Benötigte Stärke",
 "DND5E.ItemToolBase": "Basiswerkzeug",
 "DND5E.ItemToolBonus": "Werkzeugbonus",
+"DND5E.ItemToolDetails": "Werkzeugdetails",
 "DND5E.ItemToolProficiency": "Handwerkliches Geschick",
 "DND5E.ItemToolProperties": "Werkzeug Eigenschaften",
 "DND5E.ItemToolStatus": "Werkzeugstatus",
 "DND5E.ItemToolType": "Werkzeugtyp",
-"DND5E.ItemTypeBackground": "Hintergrund",
-"DND5E.ItemTypeBackgroundPl": "Hintergründe",
-"DND5E.ItemTypeBackpack": "Behälter",
-"DND5E.ItemTypeClass": "Klasse",
-"DND5E.ItemTypeClassPl": "Klassenstufen",
-"DND5E.ItemTypeConsumable": "Vebrauchsmaterial",
-"DND5E.ItemTypeConsumablePl": "Vebrauchsmaterialien",
-"DND5E.ItemTypeContainer": "Behälter",
-"DND5E.ItemTypeContainerPl": "Behälter",
-"DND5E.ItemTypeEquipment": "Ausrüstung",
-"DND5E.ItemTypeEquipmentPl": "Ausrüstung",
-"DND5E.ItemTypeFeat": "Merkmal",
-"DND5E.ItemTypeLoot": "Beute",
-"DND5E.ItemTypeLootPl": "Beute",
-"DND5E.ItemTypeSpell": "Zauber",
-"DND5E.ItemTypeSpellPl": "Zauber",
-"DND5E.ItemTypeSubclass": "Unterklasse",
-"DND5E.ItemTypeSubclassPl": "Unterklassen",
-"DND5E.ItemTypeTool": "Werkzeug",
-"DND5E.ItemTypeToolPl": "Werkzeuge",
-"DND5E.ItemTypeWeapon": "Waffe",
-"DND5E.ItemTypeWeaponPl": "Waffen",
+"DND5E.ItemToolUsage": "Werkzeug Nutzung",
 "DND5E.ItemView": "Item anzeigen",
 "DND5E.ItemWeaponAttack": "Waffenangriff",
 "DND5E.ItemWeaponBase": "Basiswaffe",
@@ -1028,6 +1083,11 @@
 "DND5E.LevelActionDecrease": "Stufenaufstieg",
 "DND5E.LevelActionIncrease": "Stufenabstieg",
 "DND5E.LevelCount": "{ordinal} Stufe",
+"DND5E.LevelLimit": {
+  "Label": "Stufen Grenze",
+  "Max": "Maximale Stufe",
+  "Min": "Minimale Stufe"
+},
 "DND5E.LevelNumber": "Stufe {level}",
 "DND5E.LevelPl": "Stufen",
 "DND5E.LevelScaling": "Stufenanpassung",
@@ -1096,7 +1156,6 @@
 "DND5E.NewDayHint": "Fähigkeiten mit begrenzten Nutzungen zurückerlangen, die pro Tag wiederaufladen?",
 "DND5E.NoCharges": "Keine Ladungen",
 "DND5E.NoSpellLevels": "Dieser Charakter hat keine Zaubererstufen, aber du kannst Zauber manuell hinzufügen.",
-"DND5E.NoSpells": "Keine Sprüche für diesen Filter gefunden..",
 "DND5E.None": "Nichts",
 "DND5E.NoneActionLabel": "Keine",
 "DND5E.Normal": "Normal",
@@ -1145,6 +1204,17 @@
 "DND5E.Portrait": "Porträt",
 "DND5E.PowerfulCritical": "Mächtige kritische Treffer",
 "DND5E.Prepared": "Vorbereitet",
+"DND5E.Prerequisites": {
+  "Header": "Merkmal Voraussetzungen",
+  "FIELDS": {
+    "prerequisites": {
+      "level": {
+        "label": "Benötigte Stufe",
+        "hint": "Charakter- oder Klassenstufe, die für die Auswahl dieses Merkmals beim Stufenaufstieg erforderlich ist."
+      }
+    }
+  }
+},
 "DND5E.Price": "Preis",
 "DND5E.Proficiency": "Übungsbonus",
 "DND5E.ProficiencyBonus": "Übungsbonus",
@@ -1195,17 +1265,28 @@
 "DND5E.RollMode": "Wurf Modus",
 "DND5E.RollSituationalBonus": "Situativer Bonus?",
 "DND5E.Rule": {
-"Tooltip": "Tooltip",
-"Type": {
-"Condition": "Zustand",
-"Label": "Regel-Typ",
-"Rule": "Regel"
-}
+  "Tooltip": "Tooltip",
+  "Type": {
+	"Condition": "Zustand",
+	"Label": "Regel-Typ",
+	"Rule": "Regel"
+  }
 },
-"DND5E.Save": "RW",
 "DND5E.SaveBonus": "Rettungswurfbonus",
 "DND5E.SaveDC": "SG {dc} {ability}",
 "DND5E.SaveGlobalBonusHint": "Dieser Bonus gilt für alle Rettungswürfe dieses Akteurs.",
+"DND5E.Scroll": {
+  "CreateFrom": "Schriftrolle von {spell} erstellen",
+  "CreateScroll": "Schriftrolle erstellen",
+  "Details": "Schriftrollendetails",
+  "Explanation": {
+    "Label": "Erklärung",
+    "Hint": "Menge der Regeln zur Verwendung von Zauberrollen, die in die erstellte Schriftrolle aufgenommen werden.",
+    "Complete": "Komplett",
+    "Reference": "Referenz"
+  },
+  "RequiresConcentration": "Benötigt Konzentration"
+},
 "DND5E.SavePromptTitle": "{ability} Rettungswurf",
 "DND5E.SavingThrow": "Rettungswurf",
 "DND5E.SavingThrowDC": "SG {dc} {ability}srettungswurf",
@@ -1220,16 +1301,9 @@
 "DND5E.SchoolIll": "Illusion",
 "DND5E.SchoolNec": "Nekromantie",
 "DND5E.SchoolTrs": "Verwandlung",
-"DND5E.ScrollDetails": "Schriftrollendetails",
-"DND5E.ScrollRequiresConcentration": "Benötigt Konzentration",
-"DND5E.SelectItemsPromptTitle": "Items auswählen",
-"DND5E.SenseBS": "Blindsicht",
 "DND5E.SenseBlindsight": "Blindsicht",
-"DND5E.SenseDV": "Dunkelsicht",
 "DND5E.SenseDarkvision": "Dunkelsicht",
 "DND5E.SenseSpecial": "Spezielle Sinne",
-"DND5E.SenseTR": "Wahre Sicht",
-"DND5E.SenseTS": "Erschüttern",
 "DND5E.SenseTremorsense": "Erschütterungssinn",
 "DND5E.SenseTruesight": "Wahrsicht",
 "DND5E.SenseUnits": "Einheiten",
@@ -1246,6 +1320,7 @@
 "DND5E.SheetClassMapLocation": "Standart 5e Kartenbogen",
 "DND5E.SheetClassNPC": "Standard 5e NSC-Bogen",
 "DND5E.SheetClassRule": "Standart 5e Regelbogen",
+"DND5E.SheetClassSpellList": "Standart 5e Zauberlistenbogen",
 "DND5E.SheetClassToken": "Standart 5e Figurbogen",
 "DND5E.SheetClassVehicle": "Standard 5e Fahrzeugbogen",
 "DND5E.SheetModeEdit": "Bearbeiten",
@@ -1310,7 +1385,6 @@
 "DND5E.Skills": "Fertigkeiten",
 "DND5E.Skin": "Haut",
 "DND5E.Skip": "Überspringen",
-"DND5E.Slots": "Plätze",
 "DND5E.Source": "Quelle",
 "DND5E.SourceBook": "Buch",
 "DND5E.SourceConfig": "Quelle Konfigurieren",
@@ -1330,13 +1404,13 @@
 "DND5E.SpellAdd": "Zauber hinzufügen",
 "DND5E.SpellCantrip": "Zaubertrick",
 "DND5E.SpellCastConsume": "Zauberplatz verbrauchen?",
-"DND5E.SpellCastHint": "Bearbeite, wie du die",
 "DND5E.SpellCastNoSlots": "Kein freier Zauberplatz um diesen Spruch zu wirken",
 "DND5E.SpellCastNoSlotsLeft": "Du hast keine Verfügbaren Zauberplätze um {name} zu wirken!",
 "DND5E.SpellCastTime": "Zauberzeit",
 "DND5E.SpellCastUpcast": "Wirke auf Grad",
 "DND5E.SpellCasting": "Zauberwirken",
 "DND5E.SpellCastingHeader": "Zauberwirken",
+"DND5E.Spellcasting": "Zauberwirken",
 "DND5E.SpellComponent": "Zauberkomponenten",
 "DND5E.SpellComponents": "Zauber Komponenten",
 "DND5E.SpellCreate": "Zauber erschaffen",
@@ -1375,7 +1449,7 @@
 "DND5E.SpellPrepAlways": "Immer verfügbar",
 "DND5E.SpellPrepAtWill": "Nach Belieben",
 "DND5E.SpellPrepInnate": "Angeborenes Zauberwirken",
-"DND5E.SpellPrepPact": "Paktmagie",
+"DND5E.SpellPrepRitual": "Nur Rituale",
 "DND5E.SpellPrepPrepared": "Vorbereitet",
 "DND5E.SpellPreparation": "Zaubervorbereitung",
 "DND5E.SpellPreparationMode": "Zauber Vorbereitungsmodus",
@@ -1405,11 +1479,9 @@
 "DND5E.SpellTag": "Zauber-Tag",
 "DND5E.SpellTarget": "Zauberziel",
 "DND5E.SpellUnprepared": "Unvorbereitet",
-"DND5E.SpellUnpreprared": "Unvorbereitet",
 "DND5E.SpellUsage": "Zaubernutzung",
 "DND5E.Spellbook": "Zauberbuch",
 "DND5E.SpellcasterLevel": "Zauberwirkerstufe",
-"DND5E.Spellcasting": "Zauberwirken",
 "DND5E.SpellcastingClass": "{class} Zauberwirken",
 "DND5E.SpellsSearch": "Zauber durchsuchen",
 "DND5E.StartingEquipment": {
@@ -1442,7 +1514,6 @@
     "Hint": "Formel in GM, die anstelle der Startausrüstung verwendet werden kann."
   }
 },
-"DND5E.StealthDisadvantage": "Heimlichkeitsnachteil",
 "DND5E.SubclassAssignmentError": "{class} hat schon eine Unterklasse. Bestehende Unterklasse '{subclass}' entfernen, bevor eine neue hinzugefügt wird.",
 "DND5E.SubclassDuplicateError": "Unterklasse mit ID {identifier} existiert an diesem Akteur bereits.",
 "DND5E.SubclassIdentifierHint": "Diese ID sollte der Oberklasse entsprechen, um sicherzustellen, dass beide richtig verknüpft sind.",
@@ -1456,7 +1527,8 @@
     "Configure": "Beschwörungen konfigurieren",
     "Place": "Beschwörungen platzieren",
     "Remove": "Profil entfernen",
-    "Summon": "Beschwören"
+    "Summon": "Beschwören",
+	"View": "Beschwörung ansehen"
   },
   "Bonuses": {
     "ArmorClass": {
@@ -1471,6 +1543,10 @@
       "Label": "Bonus-Heilung",
       "Hint": "Zusätzliche Heilung durch Heilfähigkeiten."
     },
+	    "HitDice": {
+      "Label": "Bonus-Trefferwürfel",
+      "Hint": "Zusätzliche Trefferwürfel, die der Kreatur zusätzlich zu den Werten aus der TP-Formel in ihrem Statblock hinzugefügt werden. Kann nur bei der Beschwörung von NPC-Akteuren verwendet werden."
+	},
     "HitPoints": {
       "Label": "Bonus-Trefferpunkte",
       "Hint": "Zusätzliche Trefferpunkte, die der Kreatur zusätzlich zu den in ihrem Statblock angegebenen hinzugefügt werden."
@@ -1481,15 +1557,30 @@
     }
   },
   "Configuration": "Beschwörung konfigurieren",
+   "Count": {
+    "Label": "Anzahl"
+  },
   "CreatureChanges": {
     "Label": "Kreatur anpassungen",
     "Hint": "Anpassungen, die an der beschworenen Kreatur vorgenommen werden. Alle @ Referenzen, die in den folgenden Formeln verwendet werden, basieren auf den Werten des Beschwörers."
+  },
+     "CreatureSizes": {
+    "Label": "Größe der Kreaturen",
+    "Hint": "Die beschworene Kreatur und der Token werden in diese Größe geändert. Wenn mehr als eine Größe ausgewählt wurde, kann der Spieler bei der Beschwörung zwischen diesen Größen wählen."
+  },
+   "CreatureTypes": {
+    "Label": "Kreaturentypen",
+    "Hint": "Die beschworene Kreatur wird in diesen Typ umgewandelt. Wenn mehr als ein Typ ausgewählt wurde, kann der Spieler bei der Beschwörung zwischen diesen Typen wählen."
   },
   "DisplayName": "Anzeigename",
   "DropHint": "Kreatur hier ablegen",
   "ItemChanges": {
     "Label": "Item Anpassungen",
     "Hint": "Anpassungen an den Items der beschworenen Kreatur."
+  },
+  "Level": {
+    "Hint": "Stufenbereich, der für die Verwendung dieses Profils erforderlich ist.",
+    "IdentifierHint": "ID, mit der festgelegt wird, ob die Charakterstufe oder eine bestimmte Klassenstufe für die Begrenzung des Profils verwendet werden soll."
   },
   "Match": {
     "Attacks": {
@@ -1657,6 +1748,7 @@
 "DND5E.UsesMax": "Maximale Nutzungen",
 "DND5E.UsesPeriod": "Aufladungszeit",
 "DND5E.UsesPeriods": {
+  "AtWill": "Nach Belieben",
   "Charges": "Aufladungen",
   "ChargesAbbreviation": "Aufladungen",
   "Dawn": "Morgengrauen",
@@ -1667,6 +1759,7 @@
   "DuskAbbreviation": "Dämmerung",
   "Lr": "Lange Rast",
   "LrAbbreviation": "LR",
+  "Never": "Niemals",
   "Sr": "Kurze Rast",
   "SrAbbreviation": "KR"
 },
@@ -1708,34 +1801,35 @@
 "DND5E.WarnMultipleArmor": "Mehr als eine Rüstung ausgerüstet, RK-Berechnung ist möglicherweise inkorrekt.",
 "DND5E.WarnMultipleShields": "Mehr als ein Schild ausgerüstet, RK-Berechnung ist möglicherweise inkorrekt.",
 "DND5E.WeaponCategory": "{category} Waffe",
-"DND5E.WeaponAmmo": "Munition",
 "DND5E.WeaponImprov": "Improvisiert",
 "DND5E.WeaponMartialM": "Kriegswaffe Nah.",
 "DND5E.WeaponMartialProficiency": "Übung Kriegswaffen",
 "DND5E.WeaponMartialR": "Kriegswaffe Fern.",
 "DND5E.WeaponNatural": "Natürlich",
-"DND5E.WeaponPropertiesAda": "Adamant",
-"DND5E.WeaponPropertiesAmm": "Munition",
-"DND5E.WeaponPropertiesFin": "Finesse",
-"DND5E.WeaponPropertiesFir": "Feuerwaffe",
-"DND5E.WeaponPropertiesFoc": "Fokus",
-"DND5E.WeaponPropertiesHvy": "Schwer",
-"DND5E.WeaponPropertiesLgt": "Leicht",
-"DND5E.WeaponPropertiesLod": "Laden",
-"DND5E.WeaponPropertiesMgc": "Magisch",
-"DND5E.WeaponPropertiesRch": "Weitreichend",
-"DND5E.WeaponPropertiesRel": "Nachladen",
-"DND5E.WeaponPropertiesRet": "Wiederkehrend",
-"DND5E.WeaponPropertiesSil": "Versilbert",
-"DND5E.WeaponPropertiesSpc": "Speziell",
-"DND5E.WeaponPropertiesThr": "Wurfwaffe",
-"DND5E.WeaponPropertiesTwo": "Zweihändig",
-"DND5E.WeaponPropertiesVer": "Vielseitig",
 "DND5E.WeaponSiege": "Belagerungswaffe",
 "DND5E.WeaponSimpleM": "Einfache Waffe Nah.",
 "DND5E.WeaponSimpleProficiency": "Übung Einfache Waffen",
 "DND5E.WeaponSimpleR": "Einfache Waffe Fern.",
 "DND5E.Weight": "Gewicht",
+"DND5E.WeightUnit": {
+  "Label": "Gewichtseinheiten",
+  "Kilograms": {
+    "Label": "Kilogramm",
+    "Abbreviation": "kg"
+  },
+  "Megagrams": {
+    "Label": "Tonnen",
+    "Abbreviation": "t"
+  },
+  "Pounds": {
+    "Label": "Pfund",
+    "Abbreviation": "lb"
+  },
+  "Tons": {
+    "Label": "Tonnen",
+    "Abbreviation": "tn"
+  }
+},
 "DND5E.WhisperedTo": "Flüstern zu",
 "DND5E.Wiki": "Wiki",
 "DND5E.available": "verfügbar",
@@ -1743,7 +1837,6 @@
 "DND5E.of": "von",
 "DND5E.per": "per",
 "DND5E.spell": "Zauber",
-
 "EDITOR.DND5E.Inline": {
   "ApplyStatus": "Status auf ausgewählte Token anwenden",
   "AwardEach": "{award} jeden",
@@ -1759,30 +1852,36 @@
   "RollRequest": "Anfragen eines Wurfes",
   "SaveShort": "{save}",
   "SaveLong": "{save} Rettungswurf",
-  "SpecificCheck": "{ability} ({type})"
+  "SpecificCheck": "{ability} ({type})",
+  "Warning": {
+    "NoActor": "Es konnte kein ausgewählter oder zugewiesener Akteur gefunden werden um diesen Wurf auszuführen",
+    "NoItemOnActor": "{actor} hat kein Item mit dem Namen {item}."
+  }
 },
-
 "DND5E.title": "Dungeons & Dragons 5. Edition",
-"Dungeons & Dragons 5th Edition": "Dungeons & Dragons 5. Edition",
 "EFFECT.DND5E": {
+"StatusBleeding": "Bluten",	
 "StatusBurrowing": "Eingraben",
 "StatusConcentrating": "Konzentration",
 "StatusCursed": "Verflucht",
+"StatusDead": "Tod",
 "StatusDodging": "Ausweichen",
 "StatusEncumbered": "Belastet",
+"StatusEthereal": "Ätherisch",
 "StatusExceedingCarryingCapacity": "Überschreitung der Traglastt",
 "StatusFlying": "Fliegen",
 "StatusHeavilyEncumbered": "Stark belastet",
-"StatusHidden": "Versteckt",
+"StatusHiding": "Verstecken",
+"StatusHovering": "Schweben",
 "StatusMarked": "Markiert",
+"StatusSilenced": "Stumm",
 "StatusSleeping": "Schlafen",
+"StatusStable": "Stabil",
 "StatusSurprised": "Überrascht",
 "StatusTransformed": "Verwandelt"
 },
 "ITEM.TypeBackground": "Hintergrund",
 "ITEM.TypeBackgroundPl": "Hintergründe",
-"ITEM.TypeBackpack": "Rucksack",
-"ITEM.TypeBackpackPl": "Rucksäcke",
 "ITEM.TypeClass": "Klasse",
 "ITEM.TypeClassPl": "Klassen",
 "ITEM.TypeConsumable": "Verbrauchsgut",
@@ -1805,40 +1904,6 @@
 "ITEM.TypeToolPl": "Werkzeuge",
 "ITEM.TypeWeapon": "Waffe",
 "ITEM.TypeWeaponPl": "Waffen",
-"JOURNALENTRYPAGE.DND5E.Class.AdditionalEquipment": "Ausrüstung",
-"JOURNALENTRYPAGE.DND5E.Class.AdditionalEquipmentHint": "Liste von Ausrüstung, die von dieser Klasse auf Stufe 1 gewährt wird.",
-"JOURNALENTRYPAGE.DND5E.Class.AdditionalHitPoints": "Additional Hit Points Description",
-"JOURNALENTRYPAGE.DND5E.Class.AdditionalHitPointsHint": "Additional descriptive text displayed beneath the auto-generated hit points section.",
-"JOURNALENTRYPAGE.DND5E.Class.AdditionalTraits": "Übung",
-"JOURNALENTRYPAGE.DND5E.Class.AdditionalTraitsHint": "Liste von Übung, die von dieser Klasse gewährt wird.",
-"JOURNALENTRYPAGE.DND5E.Class.Description": "Einleitung",
-"JOURNALENTRYPAGE.DND5E.Class.DescriptionHint": "Grundsätzliche Beschreibung der Klasse. Wird zuerst angezeigt.",
-"JOURNALENTRYPAGE.DND5E.Class.EquipmentHeader": "Aurüstung",
-"JOURNALENTRYPAGE.DND5E.Class.FeaturesDescription": "Als {name} erhältst du die folgenden Klassenmerkmale, die in der {name}-Tabelle zusammengefasst werden.",
-"JOURNALENTRYPAGE.DND5E.Class.FeaturesHeader": "Klassenmerkmale",
-"JOURNALENTRYPAGE.DND5E.Class.HitDice": "<strong>Trefferwürfel:</strong> {dice} pro Stufe als {class}",
-"JOURNALENTRYPAGE.DND5E.Class.HitPointsHeader": "Trefferpunkte",
-"JOURNALENTRYPAGE.DND5E.Class.HitPointsLevel1": "<strong>Trefferpunkte auf Stufe 1:</strong> {max} + dein Konstitutionsmodifikator",
-"JOURNALENTRYPAGE.DND5E.Class.HitPointsLevelX": "<strong>Trefferpunkte auf höheren Stufen:</strong> {dice} (oder {average}) + dein Konstitutionsmodifikator pro Stufe als {class} über die 1. Stufe hinaus",
-"JOURNALENTRYPAGE.DND5E.Class.Item": "Gewählte Klasse",
-"JOURNALENTRYPAGE.DND5E.Class.ItemHint": "Klasse hierhin ziehen",
-"JOURNALENTRYPAGE.DND5E.Class.NoValidClass": "Keine gültige Klasse gewählt, Bearbeiten nutzen um eine Klasse hinzuzufügen.",
-"JOURNALENTRYPAGE.DND5E.Class.OptionalFeaturesCaption": "Optionale Klassenmerkmale",
-"JOURNALENTRYPAGE.DND5E.Class.OptionalFeaturesDescription": "Der folgende Abschnitt enthält optionale {class}-Klassenmerkmale. Diese werden nicht automatisch zugewiesen und können einzeln, alle oder nach Wahl der Spielleitung gewählt werden.",
-"JOURNALENTRYPAGE.DND5E.Class.SpellSlotLevel": "Platzgrad",
-"JOURNALENTRYPAGE.DND5E.Class.SpellSlots": "Zauberplätze",
-"JOURNALENTRYPAGE.DND5E.Class.SpellSlotsPerSpellLevel": "—Zauberplätze pro Grad—",
-"JOURNALENTRYPAGE.DND5E.Class.SubclassDescription": "Unterklassen-Einleitung",
-"JOURNALENTRYPAGE.DND5E.Class.SubclassDescriptionHint": "Einleitung, die vor den Unterklassen dieser Klasse angezeigt wird.",
-"JOURNALENTRYPAGE.DND5E.Class.SubclassHeader": "Unterklassenabschnitt",
-"JOURNALENTRYPAGE.DND5E.Class.SubclassHint": "Unterklassen hierhin ziehen",
-"JOURNALENTRYPAGE.DND5E.Class.SubclassItems": "Unterklassen",
-"JOURNALENTRYPAGE.DND5E.Class.TableCaption": "{class}",
-"JOURNALENTRYPAGE.DND5E.Class.TableOptionalCaption": "Optionale {class}-Klassenmerkmale",
-"JOURNALENTRYPAGE.DND5E.Class.TraitsHeader": "Übung",
-"JOURNALENTRYPAGE.DND5E.EditDescription": "Bearbeiten",
-"JOURNALENTRYPAGE.DND5E.TableTOC": "Tabelle: {caption}",
-"JOURNALENTRYPAGE.TypeClass": "Klassenübersicht",
 "MACRO.5eMissingTargetWarn": "Dein kontrollierter Akteur '{actor}' hat kein(en) {type} mit Namen '{name}'.",
 "MACRO.5eMultipleTargetsWarn": "Dein kontrollierter Akteur '{actor}' hat mehr als ein(en) {type} mit Namen '{name}'. Der erste Treffer wird genutzt.",
 "MACRO.5eNoActorSelected": "Kein gewählter oder zugewiesener Akteur konnte als Ziel für Makro gefunden werden.",
@@ -1904,7 +1969,6 @@
 "SETTINGS.5eSanityL": "Aktiviert die Nutzung des optionalen Werts für Geistige Gesundheit. Erfordert, dass die Welt neu geladen wird.",
 "SETTINGS.5eSanityN": "Geistige Gesundheit",
 "SETTINGS.5eUndoChanges": "Änderungen zurücksetzen",
-"SOURCE.BOOK.SRD": "System Reference Document 5.1",
 "TYPES.Actor.character": "Spielercharakter",
 "TYPES.Actor.characterPl": "Spielercharaktere",
 "TYPES.Actor.group": "Gruppe",
@@ -1915,8 +1979,6 @@
 "TYPES.Actor.vehiclePl": "Fahrzeuge",
 "TYPES.Item.background": "Hintergrund",
 "TYPES.Item.backgroundPl": "Hintergründe",
-"TYPES.Item.backpack": "Rucksack",
-"TYPES.Item.backpackPl": "Rucksäcke",
 "TYPES.Item.class": "Klasse",
 "TYPES.Item.classPl": "Klassen",
 "TYPES.Item.consumable": "Verbrauchsgut",
@@ -1942,6 +2004,75 @@
 "TYPES.JournalEntryPage.class": "Klassenübersicht",
 "TYPES.JournalEntryPage.map": "Karten Standort",
 "TYPES.JournalEntryPage.rule": "Regel",
+"TYPES.JournalEntryPage.spells": "Zauberliste",
+"TYPES.JournalEntryPage.subclass": "Unterklassenübersicht",
+"JOURNALENTRYPAGE.DND5E": {
+  "Class": {
+    "AdditionalEquipment": "Zusätzliche Ausrüstung Beschreibung",
+    "AdditionalEquipmentHint": "Zusätzlicher beschreibender Text, der unter dem Startausrüstungsabschnitt angezeigt wird.",
+    "AdditionalHitPoints": "Zusätzliche Trefferpunkte Beschreibung",
+    "AdditionalHitPointsHint": "Zusätzlicher beschreibender Text, der unter dem automatisch generierten Trefferpunkte Abschnitt angezeigt wird.",
+    "AdditionalTraits": "Zusätzliche Übungen Beschreibung",
+    "AdditionalTraitsHint": "Zusätzlicher beschreibender Text, der unter der Liste der von dieser Klasse gewährten Übungen angezeigt wird.",
+    "Description": "Einleitung",
+    "DescriptionHint": "Grundsätzliche Beschreibung der Klasse. Wird zuerst angezeigt.",
+    "EquipmentHeader": "Ausrüstung",
+    "EquipmentDescription": "Du beginnst mit der folgenden Ausrüstung, zusätzlich zu der, die du durch deinen Hintergrund erhältst:",
+    "FeaturesHeader": "Klassenmerkmale",
+    "FeaturesDescription": "Als {name} erhältst du die folgenden Klassenmerkmale, die in der {name}-Tabelle zusammengefasst werden.",
+    "HitDice": "<strong>Trefferwürfel:</strong> {dice} pro Stufe als {class}",
+    "HitPointsHeader": "Trefferpunkte",
+    "HitPointsLevel1": "<strong>Trefferpunkte auf Stufe 1:</strong> {max} + dein Konstitutionsmodifikator",
+    "HitPointsLevelX": "<strong>Trefferpunkte auf höheren Stufen:</strong> {dice} (oder {average}) + dein Konstitutionsmodifikator pro Stufe als {class} über die 1. Stufe hinaus",
+    "Item": "Gewählte Klasse",
+    "ItemHint": "Klasse hierhin ziehen",
+    "NoValidClass": "Keine gültige Klasse gewählt, Bearbeiten nutzen um eine Klasse hinzuzufügen.",
+    "OptionalFeaturesCaption": "Optionale Klassenmerkmale",
+    "OptionalFeaturesDescription": "Der folgende Abschnitt enthält optionale {class}-Klassenmerkmale. Diese werden nicht automatisch zugewiesen und können einzeln, alle oder nach Wahl der Spielleitung gewählt werden.",
+    "SpellSlotLevel": "Platzgrad",
+    "SpellSlots": "Zauberplätze",
+    "SpellSlotsPerSpellLevel": "—Zauberplätze pro Grad—",
+    "SubclassHeader": "Unterklassenabschnitt",
+    "SubclassHint": "Unterklassen hierhin ziehen",
+    "SubclassDescription": "Unterklassen-Einleitung",
+    "SubclassDescriptionHint": "Einleitung, die vor den Unterklassen dieser Klasse angezeigt wird.",
+    "SubclassItems": "Unterklassen",
+    "TableCaption": "{class}",
+    "TableOptionalCaption": "Optionale {class}-Klassenmerkmale",
+    "TraitsHeader": "Übung"
+  },
+  "EditDescription": "Bearbeiten",
+  "TableTOC": "Tabelle: {caption}",
+  "SpellList": {
+    "DropHint": "Zauber oder Ordner mit Zaubern hierhin ziehen um die Liste zu ergänzen",
+    "Grouping": {
+      "Label": "Gruppierungsmodus",
+      "Hint": "Legt fest, wie die Zauber standardmäßig in der Zauberliste gruppiert werden sollen.",
+      "Alphabetical": "Nach Anfangsbuchstaben",
+      "Level": "Nach Zaubergrad",
+      "None": "Keine Gruppierung",
+      "School": "Nach Zauberschule"
+    },
+    "IdentifierHint": "Die ID sollte mit der im zugehörigen Dokument definierten ID übereinstimmen, falls zutreffend. Bei der Erstellung einer Zauberliste für die Klasse \"Magier\" sollte die ID beispielsweise \"Magier\" lauten.",
+    "Type": {
+      "Label": "Zauberlisten-Typ",
+      "Other": "Unkategorisiert"
+    },
+    "UnlinkedSpells": {
+      "Label": "Unverlinkte Zauber",
+      "Add": "Unverlinkte Zauber hinzufügen",
+      "Configuration": "Zauberkonfiguration",
+      "Edit": "Unverlinkte Zauber bearbeiten"
+    }
+  },
+  "Subclass": {
+    "Description": "Einleitung",
+    "DescriptionHint": "Grundsätzliche Beschreibung der Unterklasse. Wird zuerst angezeigt.",
+    "Item": "Gewählte Unterklasse",
+    "ItemHint": "Unterklasse hierhin ziehen",
+    "NoValidSubclass": "Keine gültige Unterklasse gewählt, Bearbeiten nutzen um eine Unterlasse hinzuzufügen."
+  }
+},
 "SETTINGS.5eGridAlignedSquareTemplatesL": "Wenn quadratische Schablonen durch das Wirken eines Zaubers oder die Verwendung eines Gegenstands erstellt werden, sind sie an die Ausrichtung des Rasters gebunden und können nicht gedreht werden.",
 "SETTINGS.5eGridAlignedSquareTemplatesN": "Am Raster ausgerichtete quadratische Schablonen",
 "SETTINGS.5eTokenRings": {
@@ -1952,6 +2083,13 @@
   "ALLOWSUMMONING": {
     "Name": "Beschwörungen erlauben",
     "Hint": "Erlaubt Spielern, Beschwörungsfähigkeiten zu nutzen, um Akteure zu beschwören. Damit dies funktioniert, müssen die Spieler auch die Berechtigung \"Neue Figuren erstellen\" haben."
+  },
+  "COLLAPSETRAYS": {
+    "Name": "Fächer im Chat zusammenklappen",
+    "Hint": "Automatisches Einklappen von Schadens-, Treffer- und Effektfächern, die in Chat-Karten erscheinen.",
+    "Always": "Alle einklappen",
+    "Older": "Ältere Fächer zusammenklappen",
+    "Never": "Alle ausklappen"
   },
   "THEME": {
     "Name": "Thema",
@@ -1966,5 +2104,6 @@
     "Light": "Heller Modus"
   }
 },
-"dnd5e-DE.ProficiencyAbbrev": "ÜB"
+"SOURCE.BOOK.SRD": "System Reference Document 5.1",
+"SIDEBAR.SortModePriority": "Nach Priorität sortieren"
 }
