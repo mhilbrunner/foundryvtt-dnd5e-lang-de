@@ -1,4 +1,21 @@
 {
+    "folders": {
+		"Ammunition" : "Munition",
+		"Armor": "Rüstungen",
+		"Container" : "Behälter",
+		"Equipment" : "Ausrüstung",
+		"Equipment Packs" : "Ausrüstungs Pakete",
+		"Food" : "Essen",
+		"Loot" : "Beute",
+        "Potion" : "Tränke",
+		"Poison" : "Gifte",
+		"Rod" : "Stäbe",
+		"Scroll" : "Schriftrollen",
+		"Tool" : "Werkzeuge",
+		"Trinket" : "Schmuckstücke",
+		"Wand" : "Zauberstäbe",
+		"Weapon" : "Waffen"
+	},
     "entries": {
         "Abacus": {
             "name": "Abakus",
@@ -401,8 +418,8 @@
             "source": "SLH S. 152"
         },
         "Brass Horn of Valhalla": {
-            "name": "Horn von Valhalla aus Messing",
-            "description": "<p><em>Wundersamer Gegenstand, selten (Silber oder Messing), sehr selten (Bronze), legendär (Eisen)</em></p>\n<p>Du kannst eine Aktion aufwenden, um das Horn zu blasen. Als Reaktion darauf erscheinen Kriegergeister von der Ebene Ysgard innerhalb von 18 Metern zu dir. Diese Geister verfügen über die Werte des @Compendium[dnd5e.monsters.kz1t6xeXVwODpYb2]{Berserkers}. Sie kehren nach 1 Stunde nach Ysgard zurück, oder wenn sie auf 0 Trefferpunkte sinken. Wenn du das Horn benutzt hast, kannst du es nicht erneut benutzen, bevor 7 Tage verstrichen sind.</p>\n<p>Vier Arten des Horns von Valhalla sind als existent bekannt, jedes aus einem anderen Material geschaffen. Der Typ des Horns bestimmt, wie viele Berserker beschworen werden, sowie die Voraussetzungen für seine Benutzung. Der SL bestimmt den Typen oder lässt per Zufall entscheiden.</p>\n<table>\n<thead>\n<tr>\n<th>W100</th>\n<th>Horn-Art</th>\n<th>Beschworene Berserker</th>\n<th>Voraussetzung</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01-40</td>\n<td>Silber</td>\n<td>2W4 + 2</td>\n<td>Keine</td>\n</tr>\n<tr>\n<td><strong>41-75</strong></td>\n<td><strong>Messing</strong></td>\n<td><strong>3W4 + 3</strong></td>\n<td><strong>Übung mit allen einfachen Waffen</strong></td>\n</tr>\n<tr>\n<td>76-90</td>\n<td>Bronze</td>\n<td>4W4 + 4</td>\n<td>Übung mit allen mittelschweren Rüstungen.</td>\n</tr>\n<tr>\n<td>91-00</td>\n<td>Eisen</td>\n<td>5W4 + 5</td>\n<td>Übung mit allen Kriegswaffen.</td>\n</tr>\n</tbody>\n</table>\n<p>Wenn du das Horn bläst, ohne seine Anforderung zu erfüllen, greifen dich die beschworenen Berserker an. Wenn du die Voraussetzungen erfüllst, sind sie dir und deinen Begleitern freundlich gesonnen und gehorchen deinen Befehlen.</p>",
+            "name": "Horn von Walhalla aus Messing",
+            "description": "<p><em>Wundersamer Gegenstand, selten (Silber oder Messing), sehr selten (Bronze), legendär (Eisen)</em></p>\n<p>Du kannst eine Aktion aufwenden, um das Horn zu blasen. Als Reaktion darauf erscheinen Kriegergeister von der Ebene Ysgard innerhalb von 18 Metern zu dir. Diese Geister verfügen über die Werte des @Compendium[dnd5e.monsters.kz1t6xeXVwODpYb2]{Berserkers}. Sie kehren nach 1 Stunde nach Ysgard zurück, oder wenn sie auf 0 Trefferpunkte sinken. Wenn du das Horn benutzt hast, kannst du es nicht erneut benutzen, bevor 7 Tage verstrichen sind.</p>\n<p>Vier Arten des Horns von Walhalla sind als existent bekannt, jedes aus einem anderen Material geschaffen. Der Typ des Horns bestimmt, wie viele Berserker beschworen werden, sowie die Voraussetzungen für seine Benutzung. Der SL bestimmt den Typen oder lässt per Zufall entscheiden.</p>\n<table>\n<thead>\n<tr>\n<th>W100</th>\n<th>Horn-Art</th>\n<th>Beschworene Berserker</th>\n<th>Voraussetzung</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01-40</td>\n<td>Silber</td>\n<td>2W4 + 2</td>\n<td>Keine</td>\n</tr>\n<tr>\n<td><strong>41-75</strong></td>\n<td><strong>Messing</strong></td>\n<td><strong>3W4 + 3</strong></td>\n<td><strong>Übung mit allen einfachen Waffen</strong></td>\n</tr>\n<tr>\n<td>76-90</td>\n<td>Bronze</td>\n<td>4W4 + 4</td>\n<td>Übung mit allen mittelschweren Rüstungen.</td>\n</tr>\n<tr>\n<td>91-00</td>\n<td>Eisen</td>\n<td>5W4 + 5</td>\n<td>Übung mit allen Kriegswaffen.</td>\n</tr>\n</tbody>\n</table>\n<p>Wenn du das Horn bläst, ohne seine Anforderung zu erfüllen, greifen dich die beschworenen Berserker an. Wenn du die Voraussetzungen erfüllst, sind sie dir und deinen Begleitern freundlich gesonnen und gehorchen deinen Befehlen.</p>",
             "source": "SLH S. 168"
         },
         "Brazier of Commanding Fire Elementals": {
@@ -441,8 +458,8 @@
             "source": "SHB S. 154"
         },
         "Bronze Horn of Valhalla": {
-            "name": "Horn von Valhalla aus Bronze",
-            "description": "<p><em>Wundersamer Gegenstand, selten (Silber oder Messing), sehr selten (Bronze), legendär (Eisen)</em></p>\n<p>Du kannst eine Aktion aufwenden, um das Horn zu blasen. Als Reaktion darauf erscheinen Kriegergeister von der Ebene Ysgard innerhalb von 18 Metern zu dir. Diese Geister verfügen über die Werte des @Compendium[dnd5e.monsters.kz1t6xeXVwODpYb2]{Berserkers}. Sie kehren nach 1 Stunde nach Ysgard zurück, oder wenn sie auf 0 Trefferpunkte sinken. Wenn du das Horn benutzt hast, kannst du es nicht erneut benutzen, bevor 7 Tage verstrichen sind.</p>\n<p>Vier Arten des Horns von Valhalla sind als existent bekannt, jedes aus einem anderen Material geschaffen. Der Typ des Horns bestimmt, wie viele Berserker beschworen werden, sowie die Voraussetzungen für seine Benutzung. Der SL bestimmt den Typen oder lässt per Zufall entscheiden.</p>\n<table>\n<thead>\n<tr>\n<th>W100</th>\n<th>Horn-Art</th>\n<th>Beschworene Berserker</th>\n<th>Voraussetzung</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01-40</td>\n<td>Silber</td>\n<td>2W4 + 2</td>\n<td>Keine</td>\n</tr>\n<tr>\n<td>41-75</td>\n<td>Messing</td>\n<td>3W4 + 3</td>\n<td>Übung mit allen einfachen Waffen</td>\n</tr>\n<tr>\n<td><strong>76-90</strong></td>\n<td><strong>Bronze</strong></td>\n<td><strong>4W4 + 4</strong></td>\n<td><strong>Übung mit allen mittelschweren Rüstungen.</strong></td>\n</tr>\n<tr>\n<td>91-00</td>\n<td>Eisen</td>\n<td>5W4 + 5</td>\n<td>Übung mit allen Kriegswaffen.</td>\n</tr>\n</tbody>\n</table>\n<p>Wenn du das Horn bläst, ohne seine Anforderung zu erfüllen, greifen dich die beschworenen Berserker an. Wenn du die Voraussetzungen erfüllst, sind sie dir und deinen Begleitern freundlich gesonnen und gehorchen deinen Befehlen.</p>",
+            "name": "Horn von Walhalla aus Bronze",
+            "description": "<p><em>Wundersamer Gegenstand, selten (Silber oder Messing), sehr selten (Bronze), legendär (Eisen)</em></p>\n<p>Du kannst eine Aktion aufwenden, um das Horn zu blasen. Als Reaktion darauf erscheinen Kriegergeister von der Ebene Ysgard innerhalb von 18 Metern zu dir. Diese Geister verfügen über die Werte des @Compendium[dnd5e.monsters.kz1t6xeXVwODpYb2]{Berserkers}. Sie kehren nach 1 Stunde nach Ysgard zurück, oder wenn sie auf 0 Trefferpunkte sinken. Wenn du das Horn benutzt hast, kannst du es nicht erneut benutzen, bevor 7 Tage verstrichen sind.</p>\n<p>Vier Arten des Horns von Walhalla sind als existent bekannt, jedes aus einem anderen Material geschaffen. Der Typ des Horns bestimmt, wie viele Berserker beschworen werden, sowie die Voraussetzungen für seine Benutzung. Der SL bestimmt den Typen oder lässt per Zufall entscheiden.</p>\n<table>\n<thead>\n<tr>\n<th>W100</th>\n<th>Horn-Art</th>\n<th>Beschworene Berserker</th>\n<th>Voraussetzung</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01-40</td>\n<td>Silber</td>\n<td>2W4 + 2</td>\n<td>Keine</td>\n</tr>\n<tr>\n<td>41-75</td>\n<td>Messing</td>\n<td>3W4 + 3</td>\n<td>Übung mit allen einfachen Waffen</td>\n</tr>\n<tr>\n<td><strong>76-90</strong></td>\n<td><strong>Bronze</strong></td>\n<td><strong>4W4 + 4</strong></td>\n<td><strong>Übung mit allen mittelschweren Rüstungen.</strong></td>\n</tr>\n<tr>\n<td>91-00</td>\n<td>Eisen</td>\n<td>5W4 + 5</td>\n<td>Übung mit allen Kriegswaffen.</td>\n</tr>\n</tbody>\n</table>\n<p>Wenn du das Horn bläst, ohne seine Anforderung zu erfüllen, greifen dich die beschworenen Berserker an. Wenn du die Voraussetzungen erfüllst, sind sie dir und deinen Begleitern freundlich gesonnen und gehorchen deinen Befehlen.</p>",
             "source": "SLH S. 168"
         },
         "Brooch of Shielding": {
@@ -463,6 +480,11 @@
         "Bullseye Lantern": {
             "name": "Blendlaterne",
             "description": "<p>Eine Blendlaterne wirft einen 18 m langen Kegel hellen Lichts, der weitere 18 m in dämmriges Licht taucht. Einmal entfacht, brennt die Laterne mit einem Fläschchen Öl (0,5l) für 6 Stunden.</p>",
+            "source": "SHB S. 152"
+        },
+        "Burglar's Pack": {
+            "name": "Einbrecherausrüstung",
+            "description": "<p>Ein Rucksack hat ein Fassungsvermögen von 30 Liter oder 30 Pfund an Ausrüstung. Sie können auch Gegenstände, wie z. B. einen Schlafsack oder ein Seil, außen am Rucksack befestigen.</p>",
             "source": "SHB S. 152"
         },
         "Calligrapher's Supplies": {
@@ -875,6 +897,11 @@
             "description": "<p><em>Wundersamer Gegenstand</em></p>\n<p>Du kannst eine Aktion aufwenden, um diese Fesseln einer kampfunfähigen Kreatur anzulegen. Die Fesseln passen sich kleinen bis großen Kreaturen an. Davon abgesehen, dass sie als alltägliche Fesseln dienen, verhindern diese Fesseln, dass sie davon gebundene Kreatur irgendeine Methode von außerdimensionaler Bewegung anwendet, inklusive Teleportation oder die Reise zu einer anderen Existenzebene. Sie verhindern jedoch nicht, dass die Kreatur durch ein zwischenweltliches Portal geht.</p>\n<p>Du und jede Kreatur, die du bestimmst, während du die Fesseln anlegst, können die Fesseln abnehmen, indem sie eine Aktion aufwenden. Einmal alle 30 Tage kann die gebundene Kreatur einen Wurf auf Stärke (Athletik) gegen SG 30 ablegen. Bei einem Erfolg befreit sie sich und zerstört die Fesseln.</p>",
             "source": "SLH S. 155"
         },
+        "Diplomat's Pack": {
+            "name": "Diplomatenausrüstung",
+            "description": "<p>Eine Truhe hat ein Fassungsvermögen von 340 Liter oder 300 Pfund an Ausrüstung.</p>",
+            "source": "SHB S. 152"
+        },
         "Disguise Kit": {
             "name": "Verkleidungsausrüstung",
             "description": "<p>Dieser Beutel mit Schminke, Haarfärbemitteln und kleinen Requisiten lässt dich Verkleidungen entwerfen, die dein Äußeres verändern.</p>\n<p>Bist du im Umgang mit diesem Werkzeug geübt, darfst du deinen Übungsbonus auf alle Attributs- und Fertigkeitswürfe addieren, wenn du dich äußerlich verkleidest.</p>",
@@ -919,6 +946,11 @@
             "name": "Hackbrett",
             "description": "<p>Ein Hackbrett, das Ehrfurcht, Staunen oder Angst in Ihrem Publikum hervorruft.</p>\n<p>Bist du im Umgang mit einem Musikinstrument geübt, darfst du deinen Übungsbonus auf alle Attributs- und Fertigkeitswürfe addieren, die mit dem Spielen des Instruments in Verbindung stehen. Ein Barde kann sein Instrument als Zauberfokus, anstelle einer Materialkomponente, für die keine Kosten aufgeführt sind, verwenden. Jedes Musikinstrument benötigt seine eigene Übung.</p>",
             "source": "SHB S. 154"
+        },
+        "Dungeoneer's Pack": {
+            "name": "Gewölbeforscherausrüstung",
+            "description": "<p>Ein Rucksack hat ein Fassungsvermögen von 30 Liter oder 30 Pfund an Ausrüstung. Sie können auch Gegenstände, wie z. B. einen Schlafsack oder ein Seil, außen am Rucksack befestigen.</p>",
+            "source": "SHB S. 152"
         },
         "Dust of Disappearance": {
             "name": "Staub des Verschwindens",
@@ -985,6 +1017,11 @@
             "description": "<p>Ein Symbol, das auf einem Schild oder einem anderen Gerät eingraviert oder sorgfältig eingelegt ist und eine Gottheit darstellt, durch die ein wahrer Gläubiger ihre Macht anrufen und so den Glauben verbreiten kann.</p>\n<p><strong>Heiliges Symbol</strong>. Ein Kleriker oder Paladin kann ein heiliges Symbol als Zauberfokus verwenden. Um das Symbol auf diese Weise zu verwenden, muss der Zaubernde es in der Hand halten, sichtbar tragen oder auf einem Schild tragen.</p>",
             "source": "SHB S. 150; 151"
         },
+        "Entertainer's Pack": {
+            "name": "Unterhaltungskünstler-Ausrüstung",
+            "description": "<p>Ein Rucksack hat ein Fassungsvermögen von 30 Liter oder 30 Pfund an Ausrüstung. Sie können auch Gegenstände, wie z. B. einen Schlafsack oder ein Seil, außen am Rucksack befestigen.</p>",
+            "source": "SHB S. 152"
+        },
         "Eversmoking Bottle": {
             "name": "Rauchflasche",
             "description": "<p><em>Wundersamer Gegenstand</em></p>\n<p>Rauch tritt aus dieser Flasche aus, die mit Blei verkorkt ist und 1 Pfund wiegt. Wenn du eine Aktion aufwendest, um den Korken zu ziehen, tritt ein dicker Rauch aus der Flasche heraus und umfasst einen Radius von 18 Metern zu der Flasche. Der Bereich im Rauch ist komplett verschleiert. Jede Minute, die die Flasche geöffnet bleibt, erweitert sich der Radius um 3 m bis zu einem Maximum von 120 m.</p>\n<p>Die Rauchwolke bleibt bestehen, solange die Flasche geöffnet ist. Um die Flasche zu schließen, musst du ihr Befehlswort als eine Aktion sprechen. Sobald die Flasche geschlossen wurde, verschwindet der Rauch nach 10 Minuten. Ein mäßiger Wind (16,5 bis 30 Kilometer pro Stunde) kann den Rauch ebenso nach einer Minute zerstreuen und ein starker Wind (31 Kilometer pro Stunde oder mehr) zerstreut den Rauch nach einer Runde.</p>",
@@ -994,6 +1031,11 @@
             "name": "Exotischer Sattel",
             "description": "<p>Eine Art Sitz, der auf dem Rücken des Reittieres befestigt wird, um den Reiter zu stützen und einen Teil der Ausrüstung des Reittieres, wie z. B. Steigbügel, zu befestigen.</p><p>Ein exotischer Sattel wird zum Reiten von fliegenden oder Wasserreittieren benötigt.</p>",
             "source": "SHB S. 157"
+        },
+        "Explorer's Pack": {
+            "name": "Entdeckerausrüstung",
+            "description": "<p>Ein Rucksack hat ein Fassungsvermögen von 30 Liter oder 30 Pfund an Ausrüstung. Sie können auch Gegenstände, wie z. B. einen Schlafsack oder ein Seil, außen am Rucksack befestigen.</p>",
+            "source": "SHB S. 152"
         },
         "Eyes of Charming": {
             "name": "Bezauberungsaugen",
@@ -1011,32 +1053,32 @@
             "source": "SHB S. 152"
         },
         "Feather Token Anchor": {
-            "name": "Feder Zeichen Anker",
+            "name": "Federfigur Anker",
             "description": "<p><em>Wundersamer Gegenstand</em></p>\n<p>Dieses winzige Objekt sieht aus wie eine Feder. Verschiedene Arten dieses Federobjekts existieren, von denen jede einen eigenen, einmal benutzbaren Effekt hat. Der Spielleiter entscheidet über die Art der Feder oder bestimmt sie zufällig.</p>\n<table>\n<thead>\n<tr>\n<th>W100</th>\n<th>Feder</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01-20</td>\n<td>Anker</td>\n</tr>\n<tr>\n<td>21-35</td>\n<td>Vogel</td>\n</tr>\n<tr>\n<td>36-50</td>\n<td>Fächer</td>\n</tr>\n<tr>\n<td>51-65</td>\n<td>Schwanenboot</td>\n</tr>\n<tr>\n<td>66-90</td>\n<td>Baum</td>\n</tr>\n<tr>\n<td>91-00</td>\n<td>Peitsche</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Anker</strong>. Du kannst eine Aktion verwenden, um ein Boot oder ein Schiff mit der Feder zu berühren. Für die nächsten 24 Stunden kann sich dieses Gefährt auf keine Weise bewegen. Wenn du die Feder erneut daran hältst, wird der Effekt beendet. Wenn der Effekt endet, verschwindet die Feder.</p>",
             "source": "SLH S. 174"
         },
         "Feather Token Bird": {
-            "name": "Feder Zeichen Vogel",
+            "name": "Federfigur Vogel",
             "description": "<p><em>Wundersamer Gegenstand</em></p>\n<p>Dieses winzige Objekt sieht aus wie eine Feder. Verschiedene Arten dieses Federobjekts existieren, von denen jede einen eigenen, einmal benutzbaren Effekt hat. Der Spielleiter entscheidet über die Art der Feder oder bestimmt sie zufällig.</p>\n<table>\n<thead>\n<tr>\n<th>W100</th>\n<th>Feder</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01-20</td>\n<td>Anker</td>\n</tr>\n<tr>\n<td>21-35</td>\n<td>Vogel</td>\n</tr>\n<tr>\n<td>36-50</td>\n<td>Fächer</td>\n</tr>\n<tr>\n<td>51-65</td>\n<td>Schwanenboot</td>\n</tr>\n<tr>\n<td>66-90</td>\n<td>Baum</td>\n</tr>\n<tr>\n<td>91-00</td>\n<td>Peitsche</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Vogel</strong>. Du kannst eine Aktion verwenden, um die Feder bis zu 1,50 m in die Luft zu werfen. Die Feder verschwindet, und ein enormer, mehrfarbiger Vogel erscheint an ihrer Stelle Der Vogel hat die Werte eines @Compendium[dnd5e.monsters.p980augbCIdpK9ZX]{Roch}, aber er folgt simplen Anweisungen von dir und kann nicht angreifen. Er kann ein Maximalgewicht von 500 Pfund tragen, während er seine Maximalgeschwindigkeit fliegt, 24 km pro Stunde für maximal 216 km pro Tag mit einer einstündigen Pause alle 3 Stunden. Alternativ kann er 1.000 Pfund tragen und halb so schnell fliegen. Der Vogel verschwindet, wenn er einen Tag lang seine maximale Distanz geflogen ist oder wenn seine Trefferpunkte auf 0 sinken. Du kannst den Vogel mit einer Aktion entlassen.</p>\n<p><em><strong>Information</strong>: Die 144 Ladungen stehen für die 144 Meilen, die der Vogel bei maximaler Geschwindigkeit zurücklegen kann, um bei Bedarf eine genaue Entfernungsmessung zu ermöglichen.</em></p>",
             "source": "SLH S. 174"
         },
         "Feather Token Fan": {
-            "name": "Feder Zeichen Fächer",
+            "name": "Federfigur Fächer",
             "description": "<p><em>Wundersamer Gegenstand</em></p>\n<p>Dieses winzige Objekt sieht aus wie eine Feder. Verschiedene Arten dieses Federobjekts existieren, von denen jede einen eigenen, einmal benutzbaren Effekt hat. Der Spielleiter entscheidet über die Art der Feder oder bestimmt sie zufällig.</p>\n<table>\n<thead>\n<tr>\n<th>W100</th>\n<th>Feder</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01-20</td>\n<td>Anker</td>\n</tr>\n<tr>\n<td>21-35</td>\n<td>Vogel</td>\n</tr>\n<tr>\n<td>36-50</td>\n<td>Fächer</td>\n</tr>\n<tr>\n<td>51-65</td>\n<td>Schwanenboot</td>\n</tr>\n<tr>\n<td>66-90</td>\n<td>Baum</td>\n</tr>\n<tr>\n<td>91-00</td>\n<td>Peitsche</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Fächer</strong>. Wenn du auf einem Boot oder Schiff bist, kannst du eine Aktion aufwenden, um die Feder bis zu 1,5 m in die Luft zu werfen. Die Feder verschwindet, und ein riesiger wedelnder Fächer nimmt ihren Platz ein. Der Fächer schwebt und erschafft einen Wind, der stark genug ist, die Segel eines Schiffs zu füllen und seine Bewegungsrate damit für 8 Stunden um 7,5 km pro Stunde zu erhöhen. Du kannst den Fächer mit einer Aktion entlassen.</p>",
             "source": "SLH S. 174"
         },
         "Feather Token Swan Boat": {
-            "name": "Feder Zeichen Schwanenboot",
+            "name": "Federfigur Schwanenboot",
             "description": "<p><em>Wundersamer Gegenstand</em></p>\n<p>Dieses winzige Objekt sieht aus wie eine Feder. Verschiedene Arten dieses Federobjekts existieren, von denen jede einen eigenen, einmal benutzbaren Effekt hat. Der Spielleiter entscheidet über die Art der Feder oder bestimmt sie zufällig.</p>\n<table>\n<thead>\n<tr>\n<th>W100</th>\n<th>Feder</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01-20</td>\n<td>Anker</td>\n</tr>\n<tr>\n<td>21-35</td>\n<td>Vogel</td>\n</tr>\n<tr>\n<td>36-50</td>\n<td>Fächer</td>\n</tr>\n<tr>\n<td>51-65</td>\n<td>Schwanenboot</td>\n</tr>\n<tr>\n<td>66-90</td>\n<td>Baum</td>\n</tr>\n<tr>\n<td>91-00</td>\n<td>Peitsche</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Schwanenboot</strong>. Du kannst eine Aktion verwenden, um mit der Feder ein Gewässer von mindestens 18 m Durchmesser zu berühren. Die Feder verschwindet und ein 15 Meter langes Boot in Form eines Schwans nimmt ihren Platz ein. Das Boot fährt selbständig und bewegt sich mit einer Geschwindigkeit von 9 Kilometer pro Stunde über das Wasser. Wenn du dich im Boot befindest, kannst du eine Aktion verwenden, um dem Boot zu befehlen, sich zu bewegen oder sich bis zu 90 Grad zu drehen. Das Boot kann bis zu 32 mittelgroße oder kleinere Kreaturen tragen. Eine große Kreatur zählt als 4 mittelgroße Kreaturen, während eine riesige als 9 zählt. Das Boot bleibt für 24 Stunden und verschwindet anschließend. Du kannst das Boot mit einer Aktion entlassen.</p>",
             "source": "SLH S. 174"
         },
         "Feather Token Tree": {
-            "name": "Feder Zeichen Baum",
+            "name": "Federfigur Baum",
             "description": "<p><em>Wundersamer Gegenstand</em></p>\n<p>Dieses winzige Objekt sieht aus wie eine Feder. Verschiedene Arten dieses Federobjekts existieren, von denen jede einen eigenen, einmal benutzbaren Effekt hat. Der Spielleiter entscheidet über die Art der Feder oder bestimmt sie zufällig.</p>\n<table>\n<thead>\n<tr>\n<th>W100</th>\n<th>Feder</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01-20</td>\n<td>Anker</td>\n</tr>\n<tr>\n<td>21-35</td>\n<td>Vogel</td>\n</tr>\n<tr>\n<td>36-50</td>\n<td>Fächer</td>\n</tr>\n<tr>\n<td>51-65</td>\n<td>Schwanenboot</td>\n</tr>\n<tr>\n<td>66-90</td>\n<td>Baum</td>\n</tr>\n<tr>\n<td>91-00</td>\n<td>Peitsche</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Baum</strong>. Du musst im Freien sein, um diese Feder zu verwenden. Du kannst als Aktion mit der Feder eine unbesetzte Stelle am Boden berühren. Die Feder verschwindet und eine nicht-magische Eiche erscheint an ihrer Stelle. Der Baum ist 18 m hoch und hat einen Stamm von 1,50 m Durchmesser. Seine Äste in der Krone sprießen in einem Radius von 6 m.</p>",
             "source": "SLH S. 174"
         },
         "Feather Token Whip": {
-            "name": "Feder Zeichen Peitsche",
+            "name": "Federfigur Peitsche",
             "description": "<p><em>Wundersamer Gegenstand</em></p>\n<p>Dieses winzige Objekt sieht aus wie eine Feder. Verschiedene Arten dieses Federobjekts existieren, von denen jede einen eigenen, einmal benutzbaren Effekt hat. Der Spielleiter entscheidet über die Art der Feder oder bestimmt sie zufällig.</p>\n<table>\n<thead>\n<tr>\n<th>W100</th>\n<th>Feder</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01-20</td>\n<td>Anker</td>\n</tr>\n<tr>\n<td>21-35</td>\n<td>Vogel</td>\n</tr>\n<tr>\n<td>36-50</td>\n<td>Fächer</td>\n</tr>\n<tr>\n<td>51-65</td>\n<td>Schwanenboot</td>\n</tr>\n<tr>\n<td>66-90</td>\n<td>Baum</td>\n</tr>\n<tr>\n<td>91-00</td>\n<td>Peitsche</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Peitsche</strong>. Du kannst eine Aktion aufwenden, um die Feder zu einem Punkt innerhalb von 3 m zu dir zu werfen. Die Feder verschwindet, und eine schwebende Peitsche nimmt ihren Platz ein. Du kannst eine Bonusaktion verwenden, um damit einen Nahkampf-Zauberangriff mit Angriffsbonus +9 gegen eine Kreatur innerhalb von 3 m zu der Peitsche auszuführen. Bei einem Treffer erhält das Ziel 1W6 + 5 Energieschaden.</p>\n<p>Als Bonusaktion kannst du während deines Zuges der Peitsche befehlen, bis zu 6 m weit zu fliegen und den Angriff auf eine Kreatur innerhalb von 3 m zu ihr zu wiederholen. Die Peitsche verschwindet nach 1 Stunde, wenn du eine Aktion aufwendest, um sie zu entlassen, wenn du kampfunfähig wirst oder wenn du stirbst.</p>",
             "source": "SLH S. 174"
         },
@@ -1761,8 +1803,8 @@
             "source": "SLH S. 157"
         },
         "Iron Horn of Valhalla": {
-            "name": "Horn von Valhalla aus Eisen",
-            "description": "<p><em>Wundersamer Gegenstand, selten (Silber oder Messing), sehr selten (Bronze), legendär (Eisen)</em></p>\n<p>Du kannst eine Aktion aufwenden, um das Horn zu blasen. Als Reaktion darauf erscheinen Kriegergeister von der Ebene Ysgard innerhalb von 18 Metern zu dir. Diese Geister verfügen über die Werte des @Compendium[dnd5e.monsters.kz1t6xeXVwODpYb2]{Berserkers}. Sie kehren nach 1 Stunde nach Ysgard zurück, oder wenn sie auf 0 Trefferpunkte sinken. Wenn du das Horn benutzt hast, kannst du es nicht erneut benutzen, bevor 7 Tage verstrichen sind.</p>\n<p>Vier Arten des Horns von Valhalla sind als existent bekannt, jedes aus einem anderen Material geschaffen. Der Typ des Horns bestimmt, wie viele Berserker beschworen werden, sowie die Voraussetzungen für seine Benutzung. Der SL bestimmt den Typen oder lässt per Zufall entscheiden.</p>\n<table>\n<thead>\n<tr>\n<th>W100</th>\n<th>Horn-Art</th>\n<th>Beschworene Berserker</th>\n<th>Voraussetzung</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01-40</td>\n<td>Silber</td>\n<td>2W4 + 2</td>\n<td>Keine</td>\n</tr>\n<tr>\n<td>41-75</td>\n<td>Messing</td>\n<td>3W4 + 3</td>\n<td>Übung mit allen einfachen Waffen</td>\n</tr>\n<tr>\n<td>76-90</td>\n<td>Bronze</td>\n<td>4W4 + 4</td>\n<td>Übung mit allen mittelschweren Rüstungen.</td>\n</tr>\n<tr>\n<td><strong>91-00</strong></td>\n<td><strong>Eisen</strong></td>\n<td><strong>5W4 + 5</strong></td>\n<td><strong>Übung mit allen Kriegswaffen.</strong></td>\n</tr>\n</tbody>\n</table>\n<p>Wenn du das Horn bläst, ohne seine Anforderung zu erfüllen, greifen dich die beschworenen Berserker an. Wenn du die Voraussetzungen erfüllst, sind sie dir und deinen Begleitern freundlich gesonnen und gehorchen deinen Befehlen.</p>",
+            "name": "Horn von Walhalla aus Eisen",
+            "description": "<p><em>Wundersamer Gegenstand, selten (Silber oder Messing), sehr selten (Bronze), legendär (Eisen)</em></p>\n<p>Du kannst eine Aktion aufwenden, um das Horn zu blasen. Als Reaktion darauf erscheinen Kriegergeister von der Ebene Ysgard innerhalb von 18 Metern zu dir. Diese Geister verfügen über die Werte des @Compendium[dnd5e.monsters.kz1t6xeXVwODpYb2]{Berserkers}. Sie kehren nach 1 Stunde nach Ysgard zurück, oder wenn sie auf 0 Trefferpunkte sinken. Wenn du das Horn benutzt hast, kannst du es nicht erneut benutzen, bevor 7 Tage verstrichen sind.</p>\n<p>Vier Arten des Horns von Walhalla sind als existent bekannt, jedes aus einem anderen Material geschaffen. Der Typ des Horns bestimmt, wie viele Berserker beschworen werden, sowie die Voraussetzungen für seine Benutzung. Der SL bestimmt den Typen oder lässt per Zufall entscheiden.</p>\n<table>\n<thead>\n<tr>\n<th>W100</th>\n<th>Horn-Art</th>\n<th>Beschworene Berserker</th>\n<th>Voraussetzung</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01-40</td>\n<td>Silber</td>\n<td>2W4 + 2</td>\n<td>Keine</td>\n</tr>\n<tr>\n<td>41-75</td>\n<td>Messing</td>\n<td>3W4 + 3</td>\n<td>Übung mit allen einfachen Waffen</td>\n</tr>\n<tr>\n<td>76-90</td>\n<td>Bronze</td>\n<td>4W4 + 4</td>\n<td>Übung mit allen mittelschweren Rüstungen.</td>\n</tr>\n<tr>\n<td><strong>91-00</strong></td>\n<td><strong>Eisen</strong></td>\n<td><strong>5W4 + 5</strong></td>\n<td><strong>Übung mit allen Kriegswaffen.</strong></td>\n</tr>\n</tbody>\n</table>\n<p>Wenn du das Horn bläst, ohne seine Anforderung zu erfüllen, greifen dich die beschworenen Berserker an. Wenn du die Voraussetzungen erfüllst, sind sie dir und deinen Begleitern freundlich gesonnen und gehorchen deinen Befehlen.</p>",
             "source": "SLH S. 168"
         },
         "Iron Pot": {
@@ -2079,6 +2121,11 @@
             "name": "Handbuch der schnellen Handelns",
             "description": "<p><em>Wundersamer Gegenstand</em></p>\n<p>Dieses Buch beschreibt Koordinations- und Balance-Übungen, und seine Worte sind mit Magie aufgeladen. Wenn du 48 Stunden über einen Zeitraum von 6 Tagen oder weniger damit verbringst, den Inhalt dieses Buchs zu lesen und seine Richtlinien zu praktizieren, wird sich dein Geschicklichkeitswert um 2 erhöhen, ebenso dein Maximum für dieses Attribut.</p>\n<p>Das Handbuch verliert darauf seine Magie, gewinnt diese aber in einem Jahrhundert wieder.</p>",
             "source": "SLH S. 165"
+        },
+        "Map Case": {
+            "name": "Kartenbehälter",
+            "description": "<p>Diese zylindrische Ledertasche fasst bis zu zehn aufgerollte Papierbögen oder fünf aufgerollte Pergamentbögen.</p>",
+            "source": "SHB S. 151"
         },
         "Map or Scroll Case": {
             "name": "Karten oder Schriftrollen Behälter",
@@ -2665,6 +2712,11 @@
             "description": "<p>Dieser Zylinder ist ein Hilfsmittel für den Gläubigen und kann auf einer Spindel aus Metall, Holz, Knochen, Stein, Leder oder grober Baumwolle gedreht werden, während der Benutzer einem Mantra oder einem Spruch folgt, der eingraviert oder eingelegt ist.</p>",
             "source": "SHB S. 137"
         },
+        "Priest's Pack": {
+            "name": "Priesterausrüstung",
+            "description": "<p>Ein Rucksack hat ein Fassungsvermögen von 30 Liter oder 30 Pfund an Ausrüstung. Sie können auch Gegenstände, wie z. B. einen Schlafsack oder ein Seil, außen am Rucksack befestigen.</p>",
+            "source": "SHB S. 152"
+        },
         "Quarterstaff": {
             "name": "Kampfstab",
             "description": "<p>Ein dicker Holzstab, umwickelt mit einem stabilen Griff, macht ihn nicht nur zu einem robusten Spazierstock, sondern auch zu einer äußerst funktionellen Waffe.</p>",
@@ -3045,6 +3097,11 @@
             "description": "<p>Wenn du dieses käferförmige Medaillon für eine Runde in deiner Hand hältst, erscheint eine Inschrift auf seiner Oberfläche, die seine magische Natur preisgibt. Es bietet zwei Vorteile, wenn es am Körper getragen wird:</p>\n<ul>\n<li>Du hast einen Vorteil auf Rettungswürfe gegen Zaubersprüche.</li>\n<li>Der Skarabäus hat 12 Ladungen. Wenn dir ein Rettungswurf gegen einen Nekromantiezauber oder einen schädlichen Effekt, der von einer untoten Kreatur kommt, misslingt, kannst du eine Reaktion verwenden und 1 Ladung verbrauchen, um den misslungenen Rettungswurf in einen erfolgreichen zu verwandeln. Der Skarabäus zerbröckelt zu Staub und ist zerstört, wenn die letzte Ladung ausgegeben wurde.</li>\n</ul>",
             "source": "SLH S. 183"
         },
+        "Scholar's Pack": {
+            "name": "Gelehrtenausrüstung",
+            "description": "<p>Ein Rucksack hat ein Fassungsvermögen von 30 Liter oder 30 Pfund an Ausrüstung. Sie können auch Gegenstände, wie z. B. einen Schlafsack oder ein Seil, außen am Rucksack befestigen.</p>",
+            "source": "SHB S. 152"
+        },
         "Scimitar": {
             "name": "Krummsäbel",
             "description": "<p>Die gebogene Klinge ist im Bereich des gewickelten Griffs breit, läuft aber in einem Bogen zu einer glänzenden Spitze.</p>",
@@ -3084,6 +3141,11 @@
             "name": "Krummsäbel der Verwundung",
             "description": "<p><em>(benötigt Einstimmung)</em></p>\n<p>Trefferpunkte, die durch Schaden, den diese Waffe zufügt, verloren gehen, können nur durch eine kurze oder lange Rast wiedergewonnen werden anstatt durch Regeneration, Magie oder auf andere Weisen.</p>\n<p>Einmal pro Zug kannst du eine Kreatur verwunden, indem du sie mit dieser magischen Waffe angreifst. Wenn eine verwundete Kreatur ihren Zug startet, erhält sie 1W4 nekrotischen Schaden für jede von dir zugefügte Verwundung. Sie kann dann einen Konstitutionsrettungswurf gegen Schwierigkeitsgrad 15 ablegen, um diesen Effekt bei einem Erfolg für alle Wunden zu beenden. Alternativ kann die verwundete Kreatur, oder eine Kreatur innerhalb von 1,50 Meter von ihr, eine Aktion benutzen, um einen Wurf auf Weisheit (Heilkunde) gegen Schwierigkeitsgrad 15 abzulegen und bei Erfolg den Effekt für alle Wunden zu beenden.</p>",
             "source": "SLH S. 188"
+        },
+        "Scroll Case": {
+            "name": "Schriftrollen Behälter",
+            "description": "<p>Dieser zylindrische Lederbehälter kann bis zu zehn zusammengerollte Blatt Papier oder fünf zusammengerollte Blatt Pergament enthalten.</p>",
+            "source": "SHB S. 150; 151"
         },
         "Sealing Wax": {
             "name": "Siegelwachs",
@@ -3211,8 +3273,8 @@
             "source": "SHB S. 150; 153"
         },
         "Silver Horn of Valhalla": {
-            "name": "Horn von Valhalla aus Silber",
-            "description": "<p><em>Wundersamer Gegenstand, selten (Silber oder Messing), sehr selten (Bronze), legendär (Eisen)</em></p>\n<p>Du kannst eine Aktion aufwenden, um das Horn zu blasen. Als Reaktion darauf erscheinen Kriegergeister von der Ebene Ysgard innerhalb von 18 Metern zu dir. Diese Geister verfügen über die Werte des @Compendium[dnd5e.monsters.kz1t6xeXVwODpYb2]{Berserkers}. Sie kehren nach 1 Stunde nach Ysgard zurück, oder wenn sie auf 0 Trefferpunkte sinken. Wenn du das Horn benutzt hast, kannst du es nicht erneut benutzen, bevor 7 Tage verstrichen sind.</p>\n<p>Vier Arten des Horns von Valhalla sind als existent bekannt, jedes aus einem anderen Material geschaffen. Der Typ des Horns bestimmt, wie viele Berserker beschworen werden, sowie die Voraussetzungen für seine Benutzung. Der SL bestimmt den Typen oder lässt per Zufall entscheiden.</p>\n<table>\n<thead>\n<tr>\n<th>W100</th>\n<th>Horn-Art</th>\n<th>Beschworene Berserker</th>\n<th>Voraussetzung</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>01-40</strong></td>\n<td><strong>Silber</strong></td>\n<td><strong>2W4 + 2</strong></td>\n<td><strong>Keine</strong></td>\n</tr>\n<tr>\n<td>41-75</td>\n<td>Messing</td>\n<td>3W4 + 3</td>\n<td>Übung mit allen einfachen Waffen</td>\n</tr>\n<tr>\n<td>76-90</td>\n<td>Bronze</td>\n<td>4W4 + 4</td>\n<td>Übung mit allen mittelschweren Rüstungen.</td>\n</tr>\n<tr>\n<td>91-00</td>\n<td>Eisen</td>\n<td>5W4 + 5</td>\n<td>Übung mit allen Kriegswaffen.</td>\n</tr>\n</tbody>\n</table>\n<p>Wenn du das Horn bläst, ohne seine Anforderung zu erfüllen, greifen dich die beschworenen Berserker an. Wenn du die Voraussetzungen erfüllst, sind sie dir und deinen Begleitern freundlich gesonnen und gehorchen deinen Befehlen.</p>",
+            "name": "Horn von Walhalla aus Silber",
+            "description": "<p><em>Wundersamer Gegenstand, selten (Silber oder Messing), sehr selten (Bronze), legendär (Eisen)</em></p>\n<p>Du kannst eine Aktion aufwenden, um das Horn zu blasen. Als Reaktion darauf erscheinen Kriegergeister von der Ebene Ysgard innerhalb von 18 Metern zu dir. Diese Geister verfügen über die Werte des @Compendium[dnd5e.monsters.kz1t6xeXVwODpYb2]{Berserkers}. Sie kehren nach 1 Stunde nach Ysgard zurück, oder wenn sie auf 0 Trefferpunkte sinken. Wenn du das Horn benutzt hast, kannst du es nicht erneut benutzen, bevor 7 Tage verstrichen sind.</p>\n<p>Vier Arten des Horns von Walhalla sind als existent bekannt, jedes aus einem anderen Material geschaffen. Der Typ des Horns bestimmt, wie viele Berserker beschworen werden, sowie die Voraussetzungen für seine Benutzung. Der SL bestimmt den Typen oder lässt per Zufall entscheiden.</p>\n<table>\n<thead>\n<tr>\n<th>W100</th>\n<th>Horn-Art</th>\n<th>Beschworene Berserker</th>\n<th>Voraussetzung</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>01-40</strong></td>\n<td><strong>Silber</strong></td>\n<td><strong>2W4 + 2</strong></td>\n<td><strong>Keine</strong></td>\n</tr>\n<tr>\n<td>41-75</td>\n<td>Messing</td>\n<td>3W4 + 3</td>\n<td>Übung mit allen einfachen Waffen</td>\n</tr>\n<tr>\n<td>76-90</td>\n<td>Bronze</td>\n<td>4W4 + 4</td>\n<td>Übung mit allen mittelschweren Rüstungen.</td>\n</tr>\n<tr>\n<td>91-00</td>\n<td>Eisen</td>\n<td>5W4 + 5</td>\n<td>Übung mit allen Kriegswaffen.</td>\n</tr>\n</tbody>\n</table>\n<p>Wenn du das Horn bläst, ohne seine Anforderung zu erfüllen, greifen dich die beschworenen Berserker an. Wenn du die Voraussetzungen erfüllst, sind sie dir und deinen Begleitern freundlich gesonnen und gehorchen deinen Befehlen.</p>",
             "source": "SLH S. 168"
         },
         "Sledgehammer": {

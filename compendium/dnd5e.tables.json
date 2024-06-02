@@ -1,26 +1,352 @@
 {
-    "entries": {
-        "Flaws (Acolyte)": {
-            "name": ""
-        },
-        "Bonds (Acolyte)": {
-            "name": ""
-        },
-        "Personality Traits (Acolyte)": {
-            "name": ""
-        },
-        "Indefinite Madness": {
-            "name": ""
-        },
-        "Ideals (Acolyte)": {
-            "name": ""
-        },
-        "Long-Term Madness": {
-            "name": ""
-        },
-        "Short-Term Madness": {
-            "name": ""
-        }
-    },
-    "label": "Würfeltabellen (SRD)"
+	"label": "Würfeltabellen (SRD)",
+	"entries": {
+		"Armor of Resistance": {
+			"name": "Rüstung des Widerstands",
+			"results": {
+				"1-1": "Säure",
+				"2-2": "Kälte", 
+				"3-3": "Feuer",
+				"4-4": "Energie",
+				"5-5": "Blitz",
+				"6-6": "Nekrotisch",
+				"7-7": "Gift", 
+				"8-8": "Psychisch",
+				"9-9": "Gleißend",
+				"10-10": "Schall"
+			}
+		},
+		"Bag of Beans": {
+			"name": "Bohnenbeutel",
+			"results": {
+				"1-1": "[[5d4]] Pilze sprießen. Wenn eine Kreatur einen Pilz isst, würfle mit einem beliebigen Würfel. Bei einem ungeraden Ergebnis muss die Kreatur, die den Pilz gegessen hat, einen SG-15-Konstitutionsrettungswurf bestehen, oder sie erleidet [[/r 5d6]]{5W6} Giftschaden und ist eine Stunde lang vergiftet. Bei einem geraden Ergebnis erhält die Kreatur, die den Pilz gegessen hat, eine Stunde lang [[/r 5d6]]{5W6} temporäre Trefferpunkte.",
+				"2-10": "Ein Geysir bricht aus und speit [[1d12]] Runden lang Wasser, Bier, Beerensaft, Tee, Essig, Wein oder Öl (der SL entscheidet) neun Meter weit in die Höhe.", 
+				"11-20": "Ein Baumhirte sprießt. Es besteht eine 50-prozentige Wahrscheinlichkeit, dass der Baumhirte chaotisch böse ist und angreift.",
+				"21-30": "Eine belebte, unbewegliche Steinstatue deiner selbst wächst aus dem Boden. Sie bedroht dich verbal. Wenn du die Statue verlässt und andere sich ihr nähern, beschreibt sie dich als den schlimmsten Schurken und weist die Neuankömmlinge an, dich zu finden und anzugreifen. Wenn du dich auf derselben Existenzebene wie die Statue befindest, weiß sie, wo du bist. Die Statue wird nach 24 Stunden unbelebt.",
+				"31-40": "Ein Lagerfeuer mit blauen Flammen erscheint und brennt 24 Stunden lang (oder bis es gelöscht wird).",
+				"41-50": "[[1d6+6]] Kreischer sprießen.", 
+				"51-60": "[[1d4+8]] grellrosa Kröten kriechen hervor. Wenn eine Kröte berührt wird, verwandelt sie sich in ein großes oder kleineres Monster, das der SL bestimmt. Das Monster existiert eine Minute lang und verschwindet dann in einer hellrosa Rauchwolke.",
+				"61-70": "Ein hungriger Landhai gräbt sich an die Oberfläche und greift an.",
+				"71-80": "Ein Obstbaum wächst. Er trägt [[1d10+20]] Früchte, wovon [[1d8]] Früchte wie zufällig bestimmte magische Tränke wirken. Eine Frucht wirkt wie ein trinkbares Gift, das der SL bestimmt. Der Baum verschwindet nach einer Stunde. Gepflückte Früchte bleiben zurück und behalten 30 Tage lang etwaige Magie.",
+				"81-90": "Ein Nest mit [[1d4+3]] Eiern erscheint. Jede Kreatur, die ein Ei isst, muss einen SG-20- Konstitutionsrettungswurf ausführen. Bei einem erfolgreichen Rettungswurf erhöht die jeweilige Kreatur ihren niedrigsten Attributswert dauerhaft um 1, wobei sie zufällig zwischen gleich niedrigen Werten auswählt. Scheitert der Wurf, erleidet die Kreatur durch eine interne magische Explosion [[10d6]] Energieschaden.",
+				"91-99": "Eine Pyramide mit einer quadratischen Basis von 18 Metern Kantenlänge bricht hervor. Im Inneren befindet sich ein Sarkophag mit einem Mumienfürsten. Die Pyramide ist der Hort des Mumienfürsten und der Sarkophag enthält Schätze, die der SL bestimmt.",
+				"100-100": "Eine riesige Bohnenranke sprießt aus dem Boden und wächst auf eine Höhe heran, die der SL bestimmt. Das obere Ende führt an einen Ort, den der SL bestimmt. Der Ort kann beispielsweise eine herrliche Aussicht, das Schloss eines Wolkenriesen oder eine andere Existenzebene sein."
+			}
+		},
+		"Bonds (Acolyte)": {
+			"name": "Tempeldiener - Bindung",
+			"results": {
+				"1-1": "Ich würde mein Leben geben, um ein lang verschollenes Relikt meines Glaubens wiederzubeschaffen.",
+				"2-2": "Eines Tages räche ich mich an der korrupten Tempelhierarchie, die mich als Ketzer gebrandmarkt haben.", 
+				"3-3": "Ich verdanke mein Leben einem Priester, der mich aufgenommen hat, nachdem meine Eltern gestorben waren.",
+				"4-4": "Was immer ich tue, es soll dem gemeinen Volk nutzen.",
+				"5-5": "Ich würde alles tun, um den Tempel zu beschützen, in dem ich gedient habe.",
+				"6-6": "Ich trachte danach, einen heiligen Text zu bewahren, den meine Feinde als ketzerisch vernichten wollen."
+			}
+		},
+		"Candle of Invocation": {
+			"name": "Kerze der Anrufung",
+			"results": {
+				"1-2": "Chaotisch böse",
+				"3-4": "Chaotisch neutral", 
+				"5-7": "Chaotisch gut",
+				"8-9": "Neutral böse",
+				"10-11": "Neutral",
+				"12-13": "Neutral gut",
+				"14-15": "Rechtschaffen böse",
+				"16-17": "Rechtschaffen neutral",
+				"18-20": "Rechtschaffen gut"
+			}
+		},
+		"Carpet of Flying": {
+			"name": "Fliegender Teppich"
+		},
+		"Confusion": {
+			"name": "Verwirrung",
+			"results": {
+				"1-1": "Die Kreatur verwendet ihre gesamte Bewegungsrate, um sich in eine zufällige Richtung zu bewegen. Würfle dazu mit einem [[/r 1d8]]{W8} und weise jeder Augenzahl eine Richtung zu. Die Kreatur führt in diesem Zug keine Aktion aus.",
+				"2-6": "Die Kreatur bewegt sich nicht und führt in diesem Zug keine Aktion aus.", 
+				"7-8": "Die Kreatur muss ihre Aktion verwenden, um einen Nahkampfangriff gegen eine zufällig ausgewählte Kreatur in Reichweite auszuführen. Ist keine Kreatur in Reichweite, so unternimmt die Kreatur in ihrem Zug nichts.",
+				"9-10": "Die Kreatur kann normal agieren und sich bewegen."
+			}
+		},
+		"Efreeti Bottle": {
+			"name": "Ifriti-Flasche",
+			"results": {		
+				"1-10": "Der Ifriti greift dich an. Nachdem er fünf Runden gekämpft hat, verschwindet der Ifriti und die Flasche verliert ihre Magie.",
+				"11-90": "Der Ifriti dient dir eine Stunde lang. In dieser Zeit gehorcht er deinen Befehlen. Dann kehrt der Ifriti in die Flasche zurück und ein neuer Stopfen verschließt diese. Der Stopfen kann 24 Stunden lang nicht entfernt werden. Wenn die Flasche die nächsten zwei Male geöffnet wird, tritt derselbe Effekt ein. Wenn die Flasche ein viertes Mal geöffnet wird, entflieht der Ifriti und die Flasche verliert ihre Magie.", 
+				"91-100": "Der Ifriti kann dreimal den Zauber Wunsch für dich wirken. Er verschwindet, nachdem er den letzten Wunsch gewährt hat oder nach einer Stunde. Die Flasche verliert ihre Magie."
+			}
+		},
+		"Feather Token": {
+			"name": "Federfigur",
+			"description": "Dieser winzige Gegenstand sieht aus wie eine Feder. Es gibt verschiedene Federfiguren, die jeweils einen eigenen einmaligen Effekt haben. Der SL wählt die Art der Figur aus oder bestimmt sie zufällig."
+		},
+		"Flaws (Acolyte)": {
+			"name": "Tempeldiener - Makel",
+			"results": {
+				"1-1": "Ich urteile streng über andere und noch strenger über mich selbst.",
+				"2-2": "Ich habe zu großes Vertrauen in die Machthaber meiner Tempelhierarchie.", 
+				"3-3": "Meine Frömmigkeit lässt mich denen, die sich zu meinem Gott bekennen, manchmal blind vertrauen.",
+				"4-4": "Ich bin engstirnig und verschlossen.",
+				"5-5": "Ich misstraue Fremden und erwarte das Schlimmste von ihnen.",
+				"6-6": "Wenn ich mir ein Ziel setze, bin ich wie besessen davon und vergesse alles andere in meinem Leben."
+			}
+		},
+		"Grey Bag of Tricks": {
+			"name": "Trickbeutel (grau)"
+				},
+		"Horn of Valhalla": {
+			"name": "Horn von Walhalla"
+		},
+		"Ideals (Acolyte)": {
+			"name": "Tempeldiener - Ideal",
+			"results": {
+				"1-1": "Tradition: Die alten Traditionen von Verehrung und Opfergaben müssen bewahrt und gepflegt werden. (Rechtschaffen)",
+				"2-2": "Wohltätigkeit: Ich versuche stets, den Bedürftigen zu helfen, was es mich auch kosten mag. (Gut)", 
+				"3-3": "Wandel: Wir müssen helfen, die Veränderungen zu bewirken, die von den Göttern gewünscht sind. (Chaotisch)",
+				"4-4": "Macht: Ich hoffe, eines Tages an der Spitze der Hierarchie meiner Glaubensgemeinschaft zu stehen. (Rechtschaffen)",
+				"5-5": "Glaube: Ich vertraue darauf, dass meine Gottheit meine Taten lenkt. Ich glaube, dass alles gut werden wird, wenn ich hart arbeite. (Rechtschaffen)",
+				"6-6": "Streben: Ich strebe danach, mich der Gunst meiner Gottheit als würdig zu erweisen, indem ich mich in meinem Handeln nach ihren Lehren richte. (Alle)"
+			}
+		},
+		"Indefinite Madness": {
+			"name": "Wahnsinn: Dauerhafter Wahnsinn",
+			"description": "Ein Charakter, der unter dauerhaftem Wahnsinn leidet, erhält so lange einen neuen Makel aus der Tabelle „Dauerhafter Wahnsinn“, bis dieser geheilt wird.",
+			"results": {
+				"1-15": "„Betrunken zu sein hält mich bei Verstand.“",
+				"16-25": "„Ich behalte alles, was ich finde.“",
+				"26-30": "„Ich versuche, wie eine andere Person zu werden, die ich kenne. Ich übernehme ihren Kleidungsstil, ihr Verhalten und ihren Namen.“", 
+				"31-35": "„Ich muss flunkern, übertreiben oder lügen, um für andere interessant zu sein.“",
+				"36-45": "„Mein Ziel zu erreichen ist das Einzige, was zählt, und dafür ignoriere ich alles andere.“",
+				"46-50": "„Es fällt mir schwer, mich für Dinge zu interessieren, die um mich herum geschehen.“",
+				"51-55": "„Mir gefällt es nicht, wie Personen ständig über mich urteilen.“",
+				"56-70": "„Ich bin die klügste, weiseste, stärkste, schnellste und schönste Person, die ich kenne.“",
+				"71-80": "„Ich bin davon überzeugt, dass ich von mächtigen Feinden gejagt werde. Ihre Agenten sind überall. Ich bin sicher, dass sie mich ständig beobachten.“",
+				"81-85": "„Es gibt nur eine Person, der ich vertrauen kann. Und nur ich kann diesen besonderen Freund sehen.“",
+				"86-95": "„Ich kann nichts ernst nehmen. Je ernster die Situation ist, desto lustiger finde ich sie.“",
+				"95-100": "„Ich habe entdeckt, dass ich wirklich gerne Leute umbringe.“"
+			}
+		},
+		"Iron Flask": {
+			"name": "Eiserne Flasche",
+			"results": {
+				"1-50": "Leer",
+				"51-54": "Dämon (Typ 1)", 
+				"55-58": "Dämon (Typ 2)",
+				"59-62": "Dämon (Typ 3)",
+				"63-64": "Dämon (Typ 4)",
+				"65-65": "Dämon (Typ 5)",
+				"66-66": "Dämon (Typ 6)",
+				"67-67": "Deva", 
+				"68-69": "Dschinni",
+				"70-75": "Elementar (beliebig)",
+				"76-77": "Höherer Teufel",
+				"78-79": "Ifriti",
+				"80-83": "Nachtvettel",
+				"84-87": "Niederer Teufel", 
+				"88-88": "Planetar",
+				"89-92": "Salamander",
+				"93-93": "Solar",
+				"94-96": "Sukkubus/Inkubus",
+				"97-99": "Unsichtbarer Pirscher",
+				"100-100": "Xorn"
+			}
+		},
+		"Long-Term Madness": {
+			"name": "Wahnsinn: Langfristiger Wahnsinn",
+			"description": "Ein Charakter, der unter langfristigem Wahnsinn leidet, erhält [[1d10*10]] Stunden lang einen Effekt.",
+			"results": {
+				"1-10": "Der Charakter verspürt den Drang, eine bestimmte Aktivität immer und immer wieder zu wiederholen, beispielsweise seine Hände zu waschen, Dinge zu berühren, zu beten oder Münzen zu zählen.",
+				"11-20": "Der Charakter erlebt wilde Halluzinationen und ist bei Attributswürfen im Nachteil.",
+				"21-30": "Der Charakter leidet unter extremer Paranoia. Er ist bei Weisheits- und Charismawürfen im Nachteil.", 
+				"31-40": "Der Charakter empfindet etwas (meist die Quelle des Wahnsinns) als abscheulich, als stünde er unter dem Effekt Antipathie des Zaubers Antipathie/Sympathie",
+				"41-45": "Der Charakter erleidet eine Wahnvorstellung. Wähle einen Trank. Der Charakter bildet sich ein, unter dessen Effekt zu stehen.",
+				"46-45": "Der Charakter ist auf einen „Glücksbringer“ fixiert, etwa eine Person oder ein Gegenstand. Befindet er sich mehr als neun Meter davon entfernt, ist er bei Angriffs-, Attributs- und Rettungswürfen im Nachteil.",
+				"56-65": "Der Charakter ist blind (25 %) oder taub (75 %).",
+				"66-75": "Der Charakter erlebt unkontrolliertes Zittern oder Ticks, durch die er bei Angriffs-, Attributsund Rettungswürfen im Nachteil ist, die mit Stärke oder Geschicklichkeit zu tun haben.",
+				"76-85": "Der Charakter leidet an partieller Amnesie. Der Charakter weiß, wer er ist, und behält seine Volks- und Klassenmerkmale, erkennt jedoch keine anderen Personen und erinnert sich an nichts, was vor dem Wahnsinn geschehen ist.",
+				"86-90": "Immer, wenn der Charakter Schaden erleidet, muss er einen SG-15-Weisheitsrettungswurf bestehen, oder er erleidet die Auswirkungen eines gescheiterten Rettungswurfs gegen den Zauber Verwirrung. Die Verwirrung hält eine Minute lang an.",
+				"91-95": "Der Charakter kann nicht mehr sprechen.",
+				"96-100": "Der Charakter wird bewusstlos. Kein Rütteln und kein noch so hoher Schaden kann ihn aufwecken."
+			}
+		},
+		"Manual of Golems": {
+			"name": "Handbuch der Golems"
+		},
+		"Necklace of Prayer Beads": {
+			"name": "Halskette der Gebetsperlen",
+			"results": {
+				"1-6": "Perle des Segens (@Compendium[dnd5e.spells.8dzaICjGy6mTUaUr]{Segnen})",
+				"7-12": "Perle des Heilens (@Compendium[dnd5e.spells.uUWb1wZgtMou0TVP]{Wunden heilen} (Grad 2) oder @Compendium[dnd5e.spells.F0GsG0SJzsIOacwV]{Schwache Genesung})", 
+				"13-16": "Perle des Gunstes (@Compendium[dnd5e.spells.WzvJ7G3cqvIubsLk]{Vollständige Genesung})",
+				"17-18": "Perle des Niederstreckens (@Compendium[dnd5e.spells.7UwUjJ6owIQkEPrs]{Brandmarkendes Niederstrecken})",
+				"19-19": "Perle des Beschwörens (@Compendium[dnd5e.spells.fkREcytuZ8sngWtC]{Verbündeter aus den Ebenen})",
+				"20-20": "Perle des Windwandelns (@Compendium[dnd5e.spells.8PJAsHmbu6UgDHC0]{Windwandeln})"
+			}
+		},
+		"Personality Traits (Acolyte)": {
+			"name": "Tempeldiener - Persönlichkeitsmerkmal",
+			"results": {
+				"1-1": "Ein bestimmter Held meines Glaubens ist mein Vorbild. Auf seine Taten und sein Beispiel beziehe ich mich fortwährend.",
+				"2-2": "Ich finde auch zwischen erbitterten Feinden eine gemeinsame Basis und arbeite stetig auf Frieden hin.", 
+				"3-3": "Ich sehe in jedem Ereignis und jeder Handlung ein Vorzeichen. Die Götter sprechen zu uns, wir müssen nur zuhören.",
+				"4-4": "Nichts kann meinen Optimismus erschüttern.",
+				"5-5": "In fast jeder Lebenslage zitiere oder verdrehe ich heilige Texte und Sprichwörter.",
+				"6-6": "Ich bin tolerant oder intolerant gegenüber anderen Religionen und respektiere oder verdamme die Anbetung anderer Götter.",
+				"7-7": "Ich war feine Speisen und Getränke in den gehobenen Kreisen der Priesterschaft gewöhnt. Das harte Leben setzt mir zu.",
+				"8-8": "Ich habe so viel Zeit im Tempel verbracht, dass ich nur wenig praktische Erfahrung im Umgang mit Leuten aus der Außenwelt habe."
+			}
+		},
+		"Potion of Resistance": {
+			"name": "Trank des Widerstands"
+		},
+		"Reincarnate": {
+			"name": "Reinkarnation",
+			"results": {
+				"1-4": "Drachenblütige",
+				"5-13": "Zwerge: Hügelzwerge",
+				"14-21": "Zwerge: Gebirgszwerg",
+				"22-25": "Elfe: Dunkelelfe",
+				"26-34": "Elfe: Hochelfe",
+				"35-42": "Elfe: Waldelfe",
+				"43-46": "Gnome: Waldgnome",
+				"47-52": "Gnome: Felsengnome",
+				"53-56": "Halbelfe",
+				"57-60": "Halbork",
+				"61-68": "Halbling Leichtfuß",
+				"69-76": "Halbling Stämmige",
+				"77-96": "Mensch",
+				"97-100": "Tiefling"
+			}
+		},
+		"Ring of Resistance": {
+			"name": "Ring des Widerstands"		
+		},
+		"Robe of Useful Items": {
+			"name": "Robe der nützlichen Dinge",
+			"results": {
+				"1-8": "Tasche mit 100 GM",
+				"9-15": "Silbertruhe (0,30 Meter lang, 9 cm breit und hoch) im Wert von 500 GM",
+				"16-22": "Eisentür (bis zu 3 Meter breit und 3 Meter hoch, auf einer Seite deiner Wahl vergittert), die du an einer erreichbaren Öffnung platzieren kannst; sie passt sich selbst der Öffnung an und hängt sich selbst ein",
+				"23-30": "10 Edelsteine, die je 100 GM wert sind",
+				"31-44": "Holzleiter (7,20 Meter lang)",
+				"45-51": "Ein @Compendium[dnd5e.monsters.rz8UTUnFT87BsAFR]{Reitpferd} mit Satteltaschen",
+				"52-59": "Grube (ein Würfel mit 3 Metern Seitenlänge), welche auf dem Boden innerhalb von 3 MEtern zu dir platziert werden kann",
+				"60-68": "4 @Compendium[dnd5e.items.ytlsBjYsZ7OBSEBs]{Heiltränke}",
+				"69-75": "Ruderboot (3,60 Meter lang)",
+				"76-83": "Zauberschriftrolle, die einen Zauber auf Grad 1 bis 3 enthält",
+				"84-90": "2 @Compendium[dnd5e.monsters.YTpL2c3NO4sOn2UA]{Doggen}",
+				"91-96": "Fenster (0,60 Meter auf 1,20 Meter und bis zu 0,60 Meter tief), welches an einer erreichbaren vertikalen Oberfläche angebracht werden kann",
+				"97-100": "@Compendium[dnd5e.items.srTRzwTfWKO5opOo]{Tragbarer Rammbock}"
+			}
+		},
+		"Rust Bag of Tricks": {
+			"name": "Trickbeutel (rostfarben)"
+		},
+		"Sentient Magic Items Alignment": {
+			"name": "Intelligenter magischer Gegenständ (Gesinnung)",
+			"description": "Ein intelligenter magischer Gegenstand hat eine Gesinnung. Sein Schöpfer oder seine Natur könnten eine Gesinnung nahelegen. Wenn nicht, kannst du eine Gesinnung auswählen, oder würfeln und sie anhand der folgenden Tabelle bestimmen.",
+			"results": {
+				"1-15": "Rechtschaffen gut",
+				"16-35": "Neutral gut",
+				"36-50": "Chaotisch gut",
+				"51-63": "Rechtschaffen neutral",
+				"64-73": "Neutral",
+				"74-85": "Chaotisch neutral", 
+				"86-89": "Rechtschaffen böse",
+				"90-96": "Neutral böse",
+				"97-100": "Chaotisch böse"
+			}
+		},
+		"Sentient Magic Items Communication": {
+			"name": "Intelligenter magischer Gegenständ (Kommunikation)",
+			"description": "Ein intelligenter Gegenstand hat gewisse Kommunikationsmöglichkeiten: Er kann entweder seine Gefühle vermitteln, telepathisch seine Gedanken übertragen oder laut sprechen. Du kannst auswählen, welche Kommunikationsmethode er verwendet, oder würfeln und es anhand der folgenden Tabelle bestimmen.",
+			"results": {
+				"1-60": "Der Gegenstand kommuniziert, indem er der Kreatur, die ihn trägt oder führt, seine Emotionen vermittelt.",
+				"61-90": "Der Gegenstand kann mindestens eine Sprache sprechen, lesen und verstehen.", 
+				"91-100": "Der Gegenstand kann mindestens eine Sprache sprechen, lesen und verstehen. Außerdem kann der Gegenstand telepathisch mit jedem Charakter kommunizieren, der ihn trägt oder führt."
+			}
+		},
+		"Sentient Magic Items Purpose": {
+			"name": "Intelligenter magischer Gegenständ (Besonderes Ziel)",
+			"description": "Du kannst einem intelligenten Gegenstand ein Ziel geben, das er verfolgt − gegebenenfalls ohne Rücksicht auf Verluste. Solange der Träger des Gegenstands mit ihm dieses besondere Ziel verfolgt, ist der Gegenstand kooperativ. Weicht der Träger von diesem Ziel ab, kann es zu Konflikten zwischen ihm und dem Gegenstand kommen. Der Gegenstand kann sogar verhindern, dass sein Träger die aktivierten Eigenschaften verwenden kann. Du kannst ein besonderes Ziel auswählen, oder würfeln und es anhand der folgenden Tabelle bestimmen.",
+			"results": {
+				"1-1": "Gesinnung: Der Gegenstand will alle mit gegenteiliger Gesinnung besiegen oder zerstören. (Ein solcher Gegenstand ist niemals neutral.)",
+				"2-2": "Nemesis: Der Gegenstand will alle Kreaturen einer bestimmten Art besiegen oder zerstören, zum Beispiel Unholde, Gestaltwandler, Trolle oder Magier.", 
+				"3-3": "Beschützer: Der Gegenstand versucht, ein bestimmtes Volk oder eine bestimmte Art von Kreatur zu verteidigen, zum Beispiel Elfen oder Druiden.",
+				"4-4": "Kreuzfahrer: Der Gegenstand will die Diener einer bestimmten Gottheit besiegen, schwächen oder zerstören.",
+				"5-5": "Tempelritter: Der Gegenstand will die Diener und Interessen einer bestimmten Gottheit verteidigen.",
+				"6-6": "Zerstörer: Der Gegenstand ist voller Zerstörungswut und stachelt seinen Träger willkürlich zu Kämpfen an.",
+				"7-7": "Ruhmsucher: Der Gegenstand strebt danach, als großartigster magischer Gegenstand der Welt angesehen zu werden und versucht daher alles, um seinem Benutzer zu einem guten oder auch schlechten Ruf zu verhelfen.", 
+				"8-8": "Wissenssucher: Der Gegenstand strebt nach Wissen oder ist entschlossen, ein Rätsel zu lösen, ein Geheimnis zu lüften oder eine kryptische Prophezeiung zu entschlüsseln.",
+				"9-9": "Schicksalssucher: Der Gegenstand ist überzeugt, dass er und sein Träger bei zukünftigen Ereignissen eine wichtige Rolle spielen werden.",
+				"10-10": "Schöpfersucher: Der Gegenstand sucht seinen Schöpfer und will verstehen, warum er erschaffen wurde."
+			}
+		},
+		"Sentient Magic Items Senses": {
+			"name": "Intelligenter magischer Gegenständ (Sinne)",
+			"description": "Intelligenz und Wahrnehmung hängen eng zusammen. Ein intelligenter Gegenstand kann seine Umgebung innerhalb einer bestimmten Reichweite wahrnehmen. Du kannst auswählen, welche Sinne er verwendet, oder würfeln und es anhand der folgenden Tabelle bestimmen.",
+			"results": {
+				"1-1": "Gehör und normale Sicht auf bis zu 9 m",
+				"2-2": "Gehör und normale Sicht auf bis zu 18 m", 
+				"3-3": "Gehör und normale Sicht auf bis zu 36 m",
+				"4-4": "Gehör und Dunkelsicht auf bis zu 36 m"
+			}
+		},
+		"Short-Term Madness": {
+			"name": "Wahnsinn: Kurzfristiger Wahnsinn",
+			"description": "Ein Charakter, der unter kurzfristigem Wahnsinn leidet, erhält [[1d10]] Minuten lang einen Effekt aus.",
+			"results": {
+				"1-20": "Der Charakter zieht sich in seinen Geist zurück und ist gelähmt. Der Effekt endet, wenn der Charakter Schaden erleidet.",
+				"21-30": "Der Charakter wird kampfunfähig und verbringt die Wirkungsdauer schreiend, lachend oder weinend.", 
+				"31-40": "Der Charakter wird verängstigt und muss in jeder Runde seine Aktion und seine Bewegungsrate verwenden, um von der Quelle der Furcht zu fliehen.",
+				"41-50": "Der Charakter beginnt zu brabbeln und kann weder normal sprechen noch Zauber wirken.",				
+				"51-60": "Der Charakter muss in jeder Runde seine Aktion verwenden, um die Kreatur anzugreifen, die ihm am nächsten ist.",
+				"61-70": "Der Charakter erlebt wilde Halluzinationen und ist bei Attributswürfen im Nachteil.",
+				"71-75": "Der Charakter tut alles, was man ihm befiehlt, sofern es nicht offensichtlich selbstzerstörerisch ist.",
+				"76-80": "Der Charakter verspürt den überwältigenden Drang, etwas Seltsames wie Erde, Schleim oder Abfall zu essen.",
+				"81-90": "Der Charakter ist betäubt.",
+				"91-100": "Der Charakter wird bewusstlos."
+			}
+		},
+		"Sphere of Annihilation": {
+			"name": "Sphäre des Nichts",
+			"results": {
+				"1-50": "Die Sphäre wird zerstört.",
+				"51-85": "Die Sphäre bewegt sich durch das Portal oder in den extradimensionalen Raum.", 
+				"86-100": "Ein Riss im Raum transportiert jede Kreatur und jeden Gegenstand im Abstand von bis zu 54 Metern von der Sphäre auf eine zufällige Existenzebene."
+			}
+		},
+		"Tan Bag of Tricks": {
+			"name": "Trickbeutel (hellbraun)"
+		},
+		"Wand of Wonder": {
+			"name": "Zauberstab der Wunder",
+			"results": {
+				"1-5": "Du wirkst @Compendium[dnd5e.spells.yqUDoxk4x0NWG5Bz]{Verlangsamen}.",
+				"6-10": "Du wirkst @Compendium[dnd5e.spells.nqBDWkVOfcGZt4YU]{Feenfeuer}.",				
+				"11-15": "Du bist bis zum Beginn deines nächsten Zuges betäubt und glaubst, dass gerade etwas Großartiges passiert ist.",
+				"16-20": "Du wirkst @Compendium[dnd5e.spells.FSMy6VAjDnXY9vWz]{Windstoß}.",				
+				"21-25": "Du wirkst @Compendium[dnd5e.spells.ppWAAEul0QHtm4er]{Gedanken wahrnehmen} auf das Ziel, das du gewählt hast. Wenn du keine Kreatur als Ziel gewählt hattest, nimmst du [[/r 1d6]]{1W6} psychischen Schaden.",
+				"26-30": "Du wirkst @Compendium[dnd5e.spells.TwlD4PLcltv7Xh7j]{Stinkende Wolke}.",
+				"31-33": "Starker Regen fällt in einem auf das Ziel zentrierten Radius von 18 Metern nieder Das Gebiet wird leicht verschleiert. Der Regen fällt bis zum Beginn deines nächsten Zuges.",
+				"34-36": "Ein Tier erscheint an einem freien Platz, der am nächsten zum Ziel ist. Das Tier ist nicht unter deiner Kontrolle und agiert so, wie es das normalerweise tun würde. Wirf einen W100 um festzulegen, welches Tier erscheint. Bei 01-25 erscheint ein @Compendium[dnd5e.monsters.SBCe2BSa6opTS5M4]{Nashorn}, nei 26-50 erscheint ein @Compendium[dnd5e.monsters.jLPhaBnMtAbB5dp1]{Elefant} und bei 51-100 eine @Compendium[dnd5e.monsters.pozQUPTnLZW8epox]{Ratte}.",
+				"37-46": "Du wirkst @Compendium[dnd5e.spells.IyikgTEOTv701jgQ]{Blitz}.",
+				"47-49": "Eine Wolke von 600 übergroßen Schmetterlingen füllt einen auf das Ziel zentrierten Radius von 9 Metern. Das Gebiet wird komplett verschleiert. Die Schmetterlinge bleiben für 10 Minuten.",
+				"50-53": "Du vergrößerst das Ziel, so als hättest du den Zauber @Compendium[dnd5e.spells.WahI41a3goVUg0x1]{Vergrößern/Verkleinern} gewirkt. Wenn das Ziel von diesem Zauber nicht betroffen werden kann, oder wenn du keine Kreatur als Ziel gewählt hast, wirst du zum Ziel.",
+				"54-58": "Du wirkst @Compendium[dnd5e.spells.S7VbUetIfVT7B6Eq]{Dunkelheit}.",
+				"57-62": "Gras wächst auf dem Boden in einem auf das Ziel zentrierten Radius von 18 Metern. Wenn dort bereits Gras wächst, wächst es zehnmal so hoch und bleibt 1 Minute lang in dieser Übergröße.",
+				"63-65": "Ein Gegenstand nach Wahl des Spielleiters verschwindet in die Ätherebene. Der Gegenstand darf weder mitgeführt noch noch am Körper getragen werden, muss sich innerhalb von 36 Metern zum Ziel befinden und darf nicht höher, breiter oder tiefer als 3 Meter sein.",
+				"66-69": "Du verkleinerst dich selbst, so als hättest du den Zauber @Compendium[dnd5e.spells.WahI41a3goVUg0x1]{Vergrößern/Verkleinern} gewirkt.",
+				"70-79": "Du wirkst @Compendium[dnd5e.spells.ztgcdrWPshKRpFd0]{Feuerball}.",
+				"80-84": "Du wirkst @Compendium[dnd5e.spells.1N8dDMMgZ1h1YJ3B]{Unsichtbarkeit} auf dich selbst.",
+				"85-87": "Blätter wachsen aus dem Ziel. Wenn du einen Punkt im Raum als Ziel gewählt hattest, werden die Blätter auf der nächsten Kreatur wachsen. Insofern sie nicht abgezupft werden, werden die Blätter nach 24 Stunden braun und fallen ab.",
+				"88-90": "Ein Strom aus [[1d4*10]] Edelsteinen, jeder 1 GM wert, schießt aus der Spitze des des Zauberstabs in einer Linie von 1,50 Meter Breite und 9 Meter Länge. Jeder Edelstein richtet 1 Wuchtschaden an, und der Gesamtschaden der Edelsteine wird gleichmäßig unter den Kreaturen innerhalb der Linie verteilt.",
+				"91-95": "Ein farbenfrohes, leuchtendes Licht bricht aus dir in einem Radius von 9 Metern aus. Du und jede Kreatur in diesem Gebiet, die sehen kann, müsst einen Konstitutionsrettungswurf gegen Schwierigkeitsgrad 15 schaffen oder ihr werdet für 1 Minute blind. Eine Kreatur kann immer am Ende ihres Zuges ihren Rettungswurf wiederholen und bei einem Erfolg den Effekt beenden.",
+				"96-97": "Die Haut des Ziels wird für [[1d10]] Tage hellblau. Wenn du einen Punkt im Raum als Ziel gewählt hattest, wird die Kreatur am nächsten dazu betroffen.",
+				"98-100": "Wenn du eine Kreatur als Ziel gewählt hattest, muss diese einen Konstitutionsrettungswurf gegen Schwierigkeitsgrad 15 schaffen. wenn du keine Kreatur als Ziel gewählt hattest, wirst du zum Ziel und musst den Konstitutionsrettungswurf ablegen. Wenn der Rettungswurf um 5 oder mehr fehlschlägt, wird das Ziel augenblicklich versteinert. Bei jedem anderen misslungenen Rettungswurf ist das Ziel festgesetzt und beginnt sich in Stein zu verwandeln. Während es so festgesetzt ist, muss das Ziel am Ende seines nächsten Zuges den Rettungswurf wiederholen und wird bei einem Fehlschlag versteinert. Bei einem Erfolg wird der Effekt beendet. Die Versteinerung hält an, bis das Ziel mit dem Zauber @Compendium[dnd5e.spells.WzvJ7G3cqvIubsLk]{Vollständige Genesung} oder ähnlicher Magie befreit wird."			
+			}
+		}
+	}
 }

@@ -1,4 +1,8 @@
 {
+    "folders": {
+        "Acolyte Equipment": "Tempeldiener Ausrüstung",
+        "Acolyte Feature": "Tempeldiener Merkmale"
+    },
     "entries": {
         "Shelter of the Faithful": {
             "name": "Zufluchtsort der Gläubigen",
@@ -8,6 +12,10 @@
         "Acolyte": {
             "name": "Tempeldiener",
             "description": "<p>Du hast dein Leben im Dienste eines Tempels einer bestimmten Gottheit oder eines Pantheons von Göttern verbracht. Als Mittler zwischen dem Reich des Heiligen und der sterblichen Welt führst du Rituale aus und bringst Opfer dar, um Gläubige mit der Präsenz des Göttlichen zu verbinden. Du bist nicht zwangsläufig ein Kleriker, heilige Rituale abzuhalten ist nicht das Gleiche wie das Fokussieren göttlicher Macht.</p>\n<p>Wähle eine Gottheit, ein Pantheon von Göttern oder eine andere fast göttliche Wesenheit aus jenen, die in Anhang B \"Götter des Multiversums\" (SHB S. 293) aufgeführt sind oder die dein Spielleiter dir für die Kampagne vorgibt. Arbeite gemeinsam mit ihm die Art und Weise deines religiösen Dienstes aus.</p>\n<p>Warst du ein unbedeutender Tempeldiener, der seit seiner frühesten Kindheit von Priestern ausgebildet wurde, ums sie bei Ritualen zu unterstützen? Oder warst du ein Hohepriester, der plötzliche den Ruf erhielt, seinem Gott auf andere Art zu dienen?</p>\n<p>Vielleicht hast du auch einen kleinen Kult außerhalb der eingesessenen Tempelstrukturen angeführt oder sogar eine okkulte Gruppe, die einen teuflischen Meister verehrte, was du jetzt verleugnest.</p>\n<p><strong>Geübt in folgenden Fähigkeiten</strong>: Motiv erkennen, Religion</p>\n<p><strong>Sprachen</strong>: zwei deiner Wahl</p>\n<p><strong>Merkmal</strong>: Zufluchtsort der Gläubigen</p>\n<p><strong>Ausrüstung</strong>:</p><ul><li>ein heiliges Symbol</li><li><em>(a)</em> ein @Compendium[dnd5e.items.odV5cq2HSLSCH69k]{Gebetsbuch} oder <em>(b)</em> eine @Compendium[dnd5e.items.Nd4r4hocpfu6fYDP]{Gebetsmühle}</li><li>5 @Compendium[dnd5e.items.3b0RvGi0TnTYpIxn]{Räucherstäbchen}</li><li>ein Satz @Compendium[dnd5e.items.8RXjiddJ6VGyE7vB]{gewöhnlicher Kleidung}</li><li>eine @Compendium[dnd5e.items.8GCEodUsTEEpBlO6]{Robe}</li><li>eine Börse mit 15 GM</li></ul>",
+            "src": "SHB S. 137"
+        },
+        "Coin Pouch": {
+            "name": "Börse",
             "src": "SHB S. 137"
         }
     },

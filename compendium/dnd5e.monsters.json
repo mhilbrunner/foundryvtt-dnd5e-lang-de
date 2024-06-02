@@ -1,4 +1,20 @@
 {
+    "folders": {
+        "Aberration": "Aberrationen",
+        "Beast": "Tiere",
+        "Celestial": "Celestische",
+        "Construct": "Konstrukte",
+        "Dragon": "Drachen",
+        "Elemental": "Elementare",
+        "Fey": "Feenwesen",
+        "Fiend": "Unholde",
+        "Giant": "Riesen",
+        "Humanoid": "Humanoide",
+        "Monstrosity": "Monstrositäten",
+        "Ooze": "Schlicke",
+        "Plant": "Pflanzen",
+        "Undead": "Untote"
+    },
     "entries": {
         "Aboleth": {
             "name": "Aboleth",

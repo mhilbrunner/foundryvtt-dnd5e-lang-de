@@ -1,4 +1,46 @@
 {
+    "folders":{
+		"Barbarian": "Barbar",
+		"Barbarian Features": "Barbaren Merkmale",
+		"Path of the Berserker Features": "Pfad des Berserkers Merkmale",
+		"Bard": "Barde",
+		"Bard Features": "Barden Merkmale",
+		"College of Lore Features": "Schule des Wissens Merkmale",
+		"Cleric": "Kleriker",
+		"Cleric Features": "Kleriker Merkmale",
+		"Life Domain Features": "Domäne des Lebens Merkmale",
+		"Druid": "Druide",
+		"Druid Features": "Druiden Merkmale",
+		"Circle of the Land Features": "Zirkel des Landes Merkmale",
+		"Fighter": "Kämpfer",
+		"Fighter Features": "Kämpfer Merkmale",
+		"Champion Features": "Champion Merkmale",
+		"Monk": "Mönch",
+		"Monk Features": "Mönch Merkmale",
+		"Way of the Open Hand Features": "Weg der Offenen Hand Merkmale",
+		"Paladin": "Paladin",
+		"Paladin Features": "Paladin Merkmale",
+		"Oath of Devotion Features": "Schwur der Hingabe Merkmale",
+		"Ranger": "Waldläufer",
+		"Ranger Features": "Waldläufer Merkmale",
+		"Hunter Features": "Jäger Merkmale",
+		"Rogue": "Schurke",
+		"Rogue Features": "Schurke Merkmale",
+		"Thief Features": "Dieb Merkmale",
+		"Shared Features": "Geteilte Merkmale",
+		"Fighting Styles": "Kampfstile",
+		"Sorcerer": "Zauberer",
+		"Sorcerer Features": "Zauberer Merkmale",
+		"Draconic Bloodline Features": "Drakonische Blutlinie Merkmale",
+		"Metamagic": "Metamagie",		
+		"Warlock": "Hexenmeister",
+		"Warlock Features": "Hexenmeister Merkmale",
+		"Eldritch Invocations": "Schauerliche Anrufungen Merkmale",
+		"The Fiend Features": "Der Unhold Merkmale",
+		"Wizard": "Magier",
+		"Wizard Features": "Magier Merkmale",
+		"School of Evocation Features": "Schule der Hervorrufungsmagig Merkmale"
+	}, 
     "entries": {
         "Ability Score Improvement": {
             "name": "Attributswerterhöhung",
@@ -180,18 +222,18 @@
             "description": "<p>Beim Erreichen der 7. Stufe erhältst du eines der folgenden Merkmale nach Wahl:</p>\n<p>@Compendium[dnd5e.classfeatures.pAQMJU5R9SGUmzHU]{Der Horde entkommen}</p>\n<p>@Compendium[dnd5e.classfeatures.slelvrm83v9UAKZU]{Verteidigung gegen Mehrfachangriffe}</p>\n<p>@Compendium[dnd5e.classfeatures.zbHu0NvHuII8lR7W]{Eiserner Wille}</p>\n<p>Du kannst eines der obigen Merkmale auf deinen Charakterbogen ziehen, um es hinzuzufügen.</p>",
             "source": "SHB S. 113"
         },
-        "Defensive Tactics: Escape the Horde": {
-            "name": "Defensive Taktiken: Der Horde entkommen",
+        "Escape the Horde": {
+            "name": "Der Horde entkommen",
             "description": "<p>Gelegenheitsangriffe gegen dich sind im Nachteil.</p>",
             "source": "SHB S. 113"
         },
-        "Defensive Tactics: Multiattack Defense": {
-            "name": "Defensive Taktiken: Verteidigung gegen Mehrfachangriffe",
+        "Multiattack Defense": {
+            "name": "Verteidigung gegen Mehrfachangriffe",
             "description": "<p>Sobald dich eine Kreatur mit einem Angriff trifft, erhältst du einen Bonus von +4 auf deine Rüstungsklasse für alle weiteren Angriffe, die von dieser Kreatur in diesem Zug ausgeführt werden.</p>",
             "source": "SHB S. 113"
         },
-        "Defensive Tactics: Steel Will": {
-            "name": "Defensive Taktiken: Eiserner Wille",
+        "Steel Will": {
+            "name": "Eiserner Wille",
             "description": "<p>Du bist bei Rettungswürfen gegen Effekte, die dich verängstigen, im Vorteil.</p>",
             "source": "SHB S. 113"
         },
@@ -365,33 +407,33 @@
             "description": "<p>Du wählst eine bestimmte Art zu kämpfen als Spezialisierung. Suche dir eine der folgenden Möglichkeiten aus. Du kannst keinen der Stile mehr als einmal auswählen, selbst wenn du später erneut aussuchen darfst.</p>\n<h3>Kämpfer Optionen</h3>\n<p>@Compendium[dnd5e.classfeatures.8YwPFv3UAPjWVDNf]{Bogenschießen}</p>\n<p>@Compendium[dnd5e.classfeatures.hCop9uJrWhF1QPb4]{Duellieren}</p>\n<p>@Compendium[dnd5e.classfeatures.3Nc6u9pyStByuJsm]{Kampf mit großen Waffen}</p>\n<p>@Compendium[dnd5e.classfeatures.mHcSjcHJ8oZu3hkb]{Kampf mit zwei Waffen}</p>\n<p>@Compendium[dnd5e.classfeatures.06NVMYf58Z76O85O]{Leibwache}</p>\n<p>@Compendium[dnd5e.classfeatures.zSlV0O2rQMdoq6pB]{Verteidigung}</p>\n<h3>Paladin Optionen</h3>\n<p>@Compendium[dnd5e.classfeatures.hCop9uJrWhF1QPb4]{Duellieren}</p>\n<p>@Compendium[dnd5e.classfeatures.3Nc6u9pyStByuJsm]{Kampf mit großen Waffen}</p>\n<p>@Compendium[dnd5e.classfeatures.06NVMYf58Z76O85O]{Leibwache}</p>\n<p>@Compendium[dnd5e.classfeatures.zSlV0O2rQMdoq6pB]{Verteidigung}</p>\n<h3>Waldläufer Optionen</h3>\n<p>@Compendium[dnd5e.classfeatures.8YwPFv3UAPjWVDNf]{Bogenschießen}</p>\n<p>@Compendium[dnd5e.classfeatures.hCop9uJrWhF1QPb4]{Duellieren}</p>\n<p>@Compendium[dnd5e.classfeatures.mHcSjcHJ8oZu3hkb]{Kampf mit zwei Waffen}</p>\n<p>@Compendium[dnd5e.classfeatures.zSlV0O2rQMdoq6pB]{Verteidigung}</p>",
             "source": "SHB S. 71; 99; 111"
         },
-        "Fighting Style: Archery": {
-            "name": "Kampfstil: Bogenschiessen",
+        "Archery": {
+            "name": "Bogenschiessen",
             "description": "<p>Du erhältst einen Bonus von +2 auf alle Angriffswürfe mit Fernkampfwaffen.</p>",
             "source": "SHB S. 71"
         },
-        "Fighting Style: Defense": {
-            "name": "Kampfstil: Verteidigung",
+        "Defense": {
+            "name": "Verteidigung",
             "description": "<p>Solange du eine Rüstung trāgst, erhältst du einen Bonus von +1 auf deine Rüstungsklasse (RK).</p>",
             "source": "SHB S. 71"
         },
-        "Fighting Style: Dueling": {
-            "name": "Kampfstil: Duellieren",
+        "Dueling": {
+            "name": "Duellieren",
             "description": "<p>Kämpfst du nur mit einer einhändig geführten Nahkampfwaffe und keiner Waffe in der anderen Hand, erhältst du einen Bonus von +2 auf die Schadenswürfe mit dieser Waffe.</p>",
             "source": "SHB S. 71"
         },
-        "Fighting Style: Great Weapon Fighting": {
-            "name": "Kampfstil: Kampf mit grossen Waffen",
+        "Great Weapon Fighting": {
+            "name": "Kampf mit grossen Waffen",
             "description": "<p>Greifst du mit einer beidhändig geführten Nahkampfwaffe an und würfelst bei deinem Schadenswurf eine 1 oder 2. darfst du den entsprechenden Schadenswürfel erneut würfeln. Das zweite Ergebnis musst du verwenden, auch wenn es wieder eine 1 oder 2 sein sollte. Die Waffe muss die Waffeneigenschaft zweihändig oder vielseitig besitzen, um diesen Vorzug zu gewähren.</p>",
             "source": "SHB S. 71"
         },
-        "Fighting Style: Protection": {
-            "name": "Kampfstil: Leibwache",
+        "Protection": {
+            "name": "Leibwache",
             "description": "<p>Führt eine Kreatur, die du sehen kannst, einen Angriff auf eine bis zu 1,50 m von dir entfernt stehende Kreatur aus (die nicht du selbst bist), kannst du deine Reaktion verwenden, damit der Angreifer bei seinem Wurf im Nachteil ist. Du musst dafür einen Schild tragen.</p>",
             "source": "SHB S. 71"
         },
-        "Fighting Style: Two-Weapon Fighting": {
-            "name": "Kampfstil: Kampf mit zwei Waffen",
+        "Two-Weapon Fighting": {
+            "name": "Kampf mit zwei Waffen",
             "description": "<p>Wenn du mit zwei Waffen angreifst, kannst du den passenden Attributsmodifikator zum Schaden der zweiten Waffe addieren.</p>",
             "source": "SHB S. 71"
         },
@@ -435,17 +477,17 @@
             "description": "<p>Auf Stufe 3 erhältst du eines der folgenden Merkmale deiner Wahl:</p>\n<p>@Compendium[dnd5e.classfeatures.5gx1O0sxK08awEO9]{Kolossschlächter}</p>\n<p>@Compendium[dnd5e.classfeatures.StfmqK1twVfukpa0]{Riesentöter}</p>\n<p>@Compendium[dnd5e.classfeatures.C6sHdDGmCMo0cYHd]{Hordenbrecher}</p>\n<p>Du kannst eines der obigen Merkmale auf deinen Charakterbogen ziehen, um es hinzuzufügen.</p>",
             "source": "SHB S. 113"
         },
-        "Hunter's Prey: Colossus Slayer": {
+        "Colossus Slayer": {
             "name": "Des Jägers Beute: Kolossschlächter",
             "description": "<p>Deine Hartnäckigkeit kann die mächtigsten Gegner bezwingen. Wenn du mit deinem Waffenangriff eine Kreatur triffst, die weniger Trefferpunkte als ihr Maximum besitzt, erleidet sie zusätzlich 1W8 Schaden. Du kannst die zusätzlichen Schaden nur einmal pro Zug verursachen.</p>",
             "source": "SHB S. 113"
         },
-        "Hunter's Prey: Giant Killer": {
+        "Giant Killer": {
             "name": "Des Jägers Beute: Riesentöter",
             "description": "<p>Trifft oder verfehlt dich innerhalb von 1,50 m eine Kreatur der Größenkategorie groß oder größer, kannst du deine Reaktion dazu verwenden, um sofort nach diesem Angriff selbst anzugreifen. Du musst die Kreatur dafür sehen können</p>",
             "source": "SHB S. 113"
         },
-        "Hunter's Prey: Horde Breaker": {
+        "Horde Breaker": {
             "name": "Des Jägers Beute: Hordenbrecher",
             "description": "<p>Wenn du mit einer Waffe angreifst, kannst du einmal in jedem deiner Züge einen weiteren Angriff mit derselben Waffe auf eine andere Kreatur ausführen. Das Ziel dieses Angriffs muss sich innerhalb von 1,50 m von deinem ursprünglichen Ziel befinden und in Reichweite deiner Waffe sein.</p>",
             "source": "SHB S. 113"
@@ -480,163 +522,163 @@
             "description": "<p>Ab der 10. Stufe kannst du deine Aktion nutzen, um jemanden mit deiner bedrohlichen Präsenz einzuschüchtern.</p>\n<p>Bestimme eine Kreatur innerhalb von 9 m, die du sehen kannst. Kann diese dich ebenfalls sehen oder hören, muss ihr ein Weisheitsrettungswurf (SG 8 + dein Übungsbonus + dein Charismamodifikator) gelingen oder sie wird bis zum Ende deines nächsten Zuges verängstigt. In den folgenden Zügen kannst du deine Aktion dazu verwenden, die Dauer dieses Zustands jeweils bis zum Ende deines nächsten Zuges zu verlängern. Der Effekt hört auf, falls die Kreatur ihren Zug außerhalb deiner Sicht oder mehr als 18 m entfernt von dir beendet.</p>\n<p>Schafft die Kreatur ihren Rettungswurf, kannst du dieses Merkmal in den nächsten 24 Stunden nicht mehr auf sie anwenden</p>",
             "source": "SHB S. 49"
         },
-        "Invocation: Agonizing Blast": {
-            "name": "Anrufung: Qualvoller Strahl",
+        "Agonizing Blast": {
+            "name": "Qualvoller Strahl",
             "description": "<p>Wenn du eine Kreatur mit @Compendium[dnd5e.spells.Z9p1vezIn95jw1Yw]{Schauriger Strahl} triffst, addiere deinen Charismamodifikator zum Schaden.</p>",
             "source": "SHB S. 68"
         },
-        "Invocation: Armor of Shadows": {
-            "name": "Anrufung: Schattenrüstung",
+        "Armor of Shadows": {
+            "name": "Schattenrüstung",
             "description": "<p>Du kannst @Compendium[dnd5e.spells.CKZTpZlxj7hjjo2H]{Magierrüstung} nach Belieben auf dich selbst wirken, ohne dafür Zauberplätze oder Materialkomponenten aufwenden zu müssen.</p>",
             "source": "SHB S. 68"
         },
-        "Invocation: Ascendant Step": {
-            "name": "Anrufung: Aufsteigender Schritt",
+        "Ascendant Step": {
+            "name": "Aufsteigender Schritt",
             "description": "<p>Du kannst @Compendium[dnd5e.spells.MRxldJd6C4bsBo3O]{Schweben} nach Belieben auf dich selbst wirken, ohne dafür Zauberplätze oder Materialkomponenten aufwenden zu müssen.</p>",
             "source": "SHB S. 67"
         },
-        "Invocation: Beast Speech": {
-            "name": "Anrufung: Tiersprache",
+        "Beast Speech": {
+            "name": "Tiersprache",
             "description": "<p>Du kannst @Compendium[dnd5e.spells.aL1F8fvYLtNzUbKu]{Mit Tieren sprechen} nach Belieben auf dich selbst wirken, ohne dafür Zauberplätze aufwenden zu müssen.</p>",
             "source": "SHB S. 68"
         },
-        "Invocation: Beguiling Influence": {
-            "name": "Anrufung: Verführerischer Einfluss",
+        "Beguiling Influence": {
+            "name": "Verführerischer Einfluss",
             "description": "<p>Du bist geübt in den Fertigkeiten Täuschen und Überzeugen.</p>",
             "source": "SHB S. 68"
         },
-        "Invocation: Bewitching Whispers": {
-            "name": "Anrufung: Verhexendes Flüstern",
+        "Bewitching Whispers": {
+            "name": "Verhexendes Flüstern",
             "description": "<p>Du kannst @Compendium[dnd5e.spells.P6f1PPKPd9BCb742]{Zwang} einmal wirken, indem du einen Hexenmeisterzauberplatz verbrauchst. Du kannst diese Fähigkeit erst wieder einsetzen, wenn du eine lange Rast beendet hast.</p>",
             "source": "SHB S. 68"
         },
-        "Invocation: Book of Ancient Secrets": {
-            "name": "Anrufung: Buch der uralten Geheimnisse",
+        "Book of Ancient Secrets": {
+            "name": "Buch der uralten Geheimnisse",
             "description": "<p>Du kannst jetzt magische Rituale in deinem Buch der Schatten festhalten. Suche dir von beliebigen Zauberlisten zwei Zauber des 1. Grades aus, welche die Eigenschaft Ritual besitzen (die Sprüche können von unterschiedlichen Zauberlisten sein). Die Zauber sind nun in deinem Buch enthalten und zählen nicht in Bezug auf deine maximale Anzahl bekannter Zauber. Wenn du das Buch der Schatten in der Hand hältst, kannst du die gewählten Zauber als Rituale wirken. Solange du die Sprüche nicht noch auf einem anderen Weg lernst, darfst du sie ausschließlich als Rituale ausführen. Du kannst außerdem alle Hexenmeisterzauber, die dir bekannt sind, als Rituale wirken, wenn sie als solche gekennzeichnet sind.</p>\n<p>Auf deinen Abenteuern kannst du dem Buch der Schatten weitere Rituale hinzufügen. Findest du einen solchen Zauber, kannst du ihn in deinem Buch niederschreiben, falls sein Grad gleich oder niedriger deiner halben Hexenmeisterstufe ist (aufgerundet) und du die entsprechende Zeit dafür aufbringst. Für jeden Grad des Zaubers benötigt der Übertragungsprozess 2 Stunden und kostet dich 50 GM für die seltene Tinte, mit der du den Zauber eintragen musst.</p>",
             "source": "SHB S. 67"
         },
-        "Invocation: Chains of Carceri": {
-            "name": "Anrufung: Ketten von Carceri",
+        "Chains of Carceri": {
+            "name": "Ketten von Carceri",
             "description": "<p>Du kannst nach Belieben @Compendium[dnd5e.spells.l9Ju5KE7bbn3WpTm]{Monster festhalten} auf eine himmlische Kreatur, einen Unhold oder einen Elementar wirken, ohne dafür Zauberplätze oder Materialkomponenten aufwenden zu müssen. Du musst eine lange Rast beenden, bevor du diese Fähigkeit erneut auf dieselbe Kreatur anwenden kannst.</p>",
             "source": "SHB S. 68"
         },
-        "Invocation: Devil's Sight": {
-            "name": "Anrufung: Teufelssicht",
+        "Devil's Sight": {
+            "name": "Teufelssicht",
             "description": "<p>Du kannst in Dunkelheit bis zu 36 m weit normal sehen, gleichgültig ob diese magischen oder natürlichen Ursprungs ist.</p>",
             "source": "SHB S. 68"
         },
-        "Invocation: Dreadful Word": {
-            "name": "Anrufung: Fürchterliches Wort",
+        "Dreadful Word": {
+            "name": "Fürchterliches Wort",
             "description": "<p>Du kannst @Compendium[dnd5e.spells.9hQXdMSmerkTsHDe]{Verwirrung} einmal wirken, indem du einen Hexenmeisterzauberplatz verbrauchst. Du kannst diese Fähigkeit erst wieder einsetzen, nachdem du eine lange Rast beendet hast.</p>",
             "source": "SHB S. 67"
         },
-        "Invocation: Eldritch Sight": {
-            "name": "Anrufung: Unheimliche Sicht",
+        "Eldritch Sight": {
+            "name": "Unheimliche Sicht",
             "description": "<p>Du kannst nach Belieben @Compendium[dnd5e.spells.ghXTfe7sgCbgf1Q8]{Magie entdecken} wirken, ohne dafür Zauberplätze aufwenden zu müssen.</p>",
             "source": "SHB S. 68"
         },
-        "Invocation: Eldritch Spear": {
-            "name": "Anrufung: Unheimlicher Speer",
+        "Eldritch Spear": {
+            "name": "Unheimlicher Speer",
             "description": "<p>Wenn du @Compendium[dnd5e.spells.Z9p1vezIn95jw1Yw]{Schauriger Strahl} wirkst, beträgt die Reichweite des Zaubers 90 m.</p>",
             "source": "SHB S. 68"
         },
-        "Invocation: Eyes of the Rune Keeper": {
-            "name": "Anrufung: Auge des Runenwächters",
+        "Eyes of the Rune Keeper": {
+            "name": "Auge des Runenwächters",
             "description": "<p>Du kannst jede Schrift lesen und verstehen.</p>",
             "source": "SHB S. 67"
         },
-        "Invocation: Fiendish Vigor": {
-            "name": "Anrufung: Vitalität des Unholds",
+        "Fiendish Vigor": {
+            "name": "Vitalität des Unholds",
             "description": "<p>Du kannst @Compendium[dnd5e.spells.7e3QXF10hLNDEdr6]{Falsches Leben} als Zauber des 1. Grades nach Belieben auf dich selbst wirken, ohne dafür Zauberplätze oder Materialkomponenten aufwenden zu müssen.</p>",
             "source": "SHB S. 68"
         },
-        "Invocation: Gaze of Two Minds": {
-            "name": "Anrufung: Gedankenblick",
+        "Gaze of Two Minds": {
+            "name": "Gedankenblick",
             "description": "<p>Du kannst mit deiner Aktion eine humanoide Kreatur berühren, die dazu gewillt ist, um durch ihre Sinne bis zum Ende deines nächsten Zuges die Umwelt wahrzunehmen. Solange sich die Kreatur auf derselben Existenzebene befindet wie du selbst, kannst du deine Aktion in den folgenden Zügen verwenden, um diese Verbindung aufrechtzuerhalten und die Dauer bis zum Ende deines jeweils nächsten Zuges zu verlängern. Während du mit den Sinnen der anderen Kreatur wahrnimmst, besitzt du all ihre speziellen Sinne, bist aber blind und taub für deine eigene Umgebung.</p>",
             "source": "SHB S. 67"
         },
-        "Invocation: Lifedrinker": {
-            "name": "Anrufung: Lebenstrinker",
+        "Lifedrinker": {
+            "name": "Lebenstrinker",
             "description": "<p>Triffst du mit deiner Paktwaffe eine Kreatur, erleidet diese nekrotischen Schaden in Höhe deines Charismamodifikators (mindestens 1).</p>",
             "source": "SHB S. 68"
         },
-        "Invocation: Mask of Many Faces": {
-            "name": "Anrufung: Maske der vielen Gesichter",
+        "Mask of Many Faces": {
+            "name": "Maske der vielen Gesichter",
             "description": "<p>Du kannst @Compendium[dnd5e.spells.A3q2gTNqG6fvNGrv]{Selbstverkleidung} nach Belieben wirken, ohne dafür Zauberplätze aufwenden zu müssen.</p>",
             "source": "SHB S. 68"
         },
-        "Invocation: Master of Myriad Forms": {
-            "name": "Anrufung: Meister der myriaden Formen",
+        "Master of Myriad Forms": {
+            "name": "Meister der myriaden Formen",
             "description": "<p>Du kannst @Compendium[dnd5e.spells.8RTDOt80u8aBv9qx]{Gestalt verändern} nach Belieben wirken, ohne dafür Zauberplätze aufwenden zu müssen.</p>",
             "source": "SHB S. 68"
         },
-        "Invocation: Minions of Chaos": {
-            "name": "Anrufung: Untergebene des Chaos",
+        "Minions of Chaos": {
+            "name": "Untergebene des Chaos",
             "description": "<p>Du kannst @Compendium[dnd5e.spells.1LkZvINag7KqBmDR]{Elementar beschwören} einmal wirken, indem du einen Hexenmeisterzauberplatz verbrauchst. Du kannst diese Fähigkeit erst wieder einsetzen, wenn du eine lange Rast beendet hast.</p>",
             "source": "SHB S. 68"
         },
-        "Invocation: Mire the Mind": {
-            "name": "Anrufung: Versumpfen lassen",
+        "Mire the Mind": {
+            "name": "Versumpfen lassen",
             "description": "<p>Du kannst @Compendium[dnd5e.spells.yqUDoxk4x0NWG5Bz]{Verlangsamen} einmal wirken, indem du einen Hexenmeisterzauberplatz verbrauchst. Du kannst diese Fähigkeit erst wieder einsetzen, wenn du eine lange Rast beendet hast.</p>",
             "source": "SHB S. 68"
         },
-        "Invocation: Misty Visions": {
-            "name": "Anrufung: Neblige Visionen",
+        "Misty Visions": {
+            "name": "Neblige Visionen",
             "description": "<p>Du kannst @Compendium[dnd5e.spells.BrBZdCCrJRIVg7YX]{Lautloses Trugbild} nach Belieben wirken, ohne dafür Zauberplätze oder Materialkomponenten aufwenden zu müssen.</p>",
             "source": "SHB S. 68"
         },
-        "Invocation: One With Shadows": {
-            "name": "Anrufung: Mit den Schatten verschmelzen",
+        "One With Shadows": {
+            "name": "Mit den Schatten verschmelzen",
             "description": "<p>Wenn du dich in einem Bereich mit dämmrigem Licht oder Dunkelheit befindest, kannst du deine Aktion verwenden, um unsichtbar zu werden, bis du dich bewegst oder eine Aktion oder eine Reaktion ausführst.</p>",
             "source": "SHB S. 68"
         },
-        "Invocation: Otherworldly Leap": {
-            "name": "Anrufung: Andersweltlicher Sprung",
+        "Otherworldly Leap": {
+            "name": "Andersweltlicher Sprung",
             "description": "<p>Du kannst @Compendium[dnd5e.spells.ZrTc23tToJ0JpH2h]{Springen} nach Belieben auf dich selbst wirken, ohne dafür Zauberplätze oder Materialkomponenten aufwenden zu müssen.</p>",
             "source": "SHB S. 67"
         },
-        "Invocation: Repelling Blast": {
-            "name": "Anrufung: Zurückdrängender Strahl",
+        "Repelling Blast": {
+            "name": "Zurückdrängender Strahl",
             "description": "<p>Wenn du eine Kreatur mit @Compendium[dnd5e.spells.Z9p1vezIn95jw1Yw]{Schauriger Strahl} triffst, kannst du die Kreatur bis zu 3 m in einer geraden Linie von dir wegstoßen.</p>",
             "source": "SHB S. 68"
         },
-        "Invocation: Sculptor of Flesh": {
-            "name": "Anrufung: Fleischbildhauer",
+        "Sculptor of Flesh": {
+            "name": "Fleischbildhauer",
             "description": "<p>Du kannst @Compendium[dnd5e.spells.04nMsTWkIFvkbXlY]{Verwandlung} einmal wirken, indem du einen Hexenmeisterzauberplatz verbrauchst. Du kannst diese Fähigkeit erst wieder einsetzen, nachdem du eine lange Rast beendet hast.</p>",
             "source": "SHB S. 67"
         },
-        "Invocation: Sign of Ill Omen": {
-            "name": "Anrufung: Zeichen des schlechten Omens",
+        "Sign of Ill Omen": {
+            "name": "Zeichen des schlechten Omens",
             "description": "<p>Du kannst @Compendium[dnd5e.spells.pO4zGe5LmFIYqJiL]{Fluch} einmal wirken, indem du einen Hexenmeisterzauberplatz verbrauchst. Du kannst diese Fähigkeit erst wieder einsetzen, wenn du eine lange Rast beendet hast.</p>",
             "source": "SHB S. 68"
         },
-        "Invocation: Thief of Five Fates": {
-            "name": "Anrufung: Dieb der fünf Schicksale",
+        "Thief of Five Fates": {
+            "name": "Dieb der fünf Schicksale",
             "description": "<p>Du kannst @Compendium[dnd5e.spells.95K2aUhAGV9qXjnf]{Verderben} einmal wirken, indem du einen Hexenmeisterzauberplatz verbrauchst. Du kannst diese Fähigkeit erst wieder einsetzen, nachdem du eine lange Rast beendet hast.</p>",
             "source": "SHB S. 67"
         },
-        "Invocation: Thirsting Blade": {
-            "name": "Anrufung: Dürstende Klinge",
+        "Thirsting Blade": {
+            "name": "Dürstende Klinge",
             "description": "<p>Du kannst mit deiner Paktwaffe zweimal angreifen anstatt nur einmal, wenn du die Angriffsaktion in deinem Zug wählst.</p>",
             "source": "SHB S. 67"
         },
-        "Invocation: Visions of Distant Realms": {
-            "name": "Anrufung: Visionen von fernen Gefilden",
+        "Visions of Distant Realms": {
+            "name": "Visionen von fernen Gefilden",
             "description": "<p>Du kannst @Compendium[dnd5e.spells.ImlCJQwR1VL40Qem]{Arkanes Auge} nach Belieben wirken, ohne dafür Zauberplätze aufwenden zu müssen.</p>",
             "source": "SHB S. 68"
         },
-        "Invocation: Voice of the Chain Master": {
-            "name": "Anrufung: Stimme des Kettenmeisters",
+        "Voice of the Chain Master": {
+            "name": "Stimme des Kettenmeisters",
             "description": "<p>Du kannst telepathisch mit deinem Vertrauten kommunizieren und mit seinen Sinnen die Umwelt wahrnehmen, solange ihr euch auf derselben Existenzebene befindet. Während du mit den Sinnen deines Vertrauten wahrnimmst, kannst du außerdem durch ihn mit deiner eigenen Stimme sprechen - selbst wenn dein Vertrauter eigentlich nicht sprechen kann.</p>",
             "source": "SHB S. 68"
         },
-        "Invocation: Whispers of the Grave": {
-            "name": "Anrufung: Grabesflüstern",
+        "Whispers of the Grave": {
+            "name": "Grabesflüstern",
             "description": "<p>Du kannst @Compendium[dnd5e.spells.I2LUSF5ogc7Bj62e]{Mit Toten sprechen} nach Belieben wirken, ohne dafür Zauberplätze aufwenden zu müssen.</p>",
             "source": "SHB S. 68"
         },
-        "Invocation: Witch Sight": {
-            "name": "Anrufung: Hexensicht",
+        "Witch Sight": {
+            "name": "Hexensicht",
             "description": "<p>Du kannst die wahre Gestalt jedes Formenwandlers, Wechselbalgs oder jeder Kreatur erkennen, die durch Illusion oder Verwandlungszauber verborgen wird, solange sich das Ziel innerhalb von 9 m in deinem Blickfeld aufhält.</p>",
             "source": "SHB S. 68"
         },
@@ -725,43 +767,43 @@
             "description": "<p>Auf der 3. Stufe erlangst du die Fähigkeit, deine Zauber zu verändern, um sie deinen Bedürfnissen anzupassen. Suche dir zwei der folgenden metamagischen Optionen aus. Auf den Stufen 10 und 17 erhältst du je eine weitere deiner Wahl.</p>\n<p>Du kannst immer nur eine metamagische Option pro gewirktem Zauberspruch anwenden, außer es ist in der Beschreibung anders angegeben.</p>\n<p>@Compendium[dnd5e.classfeatures.zElYrOcCFFMhB6Xl]{Bedachter Zauber}</p>\n<p>@Compendium[dnd5e.classfeatures.nViGf6bZ6DQAJhkw]{Beschleunigter Zauber}</p>\n<p>@Compendium[dnd5e.classfeatures.Qb391hakCfmH4w8p]{Gespiegelter Zauber}</p>\n<p>@Compendium[dnd5e.classfeatures.tNG2qi9zhmXEkecA]{Konzentrierter Zauber}</p>\n<p>@Compendium[dnd5e.classfeatures.IWpe0Y9uAStHGiH1]{Mächtiger Zauber}</p>\n<p>@Compendium[dnd5e.classfeatures.fXa0DMhoVLtbBu9l]{Subtiler Zauber}</p>\n<p>@Compendium[dnd5e.classfeatures.tQxlKyAx9sgPrbgj]{Verlängerter Zauber}</p>\n<p>@Compendium[dnd5e.classfeatures.DZpAa3LzMNBexbmX]{Weitreichender Zauber}</p>\n<p>Du kannst deine ausgewählten Optionen von oben auf deinen Charakterbogen ziehen, um sie hinzuzufügen.</p>",
             "source": "SHB S. 116"
         },
-        "Metamagic: Careful Spell": {
-            "name": "Metamagie: Bedachter Zauber",
+        "Careful Spell": {
+            "name": "Bedachter Zauber",
             "description": "<p>Wenn du einen Zauber wirkst, der andere Kreaturen dazu zwingt, einen Rettungswurf abzulegen, kannst du einige dieser Kreaturen vor der vollen Stärke des Zaubers schützen. Gib 1 Zaubereipunkt aus und bestimme eine Anzahl betroffener Kreaturen, die maximal der Höhe deines Charismamodifikators entspricht (mindestens 1). Jeder ausgewählten Kreatur gelingt der Rettungswurf gegen diesen Zauber automatisch.</p>",
             "source": "SHB S. 116"
         },
-        "Metamagic: Distant Spell": {
-            "name": "Metamagie: Weitreichender Zauber",
+        "Distant Spell": {
+            "name": "Weitreichender Zauber",
             "description": "<p>Wenn du einen Zauber wirkst, der eine Reichweite von 1,50 m oder mehr besitzt, kannst du 1 Zaubereipunkt ausgeben, um seine Reichweite zu verdoppeln.</p>\n<p>Wirkst du einen Zauber mit Berührungsreichweite, kannst du 1 Zaubereipunkt ausgeben, um seine Reichweite auf 9 m zu erhöhen.</p>",
             "source": "SHB S. 117"
         },
-        "Metamagic: Empowered Spell": {
-            "name": "Metamagie: Mächtiger Zauber",
+        "Empowered Spell": {
+            "name": "Mächtiger Zauber",
             "description": "<p>Wenn du den Schaden eines Zauberspruchs auswürfelst, kannst du 1 Zaubereipunkt ausgeben, um eine Anzahl von Würfeln bis zur Höhe deines Charismamodifikators (mindestens 1) erneut zu würfeln. Die neuen Ergebnisse musst du verwenden.</p>\n<p>Du kannst Mächtiger Zauber anwenden, auch wenn du den ursprünglichen Zauber bereits mit einer anderen metamagischen Option gewirkt hast.</p>",
             "source": "SHB S. 117"
         },
-        "Metamagic: Extended Spell": {
-            "name": "Metamagie: Verlängerter Zauber",
+        "Extended Spell": {
+            "name": "Verlängerter Zauber",
             "description": "<p>Wenn du einen Zauber wirkst, der eine Wirkdauer von 1 Minute oder länger besitzt, kannst du 1 Zaubereipunkt ausgeben, um seine Wirkdauer bis zu einem Maximum von 24 Stunden zu verdoppeln.</p>",
             "source": "SHB S. 117"
         },
-        "Metamagic: Heightened Spell": {
-            "name": "Metamagie: Konzentrierter Zauber",
+        "Heightened Spell": {
+            "name": "Konzentrierter Zauber",
             "description": "<p>Wenn du einen Zauber wirkst, der eine Kreatur dazu zwingt, einen Rettungswurf abzulegen, um den Effekten des Spruches zu widerstehen, kannst du 3 Zaubereipunkte ausgeben, damit eines der Ziele des Zaubers bei seinem ersten Rettungswurf im Nachteil ist.</p>",
             "source": "SHB S. 117"
         },
-        "Metamagic: Quickened Spell": {
-            "name": "Metamagie: Beschleunigter Zauber",
+        "Quickened Spell": {
+            "name": "Beschleunigter Zauber",
             "description": "<p>Wenn du einen Zauber wirkst, der einen Zeitaufwand von einer Aktion besitzt, kannst du 2 Zaubereipunkte ausgeben, um den Zeitaufwand für dieses Mal in eine Bonusaktion zu ändern.</p>",
             "source": "SHB S. 117"
         },
-        "Metamagic: Subtle Spell": {
-            "name": "Metamagie: Subtiler Zauber",
+        "Subtle Spell": {
+            "name": "Subtiler Zauber",
             "description": "<p>Wenn du einen Zauber wirkst, kannst du 1 Zaubereipunkt ausgeben, um ihn ohne jegliche Gesten und verbale Komponenten zu wirken.</p>",
             "source": "SHB S. 117"
         },
-        "Metamagic: Twinned Spell": {
-            "name": "Metamagie: Gespiegelter Zauber",
+        "Twinned Spell": {
+            "name": "Gespiegelter Zauber",
             "description": "<p>Wenn du einen Zauber wirkst, der nur eine Kreatur zum Ziel hat (die nicht du selbst bist), kannst du eine Anzahl von Zaubereipunkten in Höhe des Grades des Zaubers ausgeben (1 Zaubereipunkt bei einem Zaubertrick), um ihn auf eine weitere Kreatur in Reichweite zu wirken.</p>\n<p>Um den Zauber mit dieser metamagischen Option wirken zu können, darf er auf seinem aktuellen Grad nicht mehr als eine Kreatur zum Ziel haben. Zum Beispiel sind @Compendium[dnd5e.spells.41JIhpDyM9Anm7cs]{Magisches Geschoss} und @Compendium[dnd5e.spells.7u2obDvuvtZBkTfq]{Sengender Strahl} nicht geeignet, @Compendium[dnd5e.spells.ctW81uiX56xZR2c5]{Kältestrahl} hingegen schon.</p>",
             "source": "SHB S. 117"
         },
@@ -780,13 +822,13 @@
             "description": "<p>Mit der 11. Stufe erhältst du eines der folgenden Merkmale deiner Wahl:</p>\n<p>@Compendium[dnd5e.classfeatures.l7W6JB9yWLLLtQKP]{Geschosshagel}</p>\n<p>@Compendium[dnd5e.classfeatures.1DY8w3CXeD7PHDXF]{Wirbelwindangriff}</p>\n<p>Du kannst eines der obigen Merkmale auf deinen Charakterbogen ziehen, um es hinzuzufügen.</p>",
             "source": "SHB S. 113"
         },
-        "Multiattack: Volley": {
-            "name": "Mehrfachangriff: Geschosshagel",
+        "Volley": {
+            "name": "Geschosshagel",
             "description": "<p>Du kannst deine Aktion nutzen, um einen Fernkampfangriff gegen eine beliebige Anzahl an Kreaturen auszuführen, die sich im Umkreis von 3 m zu einem Punkt befinden, den du sehen kannst und der in der Reichweite deiner Waffe liegt. Du musst für jeden Angriff Munition aufwenden und die Angriffswürfe für jedes Ziel einzeln ausführen.</p>",
             "source": "SHB S. 113"
         },
-        "Multiattack: Whirlwind Attack": {
-            "name": "Mehrfachangriff: Wirbelwindangriff",
+        "Whirlwind Attack": {
+            "name": "Wirbelwindangriff",
             "description": "<p>Du kannst deine Aktion nutzen, um einen Nahkampfangriff gegen eine beliebige Anzahl an Kreaturen innerhalb von 1,50 m auszuführen. Für jedes Ziel ist ein eigener Angriffswurf notwendig.</p>",
             "source": "SHB S. 113"
         },
@@ -1020,38 +1062,38 @@
             "description": "<p>Auf der 18. Stufe hast du eine solche Meisterschaft in bestimmten Zaubersprüchen erlangt, dass du sie nach Belieben wirken kannst. Wähle aus deinem Zauberbuch einen Magierzauber des 1. Grades und einen des 2. Grades. Du kannst beide auf dem niedrigsten Grad wirken, ohne dafür Zauberplätze verbrauchen zu müssen, falls du sie vorbereitet hast. Du kannst die Sprüche auch auf höheren Graden wirken, musst aber wie sonst auch die dafür notwendigen Zauberplätze aufwenden. Nach 8 Stunden des Lernens darfst du einen oder beide der gewählten Zauber durch andere des gleichen Grades ersetzen.</p>\n<p>Falls du möchtest, kannst du diesen Eintrag bearbeiten und deine gewählten Zaubersprüche hier eintragen:</p>\n<ul>\n<li><em>Zauberspruch des 1. Grades</em></li>\n<li><em>Zauberspruch des 2. Grades</em></li>\n</ul>",
             "source": "SHB S. 86"
         },
-        "Spellcasting (Bard)": {
-            "name": "Zauberwirken (Barde)",
+        "u4NLajXETJhJU31v": {
+            "name": "Zauberwirken",
             "description": "<p>Du hast gelernt, das Gewebe der Realität mit Hilfe deines Willens und deiner Musik zu entwirren und zu formen. Deine Zaubersprüche sind Teil eines gewaltigen Repertoires, mit dem du deine Magie auf unterschiedliche Situationen einstimmen kannst.</p>\n<h3>Zaubertricks</h3>\n<p>Zu Beginn sind dir zwei beliebige Zaubertricks aus der Zauberliste des Barden bekannt. Weitere deiner Wahl lernst du auf höheren Stufen, so wie es in der Spalte für bekannte Zaubertricks in der Aufstiegstabelle des Barden angegeben ist.</p>\n<h3>Zauberplätze</h3>\n<p>Die Tabelle des Barden gibt an, wie viele Zauberplätze du hast, um Bardenzauber des 1. oder höheren Grads zu wirken. Um einen dir bekannten Spruch zu sprechen, musst du einen Zauberplatz des gleichen oder eines höheren Grades aufwenden. Alle verbrauchten Zauberplätze stehen dir nach einer langen Rast wieder zur Verfügung.</p>\n<p>Ist dir beispielsweise der Zauber <em>Wunden heilen</em> des 1. Grades bekannt und besitzt du sowohl einen freien Zauberplatz des 1. Grades und einen des 2. Grades, kannst du jeden der beiden Zauberplätze verwenden, um <em>Wunden heilen</em> zu wirken.</p>\n<h3>Bekannte Zauber des 1. Grades und höher</h3>\n<p>Auf Stufe 1 kennst du vier frei wählbare Zauber des 1. Grades aus der Zauberliste des Barden.</p>\n<p>Der Spalte „Bekannte Zauber“ der Tabelle kannst du entnehmen, wie viele neue Sprüche du dir bei einem Stufenaufstieg aus der Zauberliste des Barden aussuchen darfst. Dabei kannst du nur Zauber wählen, für deren Grad du auch Zauberplätze besitzt. Erreichst du zum Beispiel die 3. Stufe als Barde, darfst du einen neuen Zauber des 1. oder 2. Grades erlernen.</p>\n<p>Sobald du eine Stufe in dieser Klasse aufsteigst, kannst du außerdem einen der Bardenzauber, die dir bereits bekannt sind mit einem anderen aus der Zauberliste ersetzen. Auch für diesen musst du einen dem Grad des Spruches entsprechenden Zauberplatz besitzen.</p>\n<table>\n<thead>\n<tr>\n<td rowspan=\"2\">Stufe</td>\n<td rowspan=\"2\">Bekannte Zaubertricks</td>\n<td rowspan=\"2\">Bekannte Zauber</td>\n<td colspan=\"9\">—Zauberplätze pro Grad—</td>\n</tr>\n<tr>\n<td>1.</td>\n<td>2.</td>\n<td>3.</td>\n<td>4.</td>\n<td>5.</td>\n<td>6.</td>\n<td>7.</td>\n<td>8.</td>\n<td>9.</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>2</td>\n<td>4</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>2</td>\n<td>2</td>\n<td>5</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>3</td>\n<td>2</td>\n<td>6</td>\n<td>4</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>4</td>\n<td>3</td>\n<td>7</td>\n<td>4</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>5</td>\n<td>3</td>\n<td>8</td>\n<td>4</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>6</td>\n<td>3</td>\n<td>9</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>7</td>\n<td>3</td>\n<td>10</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>8</td>\n<td>3</td>\n<td>11</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>9</td>\n<td>3</td>\n<td>12</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>10</td>\n<td>4</td>\n<td>14</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>11</td>\n<td>4</td>\n<td>15</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>12</td>\n<td>4</td>\n<td>15</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>13</td>\n<td>4</td>\n<td>16</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>14</td>\n<td>4</td>\n<td>18</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>15</td>\n<td>4</td>\n<td>19</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n<td>-</td>\n</tr>\n<tr>\n<td>16</td>\n<td>4</td>\n<td>19</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n<td>-</td>\n</tr>\n<tr>\n<td>17</td>\n<td>4</td>\n<td>20</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n</tr>\n<tr>\n<td>18</td>\n<td>4</td>\n<td>22</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n</tr>\n<tr>\n<td>19</td>\n<td>4</td>\n<td>22</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n</tr>\n<tr>\n<td>20</td>\n<td>4</td>\n<td>22</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n</tr>\n</tbody>\n</table>\n<h3>Attribut zum Zauberwirken</h3>\n<p>Das Attribut, mit dem du deine Bardenzauber wirkst, ist Charisma. Deine Magie stammt aus dem Herzen und der Seele, die du in die Darbietungen deiner Musik oder Reden einfließen lässt.</p>\n<p>Immer wenn sich ein Zauber auf das zum Zauberwirken nötige Attribut bezieht, verwendest du Charisma. Wird der Schwierigkeitsgrad für einen Rettungswurf gegen deine Bardenzauber bestimmt, ziehst du deinen Charismamodifikator hinzu. Bei Angriffen mit deinen Bardenzaubern findet ebenfalls der Charismamodifikator Anwendung.</p>\n<p><strong>SG für Rettungswürfe</strong> = 8 + dein Übungsbonus + dein Charismamodifikator</p>\n<p><strong>Modifikator für Zauberangriffe</strong> = dein Übungsbonus + dein Charismamodifikator</p>\n<h3>Rituale wirken</h3>\n<p>Du kannst jeden Bardenzauber, der dir bekannt ist, auch als Ritual wirken, falls dieser als solches gekennzeichnet ist.</p>\n<h3>Zauberfokus</h3>\n<p>Als Zauberfokus für deine Bardenzauber kannst du ein Musikinstrument (siehe @Compendium[dnd5e.rules.bogWrnJqoNlBd0O8]{Abenteuerausrüstung}) verwenden.</p>",
             "source": "SHB S. 52"
         },
-        "Spellcasting (Cleric)": {
-            "name": "Zauberwirken (Kleriker)",
+        "v4gKwLhAq9vuqza7": {
+            "name": "Zauberwirken",
             "description": "<p>Als Kleriker kannst du Zauber wirken, indem du die Macht deiner Gottheit kanalisierst.</p>\n<h3>Zaubertricks</h3>\n<p>Auf der 1. Stufe sind dir drei Zaubertricks deiner Wahl aus der Zauberliste des Klerikers bekannt. Weitere deiner Wahl lernst du auf höheren Stufen, so wie es in der Spalte für bekannte Zaubertricks in der Aufstiegstabelle des Klerikers angegeben ist.</p>\n<h3>Vorbereiten und Wirken von Zaubern</h3>\n<p>Du musst Zaubersprüche vorbereiten, um sie wirken zu können. Wähle dazu eine Anzahl von Klerikerzaubern die deiner Stufe als Kleriker + deinem Weisheitsmodifikator entspricht (mindestens 1), und notiere sie in einer Liste. Du kannst nur Sprüche aussuchen, für deren Grad du auch Zauberplätze besitzt.</p>\n<p>Bist du zum Beispiel ein Kleriker der 3. Stufe, verfügst du über vier Zauberplätze des 1. Grades und zwei des 2. Grades. Bei einem Weisheitswert von 16 kann deine Liste vorbereiteter Zauber sechs beliebige Sprüche (Stufe 3 + Modifikator 3) des 1. oder 2. Grades umfassen.</p>\n<p>Die Aufstiegstabelle des Klerikers gibt an, wie viele Zauberplätze pro Grad dir auf jeder Stufe zur Verfügung stehen. Um einen Spruch aus deiner Liste vorbereiteter Zauber zu wirken, musst du einen Zauberplatz des gleichen oder eines höheren Grades verbrauchen. Alle verbrauchten Zauberplätze stehen dir nach einer langen Rast wieder zur Verfügung. Hast du beispielsweise den Zauber Wunden heilen des 1. Grades vorbereitet, kannst du sowohl einen Zauberplatz des 1. Grades als auch einen des 2. Grades verwenden, um Wunden heilen zu wirken.</p>\n<p>Einen Spruch zu wirken, entfernt ihn nicht von deiner Liste der vorbereiteten Zauber. Diese kannst du nach jeder langen Rast ändern. Eine neue Liste vorzubereiten, erfordert mindestens 1 Minute im Gebet oder in Meditation je Zaubergrad pro Spruch.</p>\n<table>\n<thead>\n<tr>\n<td rowspan=\"2\">Stufe</td>\n<td rowspan=\"2\">Bekannte Zaubertricks</td>\n<td colspan=\"9\">—Zauberplätze pro Grad—</td>\n</tr>\n<tr>\n<td>1.</td>\n<td>2.</td>\n<td>3.</td>\n<td>4.</td>\n<td>5.</td>\n<td>6.</td>\n<td>7.</td>\n<td>8.</td>\n<td>9.</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>2</td>\n<td>3</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>3</td>\n<td>3</td>\n<td>4</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>4</td>\n<td>4</td>\n<td>4</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>5</td>\n<td>4</td>\n<td>4</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>6</td>\n<td>4</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>7</td>\n<td>4</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>8</td>\n<td>4</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>9</td>\n<td>4</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>10</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>11</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>12</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>13</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>14</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>15</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n<td>-</td>\n</tr>\n<tr>\n<td>16</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n<td>-</td>\n</tr>\n<tr>\n<td>17</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n</tr>\n<tr>\n<td>18</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n</tr>\n<tr>\n<td>19</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n</tr>\n<tr>\n<td>20</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n</tr>\n</tbody>\n</table>\n<h3>Attribut zum Zauberwirken</h3>\n<p>Das Attribut, mit dem du deine Klerikerzauber wirkst, ist Weisheit, da du deine Magie aus der Hingabe zu deiner Gottheit schöpfst.</p>\n<p>Immer wenn sich ein Zauber auf das zum Zauberwirken nötige Attribut bezieht, verwendest du Weisheit. Wird der Schwierigkeitsgrad für einen Rettungswurf gegen deine Klerikerzauber bestimmt, ziehst du deinen Weisheitsmodifikator hinzu. Bei Angriffen mit deinen Klerikerzaubern findet ebenfalls der Weisheitsmodifikator Anwendung.</p>\n<p><strong>SG für Rettungswürfe</strong> = 8 + dein Übungsbonus + dein Weisheitsmodifikator</p>\n<p><strong>Modifikator für Zauberangriffe</strong> = dein Übungsbonus + dein Weisheitsmodifikator</p>\n<h3>Rituale wirken</h3>\n<p>Du kannst einen Klerikerzauber als Ritual wirken, falls der Spruch als solches gekennzeichnet ist und du ihn vorbereitet hast.</p>\n<h3>Zauberfokus</h3>\n<p>Du kannst ein heiliges Symbol (siehe @Compendium[dnd5e.rules.bogWrnJqoNlBd0O8]{Abenteuerausrüstung}) als Zauberfokus für deine Klerikerzauber verwenden.</p>",
             "source": "SHB S. 77"
         },
-        "Spellcasting (Druid)": {
-            "name": "Zauberwirken (Druide)",
+        "i6tPm3FNK13Ftc9v": {
+            "name": "Zauberwirken",
             "description": "<p>Indem du dich der göttlichen Essenz der Natur bedienst, kannst du Zauber wirken und diese Essenz nach deinem Willen formen.</p>\n<h3>Zaubertricks</h3>\n<p>Auf Stufe 1 kennst du zwei beliebige Zaubertricks aus der Zauberliste des Druiden. Weitere deiner Wahl lernst du auf höheren Stufen, so wie es in der Spalte für bekannte Zaubertricks in der Aufstiegstabelle des Druiden angegeben ist.</p>\n<h3>Vorbereiten und Wirken von Zaubern</h3>\n<p>Du musst Zaubersprüche vorbereiten, um sie wirken zu können. Wähle dazu eine Anzahl von Druidenzaubern, die deiner Stufe als Druide + deinem Weisheitsmodifikator entspricht (mindestens 1), und notiere sie in einer Liste. Du kannst nur Sprüche aussuchen, für deren Grad du auch Zauberplätze besitzt.</p>\n<p>Bist du z. B. ein Druide der 3. Stufe, verfügst du über vier Zauberplätze des 1. Grades und zwei des 2. Grades. Bei einem Weisheitswert von 16 kann deine Liste vorbereiteter Zauber sechs beliebige Sprüche (Stufe 3 + Modifikator 3) des 1. oder 2. Grades umfassen.</p>\n<p>Die Aufstiegstabelle des Druiden gibt an, wie viele Zauberplätze pro Grad dir auf jeder Stufe zur Verfügung stehen. Um einen Spruch aus deiner Liste vorbereiteter Zauber zu wirken, musst du einen Zauberplatz des gleichen oder eines höheren Grades verbrauchen. Alle verbrauchten Zauberplätze stehen dir nach einer langen Rast wieder zur Verfügung. Hast du beispielsweise den Zauber <em>Wunden heilen</em> des 1. Grades vorbereitet, kannst du sowohl einen Zauberplatz des 1. Grades als auch einen des 2. Grades verwenden, um <em>Wunden heilen</em> zu wirken.</p>\n<p>Einen Spruch zu wirken, entfernt ihn nicht von deiner Liste der vorbereiteten Zauber. Diese kannst du nach jeder langen Rast ändern. Eine neue Liste vorzubereiten, erfordert mindestens 1 Minute im Gebet oder in Meditation je Zaubergrad pro Spruch.</p>\n<table>\n<thead>\n<tr>\n<td rowspan=\"2\">Stufe</td>\n<td rowspan=\"2\">Bekannte Zaubertricks</td>\n<td colspan=\"9\">-Zauberplätze pro Grad-</td>\n</tr>\n<tr>\n<td>1.</td>\n<td>2.</td>\n<td>3.</td>\n<td>4.</td>\n<td>5.</td>\n<td>6.</td>\n<td>7.</td>\n<td>8.</td>\n<td>9.</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>2</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>2</td>\n<td>2</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>3</td>\n<td>2</td>\n<td>4</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>4</td>\n<td>3</td>\n<td>4</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>5</td>\n<td>3</td>\n<td>4</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>6</td>\n<td>3</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>7</td>\n<td>3</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>8</td>\n<td>3</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>9</td>\n<td>3</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>10</td>\n<td>4</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>11</td>\n<td>4</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>12</td>\n<td>4</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>13</td>\n<td>4</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>14</td>\n<td>4</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>15</td>\n<td>4</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n<td>-</td>\n</tr>\n<tr>\n<td>16</td>\n<td>4</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n<td>-</td>\n</tr>\n<tr>\n<td>17</td>\n<td>4</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n</tr>\n<tr>\n<td>18</td>\n<td>4</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n</tr>\n<tr>\n<td>19</td>\n<td>4</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n</tr>\n<tr>\n<td>20</td>\n<td>4</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n</tr>\n</tbody>\n</table>\n<h3>Attribut zum Zauberwirken</h3>\n<p>Das Attribut, mit dem du deine Druidenzauber wirkst, ist Weisheit, da du deine Magie aus der Hingabe zur Natur und der Einheit mit ihr schöpfst.</p>\n<p>Immer wenn sich ein Zauber auf das zum Zauberwirken nötige Attribut bezieht, verwendest du Weisheit. Wird der Schwierigkeitsgrad für einen Rettungswurf gegen deine Druidenzauber bestimmt, ziehst du deinen Weisheitsmodifikator hinzu. Bei Angriffen mit deinen Druidenzaubern findet ebenfalls der Weisheitsmodifikator Anwendung.</p>\n<p><strong>SG für Rettungswürfe</strong> = 8 + dein Übungsbonus + dein Weisheitsmodifikator</p>\n<p><strong>Modifikator für Zauberangriffe</strong> = dein Übungsbonus + dein Weisheitsmodifikator</p>\n<h3>Rituale wirken</h3>\n<p>Du kannst einen Druidenzauber als Ritual wirken, falls der Spruch als solches gekennzeichnet ist und du ihn vorbereitet hast.</p>\n<h3>Zauberfokus</h3>\n<p>Du kannst einen druidischen Fokus (siehe @Compendium[dnd5e.rules.bogWrnJqoNlBd0O8]{Abenteuerausrüstung}) als Zauberfokus für deine Druidenzauber verwenden.</p>",
             "source": "SHB S. 58"
         },
-        "Spellcasting (Paladin)": {
-            "name": "Zauberwirken (Paladin)",
+        "ihoQHsmVZlyDbPhX": {
+            "name": "Zauberwirken",
             "description": "<p>Mit Erreichen von Stufe 2 lernst du, durch Meditation und Gebete von der göttlichen Magie zu zehren, um wie ein Kleriker Zauber zu wirken. Für allgemeine Informationen zum Wirken von Zaubern siehe Kapitel 10.Zauber wirken\" und für die Zauberliste des Paladins Kapitel 11 „Zauber\".</p>\n<h3>Vorbereiten und Wirken von Zaubern</h3>\n<p>Du musst Zaubersprüche vorbereiten, um sie wirken zu können. Wähle dazu eine Anzahl von Paladinzaubern, die deiner halben Stufe als Paladin + deinem Charismamodifikator entspricht (mindestens 1), und notiere sie in einer Liste. Du kannst nur Sprüche aussuchen, für deren Grad du auch Zauberplätze besitzt.</p><p>Bist du zum Beispiel ein Paladin der 5. Stufe, verfügst du über vier Zauberplätze des 1. Grades und zwei des 2. Grades. Bei einem Charismawert von 14 kann deine Liste vorbereiteter Zauber vier beliebige Sprüche (halbierte Stufe 2 + Modifikator 2) des 1. oder 2. Grades umfassen,</p><p>Die Aufstiegstabelle des Paladins gibt an, wie viele Zauberplätze pro Grad dir auf jeder Stufe zur Verfügung stehen. Um einen Spruch aus deiner Liste vorbereiteter Zauber zu wirken, musst du einen Zauberplatz des gleichen oder eines höheren Grades verbrauchen. Alle verbrauchten Zauberplätze stehen dir nach einer langen Rast wieder zur Verfügung. Hast du beispielsweise den Zauber Wunden heilen des 1. Grades vorbereitet, kannst du sowohl einen Zauberplatz des 1. Grades als auch einen des 2. Grades verwenden, um Wunden heilen zu wirken.</p><p>Einen Spruch zu wirken, entfernt ihn nicht von deiner Liste der vorbereiteten Zauber. Diese kannst du nach jeder langen Rast ändern. Eine neue Liste vorzubereiten, erfordert mindestens 1 Minute im Gebet oder in Meditation je Zaubergrad pro Spruch.</p>\n<table>\n<thead>\n<tr>\n<td rowspan=\"2\">Stufe</td>\n<td colspan=\"5\">Zauberplätze pro Grad</td>\n</tr>\n<tr>\n<td>1.</td>\n<td>2.</td>\n<td>3.</td>\n<td>4.</td>\n<td>5.</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>2</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>3</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>4</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>5</td>\n<td>4</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>6</td>\n<td>4</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>7</td>\n<td>4</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>8</td>\n<td>4</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>9</td>\n<td>4</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>10</td>\n<td>4</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>11</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>12</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>13</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n<td>-</td>\n</tr>\n<tr>\n<td>14</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n<td>-</td>\n</tr>\n<tr>\n<td>15</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n</tr>\n<tr>\n<td>16</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n</tr>\n<tr>\n<td>17</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n</tr>\n<tr>\n<td>18</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n</tr>\n<tr>\n<td>19</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n</tr>\n<tr>\n<td>20</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n</tr>\n</tbody>\n</table>\n<h3>Attribut zum Zauberwirken</h3>\n<p>Das Attribut, mit dem du deine Paladinzauber wirkst, ist Charisma, da du deine Magie aus der Hingabe zu deiner gerechten Sache schöpfst.</p><p>Immer wenn sich ein Zauber auf das zum Zauberwirken nötige Attribut bezieht, verwendest du Charisma. Wird der Schwierigkeitsgrad für einen Rettungswurf gegen deine Paladinzauber bestimmt, ziehst du deinen Charismamodifikator hinzu. Bei Angriffen mit deinen Paladinzaubern findet ebenfalls der Charismamodifikator Anwendung.</p>\n<p><strong>SG für Rettungswürfe</strong> = 8 + dein Übungsbonus + dein Charismamodifikator</p>\n<p><strong>Modifikator für Zauberangriffe</strong> = dein Übungsbonus + dein Charismamodifikator</p>\n<h3>Zauberfokus</h3>\n<p>Du kannst ein heiliges Symbol (siehe Kapitel 5 , Ausrüstung\") als Zauberfokus für deine Paladinzauber verwenden.</p>",
             "source": "SHB S. 99"
         },
-        "Spellcasting (Ranger)": {
-            "name": "Zauberwirken (Waldläufer)",
+        "u6xV3Ki3TXRrD7zg": {
+            "name": "Zauberwirken",
             "description": "<p>Mit Erreichen der 2. Stufe hast du gelernt, die magische Essenz der Natur zu nutzen, um Zauber zu wirken.</p>\n<h3>Zauberplätze</h3>\n<p>Die Aufstiegstabelle des Waldläufers gibt an, wie viele Zauberplätze pro Grad dir auf jeder Stufe zur Verfügung stehen. Um einen dir bekannten Spruch zu wirken, musst du einen Zauberplatz des gleichen oder eines höheren Grades verbrauchen. Alle verbrauchten Zauberplätze stehen dir nach einer langen Rast wieder zur Verfügung.</p>\n<p>Ist dir beispielsweise der Zauber <em>Tierfreundschaft</em> des 1. Grades bekannt und besitzt du sowohl einen freien Zauberplatz des 1. Grades und einen des 2. Grades, kannst du jeden der beiden Zauberplätze verwenden, um <em>Tierfreundschaft</em> zu wirken.</p>\n<h3>Bekannte Zauber des 1. Grades und höher</h3>\n<p>Du kennst zwei frei wählbare Zauber des 1. Grades aus der Zauberliste des Waldläufers.</p>\n<p>Der Spalte „Bekannte Zauber“ der Tabelle kannst du entnehmen, wie viele neue Sprüche du dir bei einem Stufenaufstieg aus der Zauberliste des Waldläufers aussuchen darfst. Dabei kannst du nur Zauber wählen, für deren Grad du auch Zauberplätze besitzt. Erreichst du zum Beispiel die 5. Stufe als Waldläufer, darfst du einen neuen Zauber des 1. oder 2. Grades erlernen.</p>\n<p>Sobald du eine Stufe in dieser Klasse aufsteigst, kannst du außerdem einen der Waldläuferzauber, die dir bereits bekannt sind, mit einem anderen aus der Zauberliste ersetzen. Auch für diesen musst du einen dem Grad des Spruches entsprechenden Zauberplatz besitzen.</p>\n<table>\n<thead>\n<tr>\n<th rowspan=\"2\">Stufe</th>\n<th rowspan=\"2\">Bekannte Zauber</th>\n<th colspan=\"5\">- Zauberplätze pro Grad -</th>\n</tr>\n<tr>\n<th>1.</th>\n<th>2.</th>\n<th>3.</th>\n<th>4.</th>\n<th>5.</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>5</td>\n<td>4</td>\n<td>4</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>6</td>\n<td>4</td>\n<td>4</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>7</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>8</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>9</td>\n<td>6</td>\n<td>4</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>10</td>\n<td>6</td>\n<td>4</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>11</td>\n<td>7</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>12</td>\n<td>7</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>13</td>\n<td>8</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n<td>-</td>\n</tr>\n<tr>\n<td>14</td>\n<td>8</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n<td>-</td>\n</tr>\n<tr>\n<td>15</td>\n<td>9</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n</tr>\n<tr>\n<td>16</td>\n<td>9</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n</tr>\n<tr>\n<td>17</td>\n<td>10</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n</tr>\n<tr>\n<td>18</td>\n<td>10</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n</tr>\n<tr>\n<td>19</td>\n<td>11</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n</tr>\n<tr>\n<td>20</td>\n<td>11</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n</tr>\n</tbody>\n</table>\n<h3>Attribut zum Zauberwirken</h3>\n<p>Das Attribut, mit dem du deine Waldläuferzauber wirkst, ist Weisheit, da du mit der Natur in Einklang stehen musst. Immer wenn sich ein Zauber auf das zum Zauberwirken nötige Attribut bezieht, verwendest du Weisheit. Wird der Schwierigkeitsgrad für einen Rettungswurf gegen deine Waldläuferzauber bestimmt, ziehst du deinen Weisheitsmodifikator hinzu. Bei Angriffen mit deinen Waldläuferzaubern findet ebenfalls der Weisheitsmodifikator Anwendung.</p>\n<p><strong>SG für Rettungswürfe</strong> = 8 + dein (Übungsbonus + dein Weisheitsmodifikator</p>\n<p><strong>Modifikator für Zauberangriffe</strong> = dein Übungsbonus + dein Weisheitsmodifikator</p>",
             "source": "SHB S. 111"
         },
-        "Spellcasting (Sorcerer)": {
-            "name": "Zauberwirken (Zauberer)",
+        "oygRF3ZjTv2T7z0Y": {
+            "name": "Zauberwirken",
             "description": "<p>Ein Ereignis in deiner Vergangenheit oder im Leben deiner Vorfahren hat dich mit arkaner Zauberkraft erfüllt. Diese Quelle der Magie, welchen Ursprungs sie auch immer ist, speist deine Zauber.</p>\n<h3>Zaubertricks</h3>\n<p>Zu Beginn sind dir vier beliebige Zaubertricks aus der Zauberliste des Zauberers bekannt. Weitere deiner Wahl lernst du auf höheren Stufen, so wie es in der Spalte für bekannte Zaubertricks in der Aufstiegstabelle des Zauberers angegeben ist.</p>\n<h3>Zauberplätze</h3>\n<p>Die Aufstiegstabelle des Zauberers gibt an, wie viele Zauberplätze pro Grad dir auf jeder Stufe zur Verfügung stehen. Um einen dir bekannten Spruch zu wirken, musst du einen Zauberplatz des gleichen oder eines höheren Grades verbrauchen. Alle verbrauchten Zauberplätze stehen dir nach einer langen Rast wieder zur Verfügung.</p>\n<p>Ist dir beispielsweise der Zauber Brennende Hände des 1. Grades bekannt und besitzt du sowohl einen freien Zauberplatz des 1. Grades und einen des 2. Grades, kannst du jeden der beiden Zauberplätze verwenden, um Brennende Hände zu wirken.</p>\n<h3>Bekannte Zauber des 1. Grades und höher</h3>\n<p>Auf Stufe 1 kennst du zwei frei wählbare Zauber des 1. Grades aus der Zauberliste des Zauberers.</p>\n<p>Der Spalte „Bekannte Zauber“ der Tabelle kannst du entnehmen, wie viele neue Sprüche du dir bei einem Stufenaufstieg aus der Zauberliste des Zauberers aussuchen darfst. Dabei kannst du nur Sprüche wählen, für deren Grad du auch Zauberplätze besitzt. Erreichst du zum Beispiel die 3. Stufe in dieser Klasse, darfst du einen neuen Zauber des 1. oder 2. Grades erlernen.</p>\n<p>Sobald du eine Stufe in dieser Klasse aufsteigst, kannst du außerdem einen der Zauber, die dir bereits bekannt sind, mit einem anderen aus der Zauberliste ersetzen. Auch für diesen musst du einen dem Grad des Spruches entsprechenden Zauberplatz besitzen.</p>\n<table>\n<thead>\n<tr>\n<td rowspan=\"2\">Stufe</td>\n<td rowspan=\"2\">Bekannte Zaubertricks</td>\n<td rowspan=\"2\">Bekannte Zauber</td>\n<td colspan=\"9\">—Zauberplätze pro Grad—</td>\n</tr>\n<tr>\n<td>1.</td>\n<td>2.</td>\n<td>3.</td>\n<td>4.</td>\n<td>5.</td>\n<td>6.</td>\n<td>7.</td>\n<td>8.</td>\n<td>9.</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>4</td>\n<td>2</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>2</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>3</td>\n<td>4</td>\n<td>4</td>\n<td>4</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>4</td>\n<td>5</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>5</td>\n<td>5</td>\n<td>6</td>\n<td>4</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>6</td>\n<td>5</td>\n<td>7</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>7</td>\n<td>5</td>\n<td>8</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>8</td>\n<td>5</td>\n<td>9</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>9</td>\n<td>5</td>\n<td>10</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>10</td>\n<td>6</td>\n<td>11</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>11</td>\n<td>6</td>\n<td>12</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>12</td>\n<td>6</td>\n<td>12</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>13</td>\n<td>6</td>\n<td>13</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>14</td>\n<td>6</td>\n<td>13</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>15</td>\n<td>6</td>\n<td>14</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n<td>-</td>\n</tr>\n<tr>\n<td>16</td>\n<td>6</td>\n<td>14</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n<td>-</td>\n</tr>\n<tr>\n<td>17</td>\n<td>6</td>\n<td>15</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n</tr>\n<tr>\n<td>18</td>\n<td>6</td>\n<td>15</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n</tr>\n<tr>\n<td>19</td>\n<td>6</td>\n<td>15</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n</tr>\n<tr>\n<td>20</td>\n<td>6</td>\n<td>15</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n</tr>\n</tbody>\n</table>\n<h3>Attribut zum Zauberwirken</h3>\n<p>Das Attribut, mit dem du deine Zauber wirkst, ist Charisma. Die Macht deiner Magie beruht darauf, wie gut du darin bist, deinen Willen in die Welt zu projizieren. Immer wenn sich ein Zauber auf das zum Zauberwirken nötige Attribut bezieht, verwendest du Charisma. Wird der Schwierigkeitsgrad für einen Rettungswurf gegen deine Zauber bestimmt, ziehst du deinen Charismamodifikator hinzu. Bei Angriffen mit deinen Zaubern findet ebenfalls der Charismamodifikator Anwendung.</p>\n<p><strong>SG für Rettungswürfe </strong>= 8 + dein Übungsbonus + dein Charismamodifikator</p>\n<p><strong>Modifikator für Zauberangriffe </strong>= dein Übungsbonus + dein Charismamodifikator</p>\n<h3>Zauberfokus</h3>\n<p>Als Zauberfokus für deine Zauber kannst du einen arkanen Fokus verwenden.</p>",
             "source": "SHB S. 116"
         },
-        "Spellcasting (Wizard)": {
-            "name": "Zauberwirken (Magier)",
+        "gbNo5eVPaqr8IVKL": {
+            "name": "Zauberwirken",
             "description": "<p>Als Studierender der arkanen Magie besitzt du ein Zauberbuch, das die ersten Funken deiner zukünftigen Macht enthält.</p>\n<h3>Zaubertricks</h3>\n<p>Auf der 1. Stufe beherrschst du drei beliebige Zaubertricks aus der Zauberliste des Magiers. Weitere deiner Wahl lernst du auf höheren Stufen, so wie es in der Spalte für bekannte Zaubertricks in der Aufstiegstabelle des Magiers angegeben ist.</p>\n<h3>Zauberbuch</h3>\n<p>Auf Stufe 1 besitzt du ein Zauberbuch, das sechs Magierzauber des 1. Grades umfasst. In diesem hältst du alle dir bekannten Magierzauber fest, außer Zaubertricks, diese wirkst du aus dem Gedächtnis.</p>\n<h3>Vorbereiten und Wirken von Zaubern</h3>\n<p>Du musst Zaubersprüche vorbereiten, um sie wirken zu können. Wähle dazu aus deinem Zauberbuch eine Anzahl von Magierzaubern, die deiner Stufe als Magier + deinem Intelligenzmodifikator entspricht (mindestens 1), und notiere sie in einer Liste. Du kannst nur Sprüche aussuchen, für deren Grad du auch Zauberplätze besitzt.</p>\n<p>Bist du zum Beispiel ein Magier der 3. Stufe, verfügst du über vier Zauberplätze des 1. Grades und zwei des 2. Grades. Bei einem Intelligenzwert von 16 kann deine Liste vorbereiteter Zauber sechs beliebige Sprüche (Stufe 3 + Modifikator 3) des 1. oder 2. Grades aus deinem Zauberbuch umfassen.</p>\n<p>Die Aufstiegstabelle des Magiers gibt an, wie viele Zauberplätze pro Grad dir auf jeder Stufe zur Verfügung stehen. Um einen Spruch aus deiner Liste vorbereiteter Zauber zu wirken, musst du einen Zauberplatz des gleichen oder eines höheren Grades verbrauchen. Alle verbrauchten Zauberplätze stehen dir nach einer langen Rast wieder zur Verfügung. Hast du beispielsweise den Zauber Magisches Geschoss des 1. Grades vorbereitet, kannst du sowohl einen Zauberplatz des 1. Grades als auch einen des 2. Grades verwenden, um Magisches Geschoss zu wirken.</p>\n<p>Einen Spruch zu wirken, entfernt ihn nicht von deiner Liste der vorbereiteten Zauber. Diese kannst du nach jeder langen Rast ändern. Eine neue Liste vorzubereiten, erfordert mindestens 1 Minute je Zaubergrad pro Spruch, die du damit verbringst, dein Zauberbuch zu studieren und dir die Gesten und Gesänge einzuprägen, die zum Wirken der Zauber nötig sind.</p>\n<table>\n<thead>\n<tr>\n<td rowspan=\"2\">Stufe</td>\n<td rowspan=\"2\">Bekannte Zaubertricks</td>\n<td colspan=\"9\">—Zauberplätze pro Grad—</td>\n</tr>\n<tr>\n<td>1.</td>\n<td>2.</td>\n<td>3.</td>\n<td>4.</td>\n<td>5.</td>\n<td>6.</td>\n<td>7.</td>\n<td>8.</td>\n<td>9.</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>2</td>\n<td>3</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>3</td>\n<td>3</td>\n<td>4</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>4</td>\n<td>4</td>\n<td>4</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>5</td>\n<td>4</td>\n<td>4</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>6</td>\n<td>4</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>7</td>\n<td>4</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>8</td>\n<td>4</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>9</td>\n<td>4</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>10</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>11</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>12</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>13</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>14</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>15</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n<td>-</td>\n</tr>\n<tr>\n<td>16</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n<td>-</td>\n</tr>\n<tr>\n<td>17</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n</tr>\n<tr>\n<td>18</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n</tr>\n<tr>\n<td>19</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n</tr>\n<tr>\n<td>20</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n</tr>\n</tbody>\n</table>\n<h3>Attribut zum Zauberwirken</h3>\n<p>Das Attribut, mit dem du deine Magierzauber wirkst, ist Intelligenz, da du deine Sprüche durch diszipliniertes Lernen und Einprägen erlernst. Immer wenn sich ein Zauber auf das zum Zauberwirken nötige Attribut bezieht, verwendest du Intelligenz. Wird der Schwierigkeitsgrad für einen Rettungswurf gegen deine Magierzauber bestimmt, ziehst du deinen Intelligenzmodifikator hinzu. Bei Angriffen mit deinen Magierzaubern findet ebenfalls der Intelligenzmodifikator Anwendung.</p>\n<p><strong>SG des Rettungswurfs</strong> = 8 + dein Übungsbonus + dein Intelligenzmodifikator</p>\n<p><strong>Modifikator für Zauberangriffe </strong>= dein Übungsbonus + dein Intelligenzmodifikator</p>\n<h3>Rituale wirken</h3>\n<p>Du kannst einen Magierzauber als Ritual wirken, wenn er als solches gekennzeichnet ist. Du musst einen Zauber nicht vorbereitet haben, um ihn als Ritual zu wirken.</p>\n<h3>Zauberfokus</h3>\n<p>Als Zauberfokus für deine Magierzauber kannst du einen arkanen Fokus verwenden.</p>\n<h3>Zauber des 1. Grades und höher lernen</h3>\n<p>Jedes Mal, wenn du eine Stufe als Magier aufsteigst, darfst du zwei neue Magierzauber in dein Zauberbuch eintragen, ohne dass du Zeit oder Geld aufzuwenden brauchst. Jeder dieser Zauber muss einem Grad entsprechen, für den du auch Zauberplätze besitzt, so wie es in der Aufstiegstabelle des Magiers angegeben ist. Auf deinen Abenteuern könntest du neue Sprüche finden, die du deinem Zauberbuch hinzufügen kannst.</p>",
             "source": "SHB S. 85"
         },
@@ -1075,18 +1117,18 @@
             "description": "<p>Auf Stufe 15 erhältst du eines der folgenden Merkmale deiner Wahl:</p>\n<p>@Compendium[dnd5e.classfeatures.laVHAIOKIsUeezWd]{Entrinnen}</p>\n<p>@Compendium[dnd5e.classfeatures.Xf763cJoDHPPWSGG]{Gegen den Strom}</p>\n<p>@Compendium[dnd5e.classfeatures.7pyZjz5vlUWV01qQ]{Unglaubliches Ausweichen}</p>\n<p>Du kannst eines der obigen Merkmale auf deinen Charakterbogen ziehen, um es hinzuzufügen.</p>",
             "source": "SHB S. 113"
         },
-        "Superior Hunter's Defense: Evasion": {
-            "name": "Ausserordentliche Verteidigung des Jägers: Entrinnen",
+        "laVHAIOKIsUeezWd": {
+            "name": "Entrinnen",
             "description": "<p>Wenn du einem Effekt ausgesetzt wirst, der einen Geschicklichkeitsrettungswurf erlaubt, um den Schaden zu halbieren (wie etwa dem Feuerodem eines roten Drachen oder dem Zauber Feuerball), nimmst du bei einem erfolgreichen Rettungswurf gar keinen Schaden und bei einem Misserfolg lediglich die Hälfte des Schadens.</p>",
             "source": "SHB S. 113"
         },
-        "Superior Hunter's Defense: Stand Against the Tide": {
-            "name": "Ausserordentliche Verteidigung des Jägers: Gegen den Strom",
+        "Stand Against the Tide": {
+            "name": "Gegen den Strom",
             "description": "<p>Verfehlt dich eine feindliche Kreatur mit einem Nahkampfangriff, kannst du deine Reaktion nutzen, um die Kreatur zu zwingen, den gleichen Angriff gegen eine andere Kreatur deiner Wahl (außer ihr selbst) auszuführen.</p>",
             "source": "SHB S. 113"
         },
-        "Superior Hunter's Defense: Uncanny Dodge": {
-            "name": "Ausserordentliche Verteidigung des Jägers: Unglaubliches Ausweichen",
+        "7pyZjz5vlUWV01qQ": {
+            "name": "Unglaubliches Ausweichen",
             "description": "<p>Trifft dich eine Kreatur, die du sehen kannst, mit einem Angriff, kannst du deine Reaktion nutzen, um den Schaden des Angriffs gegen dich zu halbieren.</p>",
             "source": "SHB S. 113"
         },
