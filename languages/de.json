@@ -1859,6 +1859,7 @@
   }
 },
 "DND5E.title": "Dungeons & Dragons 5. Edition",
+"dnd5e-DE.ProficiencyAbbrev": "ÜB",
 "EFFECT.DND5E": {
 "StatusBleeding": "Bluten",	
 "StatusBurrowing": "Eingraben",
