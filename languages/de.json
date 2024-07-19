@@ -369,7 +369,7 @@
     "Label": "Filter",
     "HasDarkvision": "Hat Dunkelsicht",
     "HasSpellcasting": "Hat Zauberwirken",
-    "SearchResults": "Ergebnisse Durchsuchen"
+    "SearchResults": "Ergebnisse durchsuchen"
   },
   "Selection": {
     "Label": "Ausgewählt: {summary}",
@@ -988,7 +988,7 @@
 "DND5E.Issues": "Issues",
 "DND5E.Item": {
 	  "Category": {
-    "Label": "Ketegorie",
+    "Label": "Kategorie",
     "Physical": "Physisch"
   },
   "Property": {
