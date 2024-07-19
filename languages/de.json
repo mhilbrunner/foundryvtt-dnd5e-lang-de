@@ -89,6 +89,7 @@
 "DND5E.AdditionalControls": "Zusätzliche Steuerelemente",
 "DND5E.AdditionalSettings": "Zusätzliche Einstellungen",
 "DND5E.AddEmbeddedItemPromptHint": "Diese Items zum Charakterbogen hinzufügen?",
+"DND5E.Advanced": "Erweitert",
 "DND5E.AdvancementAbilityScoreImprovementCap": "Punktobergrenze",
 "DND5E.AdvancementAbilityScoreImprovementCapDisplay.one": "Maximal {points} Punkte pro Attribut",
 "DND5E.AdvancementAbilityScoreImprovementCapDisplay.other": "Maximal {points} Punkte pro Wert",
@@ -273,7 +274,9 @@
 "DND5E.Attack": "Angriff",
 "DND5E.AttackPl": "Angriffe",
 "DND5E.AttackRoll": "Angriffswurf",
-"DND5E.AttrConcentration": "{'Limit': 'Limit'}",
+"DND5E.AttrConcentration": {
+	"Limit": "Limit"
+	},
 "DND5E.Attributes": "Attribute",
 "DND5E.Attuned": "Eingestimmt",
 "DND5E.Attunement": "Einstimmung",
@@ -303,6 +306,7 @@
 "DND5E.BackgroundName": "Hintergrundname",
 "DND5E.Biography": "Biographie",
 "DND5E.BiographyPublic": "Öffentliche Biographie",
+"DND5E.BiopgrahyPublicEdit": "Bearbeite Öffentliche Biographie",
 "DND5E.Bonds": "Bindungen",
 "DND5E.Bonus": "Bonus",
 "DND5E.BonusAbility": "Globaler Attributsbonus",
@@ -351,6 +355,52 @@
 "DND5E.ClassOriginal": "Ursprungsklasse",
 "DND5E.ClassSaves": "Rettungswürfe",
 "DND5E.Confirm": "Bestätigen",
+"DND5E.CompendiumBrowser": {
+  "Title": "Kompendium Browser",
+  "Action": {
+    "Open": "Kompendium Browser öffnen"
+  },
+  "Column": {
+    "Icon": "Icon",
+    "Name": "Name",
+    "Results": "Ergebnisse"
+  },
+  "Filters": {
+    "Label": "Filter",
+    "HasDarkvision": "Hat Dunkelsicht",
+    "HasSpellcasting": "Hat Zauberwirken",
+    "SearchResults": "Ergebnisse Durchsuchen"
+  },
+  "Selection": {
+    "Label": "Ausgewählt: {summary}",
+    "Select": "Auswählen",
+    "Summary": {
+      "Max": "<span class=\"value\">{value}</span> von bis zu {max}",
+      "Min": "<span class=\"value\">{value}</span> von mindestens {min}",
+      "Range": "<span class=\"value\">{value}</span> von {min} bis {max}",
+      "Single": "<span class=\"value\">{value}</span> von {max}"
+    },
+    "Warning": {
+      "Document": {
+        "one": "Dokument",
+        "other": "Dokumente"
+      },
+      "Max": "Muss maximal {max} {document} auswählen, {value} ausgewählt.",
+      "Min": "Muss mindestens {min} {document} auswählen, {value} ausgewählt.",
+      "Range": "Muss zwischen {min} und {max} {document} auswählen, {value} ausgewählt.",
+      "Single": "Muss {max} {document} auswählen, {value} ausgewählt."
+    }
+  },
+  "Tabs": {
+    "Feat.other": "Merkmale",
+    "Item.other": "Items",
+    "Monster.other": "Monster"
+  },
+  "Types": {
+    "Label": "Typen"
+  },
+  "Locked": "Gesperrt"
+},
 "DND5E.ComponentMaterial": "Material",
 "DND5E.ComponentMaterialAbbr": "M",
 "DND5E.ComponentSomatic": "Gesten",
@@ -462,6 +512,8 @@
 "DND5E.ContextMenuActionEnable": "Aktivieren",
 "DND5E.ContextMenuActionEquip": "Ausrüsten",
 "DND5E.ContextMenuActionPrepare": "Vorbereiten",
+"DND5E.ContextMenuActionExpendCharge": "Entladen",
+"DND5E.ContextMenuActionCharge": "Aufladen",
 "DND5E.ContextMenuActionUnattune": "Einstimmung brechen",
 "DND5E.ContextMenuActionUnequip": "Ablegen",
 "DND5E.ContextMenuActionUnprepare": "Vorbereitung aufheben",
@@ -605,6 +657,7 @@
 "DND5E.DescriptionSummary": "Beschreibung (Übersicht)",
 "DND5E.DescriptionUnidentified": "Beschreibung (Unidentifiziert)",
 "DND5E.Details": "Details",
+"DND5E.DetailsEdit": "Details bearbeiten",
 "DND5E.Dimensions": "Abmessungen",
 "DND5E.Disadvantage": "Nachteil",
 "DND5E.Disclaimer": "Disclaimer",
@@ -813,6 +866,7 @@
 "DND5E.FilterClear": "Filter löschen",
 "DND5E.FilterGroupCategory": "Gruppieren nach Kategorien",
 "DND5E.FilterGroupOrigin": "Gruppieren nach Herkunft",
+"DND5E.FilterGroupAction": "Gruppieren nach Aktion",
 "DND5E.FilterNoSpells": "Mit diesem Filter wurden keine Zauber gefunden.",
 "DND5E.FlagsAlert": "Wachsam",
 "DND5E.FlagsAlertHint": "Verleiht +5 auf Ini.",
@@ -923,6 +977,7 @@
 "DND5E.Identify": "Identifizieren",
 "DND5E.Immunities": "Immunitäten",
 "DND5E.Initiative": "Initiative",
+"DND5E.InitiativeAbbr": "Init",
 "DND5E.InitiativeBonus": "Initiativebonus",
 "DND5E.InitiativeConfig": "Initiative bearbeiten",
 "DND5E.InitiativeConfigHint": "Initiativmodifikator und Boni für diesen Akteur festlegen.",
@@ -932,6 +987,10 @@
 "DND5E.InventorySearch": "Inventar durchsuchen",
 "DND5E.Issues": "Issues",
 "DND5E.Item": {
+	  "Category": {
+    "Label": "Ketegorie",
+    "Physical": "Physisch"
+  },
   "Property": {
 	"Adamantine": "Adamant",
 	"Ammunition": "Geschosse",
@@ -1013,6 +1072,7 @@
 "DND5E.ItemNoUses": "{name} hat keine Ladungen mehr übrig.",
 "DND5E.ItemRarityArtifact": "artefakt",
 "DND5E.ItemRarityCommon": "gewöhnlich",
+"DND5E.ItemRarityMundane": "alltäglich",
 "DND5E.ItemRarityLegendary": "legendär",
 "DND5E.ItemRarityRare": "selten",
 "DND5E.ItemRarityUncommon": "ungewöhnlich",
@@ -1072,10 +1132,18 @@
 "DND5E.LanguagesTerran": "Terral",
 "DND5E.LanguagesThievesCant": "Diebessprache",
 "DND5E.LanguagesUndercommon": "Gemeinsprache der Unterreiche",
-"DND5E.LegAct": "Leg. Aktionen",
+"DND5E.LegAct": "Legendäre Aktionen",
+"DND5E.LegActN.one": "1. Legendäre Aktion",
+"DND5E.LegActN.two": "2. Legendäre Aktion",
+"DND5E.LegActN.few": "3. Legendäre Aktion",
+"DND5E.LegActN.other": "{n}. Legendäre Aktion",
 "DND5E.LegActMax": "Maximale Legendäre Aktionen",
 "DND5E.LegActRemaining": "Verbleibende Legendäre Aktionen",
-"DND5E.LegRes": "Leg. Resistenzen",
+"DND5E.LegRes": "Legendäre Resistenzen",
+"DND5E.LegResN.one": "1. Legendäre Resistenz",
+"DND5E.LegResN.two": "2. Legendäre Resistenz",
+"DND5E.LegResN.few": "3. Legendäre Resistenz",
+"DND5E.LegResN.other": "{n}. Legendäre Resistenz",
 "DND5E.LegResMax": "Maximale Legendäre Resistenzen",
 "DND5E.LegResRemaining": "Verbleibende Legendäre Resistenzen",
 "DND5E.LegendaryActionLabel": "Legendäre Aktion",
@@ -1161,9 +1229,11 @@
 "DND5E.Normal": "Normal",
 "DND5E.NotProficient": "Nicht geübt",
 "DND5E.Notes": "Notizen",
+"DND5E.NPC": "NSC",
 "DND5E.OtherFormula": "Andere Formel",
 "DND5E.PactMagic": "Paktmagie",
 "DND5E.Passive": "Passiv",
+"DND5E.PassivePerception": "Passive Wahrnehmmung",
 "DND5E.PersonalityTraits": "Persönlichkeitsmerkmale",
 "DND5E.PlaceTemplate": "Messschablone platzieren",
 "DND5E.PlaceTemplateError": "Messchablone konnte nicht platziert werden",
@@ -1203,6 +1273,7 @@
 "DND5E.PolymorphWildShape": "Tiergestalt",
 "DND5E.Portrait": "Porträt",
 "DND5E.PowerfulCritical": "Mächtige kritische Treffer",
+"DND5E.CRLabel": "HG {cr}",
 "DND5E.Prepared": "Vorbereitet",
 "DND5E.Prerequisites": {
   "Header": "Merkmal Voraussetzungen",
@@ -1225,6 +1296,7 @@
 "DND5E.Properties": "Eigenschaften",
 "DND5E.PropertyBase": "Basis",
 "DND5E.PropertyTotal": "Gesamt",
+"DND5E.Public": "Öffentlich",
 "DND5E.Quantity": "Anzahl",
 "DND5E.QuantityAbbr": "Anz",
 "DND5E.QuantityFormula": "Anzahl Formel",
@@ -1290,6 +1362,7 @@
 "DND5E.SavePromptTitle": "{ability} Rettungswurf",
 "DND5E.SavingThrow": "Rettungswurf",
 "DND5E.SavingThrowDC": "SG {dc} {ability}srettungswurf",
+"DND5E.SavingThrowRoll": "Werfe {ability}srettungswurf",
 "DND5E.ScalingFormula": "Skalierungsformel",
 "DND5E.ScalingMode": "Skalierungsmodus",
 "DND5E.School": "Schule",
@@ -1319,6 +1392,7 @@
 "DND5E.SheetClassJournalEntry": "Standart 5e Notizbogen",
 "DND5E.SheetClassMapLocation": "Standart 5e Kartenbogen",
 "DND5E.SheetClassNPC": "Standard 5e NSC-Bogen",
+"DND5E.SheetClassNPCLegacy": "Legacy 5e NSC-Bogen",
 "DND5E.SheetClassRule": "Standart 5e Regelbogen",
 "DND5E.SheetClassSpellList": "Standart 5e Zauberlistenbogen",
 "DND5E.SheetClassToken": "Standart 5e Figurbogen",
@@ -1360,6 +1434,7 @@
 "DND5E.SkillBonuses": "Fertigkeitsboni",
 "DND5E.SkillConfigurationHint": "Übung in Fertigkeit und Boni bearbeiten.",
 "DND5E.SkillConfigure": "Fertigkeit bearbeiten",
+"DND5E.SkillsConfig": "Fertigkeit bearbeiten",
 "DND5E.SkillConfigureTitle": "{skill} bearbeiten",
 "DND5E.SkillDec": "Täuschen",
 "DND5E.SkillGlobalBonusCheckHint": "Dieser Bonus gilt für alle Fertigkeitsproben dieses Akteurs.",
@@ -1453,6 +1528,7 @@
 "DND5E.SpellPrepPrepared": "Vorbereitet",
 "DND5E.SpellPreparation": "Zaubervorbereitung",
 "DND5E.SpellPreparationMode": "Zauber Vorbereitungsmodus",
+"DND5E.SpellSourceClass": "Quellenklasse",
 "DND5E.SpellPrepared": "Vorbereitet",
 "DND5E.SpellProgArt": "Artifizient",
 "DND5E.SpellProgAvailable": "Verfügbare Plätze",
@@ -1596,10 +1672,18 @@
       "Hint": "Passt die Rettungswürfe SGs für die Fähigkeiten der beschworenen Kreatur an die des Beschwörers an."
     }
   },
+    "Mode": {
+    "Label": "Modus",
+    "Hint": "Legt fest, wie die Kreaturen, die beschworen werden sollen, spezifiziert werden."
+    "CR": "Nach Herausforderungsgrad und Typ",
+    "Direct": "Mit direktem Link"
+  },
   "Profile": {
     "Label": "Beschwörungs Profil",
     "LabelPl": "Beschwörungen Profile",
-    "Empty": "Klicken Sie oben, um ein Profil hinzuzufügen, oder legen sie eine Kreatur ab."
+	"ChallengeRatingLabel": "Herausforderungsgrad von {cr} oder niedriger",
+    "Empty": "Klicken Sie oben, um ein Profil hinzuzufügen."
+	"EmptyDrop": "Klicken Sie oben, um ein Profil hinzuzufügen, oder legen sie eine Kreatur ab."
   },
   "Prompt": {
     "Label": "Beschwörungsabfrage",
@@ -1607,6 +1691,7 @@
   },
   "Warning": {
     "CreateActor": "Sie müssen über die Berechtigung 'Neue Akteure erstellen' verfügen, um direkt aus einem Kompendium beschwören zu können.",
+	"CRV11": "Beschwörungen basierend auf dem Herausforderungsgrad der Kreaturen, funktioniert nur in Foundry V12 oder höher.",
     "NoActor": "Akteur mit der UUID '{uuid}' kann nicht gefunden werden, um zu beschwören.",
     "NoOwnership": "Du musst Eigentümer von '{Akteur}' sein, um ihn beschwören zu können.",
     "NoProfile": "Das Beschwörungsprofil {profileId} für '{item}' konnte nicht gefunden werden.",
@@ -1617,6 +1702,7 @@
 "DND5E.Suppressed": "Unterdrückt",
 "DND5E.TMP": "TMP",
 "DND5E.Target": "Ziel",
+"DND5E.TargetPl": "Ziele",
 "DND5E.TargetAlly": "Verbündeter",
 "DND5E.TargetAny": "Beliebig",
 "DND5E.TargetCone": "Kegel",
@@ -1682,6 +1768,7 @@
   },
   "Title": "Dynamischer Ring"
 },
+"DND5E.ToggleDescription": "Beschreibung umschalten",
 "DND5E.ToolArtisans": "Handwerkerausrüstung",
 "DND5E.ToolBonuses": "Werkzeugboni",
 "DND5E.ToolCheck": "Werkzeugprobe",
