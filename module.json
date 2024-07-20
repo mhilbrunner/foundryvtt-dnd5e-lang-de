@@ -10,11 +10,11 @@
   ],
   "url": "https://github.com/mhilbrunner/foundryvtt-dnd5e-lang-de",
   "manifest": "https://github.com/mhilbrunner/foundryvtt-dnd5e-lang-de/releases/latest/download/module.json",
-  "download": "https://github.com/mhilbrunner/foundryvtt-dnd5e-lang-de/releases/download/3.2.1/module.zip",
-  "version": "3.2.1",
+  "download": "https://github.com/mhilbrunner/foundryvtt-dnd5e-lang-de/releases/download/3.3.0/module.zip",
+  "version": "3.3.0",
   "compatibility": {
     "minimum": "11",
-    "verified": "11"
+    "verified": "12"
   },
   "esmodules": [
     "dnd5e-de.js"
@@ -38,7 +38,7 @@
         "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
         "compatibility": {
           "minimum": "2.2.2",
-          "verified": "3.0.3"
+          "verified": "3.3.0"
         }
       }
     ],
