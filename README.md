@@ -1,6 +1,6 @@
 # DnD5e German Translation (Deutsch) for FoundryVTT (FoundryVTT-dnd5e-DE)
 
-![Compatible Foundry Version](https://img.shields.io/badge/Foundry-v11-informational)
+![Compatible Foundry Version](https://img.shields.io/badge/Foundry-v12-informational)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/mhilbrunner/foundryvtt-dnd5e-lang-de?label=Latest+Release)
 ![Forge Installs](https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%2FFoundryVTT-dnd5e-DE&colorB=4aa94a)
 ![GitHub Downloads All Releases](https://img.shields.io/github/downloads/mhilbrunner/foundryvtt-dnd5e-lang-de/total?label=Downloads+(Total))
