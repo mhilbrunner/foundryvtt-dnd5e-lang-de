@@ -1469,17 +1469,22 @@
            "Rune": "Rune",
            "SuperiorHuntersDefense": "Ausserordentliche Verteidigung des Jägers"
        },
-       "Feat": "Talent",
-       "Monster": "Monstermerkmal",
-       "Race": "Volksmerkmal",
-       "SupernaturalGift": {
-           "Label": "Übernatürliches Geschenk",
-           "Blessing": "Segen",
-           "Charm": "Bezauberung",
-           "EpicBoon": "Epische Gabe"
-       },
-       "Species": "Spezies Merkmal"
-   },
+  "Feat": {
+    "Label": "Talent",
+    "EpicBoon": "Epische Gabe Talent",
+    "FightingStyle": "Kampfstil Talent",
+    "General": "Allgemeines Talent",
+    "Origin": "Ursprung Talent"
+  },
+  "Monster": "Monstermerkmal",
+  "Species": "Speziesmerkmal",
+  "SupernaturalGift": {
+    "Label": "Übernatürliches Geschenk",
+    "Blessing": "Segen",
+    "Charm": "Bezauberung",
+    "EpicBoon": "Epische Gabe"
+  }
+},
    "DND5E.Focus": {
        "Label": "Zauberfokus",
        "Arcane": "Arkaner Fokus",
