@@ -29,7 +29,7 @@
    "TYPES.Item.race": "Spezies",
    "TYPES.Item.racePl": "Spezies",
    "TYPES.Item.raceLegacy": "Volk",
-   "TYPES.Item.raceLegacyPl": "Völer",
+   "TYPES.Item.raceLegacyPl": "Völker",
    "TYPES.Item.spell": "Zauber",
    "TYPES.Item.spellPl": "Zauber",
    "TYPES.Item.subclass": "Unterklasse",
@@ -66,7 +66,7 @@
                    "hint": "Ignoriere den Attributsmodifikator, die Übung und alle anderen Boni des Akteurs und verwende nur den durch die Aktivität definierten Bonus, wenn du den Treffer berechnest."
                },
                "type": {
-                   "label": "Angriffsyp",
+                   "label": "Angriffszyp",
                    "value": {
                        "label": "Angriffstyp",
                        "hint": "Handelt es sich um einen Nah- oder Fernkampfangriff?"
@@ -78,7 +78,7 @@
                }
            },
            "damage": {
-               "label": "Angrifsschaden",
+               "label": "Angriffsschaden",
                "critical": {
                    "bonus": {
                        "label": "Zusätzlicher Kritischer Schaden",
@@ -91,7 +91,7 @@
                },
                "parts": {
                    "label": "Schadensbestandteile",
-                   "hint": "Indivituelle Schadensbestandteile die in den Wurf inkludiert werden."
+                   "hint": "Individuelle Schadensbestandteile die in den Wurf inkludiert werden."
                }
            }
        },
@@ -164,7 +164,7 @@
    "DND5E.AbilityUseConsumableDestroyHint": "Bei Nutzung {type} wird die letzte Anwendung verbraucht und der Gegenstand zerstört.",
    "DND5E.AbilityUseConsumableDestroyResourceHint": "Bei Nutzung vom {type} wird die letzte Ladung von {name} verbraucht und zerstört.",
    "DND5E.AbilityUseConsumableLabel": "{max} per {per}",
-   "DND5E.AbilityUseConsumableQuantityHint": "Bei Nutzung dieses {type} wird eine Anwendung verbaucht und {quantity} verbleiben",
+   "DND5E.AbilityUseConsumableQuantityHint": "Bei Nutzung dieses {type} wird eine Anwendung verbraucht und {quantity} verbleiben",
    "DND5E.AbilityUseConsume": "Verfügbare Ladungen verbrauchen?",
    "DND5E.AbilityUseConsumeAction": "Ladung verbrauchen",
    "DND5E.AbilityUseHint": "Bearbeite Verwendung von {type} {name}.",
@@ -408,7 +408,7 @@
    "DND5E.AdvancementMigrationTitle": "Fortschritte migrieren",
    "DND5E.AdvancementModifyChoices": "Auswahl ändern",
    "DND5E.AdvancementSaveButton": "Fortschritt speichern",
-   "DND5E.AdvancementScaleValueHint": "Ein einzelner Wert, der sich mit dem Stufemfortschritt der Klasse verändert und in Würfelformeln zur Verfügung steht (z.B. wie der Kampfkünstewürfel des Mönchs).",
+   "DND5E.AdvancementScaleValueHint": "Ein einzelner Wert, der sich mit dem Stufenfortschritt der Klasse verändert und in Würfelformeln zur Verfügung steht (z.B. wie der Kampfkünstewürfel des Mönchs).",
    "DND5E.AdvancementScaleValueIdentifierHint": "Dieser skalierende Wert kann für die aktuelle Stufe mit <strong>@scale.{class}.{identifier}</strong> in einer Formel eingesetzt werden.",
    "DND5E.AdvancementScaleValueTitle": "Skalierender Wert",
    "DND5E.AdvancementScaleValueTypeCR": "Herausforderungsgrad",
@@ -445,7 +445,7 @@
    "DND5E.AdvancementTraitModeDefaultLabel": "Standard",
    "DND5E.AdvancementTraitModeExpertiseHint": "Gewährt Expertise in einer Fertigkeit in der du bereits geübt bist.",
    "DND5E.AdvancementTraitModeExpertiseLabel": "Expertise",
-   "DND5E.AdvancementTraitModeForceHint": "Gewährt Expertise in einer Fertigkeit undabhängig von der Übung.",
+   "DND5E.AdvancementTraitModeForceHint": "Gewährt Expertise in einer Fertigkeit unabhängig von der Übung.",
    "DND5E.AdvancementTraitModeForceLabel": "Erzwungene Expertise",
    "DND5E.AdvancementTraitModeMasteryLabel": "Meisterschaft",
    "DND5E.AdvancementTraitModeMasteryHint": "Erhalte Meisterschaft mit einer Waffe mit der du bereits geübt bist.",
@@ -486,7 +486,7 @@
    "DND5E.ArmorClassUnarmoredBard": "Ungerüstete Verteidigung (Barde)",
    "DND5E.ArmorClassUnarmoredMonk": "Ungerüstete Verteidigung (Mönch)",
    "DND5E.ArmorConfig": "Rüstung bearbeiten",
-   "DND5E.ArmorConfigHint": "Feld oben ausfüllen, um die automisch berechnete Rüstungsklasse zu überschreiben.",
+   "DND5E.ArmorConfigHint": "Feld oben ausfüllen, um die automatisch berechnete Rüstungsklasse zu überschreiben.",
    "DND5E.ArmorHeavyProficiency": "Schwer",
    "DND5E.ArmorLightProficiency": "Leicht",
    "DND5E.ArmorMediumProficiency": "Mittel",
@@ -558,7 +558,7 @@
    "DND5E.Charges": "Ladungen",
    "DND5E.ChatContextDamage": "Schaden verursachen",
    "DND5E.ChatContextDoubleDamage": "Verursacht doppelten Schaden",
-   "DND5E.ChatContextHalfDamage": "Verusacht halben Schaden",
+   "DND5E.ChatContextHalfDamage": "Verursacht halben Schaden",
    "DND5E.ChatContextSelectHit": "Wähle getroffene Ziele",
    "DND5E.ChatContextSelectMiss": "Wähle verfehlte Ziele",
    "DND5E.ChatContextHealing": "Heilung anwenden",
@@ -614,7 +614,7 @@
                },
                "value": {
                    "label": "Primärattribut",
-                   "hint": "Attribute, die von dieser Klasse am häufigsten verwendet werden. Dient zur Bestimmung der Voraussetzungn für Klassenkombinationen."
+                   "hint": "Attribute, die von dieser Klasse am häufigsten verwendet werden. Dient zur Bestimmung der Voraussetzung für Klassenkombinationen."
                }
            }
        }
@@ -2174,7 +2174,7 @@
    "DND5E.SenseUnits": "Einheiten",
    "DND5E.Senses": "Sinne",
    "DND5E.SensesConfig": "Sinne bearbeiten",
-   "DND5E.SensesConfigHint": "Bearbeite spezielle sensorische Wahrnemungsfähigkeiten, die dieser Charakter besitzt.",
+   "DND5E.SensesConfigHint": "Bearbeite spezielle sensorische Wahrnehmungsfähigkeiten, die dieser Charakter besitzt.",
    "DND5E.SheetClassCharacter": "Standard 5e Charakterbogen",
    "DND5E.SheetClassCharacterLegacy": "Legacy 5e Charakterbogen",
    "DND5E.SheetClassClassSummary": "Standard 5e Klassenübersichtsbogen",
@@ -2183,13 +2183,13 @@
    "DND5E.SheetClassGroup": "Standard 5e Gruppenbogen",
    "DND5E.SheetClassItem": "Standard 5e Gegenstandsbogen",
    "DND5E.SheetClassItemLegacy": "Legacy 5e Itembogen",
-   "DND5E.SheetClassJournalEntry": "Standart 5e Notizbogen",
-   "DND5E.SheetClassMapLocation": "Standart 5e Kartenbogen",
+   "DND5E.SheetClassJournalEntry": "Standard 5e Notizbogen",
+   "DND5E.SheetClassMapLocation": "Standard 5e Kartenbogen",
    "DND5E.SheetClassNPC": "Standard 5e NSC-Bogen",
    "DND5E.SheetClassNPCLegacy": "Legacy 5e NSC-Bogen",
-   "DND5E.SheetClassRule": "Standart 5e Regelbogen",
-   "DND5E.SheetClassSpellList": "Standart 5e Zauberlistenbogen",
-   "DND5E.SheetClassToken": "Standart 5e Figurbogen",
+   "DND5E.SheetClassRule": "Standard 5e Regelbogen",
+   "DND5E.SheetClassSpellList": "Standard 5e Zauberlistenbogen",
+   "DND5E.SheetClassToken": "Standard 5e Figurbogen",
    "DND5E.SheetClassVehicle": "Standard 5e Fahrzeugbogen",
    "DND5E.SheetModeEdit": "Bearbeiten",
    "DND5E.SheetModePlay": "Spielen",
@@ -2849,7 +2849,7 @@
    "DND5E.TraitGenericPlural.one": "Merkmal",
    "DND5E.TraitGenericPlural.other": "Merkmale",
    "DND5E.TraitLanguagesPlural.one": "Sprache",
-   "DND5E.TraitLanguagesPlural.other": "Spracheen",
+   "DND5E.TraitLanguagesPlural.other": "Sprachen",
    "DND5E.TraitSave": "Speichern",
    "DND5E.TraitSavesPlural.one": "Übung mit Rettungswurf",
    "DND5E.TraitSavesPlural.other": "Übung mit Rettungswürfen",
