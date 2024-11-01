@@ -324,7 +324,7 @@
         },
         "Block and Tackle": {
             "name": "Flaschenzug",
-            "description": "<p>Bestehend aus Seilen, Rollen und einem Holzblock, an dem ein Haken befestigt ist, dient der Flaschenzu dazu, bis zu viermal höheres Gewicht anzuheben, als dies ohne ihn möglich wäre.</p>",
+            "description": "<p>Bestehend aus Seilen, Rollen und einem Holzblock, an dem ein Haken befestigt ist, dient der Flaschenzug dazu, bis zu viermal höheres Gewicht anzuheben, als dies ohne ihn möglich wäre.</p>",
             "source": "SHB S. 151"
         },
         "Block of Incense": {
@@ -359,7 +359,7 @@
         },
         "Bolt of Slaying": {
             "name": "Bolzen des Tötens",
-            "description": "<p>Ein <em>Bolzen des Tötens</em> ist ein Bolzen, der dazu bestimmt ist, eine bestimmte Art Kreatur zu töten. Manche sind etwas fokusierter als andere: Beispielsweise gibt es sowohl <em>Bolzen </em><em>des Drachentötens</em> als auch <em>Bolzen </em><em>des Blaue-Drachentötens</em>. Wenn eine Kreatur, die zu diesem Typen, dieser Rasse oder Gruppe gehört, von einem <em>Bolzen </em><em>des Tötens</em> getroffen wird und Schaden nimmt, muss die Kreatur einen Konstitutionsrettungswurf gegen SG 17 durchführen. Bei einem Fehlschlag nimmt sie zusätzlich 6W10 Stichschaden und halb so viel Extraschaden bei einem erfolgreichen Wurf.</p>\n<p>Sobald ein <em>Bolzen </em><em>des Tötens</em> seinen Extraschaden zugefügt hat, wird er zu einem nicht-magischen Bolzen.</p>",
+            "description": "<p>Ein <em>Bolzen des Tötens</em> ist ein Bolzen, der dazu bestimmt ist, eine bestimmte Art Kreatur zu töten. Manche sind etwas fokussierter als andere: Beispielsweise gibt es sowohl <em>Bolzen </em><em>des Drachentötens</em> als auch <em>Bolzen </em><em>des Blaue-Drachentötens</em>. Wenn eine Kreatur, die zu diesem Typen, dieser Rasse oder Gruppe gehört, von einem <em>Bolzen </em><em>des Tötens</em> getroffen wird und Schaden nimmt, muss die Kreatur einen Konstitutionsrettungswurf gegen SG 17 durchführen. Bei einem Fehlschlag nimmt sie zusätzlich 6W10 Stichschaden und halb so viel Extraschaden bei einem erfolgreichen Wurf.</p>\n<p>Sobald ein <em>Bolzen </em><em>des Tötens</em> seinen Extraschaden zugefügt hat, wird er zu einem nicht-magischen Bolzen.</p>",
             "source": "SLH S. 174"
         },
         "Book": {
@@ -499,7 +499,7 @@
         },
         "Candle": {
             "name": "Kerze",
-            "description": "<p>Eine Kerze spendet für eine Stundes helles Licht in einem Radius von 1,50 m und dämmriges Licht in weiteren 1,50 m Entfernung.</p>",
+            "description": "<p>Eine Kerze spendet für eine Stunde helles Licht in einem Radius von 1,50 m und dämmriges Licht in weiteren 1,50 m Entfernung.</p>",
             "source": "SHB S. 152"
         },
         "Candle of Invocation": {
@@ -1769,7 +1769,7 @@
         },
         "Ioun Stone of Protection": {
             "name": "Ionenstein des Schutzes",
-            "description": "<p><em>Wundersamer Gegenstand, selten (benötigt Einstimmung)</em></p>\n<p>Ein Ionenstein ist nach Ion benannt, der in einigen Welten als Gottheit des Wissens und der Prophezeiung verehrt wird. Viele Arten des Ionensteins existieren, jede Art hat eine eigene Kombination von Form und Farbe.</p>\n<p>Wenn du eine Aktion aufwendest, um einen dieser Steine in die Luft zu werfen, umkreist der Stein deinen Kopf in einer Entfernung von 1W3 x 0,30 Meter und bietet dir dadurch einen Vorteil. Eine andere Kreatur muss daraufhin selbst eine Aktion verwenden, um nach dem Stein zu greifen oder ihn mit einem Netz zu erfassen und ihn somit von dir zu trennen. Dies geschieht bei einem erfolgreichen Angriffswurf gegen SG 24 oder einem erfolgreichen Wurf auf Geschicklichkeit (Akrobatik) gegen SG 24. Du kannst eine Aktion verwenden, um den Stein zu ergreifen und zu verstauen, was seinen Effekt beendet. Ein Stein hat eine Rüstungsklasse von 24, 10 Trefferpunkte und Resistenz gegen alle Schadensarten. Er wird als angelegtes Objekt angesehen, wenn er um deinen Kopf kreist.</p>\n<p><strong>Schutz.</strong> Du erhältst einen Bonus von + 1 auf deine Rüstungsklasse, wenn dieses zartrosarote Prisma um deinen Kopf kreist.</p>",
+            "description": "<p><em>Wundersamer Gegenstand, selten (benötigt Einstimmung)</em></p>\n<p>Ein Ionenstein ist nach Ion benannt, der in einigen Welten als Gottheit des Wissens und der Prophezeiung verehrt wird. Viele Arten des Ionensteins existieren, jede Art hat eine eigene Kombination von Form und Farbe.</p>\n<p>Wenn du eine Aktion aufwendest, um einen dieser Steine in die Luft zu werfen, umkreist der Stein deinen Kopf in einer Entfernung von 1W3 x 0,30 Meter und bietet dir dadurch einen Vorteil. Eine andere Kreatur muss daraufhin selbst eine Aktion verwenden, um nach dem Stein zu greifen oder ihn mit einem Netz zu erfassen und ihn somit von dir zu trennen. Dies geschieht bei einem erfolgreichen Angriffswurf gegen SG 24 oder einem erfolgreichen Wurf auf Geschicklichkeit (Akrobatik) gegen SG 24. Du kannst eine Aktion verwenden, um den Stein zu ergreifen und zu verstauen, was seinen Effekt beendet. Ein Stein hat eine Rüstungsklasse von 24, 10 Trefferpunkte und Resistenz gegen alle Schadensarten. Er wird als angelegtes Objekt angesehen, wenn er um deinen Kopf kreist.</p>\n<p><strong>Schutz.</strong> Du erhältst einen Bonus von + 1 auf deine Rüstungsklasse, wenn dieses zart rosarote Prisma um deinen Kopf kreist.</p>",
             "source": "SLH S. 169"
         },
         "Ioun Stone of Regeneration": {
@@ -2934,7 +2934,7 @@
         },
         "Ring of Spell Storing": {
             "name": "Ring des Zauberspeichers",
-            "description": "<p><em>(benötigt Einstimmung)</em></p>\n<p>Dieser Ring speichert Zauber, die hinein gezaubert wurden und hält sie dort fest, bis ein eingestimmter Träger sie benutzt. Der Ring kann Zauber im Wert von bis zu 5 Graden auf einmal speichern. Wenn er gefunden wird, enthält er 1W6 - 1 Zauber des 1. Grads, die vom Spielleiter ausgesucht wurden.</p>\n<p>Jede Kreatur kann Zauber des Grads 1 bis 5 darin speichern, wenn sie den Ring berührt, während der Zauber gewirkt wird. Der Zauber hat keinen Effekt, außer im Ring gespeichert zu werden. Wenn der Ring den Zauber nicht speichern kann, ist der Zauber ohne Effekt verwirkt. Der Grad des gewirkten Zaubers bestimmt, wieviel Platz er verbraucht.</p>\n<p>Während du den Ring trägst, kannst du jeden der gespeicherten Zauber wirken. Der Zauber nutzt den Grad des Zauberplatzes, den Zauberrettungswurf-SG, den Zauberangriffsbonus und das Zauberattributs des ursprünglichen Zauberwirkers. Davon abgesehen, wird er behandelt, als würde er von dir gewirkt. Der gewirkte Zauber wird nicht länger im Ring gespeichert und gibt den Platz frei.</p>",
+            "description": "<p><em>(benötigt Einstimmung)</em></p>\n<p>Dieser Ring speichert Zauber, die hinein gezaubert wurden und hält sie dort fest, bis ein eingestimmter Träger sie benutzt. Der Ring kann Zauber im Wert von bis zu 5 Graden auf einmal speichern. Wenn er gefunden wird, enthält er 1W6 - 1 Zauber des 1. Grads, die vom Spielleiter ausgesucht wurden.</p>\n<p>Jede Kreatur kann Zauber des Grads 1 bis 5 darin speichern, wenn sie den Ring berührt, während der Zauber gewirkt wird. Der Zauber hat keinen Effekt, außer im Ring gespeichert zu werden. Wenn der Ring den Zauber nicht speichern kann, ist der Zauber ohne Effekt verwirkt. Der Grad des gewirkten Zaubers bestimmt, wie viel Platz er verbraucht.</p>\n<p>Während du den Ring trägst, kannst du jeden der gespeicherten Zauber wirken. Der Zauber nutzt den Grad des Zauberplatzes, den Zauberrettungswurf-SG, den Zauberangriffsbonus und das Zauberattributs des ursprünglichen Zauberwirkers. Davon abgesehen, wird er behandelt, als würde er von dir gewirkt. Der gewirkte Zauber wird nicht länger im Ring gespeichert und gibt den Platz frei.</p>",
             "source": "SLH S. 180"
         },
         "Ring of Spell Turning": {
