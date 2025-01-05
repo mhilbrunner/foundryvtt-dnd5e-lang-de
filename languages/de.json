@@ -718,7 +718,7 @@
                 "Warning": "{attribute} Anzahl"
             },
             "HitDice": {
-                "Label": "Tefferwürfel",
+                "Label": "Trefferwürfel",
                 "PromptDecrease": "Trefferwürfel Verbrauchen?",
                 "PromptHintDecrease": "Verbrauche <strong>{cost}</strong> {denomination} {die}.",
                 "PromptHintIncrease": "Wiederherstellen <strong>{cost}</strong> {denomination} {die}.",
@@ -1622,7 +1622,7 @@
         "Label": "Automatische  Trefferwürfel verwenden"
     },
     "DND5E.HitDiceConfig": "Trefferwürfel anpassen",
-    "DND5E.HitDiceConfigHint": "Passt die verbleibenden Tefferwürfelstufen für jede Klasse an.",
+    "DND5E.HitDiceConfigHint": "Passt die verbleibenden Trefferwürfelstufen für jede Klasse an.",
     "DND5E.HitDiceMax": "Maximale Trefferwürfel",
     "DND5E.HitDiceNPCWarn": "{name} hat keine Trefferwürfel übrig!",
     "DND5E.HitDiceRemaining": "Verbleibende Trefferwürfel",
