@@ -1,5 +1,20 @@
 {
-    "DND5E.ABILITY": "{'Configure': {'Title': '{ability} bearbeiten'}, 'SECTIONS': {'Bonuses': {'Label': '{ability} Boni', 'Hint': 'Diese Boni gelten für Attributs- und Rettungswürfe, die sich auf {ability} beziehen.'}, 'Global': {'Label': 'Globale Boni', 'Hint': 'Diese Boni gelten für Attributs- und Rettungswürfe, die sich auf beliebige Attribute beziehen.'}, 'Score': '{ability}wert'}}",
+    "DND5E.ABILITY": {
+        "Configure": {
+            "Title": "{ability} bearbeiten"
+        },
+        "SECTIONS": {
+            "Bonuses": {
+                "Label": "{ability} Boni",
+                "Hint": "Diese Boni gelten für Attributs- und Rettungswürfe, die sich auf {ability} beziehen."
+            },
+            "Global": {
+                "Label": "Globale Boni",
+                "Hint": "Diese Boni gelten für Attributs- und Rettungswürfe, die sich auf beliebige Attribute beziehen."
+            },
+            "Score": "{ability}wert"
+        }
+    },
     "DND5E.AC": "RK",
     "DND5E.ACTIVATION": {
         "Category": {
@@ -518,7 +533,53 @@
     "DND5E.Bonuses": "Generelle Boni",
     "DND5E.BonusesHint": "Definiere generelle Boni als Formeln, die zu bestimmten Würfen hinzugefügt werden. Zum Beispiel: 1d4 + 2",
     "DND5E.BonusesInstructions": "Bearbeite Charakter-Boni, die dem entsprechenden Würfelwurf hinzugefügt werden",
-    "DND5E.CAST": "{'Title': 'Zauber wirken', 'FIELDS': {'spell': {'label': 'Zauberwirken Details', 'challenge': {'attack': {'label': 'Angriffsbonus', 'hint': 'Fester Trefferbonus, der anstelle des normalen Angriffsbonus des Zaubers verwendet wird.'}, 'save': {'label': 'Rettungswurf-SG', 'hint': 'Fester SG, der anstelle des normalen Rettungswurf-SG des Zaubers verwendet wird.'}, 'override': {'label': 'Werte überschreiben', 'hint': 'Überschreibe beim Wirken den normalen Angriffsbonus und SG des Zaubers.'}}, 'level': {'label': 'Zaubergrad', 'hint': 'Basisstufe des Zaubers, falls sie sich von der Stufe des Zaubers unterscheidet.'}, 'properties': {'label': 'Ignorierte Eigenschaften', 'hint': 'Zauberkomponenten und Eigenschaften, die beim Zaubern ignoriert werden.'}, 'spellbook': {'label': 'Im Zauberbuch anzeigen', 'hint': 'Den Zauber im Zauber Reiter des Charakterbogens anzeigen.'}, 'uuid': {'label': 'Zauber der gewirkt wird'}}}, 'SECTIONS': {'Spell': 'Zauber', 'Spellbook': 'Zusätzliche Zauber'}, 'Action': {'RemoveSpell': 'Zauber entfernen'}, 'Enchantment': {'Name': 'Änderungen am Zauber'}}",
+    "DND5E.CAST": {
+        "Title": "Zauber wirken",
+        "FIELDS": {
+            "spell": {
+                "label": "Zauberwirken Details",
+                "challenge": {
+                    "attack": {
+                        "label": "Angriffsbonus",
+                        "hint": "Fester Trefferbonus, der anstelle des normalen Angriffsbonus des Zaubers verwendet wird."
+                    },
+                    "save": {
+                        "label": "Rettungswurf-SG",
+                        "hint": "Fester SG, der anstelle des normalen Rettungswurf-SG des Zaubers verwendet wird."
+                    },
+                    "override": {
+                        "label": "Werte überschreiben",
+                        "hint": "Überschreibe beim Wirken den normalen Angriffsbonus und SG des Zaubers."
+                    }
+                },
+                "level": {
+                    "label": "Zaubergrad",
+                    "hint": "Basisstufe des Zaubers, falls sie sich von der Stufe des Zaubers unterscheidet."
+                },
+                "properties": {
+                    "label": "Ignorierte Eigenschaften",
+                    "hint": "Zauberkomponenten und Eigenschaften, die beim Zaubern ignoriert werden."
+                },
+                "spellbook": {
+                    "label": "Im Zauberbuch anzeigen",
+                    "hint": "Den Zauber im Zauber Reiter des Charakterbogens anzeigen."
+                },
+                "uuid": {
+                    "label": "Zauber der gewirkt wird"
+                }
+            }
+        },
+        "SECTIONS": {
+            "Spell": "Zauber",
+            "Spellbook": "Zusätzliche Zauber"
+        },
+        "Action": {
+            "RemoveSpell": "Zauber entfernen"
+        },
+        "Enchantment": {
+            "Name": "Änderungen am Zauber"
+        }
+    },
     "DND5E.CHECK": {
         "FIELDS": {
             "check": {
@@ -1358,7 +1419,31 @@
             "Override": "Dieser Wert wird durch eine Verzauberung verändert und kann nicht bearbeitet werden. Deaktiviere die Verzauberung im Reiter Effekte, um sie zu bearbeiten."
         }
     },
-    "DND5E.EQUIPMENT": "{'Type': {'Clothing': {'Label': 'Kleidung'}, 'Ring': {'Label': 'Ring'}, 'Rod': {'Label': 'Stab'}, 'Trinket': {'Label': 'Schmuckstück'}, 'Vehicle': {'Label': 'Fahrzeug-Ausrüstung'}, 'Wand': {'Label': 'Zauberstab'}, 'Wondrous': {'Label': 'Wundersamer Gegenstand'}}}",
+    "DND5E.EQUIPMENT": {
+        "Type": {
+            "Clothing": {
+                "Label": "Kleidung"
+            },
+            "Ring": {
+                "Label": "Ring"
+            },
+            "Rod": {
+                "Label": "Stab"
+            },
+            "Trinket": {
+                "Label": "Schmuckstück"
+            },
+            "Vehicle": {
+                "Label": "Fahrzeug-Ausrüstung"
+            },
+            "Wand": {
+                "Label": "Zauberstab"
+            },
+            "Wondrous": {
+                "Label": "Wundersamer Gegenstand"
+            }
+        }
+    },
     "DND5E.Effect": "Effekt",
     "DND5E.EffectApplyWarningConcentration": "Das Anwenden eines Effekts, auf den sich ein anderer Charakter konzentriert, erfordert die Erlaubnis des SLs.",
     "DND5E.EffectApplyWarningOwnership": "Effekte können nicht auf Token angewandt werden, deren Besitzer man nicht ist.",
@@ -1418,7 +1503,17 @@
             "Name": "Verbesserte Beidgändigkeit"
         }
     },
-    "DND5E.FORWARD": "{'Title': 'Weiterleiten', 'FIELDS': {'activity': {'label': 'Ausgelöste Aktivität'}}, 'Warning': {'NoActivity': 'Eine verknüpfte Aktivität muss konfiguriert werden, bevor die Weiterleiten-Aktivität verwendet werden kann.'}}",
+    "DND5E.FORWARD": {
+        "Title": "Weiterleiten",
+        "FIELDS": {
+            "activity": {
+                "label": "Ausgelöste Aktivität"
+            }
+        },
+        "Warning": {
+            "NoActivity": "Eine verknüpfte Aktivität muss konfiguriert werden, bevor die Weiterleiten-Aktivität verwendet werden kann."
+        }
+    },
     "DND5E.Faith": "Glaube",
     "DND5E.Favorite": "Favorit",
     "DND5E.FavoriteDrop": "Favorit hinzufügen",
@@ -1604,7 +1699,13 @@
         },
         "Title": "Heilen"
     },
-    "DND5E.HITDICE": "{'Action': {'Decrease': 'Verringern', 'Increase': 'Erhöhen'}, 'Config': 'Trefferwürfel anpassen'}",
+    "DND5E.HITDICE": {
+        "Action": {
+            "Decrease": "Verringern",
+            "Increase": "Erhöhen"
+        },
+        "Config": "Trefferwürfel anpassen"
+    },
     "DND5E.HP": "TP",
     "DND5E.HPFormula": "Trefferpunkteformel",
     "DND5E.HPFormulaError": "Die Trefferpunkte-Formel ist ungültig.",
@@ -2016,7 +2117,14 @@
             }
         }
     },
-    "DND5E.ROLL": "{'Range': {'Label': 'Würfelspanne', 'Maximum': 'Maximaler Wurf', 'Minimum': 'Minimaler Wurf'}, 'Section': '{label} Würfe'}",
+    "DND5E.ROLL": {
+        "Range": {
+            "Label": "Würfelspanne",
+            "Maximum": "Maximaler Wurf",
+            "Minimum": "Minimaler Wurf"
+        },
+        "Section": "{label} Würfe"
+    },
     "DND5E.RacialTraits": "Volkseigenschaften",
     "DND5E.Range": "Reichweite",
     "DND5E.RangeDistance": "Distanz",
@@ -2111,7 +2219,19 @@
             "other": "Rettungswürfe"
         }
     },
-    "DND5E.SKILL": "{'SECTIONS': {'Details': '{label} Details', 'Bonuses': {'Label': '{label} Boni', 'Hint': 'Diese Boni gelten für passive Werte und Proben, die mit {label} durchgeführt werden.'}, 'Global': {'Label': 'Globale Boni', 'Hint': 'Diese Boni gelten für Proben, die mit einer beliebigen Fertigkeit durchgeführt werden.'}}}",
+    "DND5E.SKILL": {
+        "SECTIONS": {
+            "Details": "{label} Details",
+            "Bonuses": {
+                "Label": "{label} Boni",
+                "Hint": "Diese Boni gelten für passive Werte und Proben, die mit {label} durchgeführt werden."
+            },
+            "Global": {
+                "Label": "Globale Boni",
+                "Hint": "Diese Boni gelten für Proben, die mit einer beliebigen Fertigkeit durchgeführt werden."
+            }
+        }
+    },
     "DND5E.SOURCE": {
         "Action": {
             "Configure": "Quelle Konfigurieren"
@@ -2724,7 +2844,19 @@
         }
     },
     "DND5E.TMP": "TMP",
-    "DND5E.TOOL": "{'SECTIONS': {'Details': '{label} Details', 'Bonuses': {'Label': '{label} Boni', 'Hint': 'Diese Boni gelten für Proben, die mit {label} durchgeführt werden.'}, 'Global': {'Label': 'Globale Boni', 'Hint': 'Diese Boni gelten für Proben, die mit einem beliebigen Werkzeug durchgeführt werden.'}}}",
+    "DND5E.TOOL": {
+        "SECTIONS": {
+            "Details": "{label} Details",
+            "Bonuses": {
+                "Label": "{label} Boni",
+                "Hint": "Diese Boni gelten für Proben, die mit {label} durchgeführt werden."
+            },
+            "Global": {
+                "Label": "Globale Boni",
+                "Hint": "Diese Boni gelten für Proben, die mit einem beliebigen Werkzeug durchgeführt werden."
+            }
+        }
+    },
     "DND5E.Target": "Ziel",
     "DND5E.TargetAlly": "Verbündeter",
     "DND5E.TargetAny": "Beliebig",
