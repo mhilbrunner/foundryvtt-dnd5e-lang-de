@@ -55,6 +55,10 @@ const missingInDe = {};
 const updatedInEn = {};
 const duplicates = {};
 
+let missingInDeCount = 0;
+let updatedInEnCount = 0;
+let duplicatesCount = 0;
+
 (function gatherMissingAndUpdatedTranslations(object, currentPath = []) {
     for (const [key, value] of Object.entries(object)) {
         const path = [...currentPath, key];
@@ -63,31 +67,33 @@ const duplicates = {};
         if (compareValue === null) {
             // key is missing completely from de translation
             setValueOnObject(missingInDe, path, value);
+            missingInDeCount++;
         } else if (typeof compareValue !== typeof value) {
             // type mismatch between de and en translation
             setValueOnObject(updatedInEn, path, value);
+            updatedInEnCount++;
         } else if (typeof value === 'object') {
             // recursively iterate nested objects
             gatherMissingAndUpdatedTranslations(value, path);
         } else if (isDuplicatesModeEnabled === true && value === compareValue) {
             // both values are equal, so we assume the key to be untranslated and errorneously merged into de.json
             setValueOnObject(duplicates, path, value);
+            duplicatesCount++;
         }
     }
 })(enTranslations);
 
 // display a summary and store the results of the comparison
 
-if (Object.keys(duplicates).length > 0) {
+if (duplicatesCount) {
     const diffFile = join(languagesDir, '_duplicates.json');
     await writeFile(diffFile, JSON.stringify(duplicates, null, 4), { encoding: 'utf8' });
 
-    console.log(`${Object.keys(duplicates).length} keys are identical in both translation files. You can find them in the "_duplicates.json" file.`);
+    console.log(`${duplicatesCount} keys are identical in both translation files. You can find them in the "_duplicates.json" file.`);
 } else if (isDuplicatesModeEnabled === true) {
     console.log('No duplicates could be found.');
 }
 
-const missingInDeCount = Object.keys(missingInDe).length;
 if (missingInDeCount > 0) {
     const diffFile = join(languagesDir, '_missing.json');
     await writeFile(diffFile, JSON.stringify(missingInDe, null, 4), { encoding: 'utf8' });
@@ -97,7 +103,6 @@ if (missingInDeCount > 0) {
     console.log('No missing translations could be found.');
 }
 
-const updatedInEnCount = Object.keys(updatedInEn).length;
 if (updatedInEnCount > 0) {
     const diffFile = join(languagesDir, '_updated.json');
     await writeFile(diffFile, JSON.stringify(updatedInEn, null, 4), { encoding: 'utf8' });
