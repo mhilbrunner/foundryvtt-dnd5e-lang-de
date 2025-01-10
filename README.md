@@ -60,13 +60,14 @@ Contributions are always welcome! Below are some ways to contribute and how to g
 To add new translations:
 
 0. Fork this repo and check it out locally
-1. Copy the up to date english language file into languages/en.json
-(from [here](https://github.com/foundryvtt/dnd5e/raw/master/lang/en.json))
-2. Run compare.py
-3. languages/diff.txt should now contain keys which need to be translated
-4. After translating, run merge.py
-5. de.json should now contain updated translations
-6. Commit, push and submit a Pull Request!
+1. Copy the up to date english language file into `languages/en.json` (from [here](https://github.com/foundryvtt/dnd5e/raw/master/lang/en.json))
+2. Run `node utils/compare.mjs` to generate the translation diffs
+    - `languages/_missing.json` now contains all keys which need a new translation
+    - `languages/_updated.json` now contains all keys which need re-translation
+3. After translating everything, run `node utils/merge.mjs` to update `de.json`
+    - If you updated existing keys in `_updated.json` you need to run the script with the `--overwrite` option
+4. Validate that `de.json` contains all your updated translations
+5. Commit, push and submit a Pull Request!
 
 ### Adding new compendium translations
 

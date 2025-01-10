@@ -1,5 +1,5 @@
-diff.txt
-en.json
+languages/_*.json
+languages/en.json
 
 *.log
 *.temp
