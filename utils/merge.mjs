@@ -48,7 +48,7 @@ let removedTranslationsCount = 0;
 const missingDiffFile = join(languagesDir, '_missing.json');
 if (existsSync(missingDiffFile)) {
     const missingTranslations = JSON.parse(await readFile(missingDiffFile, { encoding: 'utf8' }));
-    missingTranslationsCount = deepMergeObjects(deTranslations, missingTranslations, isOverwritingAllowed);
+    missingTranslationsCount = deepMergeObjects(deTranslations, missingTranslations, false);
 } else {
     console.log(`Could not find "_missing.json" in "${languagesDir}". Skipping ...`);
 }

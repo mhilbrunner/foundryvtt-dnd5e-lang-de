@@ -105,7 +105,7 @@ export function deepMergeObjects(target, source, overwrite = false) {
             changes++;
         } else if (typeof target[key] === 'object' && typeof value === 'object') {
             // if both the source key and the current value are objects we merge them recursively
-            changes += deepMergeObjects(target[key], value);
+            changes += deepMergeObjects(target[key], value, overwrite);
         } else if (overwrite === true) {
             // in all other cases, we only overwrite the key if that has been enabled
             target[key] = value;
