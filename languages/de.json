@@ -739,16 +739,16 @@
       }
     },	
     "Attack": {
-      "mwak": "Nahkampfwaffenangriff",
-      "rwak": "Fernkampfwaffenangriff"
+      "mwak": "Nahkampf-Waffenangriff",
+      "rwak": "Fernkampf-Waffenangriff"
     },	
     "Classification": {
-      "Spell": "zauber",
-      "Unarmed": "waffenlos",
-      "Weapon": "waffen"
+      "Spell": "Zauber",
+      "Unarmed": "Waffenlos",
+      "Weapon": "Waffen"
     },
     "Formatted": {
-      "2014": "{type}{classification}angriff",
+      "2014": "{type}-{classification}angriff",
       "2024": "{type}angriffswurf"
     },
     "Mode": {
@@ -2473,15 +2473,15 @@
 },  
   
   "DND5E.NUMBER": {
-    "1": "Eins",
-    "2": "Zwei",
-    "3": "Drei",
-    "4": "Vier",
-    "5": "Fünf",
-    "6": "Sechs",
-    "7": "Sieben",
-    "8": "Acht",
-    "9": "Neun"
+    "1": "ein",
+    "2": "zwei",
+    "3": "drei",
+    "4": "vier",
+    "5": "fünf",
+    "6": "sechs",
+    "7": "sieben",
+    "8": "acht",
+    "9": "neun"
   },  
 
   "DND5E.Number": "Anzahl",
@@ -3977,7 +3977,7 @@
     "AwardEach": "{award} jeden",
 	"CheckShort": "{check}",
     "CheckLong": "{check} prüfung",
-	"DamageExtended": "<em>Treffer:</em> {damage} schaden",
+	"DamageExtended": "<em>Treffer:</em> {damage}schaden",
     "DamageDouble": "{first} plus {second}",
 	"DamageShort": "{formula} {type}",
 	"DamageLong": "{average} ({formula}) {type}",
