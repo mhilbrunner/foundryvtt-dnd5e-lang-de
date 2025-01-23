@@ -743,13 +743,13 @@
       "rwak": "Fernkampfwaffenangriff"
     },	
     "Classification": {
-      "Spell": "Zauber",
-      "Unarmed": "Waffenlos",
-      "Weapon": "Waffe"
+      "Spell": "zauber",
+      "Unarmed": "waffenlos",
+      "Weapon": "waffen"
     },
     "Formatted": {
-      "2014": "{type} {classification} Angriff",
-      "2024": "{type} Angriffswurf"
+      "2014": "{type}{classification}angriff",
+      "2024": "{type}angriffswurf"
     },
     "Mode": {
       "Label": "Angriffsmodus",
