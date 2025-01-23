@@ -2825,7 +2825,7 @@
   "DND5E.SavingThrow": "Rettungswurf",
   "DND5E.SavingThrowDC": "SG {dc} {ability}-Rettungswurf",
   "DND5E.SavingThrowRoll": "Werfe {ability}-Rettungswurf",
-  "DND5E.SavingThrowShort": "Rettungswurf",  
+  "DND5E.SavingThrowShort": "RW",  
   "DND5E.SaveDC": "SG {dc} {ability}",
   "DND5E.SavePromptTitle": "{ability} Rettungswurf", 
   "DND5E.ScalingFormula": "Skalierungsformel",
