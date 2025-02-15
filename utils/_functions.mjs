@@ -136,3 +136,25 @@ export function sortObjectByKeys(object, recursive = false) {
 
     return result;
 }
+
+/**
+ * Gather all keys from the given object recursively.
+ * 
+ * @param {object} object The object to get keys from
+ * @param {array} previousKeys (internal use only!)
+ * @returns {array} An array of all keys from the object
+ */
+export function objectKeysRecursive(object, previousKeys = []) {
+    const labels = [];
+
+    for (const [key, value] of Object.entries(object)) {
+        const path = [...previousKeys, key];
+        if (typeof value === 'object') {
+            labels.push(...objectKeysRecursive(value, path));
+        } else {
+            labels.push(path);
+        }
+    }
+
+    return labels;
+}

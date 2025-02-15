@@ -4,7 +4,7 @@ import { argv } from 'node:process';
 import { join } from 'node:path';
 import { existsSync } from 'node:fs';
 import { readFile, writeFile } from 'node:fs/promises';
-import { deepMergeObjects, unsetPathInObject, sortObjectByKeys } from './_functions.mjs';
+import { deepMergeObjects, unsetPathInObject, sortObjectByKeys, objectKeysRecursive } from './_functions.mjs';
 
 // display help if requested
 if (argv.includes('--help')) {
@@ -44,11 +44,18 @@ let missingTranslationsCount = 0;
 let updatedTranslationsCount = 0;
 let removedTranslationsCount = 0;
 
+const missingTranslationKeys = [];
+const updatedTranslationKeys = [];
+const removedTranslationKeys = [];
+
 // apply all missing translations
 const missingDiffFile = join(languagesDir, '_missing.json');
 if (existsSync(missingDiffFile)) {
     const missingTranslations = JSON.parse(await readFile(missingDiffFile, { encoding: 'utf8' }));
     missingTranslationsCount = deepMergeObjects(deTranslations, missingTranslations, false);
+
+    // collect all translated keys recursively for markdown summary
+    missingTranslationKeys.push(...objectKeysRecursive(missingTranslations));
 } else {
     console.log(`Could not find "_missing.json" in "${languagesDir}". Skipping ...`);
 }
@@ -59,6 +66,9 @@ if (isOverwritingAllowed === true) {
     if (existsSync(updatedDiffFile)) {
         const updatedTranslations = JSON.parse(await readFile(updatedDiffFile, { encoding: 'utf8' }));
         updatedTranslationsCount = deepMergeObjects(deTranslations, updatedTranslations, true);
+
+        // collect all translated keys recursively for markdown summary
+        updatedTranslationKeys.push(...objectKeysRecursive(updatedTranslations));
     } else {
         console.log(`Could not find "_updated.json" in "${languagesDir}". Skipping ...`);
     }
@@ -67,6 +77,9 @@ if (isOverwritingAllowed === true) {
     if (existsSync(duplicatesDiffFile)) {
         const updatedDuplicates = JSON.parse(await readFile(duplicatesDiffFile, { encoding: 'utf8' }));
         updatedTranslationsCount += deepMergeObjects(deTranslations, updatedDuplicates, true);
+
+        // collect all translated keys recursively for markdown summary
+        updatedTranslationKeys.push(...objectKeysRecursive(updatedDuplicates));
     }
 }
 
@@ -78,6 +91,7 @@ if (isRemovedModeEnabled === true) {
         for (const path of removedTranslations) {
             unsetPathInObject(deTranslations, path);
             removedTranslationsCount++;
+            removedTranslationKeys.push(path);
         }
     } else {
         console.log(`Could not find "_removed.json" in "${languagesDir}". Skipping ...`);
@@ -103,4 +117,32 @@ if (updatedTranslationsCount > 0) {
 
 if (removedTranslationsCount > 0) {
     console.log(`${removedTranslationsCount} translations have been removed.`);
+}
+
+// also generate a markdown-formatted summary for PRs if there have been any changes
+if ((missingTranslationKeys.length + updatedTranslationKeys.length + removedTranslationKeys.length) > 0) {
+    console.log('\nMarkdown summary for PR:');
+    console.log('------------------------');
+    console.log('## Summary of changes');
+
+    if (missingTranslationKeys.length > 0) {
+        console.log('\n### Added\n');
+        for (const element of missingTranslationKeys) {
+            console.log(`- \`${element.join(' > ')}\``);
+        }
+    }
+
+    if (updatedTranslationKeys.length > 0) {
+        console.log('\n### Updated\n');
+        for (const element of updatedTranslationKeys) {
+            console.log(`- \`${element.join(' > ')}\``);
+        }
+    }
+
+    if (removedTranslationKeys.length > 0) {
+        console.log('\n### Removed\n');
+        for (const element of removedTranslationKeys) {
+            console.log(`- \`${element.join(' > ')}\``);
+        }
+    }
 }
