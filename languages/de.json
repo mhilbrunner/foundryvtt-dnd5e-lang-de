@@ -5,12 +5,12 @@
         },
         "SECTIONS": {
             "Bonuses": {
-                "Label": "{ability} Boni",
-                "Hint": "Diese Boni gelten für Attributs- und Rettungswürfe, die sich auf {ability} beziehen."
+                "Hint": "Diese Boni gelten für Attributs- und Rettungswürfe, die sich auf {ability} beziehen.",
+                "Label": "{ability} Boni"
             },
             "Global": {
-                "Label": "Globale Boni",
-                "Hint": "Diese Boni gelten für Attributs- und Rettungswürfe, die sich auf beliebige Attribute beziehen."
+                "Hint": "Diese Boni gelten für Attributs- und Rettungswürfe, die sich auf beliebige Attribute beziehen.",
+                "Label": "Globale Boni"
             },
             "Score": "{ability}wert"
         }
@@ -78,6 +78,9 @@
         "Title": {
             "one": "Aktivität",
             "other": "Aktivitäten"
+        },
+        "Warning": {
+            "UsageNotAllowed": "Die Nutzung dieser Aktivität ist derzeit nicht möglich."
         }
     },
     "DND5E.ADVANCEMENT": {
@@ -139,6 +142,10 @@
         }
     },
     "DND5E.ATTACK": {
+        "Attack": {
+            "mwak": "Nahkampfangriff",
+            "rwak": "Fernkampfangriff"
+        },
         "Classification": {
             "Spell": "Zauber",
             "Unarmed": "Waffenlos",
@@ -213,6 +220,10 @@
         },
         "Warning": {
             "NoQuantity": "Versuch, mit einer Waffe mit einer Menge von Null anzugreifen."
+        },
+        "Weapon": {
+            "Melee": "Nahkampfwaffe",
+            "Ranged": "Fernkampfwaffe"
         }
     },
     "DND5E.AbbreviationCR": "HG",
@@ -258,20 +269,9 @@
     "DND5E.AbilityStr": "Stärke",
     "DND5E.AbilityStrAbbr": "Stä",
     "DND5E.AbilityUseCast": "Zauber wirken",
-    "DND5E.AbilityUseChargedHint": "{type} ist aufgeladen und bereit zur Verwendung!",
     "DND5E.AbilityUseChargesLabel": "{value} Ladungen",
     "DND5E.AbilityUseConfig": "Nutzungen bearbeiten",
-    "DND5E.AbilityUseConsumableChargeHint": "Bei Nutzung dieses {type} wird eine Ladung verbraucht und {value} verbleiben.",
-    "DND5E.AbilityUseConsumableDestroyHint": "Bei Nutzung {type} wird die letzte Anwendung verbraucht und der Gegenstand zerstört.",
-    "DND5E.AbilityUseConsumableDestroyResourceHint": "Bei Nutzung vom {type} wird die letzte Ladung von {name} verbraucht und zerstört.",
-    "DND5E.AbilityUseConsumableLabel": "{max} per {per}",
-    "DND5E.AbilityUseConsumableQuantityHint": "Bei Nutzung dieses {type} wird eine Anwendung verbraucht und {quantity} verbleiben",
-    "DND5E.AbilityUseConsume": "Verfügbare Ladungen verbrauchen?",
-    "DND5E.AbilityUseConsumeAction": "Ladung verbrauchen",
-    "DND5E.AbilityUseHint": "Bearbeite Verwendung von {type} {name}.",
-    "DND5E.AbilityUseNormalHint": "{type} hat {value} von {max} Anwendungen pro {per} verbleibend.",
-    "DND5E.AbilityUseRechargeHint": "{type} ist verbraucht und muss aufgeladen werden!",
-    "DND5E.AbilityUseUnavailableHint": "Es sind keine Anwendungen mehr vorhanden!",
+    "DND5E.AbilityUseConsumableLabel": "{max} pro {per}",
     "DND5E.AbilityUseUse": "Fertigkeit benutzen",
     "DND5E.AbilityWis": "Weisheit",
     "DND5E.AbilityWisAbbr": "Wei",
@@ -430,7 +430,7 @@
     "DND5E.AdvancementTraitModeMasteryHint": "Erhalte Meisterschaft mit einer Waffe mit der du bereits geübt bist.",
     "DND5E.AdvancementTraitModeMasteryLabel": "Meisterschaft",
     "DND5E.AdvancementTraitModeUpgradeHint": "Gewährt Übung in einer Fertigkeit, es sei denn, du hast diese bereits, gewährt dann Expertise.",
-    "DND5E.AdvancementTraitModeUpgradeLabel": "Upgrade",
+    "DND5E.AdvancementTraitModeUpgradeLabel": "Verbesserung",
     "DND5E.AdvancementTraitTitle": "Merkmale",
     "DND5E.AdvancementTraitType": "Merkmal Typ",
     "DND5E.Advantage": "Vorteil",
@@ -449,7 +449,17 @@
     "DND5E.Amount": "Anzahl",
     "DND5E.Appearance": "Erscheinung",
     "DND5E.Apply": "Anwenden",
-    "DND5E.AreaOfEffect": "Wirkungsbereich",
+    "DND5E.AreaOfEffect": {
+        "Label": "Wirkungsbereich",
+        "Size": {
+            "Height": "Höhe",
+            "Label": "Größe",
+            "Length": "Länge",
+            "Radius": "Radius",
+            "Thickness": "Dicke",
+            "Width": "Breite"
+        }
+    },
     "DND5E.Armor": "Rüstung",
     "DND5E.ArmorClass": "Rüstungsklasse",
     "DND5E.ArmorClassCalculation": "Berechnung",
@@ -494,7 +504,7 @@
             "Each": "Jeder",
             "Split": "Aufteilen"
         },
-        "Message": "{name} has been awarded {award}.",
+        "Message": "{name} wurde {award} verliehen.",
         "NoDestinations": "Kein Ziel verfügbar",
         "NoPrimaryParty": "Keine primäre Gruppe festgelegt, zeigt stattdessen die den Spielern zugewiesenen Charaktere.",
         "NotGMError": "Der /award Befehl ist nur für SL verfügbar.",
@@ -534,35 +544,40 @@
     "DND5E.BonusesHint": "Definiere generelle Boni als Formeln, die zu bestimmten Würfen hinzugefügt werden. Zum Beispiel: 1d4 + 2",
     "DND5E.BonusesInstructions": "Bearbeite Charakter-Boni, die dem entsprechenden Würfelwurf hinzugefügt werden",
     "DND5E.CAST": {
-        "Title": "Zauber wirken",
+        "Action": {
+            "RemoveSpell": "Zauber entfernen"
+        },
+        "Enchantment": {
+            "Name": "Änderungen am Zauber"
+        },
         "FIELDS": {
             "spell": {
-                "label": "Zauberwirken Details",
                 "challenge": {
                     "attack": {
-                        "label": "Angriffsbonus",
-                        "hint": "Fester Trefferbonus, der anstelle des normalen Angriffsbonus des Zaubers verwendet wird."
-                    },
-                    "save": {
-                        "label": "Rettungswurf-SG",
-                        "hint": "Fester SG, der anstelle des normalen Rettungswurf-SG des Zaubers verwendet wird."
+                        "hint": "Fester Trefferbonus, der anstelle des normalen Angriffsbonus des Zaubers verwendet wird.",
+                        "label": "Angriffsbonus"
                     },
                     "override": {
-                        "label": "Werte überschreiben",
-                        "hint": "Überschreibe beim Wirken den normalen Angriffsbonus und SG des Zaubers."
+                        "hint": "Überschreibe beim Wirken den normalen Angriffsbonus und SG des Zaubers.",
+                        "label": "Werte überschreiben"
+                    },
+                    "save": {
+                        "hint": "Fester SG, der anstelle des normalen Rettungswurf-SG des Zaubers verwendet wird.",
+                        "label": "Rettungswurf-SG"
                     }
                 },
+                "label": "Zauberwirken Details",
                 "level": {
-                    "label": "Zaubergrad",
-                    "hint": "Basisstufe des Zaubers, falls sie sich von der Stufe des Zaubers unterscheidet."
+                    "hint": "Basisstufe des Zaubers, falls sie sich von der Stufe des Zaubers unterscheidet.",
+                    "label": "Zaubergrad"
                 },
                 "properties": {
-                    "label": "Ignorierte Eigenschaften",
-                    "hint": "Zauberkomponenten und Eigenschaften, die beim Zaubern ignoriert werden."
+                    "hint": "Zauberkomponenten und Eigenschaften, die beim Zaubern ignoriert werden.",
+                    "label": "Ignorierte Eigenschaften"
                 },
                 "spellbook": {
-                    "label": "Im Zauberbuch anzeigen",
-                    "hint": "Den Zauber im Zauber Reiter des Charakterbogens anzeigen."
+                    "hint": "Den Zauber im Zauber Reiter des Charakterbogens anzeigen.",
+                    "label": "Im Zauberbuch anzeigen"
                 },
                 "uuid": {
                     "label": "Zauber der gewirkt wird"
@@ -573,12 +588,7 @@
             "Spell": "Zauber",
             "Spellbook": "Zusätzliche Zauber"
         },
-        "Action": {
-            "RemoveSpell": "Zauber entfernen"
-        },
-        "Enchantment": {
-            "Name": "Änderungen am Zauber"
-        }
+        "Title": "Zauber wirken"
     },
     "DND5E.CHECK": {
         "FIELDS": {
@@ -829,7 +839,8 @@
             "MissingItem": "Das Item, das für den Verbrauch durch die {activity} Aktivität auf {item} konfiguriert wurde, konnte nicht gefunden werden.",
             "MissingSpellSlot": "Keine {level}. Grad Plätze verfügbar.",
             "None": "Kein {type} verfügbar zum verbrauchen, {cost} benötigt",
-            "NotEnough": "Nicht genug {type} verfügbar zum verbrauchen, {cost} benötigt und nur {available} verfügbar."
+            "NotEnough": "Nicht genug {type} verfügbar zum verbrauchen, {cost} benötigt und nur {available} verfügbar.",
+            "WillDestroy": "Wenn Sie {item} benutzen, wird seine letzte Verwendung verbraucht und es wird zerstört."
         }
     },
     "DND5E.CRLabel": "HG {cr}",
@@ -958,7 +969,7 @@
     "DND5E.ConsumableWithoutCharges": "verfügbare und verwendbare Ladungen",
     "DND5E.ConsumeAmmunition": "Munition",
     "DND5E.ConsumeAmount": "Verbrauchsmenge",
-    "DND5E.ConsumeAttribute": "Attribute",
+    "DND5E.ConsumeAttribute": "Attribut",
     "DND5E.ConsumeCharges": "Lad. Gegenst.",
     "DND5E.ConsumeHint": {
         "Attribute": "Attribute zum verbrauchen (z.B. currency.gp)",
@@ -973,7 +984,7 @@
     "DND5E.ConsumeRecharge": "Ladung verbrauchen?",
     "DND5E.ConsumeResource": "Ressource verbrauchen?",
     "DND5E.ConsumeScaling": "Ressourcen Skalierung",
-    "DND5E.ConsumeScalingLabel": "Use Resources",
+    "DND5E.ConsumeScalingLabel": "Ressourcen verwenden",
     "DND5E.ConsumeScalingTooltip": "Wenn diese Option angekreuzt ist, erhöht der Verbrauch zusätzlicher Ressourcen die Stufe, auf der der Zauber gewirkt wird.",
     "DND5E.ConsumeTarget": "Verbrauchsziel",
     "DND5E.ConsumeTitle": "Ressourcen-Verbrauch",
@@ -1071,6 +1082,9 @@
             "Action": "Alle Währungen umrechnen",
             "Hint": "Rechnet alle mitgeführten Währungen in den höchstmöglichen Nennwert um, um die Menge der vom Charakter mitgeführten Münzen zu reduzieren. Aber Vorsicht: Diese Aktion kann nicht rückgängig gemacht werden.",
             "Label": "Umrechnen"
+        },
+        "Error": {
+            "InsufficientFunds": "Der Betrag {amount}{denomination} konnte nicht von {name} abgezogen werden. Nicht genügend Geld."
         },
         "Title": "Währung verwalten",
         "Transfer": {
@@ -1471,15 +1485,12 @@
     "DND5E.Encumbrance": "Belastung",
     "DND5E.Environment": "Umgebung",
     "DND5E.EquipmentBonus": "Magischer Bonus",
-    "DND5E.EquipmentClothing": "Kleidung",
     "DND5E.EquipmentHeavy": "Schwere Rüstung",
     "DND5E.EquipmentLight": "Leichte Rüstung",
     "DND5E.EquipmentMedium": "Mittelschwere Rüstung",
     "DND5E.EquipmentNatural": "Natürliche Rüstung",
     "DND5E.EquipmentShield": "Schild",
     "DND5E.EquipmentShieldProficiency": "Schilde",
-    "DND5E.EquipmentTrinket": "Schmuckstück",
-    "DND5E.EquipmentVehicle": "Fahrzeugausstattung",
     "DND5E.Equipped": "Angelegt",
     "DND5E.Exhaustion": "Erschöpfung",
     "DND5E.ExhaustionLevel": "Erschöpfung Stufe {n}",
@@ -1500,16 +1511,16 @@
     "DND5E.FLAGS": {
         "EnhancedDualWielding": {
             "Hint": "Erlaube Bonusaktionen für zusätzliche Angriffe mit jeder Nahkampfwaffe ohne die Zweihändig Eigenschaft.",
-            "Name": "Verbesserte Beidgändigkeit"
+            "Name": "Verbesserte Beidhändigkeit"
         }
     },
     "DND5E.FORWARD": {
-        "Title": "Weiterleiten",
         "FIELDS": {
             "activity": {
                 "label": "Ausgelöste Aktivität"
             }
         },
+        "Title": "Weiterleiten",
         "Warning": {
             "NoActivity": "Eine verknüpfte Aktivität muss konfiguriert werden, bevor die Weiterleiten-Aktivität verwendet werden kann."
         }
@@ -1550,6 +1561,7 @@
         },
         "Monster": "Monstermerkmal",
         "Species": "Speziesmerkmal",
+        "SpeciesLegacy": "Volksmerkmal",
         "SupernaturalGift": {
             "Blessing": "Segen",
             "Charm": "Bezauberung",
@@ -1609,7 +1621,7 @@
     "DND5E.FlagsTitle": "Besondere Merkmale bearbeiten",
     "DND5E.FlagsWeaponCritThreshold": "Kritischer Treffer Schwellwert (Waffen)",
     "DND5E.FlagsWeaponCritThresholdHint": "Erweiterter Schwellwert für kritische Treffer bei Angriffen mit Waffen.",
-    "DND5E.Flat": "Flat",
+    "DND5E.Flat": "Flach",
     "DND5E.Flaws": "Makel",
     "DND5E.Focus": {
         "Arcane": "Arkaner Fokus",
@@ -1619,8 +1631,8 @@
     },
     "DND5E.Formula": "Formel",
     "DND5E.FormulaCannotContainDiceError": "Formel {name} kann keine Würfelausdrücke enthalten.",
-    "DND5E.FormulaMalformedError": "Problem preparing the {property} formula within {name}.",
-    "DND5E.FormulaMissingReferenceWarn": "The {property} formula within {name} has references to missing data: {references}",
+    "DND5E.FormulaMalformedError": "Problem bei der Vorbereitung der Formel {property} in {name}.",
+    "DND5E.FormulaMissingReferenceWarn": "Die {property}-Formel in {name} enthält Verweise auf fehlende Daten: {references}",
     "DND5E.Gender": "Geschlecht",
     "DND5E.GlobalBonus": "Globaler Bonus",
     "DND5E.GrantedAbilities": "gewährte Fähigkeit",
@@ -1759,7 +1771,7 @@
     "DND5E.Inspiration": "Inspiration",
     "DND5E.Inventory": "Inventar",
     "DND5E.InventorySearch": "Inventar durchsuchen",
-    "DND5E.Issues": "Issues",
+    "DND5E.Issues": "Probleme",
     "DND5E.Item": {
         "Category": {
             "Label": "Ketegorie",
@@ -2221,14 +2233,14 @@
     },
     "DND5E.SKILL": {
         "SECTIONS": {
-            "Details": "{label} Details",
             "Bonuses": {
-                "Label": "{label} Boni",
-                "Hint": "Diese Boni gelten für passive Werte und Proben, die mit {label} durchgeführt werden."
+                "Hint": "Diese Boni gelten für passive Werte und Proben, die mit {label} durchgeführt werden.",
+                "Label": "{label} Boni"
             },
+            "Details": "{label} Details",
             "Global": {
-                "Label": "Globale Boni",
-                "Hint": "Diese Boni gelten für Proben, die mit einer beliebigen Fertigkeit durchgeführt werden."
+                "Hint": "Diese Boni gelten für Proben, die mit einer beliebigen Fertigkeit durchgeführt werden.",
+                "Label": "Globale Boni"
             }
         }
     },
@@ -2313,6 +2325,10 @@
                 "label": "Kreaturentyp"
             },
             "match": {
+                "ability": {
+                    "hint": "Spezifische Fähigkeit, die beim Abgleich von Angriffen und Rettungswurf-SGs zu verwenden ist.",
+                    "label": "Fähigkeit anpassen"
+                },
                 "attacks": {
                     "hint": "Passt die Trefferwerte der Angriffe der beschworenen Kreatur an die des Beschwörers an.",
                     "label": "Angriffe Angleichen"
@@ -2593,8 +2609,8 @@
     "DND5E.SpellPrepPrepared": "Vorbereitet",
     "DND5E.SpellPrepRitual": "Nur Rituale",
     "DND5E.SpellPreparation": {
-        "Label": "Zaubervorbereitung",
         "Formula": "Vorbereitungs-Formel",
+        "Label": "Zaubervorbereitung",
         "Mode": "Zaubervorbereitungsmodus"
     },
     "DND5E.SpellPrepared": "Vorbereitet",
@@ -2669,106 +2685,7 @@
     "DND5E.SubclassName": "Name der Unterklasse",
     "DND5E.Subtype": "Unterart",
     "DND5E.Summoning": {
-        "Action": {
-            "Add": "Profil hinzufügen",
-            "Configure": "Beschwörungen konfigurieren",
-            "Place": "Beschwörungen platzieren",
-            "Remove": "Profil entfernen",
-            "Summon": "Beschwören",
-            "View": "Beschwörung ansehen"
-        },
-        "Bonuses": {
-            "ArmorClass": {
-                "Hint": "Bonus auf die Rüstungsklasse der beschworenen Kreatur zusätzlich zu den Angaben in ihrem Statblock.",
-                "Label": "Bonus-Rüstungsklasse"
-            },
-            "Attack": {
-                "Hint": "Zusätzlicher Schaden, der durch die Angriffe der Kreatur verursacht wird.",
-                "Label": "Bonus-Angriffsschaden"
-            },
-            "Healing": {
-                "Hint": "Zusätzliche Heilung durch Heilfähigkeiten.",
-                "Label": "Bonus-Heilung"
-            },
-            "HitDice": {
-                "Hint": "Zusätzliche Trefferwürfel, die der Kreatur zusätzlich zu den Werten aus der TP-Formel in ihrem Statblock hinzugefügt werden. Kann nur bei der Beschwörung von NPC-Akteuren verwendet werden.",
-                "Label": "Bonus-Trefferwürfel"
-            },
-            "HitPoints": {
-                "Hint": "Zusätzliche Trefferpunkte, die der Kreatur zusätzlich zu den in ihrem Statblock angegebenen hinzugefügt werden.",
-                "Label": "Bonus-Trefferpunkte"
-            },
-            "Saves": {
-                "Hint": "zusätzlicher Schaden, der durch die Fähigkeiten der Kreatur verursacht wird, die Rettungswürfe erfordern.",
-                "Label": "Bonus-Rettungswurfschaden"
-            }
-        },
-        "Configuration": "Beschwörung konfigurieren",
-        "Count": {
-            "Label": "Anzahl"
-        },
-        "CreatureChanges": {
-            "Hint": "Anpassungen, die an der beschworenen Kreatur vorgenommen werden. Alle @ Referenzen, die in den folgenden Formeln verwendet werden, basieren auf den Werten des Beschwörers.",
-            "Label": "Kreatur anpassungen"
-        },
-        "CreatureSizes": {
-            "Hint": "Die beschworene Kreatur und der Token werden in diese Größe geändert. Wenn mehr als eine Größe ausgewählt wurde, kann der Spieler bei der Beschwörung zwischen diesen Größen wählen.",
-            "Label": "Größe der Kreaturen"
-        },
-        "CreatureTypes": {
-            "Hint": "Die beschworene Kreatur wird in diesen Typ umgewandelt. Wenn mehr als ein Typ ausgewählt wurde, kann der Spieler bei der Beschwörung zwischen diesen Typen wählen.",
-            "Label": "Kreaturentypen"
-        },
-        "DisplayName": "Anzeigename",
-        "DropHint": "Kreatur hier ablegen",
-        "ItemChanges": {
-            "Hint": "Anpassungen an den Items der beschworenen Kreatur.",
-            "Label": "Item Anpassungen"
-        },
-        "Label": "Beschwörung",
-        "Level": {
-            "Hint": "Stufenbereich, der für die Verwendung dieses Profils erforderlich ist.",
-            "IdentifierHint": "ID, mit der festgelegt wird, ob die Charakterstufe oder eine bestimmte Klassenstufe für die Begrenzung des Profils verwendet werden soll."
-        },
-        "Match": {
-            "Attacks": {
-                "Hint": "Passt die Trefferwerte der Angriffe der beschworenen Kreatur an die des Beschwörers an.",
-                "Label": "Angriffe angleichen"
-            },
-            "Proficiency": {
-                "Hint": "Passt die Übungen der beschworenen Kreatur an die des Beschwörers an.",
-                "Label": "Übungen angleichen"
-            },
-            "Saves": {
-                "Hint": "Passt die Rettungswürfe SGs für die Fähigkeiten der beschworenen Kreatur an die des Beschwörers an.",
-                "Label": "Rettungswürfe angleichen"
-            }
-        },
-        "Mode": {
-            "CR": "Nach Herausforderungsgrad und Typ",
-            "Direct": "Mit direktem Link",
-            "Hint": "Legt fest, wie die Kreaturen, die beschworen werden sollen, spezifiziert werden.",
-            "Label": "Modus"
-        },
-        "Profile": {
-            "ChallengeRatingLabel": "Herausforderungsgrad von {cr} oder niedriger",
-            "Empty": "Klicken Sie oben, um ein Profil hinzuzufügen.",
-            "EmptyDrop": "Klicken Sie oben, um ein Profil hinzuzufügen, oder legen sie eine Kreatur ab.",
-            "Label": "Beschwörungs Profil",
-            "LabelPl": "Beschwörungen Profile"
-        },
-        "Prompt": {
-            "Hint": "Wenn nicht aktiviert, wird die Abfrage zum platzieren einer Beschwörung unterdrückt. Die Spieler können weiterhin über die Chatkarte beschwören.",
-            "Label": "Beschwörungsabfrage"
-        },
-        "Warning": {
-            "CRV11": "Beschwörungen basierend auf dem Herausforderungsgrad der Kreaturen, funktioniert nur in Foundry V12 oder höher.",
-            "CreateActor": "Sie müssen über die Berechtigung 'Neue Akteure erstellen' verfügen, um direkt aus einem Kompendium beschwören zu können.",
-            "NoActor": "Akteur mit der UUID '{uuid}' kann nicht gefunden werden, um zu beschwören.",
-            "NoOwnership": "Du musst Eigentümer von '{Akteur}' sein, um ihn beschwören zu können.",
-            "NoProfile": "Das Beschwörungsprofil {profileId} für '{item}' konnte nicht gefunden werden.",
-            "Wildcard": "Sie müssen über die Berechtigung 'Dateien durchsuchen' verfügen, um Kreaturen mit Platzhalterbildern zu beschwören."
-        }
+        "Label": "Beschwörung"
     },
     "DND5E.Supply": "Versorgung",
     "DND5E.Suppressed": "Unterdrückt",
@@ -2816,7 +2733,7 @@
                         "label": "Anzahl Bereiche"
                     },
                     "height": {
-                        "hint": "Height of a cylinder affected if applicable.",
+                        "hint": "Höhe des betroffenen Zylinders, falls zutreffend.",
                         "label": "Bereichshöhe"
                     },
                     "label": "Wirkungsbereich",
@@ -2846,14 +2763,14 @@
     "DND5E.TMP": "TMP",
     "DND5E.TOOL": {
         "SECTIONS": {
-            "Details": "{label} Details",
             "Bonuses": {
-                "Label": "{label} Boni",
-                "Hint": "Diese Boni gelten für Proben, die mit {label} durchgeführt werden."
+                "Hint": "Diese Boni gelten für Proben, die mit {label} durchgeführt werden.",
+                "Label": "{label} Boni"
             },
+            "Details": "{label} Details",
             "Global": {
-                "Label": "Globale Boni",
-                "Hint": "Diese Boni gelten für Proben, die mit einem beliebigen Werkzeug durchgeführt werden."
+                "Hint": "Diese Boni gelten für Proben, die mit einem beliebigen Werkzeug durchgeführt werden.",
+                "Label": "Globale Boni"
             }
         }
     },
@@ -3074,7 +2991,7 @@
     "DND5E.Unlimited": "Unbegrenzt",
     "DND5E.Usage": "Nutzung",
     "DND5E.Use": "benutzen",
-    "DND5E.UseItem": "Use {item}",
+    "DND5E.UseItem": "{item} verwenden",
     "DND5E.Uses": "Nutzungen",
     "DND5E.UsesAvailable": "Verbleibende  Nutzungen",
     "DND5E.UsesMax": "Maximale Nutzungen",
@@ -3167,7 +3084,6 @@
     "DND5E.WeaponMartialProficiency": "Übung Kriegswaffen",
     "DND5E.WeaponMartialR": "Kriegswaffe Fern.",
     "DND5E.WeaponNatural": "Natürlich",
-    "DND5E.WeaponOtherProficiency": "Andere",
     "DND5E.WeaponSiege": "Belagerungswaffe",
     "DND5E.WeaponSimpleM": "Einfache Waffe Nah.",
     "DND5E.WeaponSimpleProficiency": "Übung Einfache Waffen",
@@ -3197,11 +3113,14 @@
     "DND5E.available": "verfügbar",
     "DND5E.description": "Ein umfassendes Spielsystem zum Spielen der Dungeons & Dragons 5. Edition in Foundry VTT.",
     "DND5E.of": "von",
-    "DND5E.per": "per",
+    "DND5E.per": "pro",
     "DND5E.spell": "Zauber",
     "DND5E.title": "Dungeons & Dragons 5. Edition",
     "DOCUMENT.DND5E": {
-        "Activity": "Aktivität"
+        "Activity": "Aktivität",
+        "Warning": {
+            "SelectType": "{name}-Type muss für die Erstellung ausgewählt sein."
+        }
     },
     "EDITOR.DND5E.Inline": {
         "ApplyStatus": "Status auf ausgewählte Token anwenden",
@@ -3364,7 +3283,7 @@
                     "label": "Gewählte Unterklasse"
                 },
                 "style": {
-                    "hint": "Force the page style to use modern or legacy formatting, rather than what is specified by the subclass.",
+                    "hint": "Erzwingt, dass der Seitenstil moderne oder Legacy-Formatierung verwendet und nicht die von der Unterklasse vorgegebene.",
                     "label": "Stil"
                 }
             },
@@ -3502,7 +3421,7 @@
         }
     },
     "SIDEBAR.SortModePriority": "Nach Priorität sortieren",
-    "SOURCE.BOOK.SRD": "System Reference Document 5.1",
+    "SOURCE.BOOK.SRD": "Systemreferenzdokument 5.1",
     "TYPES.ActiveEffect.enchantment": "Verzauberung",
     "TYPES.ActiveEffect.enchantmentPl": "Verzauberungen",
     "TYPES.Actor.character": "Spielercharakter",
