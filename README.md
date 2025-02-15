@@ -64,10 +64,12 @@ To add new translations:
 2. Run `node utils/compare.mjs` to generate the translation diffs
     - `languages/_missing.json` now contains all keys which need a new translation
     - `languages/_updated.json` now contains all keys which need re-translation
-3. After translating everything, run `node utils/merge.mjs` to update `de.json`
+3. In case you have not translated some of the keys, please remove these from the diff json files before continuing
+4. After translating everything, run `node utils/merge.mjs` to update `de.json` and generate a summary of your changes
     - If you updated existing keys in `_updated.json` you need to run the script with the `--overwrite` option
-4. Validate that `de.json` contains all your updated translations
-5. Commit, push and submit a Pull Request!
+5. Validate that `de.json` contains all your updated translations
+6. Commit, push and submit a Pull Request!
+    - Please include the auto-generated summary of your changes in the description of your PR
 
 ### Adding new compendium translations
 
