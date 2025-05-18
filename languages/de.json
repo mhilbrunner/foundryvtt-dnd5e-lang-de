@@ -450,7 +450,7 @@
     }
   },
     "DND5E.ATTACK": {
-        "Classification": {"DND5E.CAST": {
+        "Classification": {
             "Spell": "Zauber",
             "Unarmed": "Waffenlos",
             "Weapon": "Waffe"
@@ -529,7 +529,6 @@
         },
         "Warning": {
             "NoQuantity": "Versuch, mit einer Waffe mit einer Menge von Null anzugreifen."
-        }
 		}
     },
     "DND5E.AbbreviationCR": "HG",
