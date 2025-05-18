@@ -2601,7 +2601,7 @@
                     "label": "Überschreibe Reichweite"
                 },
                 "reach": {
-                    "label": "Weitreichend"
+                    "label": "Reichweite"
                 },
                 "special": {
                     "hint": "Beschreibung einer Speziellen Reichweite.",
@@ -2619,7 +2619,7 @@
         },
     "Formatted": {
       "Range": "Reichweite {range}",
-      "Reach": "Weitreichend {reach}"
+      "Reach": "Reichweite {reach}"
     }		
     },
     "DND5E.ROLL": {
