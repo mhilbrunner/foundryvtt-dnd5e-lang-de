@@ -6,7 +6,7 @@ const Config = [
         name: 'enableCompendiumTranslation',
         data: {
             name: 'Kompendiuminhalte übersetzen',
-            hint: 'Übersetzen der Kompendiuminhalte. Benötigt das Babele-Modul. (Erfordert Neuladen.)',
+            hint: 'Übersetzen der Kompendiuminhalte. Benötigt das game.babeleBabele-Modul. (Erfordert Neuladen.)',
             scope: 'client',
             type: Boolean,
             config: true,
@@ -80,25 +80,25 @@ Hooks.once("init", () => {
     Config.forEach((cfg) => {
         // Skip settings not applicable for this system version
         if ("onlyUntilSystemVersionIncluding" in cfg &&
-            isNewerVersion(game.system.data.version,
+            isNewerVersion(game.system.version,
                 cfg.onlyUntilSystemVersionIncluding)) {
             return;
         } else {
             game.settings.register(module_id, cfg.name, cfg.data);
         }
     });
+});
 
-    // Register Babele compendium translations
-    if (typeof Babele !== 'undefined' &&
-        game.i18n.lang === module_lang &&
-        game.settings.get(module_id, "enableCompendiumTranslation")) {
-        Babele.get().register({
-            module: module_id,
-            lang: module_lang,
-            dir: "compendium"
-        });
-        registerConverters();
-    }
+Hooks.once("babele.init", () => {
+    if (game.i18n.lang !== module_lang) return;
+    if (!game.settings.get(module_id, "enableCompendiumTranslation")) return;
+
+    game.babele.register({
+        module: module_id,
+        lang: module_lang,
+        dir: "compendium"
+    });
+    registerConverters();
 });
 
 Hooks.once("ready", function () {
@@ -171,7 +171,7 @@ function onRenderSheetPCSystem(app, html, options) {
 // --------- BABELE COMPENDIUM CONVERTERS ---------
 
 function registerConverters() {
-    Babele.get().registerConverters({
+    game.babele.registerConverters({
         'classNameFormula': convertClass,
         'classRequirements': convertClassRequirements,
         'alignment': convertAlignment,
