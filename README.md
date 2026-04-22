@@ -1,4 +1,7 @@
-# DnD5e German Translation (Deutsch) for FoundryVTT (FoundryVTT-dnd5e-DE)
+> [!WARNING]
+> Due to lack of time and [some developments](https://en.wikipedia.org/wiki/Open_Game_License#Proposed_OGL_changes), **this module is currently no longer maintained**. Have a look at alternatives, like [this module](https://github.com/Niclasp1501/Ninjo-s-DnD5e5.5-German-Translation--Deutsch-). Thanks for playing with this module!
+
+# (ARCHIVED) DnD5e German Translation (Deutsch) for FoundryVTT (FoundryVTT-dnd5e-DE)
 
 ![Compatible Foundry Version](https://img.shields.io/badge/Foundry-v12-informational)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/mhilbrunner/foundryvtt-dnd5e-lang-de?label=Latest+Release)
